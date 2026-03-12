@@ -1,0 +1,58 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    /* text-shadow: 1px 2px 12px; */
+}
+html,body{
+    height: 100%;
+    width: 105%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    background-color: rgb(215, 228, 250);
+    padding: 15px;
+    width: 90%;
+    height: 25px;
+    position: sticky;
+    text-decoration: none;
+}
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    /* position: relative; */
+
+}
+.logo a{
+    color: rgb(9, 76, 121);
+    font-size: larger;
+    font-weight: 550;
+    
+}
+li{
+    font-size: large;
+    font-weight: 500;
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    font-size:large;
+    font-weight: 500;
+    color: rgb(9, 76, 121);
+}
+button a{
+   color:rgb(9, 76, 121);
+   
+}
+button a:hover{
+    color: blue;
+}
+ul{
+    color: rgb(9, 76, 121);
+    font-size: large;
+}
+a{
+    text-decoration: none;
+}
