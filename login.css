@@ -63,3 +63,7 @@ input{
     border-radius: 15px;
 
 }
+p{
+    text-align: center;
+    margin: 2px;
+}

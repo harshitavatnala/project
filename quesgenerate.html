@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generate Question Paper</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="quesgenerate.css">
+
+<li><a href="frontpage.html">Home</a></li>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="row justify-content-center">
+
+<div class="col-lg-8">
+
+<div class="card shadow-lg">
+
+<div class="card-header bg-primary text-white text-center">
+<h4 class="mb-0">Configure Semester & Subjects</h4>
+</div>
+
+<div class="card-body">
+
+<form id="classConfigForm">
+
+<div class="row">
+
+<div class="col-md-6 mb-3">
+<label class="form-label fw-bold">Select Semester</label>
+
+<select class="form-select" id="semesterSelect">
+<option selected disabled>Choose Semester...</option>
+<option value="1">Semester 1</option>
+<option value="2">Semester 2</option>
+<option value="3">Semester 3</option>
+<option value="4">Semester 4</option>
+</select>
+
+</div>
+
+<div class="col-md-6 mb-3">
+
+<label class="form-label fw-bold">Add Subjects</label>
+
+<select class="form-select" id="addSubjectSelect">
+
+<option selected disabled>Choose Subject...</option>
+<option>Maths</option>
+<option>Physics</option>
+<option>Chemistry</option>
+<option>BEE</option>
+<option>Mechanics</option>
+<option>PCE</option>
+<option>Graphics</option>
+<option>DS (Data Structure)</option>
+<option>AOA</option>
+<option>COA</option>
+<option>DSGT</option>
+<option>OS</option>
+<option>DBMS</option>
+<option>OE</option>
+<option>CT</option>
+<option>WT</option>
+
+</select>
+
+</div>
+
+</div>
+
+<div class="mt-4">
+
+<label class="form-label fw-bold">Add Name of the Chapter</label>
+
+<div class="input-group mb-3">
+
+<input type="text" id="subjectInput" class="form-control" placeholder="Enter Chapter Name">
+
+<button class="btn btn-outline-primary" type="button" id="addSubjectBtn">
+Add Chapter
+</button>
+
+</div>
+
+<ul class="list-group" id="subjectList"></ul>
+
+</div>
+
+<div class="row mt-3">
+
+<div class="col-md-6 mb-3">
+
+<label class="form-label fw-bold">No. of Questions</label>
+
+<input type="number" class="form-control" id="numQuestions"
+placeholder="e.g. 10" min="1" required>
+
+</div>
+
+<div class="col-md-6 mb-3">
+
+<label class="form-label fw-bold">Marks per Question</label>
+
+<select class="form-select" id="marksPerQuest">
+
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+
+</select>
+
+</div>
+
+</div>
+
+<div class="mb-3">
+
+<label class="form-label fw-bold d-block">Difficulty Level</label>
+
+<div class="form-check form-check-inline">
+
+<input class="form-check-input" type="radio" name="difficulty" value="easy" checked>
+
+<label class="form-check-label">Easy</label>
+
+</div>
+
+<div class="form-check form-check-inline">
+
+<input class="form-check-input" type="radio" name="difficulty" value="medium">
+
+<label class="form-check-label">Medium</label>
+
+</div>
+
+<div class="form-check form-check-inline">
+
+<input class="form-check-input" type="radio" name="difficulty" value="hard">
+
+<label class="form-check-label">Hard</label>
+
+</div>
+
+</div>
+
+<div class="alert alert-info d-flex justify-content-between align-items-center">
+
+<span>Total Marks for this Section:</span>
+
+<span id="totalMarksDisplay" class="badge bg-primary total-badge">0</span>
+
+</div>
+
+<button type="submit" class="btn btn-success w-100 py-2">
+Generate Paper
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+const numInput = document.getElementById('numQuestions');
+const marksInput = document.getElementById('marksPerQuest');
+const display = document.getElementById('totalMarksDisplay');
+
+function updateTotal(){
+const total = (numInput.value || 0) * (marksInput.value || 0);
+display.innerText = total;
+}
+
+numInput.addEventListener('input',updateTotal);
+marksInput.addEventListener('change',updateTotal);
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
