@@ -59,6 +59,7 @@ Select your branch, semester and subject to download the question papers.
 <select id="branch" >
 
 <option>Select your branch</option>
+<option>First Year Engineering</option>
 <option>Computer Engineering</option>
 <option>Information Engineering</option>
 <option>Data Engineering</option>
@@ -72,7 +73,7 @@ Select your branch, semester and subject to download the question papers.
 
 <label for="semester">Semester</label>
 
-<select id="semester">
+<select id="semester" onchangre="updateSubjects()">
 
 <option>Select your semester</option>
 <option>Semester 1</option>
@@ -90,15 +91,15 @@ Select your branch, semester and subject to download the question papers.
 
 <label for="subject">Subject</label>
 
-<select id="subject">
+<select id="subject" onchange="filterPapers()">
 
 <option>Select your subject</option>
-<option>Mathematics 1</option>
+<!-- <option>Mathematics 1</option>
 <option>Mathematics 2</option>
 <option>Applied Physics</option>
 <option>Applied Chemistry</option>
 <option>Engineering Mechanics</option>
-<option>Basic Electrical Engineering</option>
+<option>Basic Electrical Engineering</option> -->
 
 </select>
 
@@ -127,18 +128,19 @@ Select your branch, semester and subject to download the question papers.
 <tr>
 <td>2024</td>
 <td>Dec-Jan</td>
-<td><a href="papers/2024-dec.pdf" download>Download</a></td>
+<td><a href="papers\be_civil-engineering_semester-3_2024_december_fluid-mechanics-irev-2019-c-scheme.pdf" download>Download</a></td>
 </tr>
 
 <tr>
 <td>2024</td>
 <td>May-June</td>
-<td><a href="D:\HARSHITA\project\project\be_mechanical-engineering_semester-3_2024_may_production-processes-rev-2019-c-scheme.pdf" download>Download</a></td>
+<td><a href="" download>Download</a></td>
 </tr>
 
 
 </table>
 
+<script src="papersdata.js"></script>
 </body>
 
 </html>
