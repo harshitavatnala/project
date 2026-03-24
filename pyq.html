@@ -31,10 +31,10 @@
 <li><a href="frontpage.html">Home</a></li>
 <li><a href="#">About</a></li>
 <li><a href="#">Contact</a></li>
-<li><a href="login.html">SignIn</a></li>
+<!-- <li><a href="login.html">SignIn</a></li> -->
 
 <button onclick="location.href='login.html'">LoginIn</button>
-<button>LoginOut</button>
+<button onclick="location.href='signup.html'">Signup</button>
 
 </ul>
 
@@ -56,7 +56,7 @@ Select your branch, semester and subject to download the question papers.
 
 <label for="branch">Branch</label>
 
-<select id="branch" >
+<select id="branch" onchange="updateSubjects()">
 
 <option>Select your branch</option>
 <option>First Year Engineering</option>
@@ -73,7 +73,7 @@ Select your branch, semester and subject to download the question papers.
 
 <label for="semester">Semester</label>
 
-<select id="semester" onchangre="updateSubjects()">
+<select id="semester" onchange="updateSubjects()">
 
 <option>Select your semester</option>
 <option>Semester 1</option>
@@ -113,23 +113,23 @@ Select your branch, semester and subject to download the question papers.
 <th>Link</th>
 </tr>
 
-<tr>
+<!-- <tr>
 <td>2025</td>
 <td>Dec-Jan</td>
 <td><a href="papers/2025-dec.pdf" download>Download</a></td>
-</tr>
+</tr> -->
 
 <tr>
 <td>2025</td>
 <td>May-June</td>
-<td><a href="papers/2025-may.pdf" download>Download</a></td>
+<td><a href="" download>Download</a></td>
 </tr>
 
-<tr>
+<!-- <tr>
 <td>2024</td>
 <td>Dec-Jan</td>
 <td><a href="papers\be_civil-engineering_semester-3_2024_december_fluid-mechanics-irev-2019-c-scheme.pdf" download>Download</a></td>
-</tr>
+</tr> -->
 
 <tr>
 <td>2024</td>
