@@ -1,43 +1,176 @@
-*{
-    margin:0;
-    padding:0;
-}
-
+/* SAME BACKGROUND AS PYQ */
 body{
-    background: linear-gradient(135deg,#667eea,#764ba2);
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color:#fff;
+    font-family: 'Poppins', sans-serif;
     min-height:100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-family: 'Segoe UI', sans-serif;
 }
 
+ .navbar {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 15px 50px;
+            display: flex;
+            justify-content: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .navdiv {
+            width: 100%;
+            max-width: 1200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo a {
+            font-size: 24px;
+            font-weight: 600;
+            color: #fff;
+            text-decoration: none;
+            letter-spacing: 1px;
+        }
+
+        .navdiv ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .navdiv ul li {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navdiv ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 6px 12px;
+            border-radius: 6px;
+            transition: 0.3s ease;
+        }
+
+        .navdiv ul li a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .navdiv ul li input[type="search"] {
+            padding: 6px 10px;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+        }
+
+        .navdiv ul button {
+            margin-left: 5px;
+            padding: 8px 15px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            background: #2575fc;
+            color: #fff;
+            font-weight: 500;
+            transition: 0.3s ease;
+        }
+
+        .navdiv ul button:hover {
+            background: #6a11cb;
+        }
+
+/* GLASS CARD (same as selection box) */
 .card{
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(12px);
+    border-radius:20px;
     border:none;
-    border-radius:18px;
+    color:#fff;
 }
 
+/* HEADER */
 .card-header{
-    border-radius:18px 18px 0 0;
-}
-
-.total-badge{
-    font-size:18px;
-    padding:8px 16px;
-}
-
-.btn-success{
-    font-size:18px;
+    background: transparent !important;
+    border-bottom:1px solid rgba(255,255,255,0.2);
     font-weight:600;
-    transition:0.3s;
+    font-size:20px;
+}
+
+/* INPUTS (same style as PYQ selects) */
+.form-control,
+.form-select{
+    background: rgba(255,255,255,0.2);
+    border:none;
+    border-radius:12px;
+    color:#fff;
+    padding:10px;
+}
+
+.form-control::placeholder{
+    color:#eee;
+}
+
+.form-control:focus,
+.form-select:focus{
+    background: rgba(255,255,255,0.3);
+    box-shadow:0 0 5px rgba(255,255,255,0.5);
+    color:#fff;
+}
+
+/* LABEL */
+.form-label{
+    color:#fff;
+}
+
+/* BUTTON (same vibe as navbar buttons) */
+.btn-success{
+    background:#2575fc;
+    border:none;
+    border-radius:10px;
+    font-weight:500;
 }
 
 .btn-success:hover{
-    transform:scale(1.03);
+    background:#6a11cb;
 }
 
-.list-group-item{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+/* ADD BUTTON */
+.btn-outline-secondary{
+    border-radius:10px;
+    color:#fff;
+    border:1px solid rgba(255,255,255,0.5);
 }
+
+.btn-outline-secondary:hover{
+    background: rgba(255,255,255,0.2);
+}
+
+/* LIST */
+.list-group-item{
+    background: rgba(255,255,255,0.2);
+    border:none;
+    color:#fff;
+}
+
+/* ALERT */
+.alert{
+    background: rgba(255,255,255,0.2);
+    border:none;
+    color:#fff;
+}
+
+/* BADGE */
+.total-badge{
+    font-size:18px;
+    padding:8px 16px;
+    border-radius:20px;
+}
+
+/* SPACING */
+.container{
+    margin-top:50px;
+}
+
