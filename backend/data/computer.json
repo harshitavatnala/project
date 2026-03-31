@@ -1,0 +1,931 @@
+{
+  "meta": {
+    "university": "Mumbai University (MU)",
+    "branch": "Computer Engineering",
+    "source": "muquestionpapers.com PYQs",
+    "schemes": ["R-19 (REV-2019 C Scheme)", "NEP"],
+    "generated": "2026-03-30"
+  },
+  "semesters": [
+    {
+      "semester": 3,
+      "subjects": [
+        {
+          "subject_code": "CSC301",
+          "subject_name": "Engineering Mathematics III",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Laplace Transform",
+              "questions": [
+                { "id": "M3_M1_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Define Laplace Transform. State its linearity property." },
+                { "id": "M3_M1_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Find L{e^(2t) + sin(3t)}." },
+                { "id": "M3_M1_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Find L{t^2 e^(-3t)}." },
+                { "id": "M3_M1_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "State and apply the first shifting theorem to find L{e^(-t) cos(2t)}." },
+                { "id": "M3_M1_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Find L{t sin(at)} using differentiation under integral sign." },
+                { "id": "M3_M1_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Evaluate L{(sin t)/t} using integration of transforms." },
+                { "id": "M3_M1_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Find the Laplace Transform of f(t) = t^3 + 2t^2 - 4t + 5." },
+                { "id": "M3_M1_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Find L^{-1}{1/(s^2 + 4s + 5)} using partial fractions." },
+                { "id": "M3_M1_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Find the inverse Laplace Transform of (2s+3)/((s-1)(s+2)(s+3))." },
+                { "id": "M3_M1_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Using Laplace Transform solve dy/dt + 2y = e^(-t), given y(0) = 1." },
+                { "id": "M3_M1_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Find L^{-1}{s/((s^2+a^2)(s^2+b^2))} using convolution theorem." },
+                { "id": "M3_M1_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Evaluate L{f(t)} where f(t) is a periodic square wave with period 2T." },
+                { "id": "M3_M1_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain properties of Laplace Transform: Linearity, Shifting, Scaling and Differentiation. Illustrate each with one example." },
+                { "id": "M3_M1_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Find the Laplace Transform of: (i) sin^2(t) (ii) t cos(2t) (iii) e^(-2t) (t^2 + 3t + 1)." },
+                { "id": "M3_M1_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Solve the simultaneous differential equations: dx/dt + 2y = 0; dy/dt - 2x = 0, given x(0) = 1, y(0) = 0 using Laplace Transform." },
+                { "id": "M3_M1_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "State and prove Convolution theorem for Laplace Transform. Use it to find L^{-1}{1/(s^2(s^2+a^2))}." },
+                { "id": "M3_M1_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Solve: d²y/dt² + 3 dy/dt + 2y = e^(-t), y(0) = 0, y'(0) = 1 using Laplace Transform." },
+                { "id": "M3_M1_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Find L{f(t)} for the triangular wave of period 2a. Also find L^{-1} of the result." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Fourier Series",
+              "questions": [
+                { "id": "M3_M2_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "State Dirichlet's conditions for existence of Fourier Series." },
+                { "id": "M3_M2_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Write the Euler's formulae for Fourier coefficients a0, an and bn." },
+                { "id": "M3_M2_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Find the half-range cosine series for f(x) = x in (0, π)." },
+                { "id": "M3_M2_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Find the Fourier coefficient a0 for f(x) = x^2 in (-π, π)." },
+                { "id": "M3_M2_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Using Parseval's theorem evaluate ∑ 1/n^4 from the Fourier series of f(x) = x^2." },
+                { "id": "M3_M2_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Write the complex form of Fourier series. Define complex Fourier coefficients." },
+                { "id": "M3_M2_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Find the Fourier series for f(x) = 1 in (0, π) and f(x) = -1 in (-π, 0)." },
+                { "id": "M3_M2_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Expand f(x) = x in the range 0 to 2π as a Fourier series." },
+                { "id": "M3_M2_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Obtain the half-range Fourier sine series for f(x) = π - x in 0 < x < π." },
+                { "id": "M3_M2_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Find Fourier series of f(x) = x^2 in (-l, l) and deduce value of ∑1/n^2." },
+                { "id": "M3_M2_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Find the Fourier series for f(x) = e^x in (-π, π) using complex exponential form." },
+                { "id": "M3_M2_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "State and prove Parseval's identity for Fourier series. Apply for f(x) = x." },
+                { "id": "M3_M2_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Obtain the Fourier series of f(x) = |x| in -π < x < π. Deduce that π²/8 = 1 + 1/3² + 1/5² + ..." },
+                { "id": "M3_M2_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Find the Fourier series for: f(x) = πx - x^2 in (0, π). Deduce that π²/12 = 1 - 1/4 + 1/9 - ..." },
+                { "id": "M3_M2_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Expand f(x) = x sin x for 0 < x < 2π as Fourier series and find the sum at x = π." },
+                { "id": "M3_M2_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Find the half-range sine series and cosine series for f(x) = x(π - x) in (0, π)." },
+                { "id": "M3_M2_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Find the Fourier series of f(x) = x^3 in (-π, π) and use it to show that π^3/32 = ∑(-1)^(n+1)/(2n-1)^3." },
+                { "id": "M3_M2_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Obtain complex form of Fourier series for f(x) = e^(-x) in -π < x < π and verify Parseval's theorem." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Statistics and Probability",
+              "questions": [
+                { "id": "M3_M3_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Define: Mean, Variance and Standard Deviation of a probability distribution." },
+                { "id": "M3_M3_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "State Baye's theorem and its application." },
+                { "id": "M3_M3_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "A coin is tossed 3 times. Find the probability that exactly 2 heads appear using Binomial distribution." },
+                { "id": "M3_M3_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Find the mean and variance of the Poisson distribution." },
+                { "id": "M3_M3_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Prove that the mean of normal distribution N(μ, σ²) is μ." },
+                { "id": "M3_M3_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Define correlation coefficient. Prove that -1 ≤ r ≤ 1." },
+                { "id": "M3_M3_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "In a Binomial distribution, n = 6 and p = 1/2. Find P(X ≥ 4)." },
+                { "id": "M3_M3_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "A Poisson variate X has P(X=2) = P(X=3). Find P(X=4)." },
+                { "id": "M3_M3_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Find the line of regression of y on x for the given data: x: 1,2,3,4,5; y: 2,3,5,4,6." },
+                { "id": "M3_M3_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Compute Spearman's rank correlation coefficient for 5 pairs of data: (5,4),(4,5),(3,3),(2,1),(1,2)." },
+                { "id": "M3_M3_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Derive the moment generating function of Poisson distribution. Hence find mean and variance." },
+                { "id": "M3_M3_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Using normal distribution tables, if X ~ N(50, 25), find P(45 < X < 60)." },
+                { "id": "M3_M3_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain Binomial, Poisson and Normal distributions. State their means and variances. Give one real-life example of each." },
+                { "id": "M3_M3_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Calculate Karl Pearson's coefficient of correlation for 8 pairs of data. Comment on the strength of correlation." },
+                { "id": "M3_M3_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "In a factory, screws manufactured per day = 100. Probability of a screw being defective = 0.02. Find the probability of: (i) no defective, (ii) 1 defective, (iii) at least 2 defective (use Poisson approximation)." },
+                { "id": "M3_M3_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Fit a regression line of y on x and x on y for the given data. Hence estimate y for x = 6." },
+                { "id": "M3_M3_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "State and prove Baye's theorem. A company has 3 machines producing 40%, 35%, 25% of items. Defective rates are 2%, 3%, 4%. An item is found defective — find probability it came from each machine." },
+                { "id": "M3_M3_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Fit a Poisson distribution to the following data and test for goodness of fit using chi-square test. Tabulate expected frequencies." }
+              ]
+            },
+            {
+              "module_no": 4,
+              "module_name": "Vector Calculus",
+              "questions": [
+                { "id": "M3_M4_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Define gradient, divergence and curl of a vector field." },
+                { "id": "M3_M4_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "If F = x²i + y²j + z²k, find div F and curl F." },
+                { "id": "M3_M4_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Find ∇φ at (1,1,1) if φ = x^2yz + xy^2z + xyz^2." },
+                { "id": "M3_M4_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Show that F = (y²-z²+3yz-2x)i + (3xz+2xy)j + (3xy-2xz+2z)k is irrotational." },
+                { "id": "M3_M4_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Show that ∇²(r^n) = n(n+1)r^(n-2) where r = |r|." },
+                { "id": "M3_M4_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "State Green's theorem in a plane and convert to vector form." },
+                { "id": "M3_M4_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Find the directional derivative of f = x^2yz + 4xz^2 at (1,-2,-1) in the direction of 2i - j - 2k." },
+                { "id": "M3_M4_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Evaluate ∫ F.dr where F = x^2i + xyj from (0,0) to (1,1) along y = x." },
+                { "id": "M3_M4_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Verify Green's theorem for ∮(x^2 - y^2)dx + 2xy dy over the rectangle bounded by x=0, x=a, y=0, y=b." },
+                { "id": "M3_M4_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Using Stokes' theorem evaluate ∫∫ curl F.n dS where F = yi + zj + xk." },
+                { "id": "M3_M4_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Verify Gauss divergence theorem for F = xi + yj + zk over the sphere x^2 + y^2 + z^2 = a^2." },
+                { "id": "M3_M4_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Find the work done by F = (2xy+z^3)i + x^2j + 3xz^2k along the curve x=t, y=t^2, z=t^3 from (0,0,0) to (1,1,1)." },
+                { "id": "M3_M4_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "State and verify Stokes' theorem for F = (x^2+y^2)i - 2xyj over the rectangle bounded by x=±a, y=0, y=b." },
+                { "id": "M3_M4_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Compute ∯ F.n dS over the closed surface of the cube bounded by x=0,1; y=0,1; z=0,1 where F = xi + yj + zk. Verify using Gauss theorem." },
+                { "id": "M3_M4_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Verify Green's theorem ∮[(y-sin x)dx + cos x dy] where C is the triangle with vertices (0,0), (π/2,0), (π/2,1)." },
+                { "id": "M3_M4_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Find the conservative potential function φ for F = (2xy + z)i + (x^2 + 1)j + (x + 2yz)k. Hence find ∫ F.dr." },
+                { "id": "M3_M4_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Evaluate ∬ F.n dS where F = (x^2+yz)i + (y^2+xz)j + (z^2+xy)k over the surface of the rectangular box." },
+                { "id": "M3_M4_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Apply Stokes' theorem to evaluate ∮ F.dr for F = y^2i + xj - z^2k along the circle x^2 + y^2 = 1 in the plane z=0." }
+              ]
+            },
+            {
+              "module_no": 5,
+              "module_name": "Complex Variables",
+              "questions": [
+                { "id": "M3_M5_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "State Cauchy-Riemann equations in Cartesian form." },
+                { "id": "M3_M5_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Check whether f(z) = z^2 is analytic or not." },
+                { "id": "M3_M5_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Find the analytic function f(z) whose real part is u = x^2 - y^2." },
+                { "id": "M3_M5_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Find the bilinear transformation that maps z=0, z=1, z=∞ to w=0, w=i, w=∞." },
+                { "id": "M3_M5_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Evaluate ∮ 1/(z-2) dz where C is |z| = 3 using Cauchy's integral formula." },
+                { "id": "M3_M5_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Find the poles and residues of f(z) = 1/(z^2 - 3z + 2)." },
+                { "id": "M3_M5_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Show that u = e^x cos y is harmonic. Find the corresponding analytic function." },
+                { "id": "M3_M5_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Evaluate ∮ (z^2 + 1)/(z^2 - 1) dz around |z| = 2." },
+                { "id": "M3_M5_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Expand f(z) = 1/(z^2 - 3z + 2) using Laurent's series about z = 1 for 0 < |z-1| < 1." },
+                { "id": "M3_M5_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Find the Mobius transformation that maps z = 1, i, -1 onto w = 0, 1, ∞." },
+                { "id": "M3_M5_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Evaluate using contour integration: ∫ dx/(1+x^4) from -∞ to ∞." },
+                { "id": "M3_M5_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Apply Cauchy's Residue theorem to evaluate ∮ e^z/(z^2(z-1)) dz along |z| = 2." },
+                { "id": "M3_M5_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "State and prove Cauchy-Riemann equations in polar form. Find if f(z) = r(cos θ + i sin θ) is analytic." },
+                { "id": "M3_M5_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "State and prove Cauchy's integral formula. Use it to evaluate ∮ e^z/(z-1)^3 dz over |z| = 3." },
+                { "id": "M3_M5_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Expand f(z) = 1/((z+1)(z+2)) as Laurent's series valid for: (i) |z| < 1, (ii) 1 < |z| < 2, (iii) |z| > 2." },
+                { "id": "M3_M5_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Find all poles and corresponding residues of f(z) = (z^2+1)/((z-1)^2(z+2)). Evaluate the integral along |z| = 3." },
+                { "id": "M3_M5_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Evaluate ∫ (x^2 dx)/((x^2+a^2)(x^2+b^2)) from -∞ to ∞ using residues." },
+                { "id": "M3_M5_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Discuss the conformal mapping w = z^2. Find the image of: (i) x = 2, (ii) y = 2, (iii) x = y." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_code": "CSC302",
+          "subject_name": "Discrete Structures and Graph Theory",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Sets, Relations and Functions",
+              "questions": [
+                { "id": "DS_M1_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Define: Power set, Cartesian product and Partition of a set." },
+                { "id": "DS_M1_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Differentiate between equivalence relation and partial order relation with examples." },
+                { "id": "DS_M1_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Let A = {1,2,3,4}. Define a relation R on A such that R is reflexive and symmetric but not transitive." },
+                { "id": "DS_M1_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Draw Hasse diagram for the partial order relation on {1,2,3,6,12} defined by divisibility." },
+                { "id": "DS_M1_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Prove that |A ∪ B ∪ C| = |A| + |B| + |C| - |A∩B| - |B∩C| - |A∩C| + |A∩B∩C|." },
+                { "id": "DS_M1_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Find the number of onto functions from a set of 5 elements to a set of 3 elements." },
+                { "id": "DS_M1_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Given f: R→R as f(x)=2x+3 and g: R→R as g(x)=x^2. Find f∘g and g∘f. Is f∘g = g∘f?" },
+                { "id": "DS_M1_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Define bijection. Show that f: R→R, f(x) = 3x - 7 is bijective." },
+                { "id": "DS_M1_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "For sets A={1,2,3,4,5}, define R = {(a,b): a divides b}. Check if R is a partial order. Draw its Hasse diagram." },
+                { "id": "DS_M1_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Using inclusion-exclusion principle, find how many integers from 1 to 100 are divisible by 2, 3, or 5." },
+                { "id": "DS_M1_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Prove that the composition of two bijective functions is bijective." },
+                { "id": "DS_M1_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Find all equivalence classes of the relation R on Z defined by aRb iff 5 | (a-b)." },
+                { "id": "DS_M1_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Define: reflexive, symmetric, antisymmetric and transitive relations. Give examples. Show the representation as matrix and digraph." },
+                { "id": "DS_M1_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Using inclusion-exclusion principle, find the number of permutations of {1,2,3,4,5} with no element in its natural position (derangements)." },
+                { "id": "DS_M1_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Prove that every equivalence relation R on a set A induces a partition of A. Illustrate with an example." },
+                { "id": "DS_M1_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Define POSET. For A = P({1,2,3}), define a partial order by ⊆. Draw the Hasse diagram and identify maximal, minimal, LUB and GLB for the subset {{1},{2}}." },
+                { "id": "DS_M1_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Prove that the number of bijections from an n-element set to itself is n!. How many bijections from {1,2,3,4,5} to {a,b,c,d,e} map odd numbers to vowels?" },
+                { "id": "DS_M1_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "State and prove the Schroeder-Bernstein theorem. Define cardinality and show that |(0,1)| = |R|." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Mathematical Logic and Propositional Calculus",
+              "questions": [
+                { "id": "DS_M2_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Define tautology, contradiction and contingency with truth table examples." },
+                { "id": "DS_M2_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "State De Morgan's laws for propositions. Verify with truth tables." },
+                { "id": "DS_M2_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Obtain the PCNF (Principal Conjunctive Normal Form) of: ¬(p ∨ q) ↔ (p ∧ q)." },
+                { "id": "DS_M2_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Express the following in predicate logic: 'All students who study hard get good grades.'" },
+                { "id": "DS_M2_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Show that the argument is valid: P→Q, Q→R ⊢ P→R using rules of inference." },
+                { "id": "DS_M2_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Prove using indirect proof: If n^2 is even, then n is even." },
+                { "id": "DS_M2_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Construct truth table for: (p → q) ↔ (¬p ∨ q). Is it a tautology?" },
+                { "id": "DS_M2_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Convert p ↔ q to its equivalent using only ∧, ∨ and ¬. Verify with truth table." },
+                { "id": "DS_M2_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Obtain the PDNF and PCNF of (p ∧ ¬q) ∨ (¬p ∧ q)." },
+                { "id": "DS_M2_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Using predicate logic, prove: ∀x P(x) ∧ ∀x Q(x) ≡ ∀x(P(x) ∧ Q(x))." },
+                { "id": "DS_M2_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Test the validity of the argument: All mathematicians are logical. Some engineers are mathematicians. ∴ Some engineers are logical." },
+                { "id": "DS_M2_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Prove by resolution method: {P ∨ Q, ¬P ∨ R, ¬Q ∨ R} ⊢ R." },
+                { "id": "DS_M2_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Define logical connectives (¬, ∧, ∨, →, ↔). Construct truth tables and state their basic properties." },
+                { "id": "DS_M2_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Simplify and convert the expression p → (q → r) to PDNF. Verify its equivalence." },
+                { "id": "DS_M2_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Using inference rules (Modus Ponens, Modus Tollens, Hypothetical Syllogism, etc.) prove the argument: 'If it rains, the ground is wet. The ground is not wet. Therefore it did not rain.' Generalize." },
+                { "id": "DS_M2_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Discuss predicate calculus: universal and existential quantifiers, scope, bound and free variables. Translate 5 English statements into predicate logic." },
+                { "id": "DS_M2_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Prove the following by the principle of mathematical induction: 1^2 + 2^2 + ... + n^2 = n(n+1)(2n+1)/6. Also prove: 2^n > n for all n ≥ 1." },
+                { "id": "DS_M2_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Using resolution and refutation method, prove that the following set of clauses is unsatisfiable: {P∨Q, ¬P∨R, Q∨¬R, ¬Q, ¬R}." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Algebraic Structures (Groups and Lattices)",
+              "questions": [
+                { "id": "DS_M3_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Define Group. Check if (Z, -) is a group." },
+                { "id": "DS_M3_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "State the properties of a Lattice. Give an example of a lattice using divisibility." },
+                { "id": "DS_M3_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Prove that in a group G, the identity element is unique." },
+                { "id": "DS_M3_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Show that the set {1, -1, i, -i} under multiplication forms a group." },
+                { "id": "DS_M3_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "State and prove Lagrange's theorem for finite groups." },
+                { "id": "DS_M3_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Show that a complemented distributive lattice is a Boolean algebra." },
+                { "id": "DS_M3_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Show that the set of integers Z under addition (Z, +) is an abelian group." },
+                { "id": "DS_M3_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Define subgroup. Show that (2Z, +) is a subgroup of (Z, +)." },
+                { "id": "DS_M3_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Define a ring and a field. Is (Z_6, +, ×) a ring? Is it an integral domain?" },
+                { "id": "DS_M3_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Define group homomorphism and isomorphism. Show that the group (Z_4, +) is isomorphic to (Z_2 × Z_2, +)." },
+                { "id": "DS_M3_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Define Boolean algebra. Prove the absorption law: a ∨ (a ∧ b) = a using axiomatic approach." },
+                { "id": "DS_M3_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Prove that every cyclic group is abelian. Give an example of an abelian group that is not cyclic." },
+                { "id": "DS_M3_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Define Group, Subgroup, Normal Subgroup and Quotient Group with examples. State Lagrange's theorem." },
+                { "id": "DS_M3_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Define Lattice, Bounded Lattice, Complemented Lattice and Distributive Lattice. Illustrate with Hasse diagrams." },
+                { "id": "DS_M3_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "State and prove the fundamental theorem of group homomorphism. Illustrate with an example." },
+                { "id": "DS_M3_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Define Boolean Algebra. Show that the power set P(S) of a set S forms a Boolean Algebra under ∪, ∩ and complement." },
+                { "id": "DS_M3_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Prove Cayley's theorem: Every group is isomorphic to a group of permutations." },
+                { "id": "DS_M3_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Simplify the Boolean expression F = ABC' + AB'C + A'BC + ABC using Boolean algebra. Also draw the corresponding logic circuit." }
+              ]
+            },
+            {
+              "module_no": 4,
+              "module_name": "Graph Theory",
+              "questions": [
+                { "id": "DS_M4_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Define: graph, simple graph, multigraph, path, circuit and connected graph." },
+                { "id": "DS_M4_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "What is a Eulerian circuit? State the necessary and sufficient condition for its existence." },
+                { "id": "DS_M4_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Prove that the sum of degrees of all vertices in a graph is twice the number of edges." },
+                { "id": "DS_M4_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Define Hamiltonian path and circuit. Give an example of a graph that has Eulerian circuit but not Hamiltonian." },
+                { "id": "DS_M4_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Define graph isomorphism. Determine whether the Petersen graph is Hamiltonian." },
+                { "id": "DS_M4_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "State the four color theorem. Prove that K5 and K3,3 are non-planar (Kuratowski's theorem)." },
+                { "id": "DS_M4_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Define spanning tree. Find all spanning trees of K4 (complete graph on 4 vertices)." },
+                { "id": "DS_M4_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Describe BFS and DFS with example. Apply DFS on the graph with vertices {A,B,C,D,E} and given adjacency list." },
+                { "id": "DS_M4_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Apply Kruskal's algorithm to find the minimum spanning tree for the given weighted graph (5 vertices)." },
+                { "id": "DS_M4_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Apply Dijkstra's algorithm to find the shortest path from source to all vertices in the given weighted directed graph." },
+                { "id": "DS_M4_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "What is graph coloring? Apply Welsh-Powell algorithm to color the given graph. What is its chromatic number?" },
+                { "id": "DS_M4_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Define planar graph. Verify Euler's formula V - E + F = 2 for a given planar graph with 6 vertices." },
+                { "id": "DS_M4_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain tree traversal techniques: pre-order, in-order and post-order. Apply all three to the given binary tree." },
+                { "id": "DS_M4_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain Prim's and Kruskal's algorithms for finding minimum spanning tree. Apply both on the same weighted graph and compare." },
+                { "id": "DS_M4_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Define bipartite graph. Prove that a graph is bipartite if and only if it has no odd-length cycles. Check if the given graph is bipartite using BFS." },
+                { "id": "DS_M4_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Define: Eulerian graph, Hamiltonian graph, chromatic number, planar graph. Give examples and state key theorems for each." },
+                { "id": "DS_M4_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "State and prove Euler's formula for connected planar graphs. Use it to show that K5 is non-planar." },
+                { "id": "DS_M4_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Define a tree. Prove that a connected graph with n vertices is a tree iff it has exactly n-1 edges. Count labeled trees on n vertices (Cayley's formula)." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_code": "CSC303",
+          "subject_name": "Data Structure",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Introduction to Data Structures and Arrays",
+              "questions": [
+                { "id": "DSA_M1_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Define data structure. Differentiate between linear and non-linear data structures." },
+                { "id": "DSA_M1_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Explain time complexity with examples of O(1), O(n) and O(n²)." },
+                { "id": "DSA_M1_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Explain sparse matrix representation using arrays. Give an example." },
+                { "id": "DSA_M1_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Write an algorithm for binary search. What is its time complexity?" },
+                { "id": "DSA_M1_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain polynomial representation using arrays. Perform addition of two polynomials." },
+                { "id": "DSA_M1_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "What is row-major and column-major ordering? Calculate address of element A[3][4] in A[5][5] stored in row-major." },
+                { "id": "DSA_M1_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Compare linear search and binary search in terms of best, worst and average case complexity." },
+                { "id": "DSA_M1_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Write a C program to implement insertion sort. Trace through {64, 25, 12, 22, 11}." },
+                { "id": "DSA_M1_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Define asymptotic notations: O, Ω and Θ with their formal definitions and examples." },
+                { "id": "DSA_M1_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Perform bubble sort on the array {34, 7, 23, 32, 5, 62}. Show all passes." },
+                { "id": "DSA_M1_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain sparse matrix triplet representation. Write a function to transpose a sparse matrix." },
+                { "id": "DSA_M1_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Write a recursive and iterative algorithm for binary search and analyze their time complexities." },
+                { "id": "DSA_M1_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain different sorting techniques: Bubble Sort, Selection Sort and Insertion Sort. Write algorithm and trace each on array {5,3,8,4,2}." },
+                { "id": "DSA_M1_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Define ADT. Explain how arrays can be used to implement ADT for Polynomial. Write functions for polynomial addition and multiplication." },
+                { "id": "DSA_M1_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain 2D array representation of matrices. Write functions for: (i) matrix addition, (ii) matrix multiplication. Analyze time complexity." },
+                { "id": "DSA_M1_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain row-major and column-major storage. For an array A[L1:U1][L2:U2][L3:U3] derive general address formula in both orderings." },
+                { "id": "DSA_M1_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain Shell Sort and Radix Sort algorithms. Trace both on the array {170, 45, 75, 90, 802, 24, 2, 66}. Compare complexities." },
+                { "id": "DSA_M1_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Write C programs for: (i) reading and displaying a sparse matrix in triplet form, (ii) adding two sparse matrices, (iii) transposing a sparse matrix. Analyze time and space complexity." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Linked Lists",
+              "questions": [
+                { "id": "DSA_M2_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Compare array and linked list in terms of insertion, deletion and search." },
+                { "id": "DSA_M2_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Differentiate between singly linked list, doubly linked list and circular linked list." },
+                { "id": "DSA_M2_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Write a function to insert a node at the beginning of a singly linked list." },
+                { "id": "DSA_M2_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Write an algorithm to detect a cycle in a linked list (Floyd's algorithm)." },
+                { "id": "DSA_M2_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Write C code to merge two sorted linked lists into a single sorted linked list." },
+                { "id": "DSA_M2_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain polynomial representation using linked list. Add two polynomials stored as linked lists." },
+                { "id": "DSA_M2_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Write functions for: (i) inserting at end, (ii) deleting by value, (iii) displaying in a singly linked list." },
+                { "id": "DSA_M2_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Explain doubly linked list. Write functions to insert at position and delete from position." },
+                { "id": "DSA_M2_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Write an algorithm to reverse a singly linked list. Trace on list: 1→2→3→4→5." },
+                { "id": "DSA_M2_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Explain circular linked list. Write functions for insertion and deletion. Compare with singly linked list." },
+                { "id": "DSA_M2_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Implement a doubly linked list. Write functions for: insert before a given node, delete a given node, reverse the list." },
+                { "id": "DSA_M2_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Write an algorithm to find the nth node from end of a linked list in single traversal. Analyze time complexity." },
+                { "id": "DSA_M2_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain singly linked list in detail. Write complete C implementation with: create, insert_front, insert_end, delete_front, delete_end, display, count, search." },
+                { "id": "DSA_M2_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Compare: singly linked list vs doubly linked list vs circular linked list in terms of structure, operations, memory and applications." },
+                { "id": "DSA_M2_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Represent polynomials using linked lists. Write C functions to: (i) create polynomial, (ii) add two polynomials, (iii) multiply two polynomials, (iv) display. Trace for (3x^3 + 2x^2 + x + 5) + (x^3 + 4x + 2)." },
+                { "id": "DSA_M2_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Implement a doubly linked list with all basic operations. Also implement: (i) reverse the list, (ii) detect palindrome using doubly linked list." },
+                { "id": "DSA_M2_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Write complete C program for circular doubly linked list implementing: insert_front, insert_end, insert_at_position, delete_front, delete_end, delete_at_position, display." },
+                { "id": "DSA_M2_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Solve the Josephus problem using circular linked list. Write complete C implementation. For n=7, k=3, trace the execution showing order of elimination." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Stacks and Queues",
+              "questions": [
+                { "id": "DSA_M3_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Define stack. State its LIFO principle. Give two real-world examples." },
+                { "id": "DSA_M3_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Convert infix expression A+B*C-D/E to postfix using stack. Show step-by-step." },
+                { "id": "DSA_M3_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "What is a priority queue? How does it differ from a regular queue?" },
+                { "id": "DSA_M3_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Explain circular queue. Why is it preferred over linear queue?" },
+                { "id": "DSA_M3_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Evaluate the postfix expression: 5 3 2 * + 8 4 / - using stack trace." },
+                { "id": "DSA_M3_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "What is a deque? Explain input-restricted and output-restricted deques." },
+                { "id": "DSA_M3_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Implement a stack using array. Write push, pop, peek, isEmpty, isFull operations in C." },
+                { "id": "DSA_M3_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Implement a queue using array. Write enqueue, dequeue, front, isEmpty, isFull operations in C." },
+                { "id": "DSA_M3_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Write an algorithm to convert infix expression to postfix. Convert (A+B)*(C-D)/(E+F)." },
+                { "id": "DSA_M3_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Implement a circular queue using array. Explain how it overcomes overflow problem of linear queue." },
+                { "id": "DSA_M3_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Implement two stacks in one array efficiently. Write push and pop for both stacks." },
+                { "id": "DSA_M3_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Write an algorithm to check balanced parentheses in an expression. Test for: {[a+(b*c)]-d}." },
+                { "id": "DSA_M3_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain stack and its applications in detail: (i) expression conversion, (ii) expression evaluation, (iii) recursion, (iv) backtracking. Give one example for each." },
+                { "id": "DSA_M3_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Implement stack and queue using linked list. Write all operations (push/pop for stack, enqueue/dequeue for queue). Compare with array implementation." },
+                { "id": "DSA_M3_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Write algorithms to: (i) convert infix to prefix, (ii) evaluate prefix expression. Trace for: *+AB-CD." },
+                { "id": "DSA_M3_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Implement a priority queue using array/linked list. Write insert and deleteMax/deleteMin operations. Apply to simulate a CPU process scheduler." },
+                { "id": "DSA_M3_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Implement a deque (double ended queue) using doubly linked list. Write: insertFront, insertRear, deleteFront, deleteRear, display operations. Apply to the sliding window maximum problem." },
+                { "id": "DSA_M3_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Solve the Tower of Hanoi problem recursively. Write C program, trace for n=3, and analyze time and space complexity." }
+              ]
+            },
+            {
+              "module_no": 4,
+              "module_name": "Trees",
+              "questions": [
+                { "id": "DSA_M4_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Define binary tree. Differentiate between complete binary tree and full binary tree." },
+                { "id": "DSA_M4_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Write pre-order, in-order and post-order traversal for a given binary tree." },
+                { "id": "DSA_M4_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Explain AVL trees. What is balance factor? When does rotation occur?" },
+                { "id": "DSA_M4_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Define B-tree of order m. State the properties of a B-tree." },
+                { "id": "DSA_M4_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain the four rotation cases in AVL tree: LL, RR, LR, RL with diagrams." },
+                { "id": "DSA_M4_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain threaded binary trees. What problem do they solve? Differentiate right-threaded from fully-threaded." },
+                { "id": "DSA_M4_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Write recursive algorithms for in-order, pre-order and post-order traversal of a binary tree. Trace on a given tree." },
+                { "id": "DSA_M4_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Insert the following elements into a BST: 50, 30, 70, 20, 40, 60, 80. Draw the tree and write in-order traversal." },
+                { "id": "DSA_M4_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Build an AVL tree by inserting: 10, 20, 30, 40, 50, 25. Show all rotations." },
+                { "id": "DSA_M4_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Write an algorithm for deletion from a BST. Delete node with key 30 from a given BST and show result." },
+                { "id": "DSA_M4_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Build a B-tree of order 3 by inserting: 1, 2, 3, 4, 5, 6, 7. Show tree after each insertion." },
+                { "id": "DSA_M4_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Write iterative in-order traversal algorithm using a stack. What is the advantage over recursive traversal?" },
+                { "id": "DSA_M4_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain Binary Search Tree (BST). Write complete C implementation with: insert, delete, search, inorder, preorder, postorder functions." },
+                { "id": "DSA_M4_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain heap data structure. Write heapify, insert and delete operations. Build a max-heap for: {4, 10, 3, 5, 1, 2} and apply heap sort." },
+                { "id": "DSA_M4_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Construct AVL tree by inserting keys: 3, 2, 1, 4, 5, 6, 7. Show all rotations. Then delete key 4 and rebalance." },
+                { "id": "DSA_M4_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Define expression tree. Build expression tree for: (a+b)*c - (d/e). Write pre-order, in-order and post-order traversal and verify they produce prefix, infix and postfix respectively." },
+                { "id": "DSA_M4_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain B-tree of order 5. Insert keys: 1,2,3,4,5,6,7,8,9,10 one by one showing the tree state after each insertion. Then delete key 4." },
+                { "id": "DSA_M4_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain Red-Black tree properties. Compare Red-Black tree with AVL tree. Insert keys: 10, 20, 30, 15, 25 into a Red-Black tree showing all recolorings and rotations." }
+              ]
+            },
+            {
+              "module_no": 5,
+              "module_name": "Graphs and Sorting",
+              "questions": [
+                { "id": "DSA_M5_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Explain adjacency matrix and adjacency list representation of graphs. Compare their space complexity." },
+                { "id": "DSA_M5_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "What is the difference between BFS and DFS in terms of data structures used?" },
+                { "id": "DSA_M5_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Explain merge sort with example. What is its time complexity in all cases?" },
+                { "id": "DSA_M5_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Write quick sort algorithm. What is pivot selection strategy and its impact on performance?" },
+                { "id": "DSA_M5_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain topological sorting. When does a topological sort exist for a graph?" },
+                { "id": "DSA_M5_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Write an algorithm for detecting connected components in an undirected graph using DFS/BFS." },
+                { "id": "DSA_M5_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Apply BFS on the given undirected graph starting from vertex A. List the BFS traversal order." },
+                { "id": "DSA_M5_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Perform merge sort on: {38, 27, 43, 3, 9, 82, 10}. Show all merge steps." },
+                { "id": "DSA_M5_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Perform DFS on a given directed graph. Identify all back edges, forward edges and cross edges." },
+                { "id": "DSA_M5_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Trace quick sort on: {10, 7, 8, 9, 1, 5}. Use last element as pivot. Count comparisons." },
+                { "id": "DSA_M5_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Perform topological sort using Kahn's algorithm on the given DAG. Identify if a unique ordering exists." },
+                { "id": "DSA_M5_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Write external sorting algorithm for large datasets. Explain k-way merge. Compare with internal sorting." },
+                { "id": "DSA_M5_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain BFS and DFS algorithms. Write complete C implementations with adjacency list. Trace both on the same graph and compare time/space complexity." },
+                { "id": "DSA_M5_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Compare all sorting algorithms: Bubble, Selection, Insertion, Merge, Quick, Heap sort — in terms of best, worst, average case and space complexity. Use a table." },
+                { "id": "DSA_M5_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Write complete C implementation of merge sort and quick sort. Apply both on array {5, 12, 4, 9, 2, 8}. Derive recurrence relations and solve using Master's theorem." },
+                { "id": "DSA_M5_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain Warshall's algorithm for transitive closure. Apply on a given adjacency matrix. Extend to Floyd-Warshall for all-pairs shortest path." },
+                { "id": "DSA_M5_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Implement Dijkstra's and Bellman-Ford algorithms. Compare them. Trace both on the same weighted graph with 5 vertices. When is Bellman-Ford preferred over Dijkstra's?" },
+                { "id": "DSA_M5_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain strongly connected components (SCC) in a directed graph. Implement Kosaraju's or Tarjan's algorithm. Trace on a given directed graph and identify all SCCs." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_code": "CSC304",
+          "subject_name": "Digital Logic and Computer Architecture",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Number Systems and Boolean Algebra",
+              "questions": [
+                { "id": "DLCA_M1_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Convert (235.625)₁₀ to binary, octal and hexadecimal." },
+                { "id": "DLCA_M1_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Represent -45 in 8-bit 1's complement and 2's complement form." },
+                { "id": "DLCA_M1_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Minimize F = ∑m(0,1,3,5,7,8,10,12) using Karnaugh map." },
+                { "id": "DLCA_M1_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Implement F = AB + A'C using only NAND gates." },
+                { "id": "DLCA_M1_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Minimize F = ∑m(0,2,5,7) + d(1,3) using Quine-McCluskey method." },
+                { "id": "DLCA_M1_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain BCD, Gray code and Excess-3 code. Convert 79 to BCD, Gray, and Excess-3." },
+                { "id": "DLCA_M1_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "State and prove De Morgan's theorem. Simplify: F = (A'B + AB')(A+B') using Boolean algebra." },
+                { "id": "DLCA_M1_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Minimize F(A,B,C,D) = ∑m(0,3,4,7,8,11,12,15) using 4-variable K-map." },
+                { "id": "DLCA_M1_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Minimize using K-map: F = ∑m(0,1,2,5,8,9,10) + d(3,7). Express in SOP and POS form." },
+                { "id": "DLCA_M1_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Explain BCD addition. Add: (i) 47 + 35, (ii) 68 + 76 in BCD. Show the correction step." },
+                { "id": "DLCA_M1_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Apply Quine-McCluskey method to minimize F(A,B,C,D) = ∑m(1,3,5,7,9,11,13,15)." },
+                { "id": "DLCA_M1_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Implement the 4-variable function F(A,B,C,D) = ∑m(0,2,4,6,8,10,12,14) using an 8:1 MUX." },
+                { "id": "DLCA_M1_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain number systems: binary, octal, decimal, hexadecimal. Explain conversions between them. Perform: (1A3.B)₁₆ to binary, octal and decimal." },
+                { "id": "DLCA_M1_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain Boolean postulates and theorems. Simplify: F = A'BC + AB'C + ABC' + ABC using all methods. Draw the final gate circuit." },
+                { "id": "DLCA_M1_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Minimize F(A,B,C,D) = ∑m(1,3,7,11,15) + d(0,2,5) using K-map. Implement using (i) basic gates, (ii) NAND-NAND logic." },
+                { "id": "DLCA_M1_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain signed number representation: sign-magnitude, 1's complement, 2's complement. Perform: (+45) + (-28), (+30) - (+50) using 8-bit 2's complement. Detect overflow." },
+                { "id": "DLCA_M1_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Minimize using Quine-McCluskey: F(A,B,C,D,E) = ∑m(0,1,4,5,16,17,21,25,29). Find all prime implicants and essential prime implicants." },
+                { "id": "DLCA_M1_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain IEEE 754 floating point representation. Represent (+47.5) and (-0.375) in 32-bit IEEE 754 format. Perform addition of these two numbers." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Combinational Circuits",
+              "questions": [
+                { "id": "DLCA_M2_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Design a half adder and full adder. Give truth tables and Boolean expressions." },
+                { "id": "DLCA_M2_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "What is a multiplexer? Design a 4:1 MUX using basic gates." },
+                { "id": "DLCA_M2_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Design a 4-bit binary adder/subtractor circuit." },
+                { "id": "DLCA_M2_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "What is a priority encoder? Design an 8-to-3 priority encoder." },
+                { "id": "DLCA_M2_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Implement a 4-bit comparator circuit. Give truth table and logic diagram." },
+                { "id": "DLCA_M2_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain carry look-ahead adder and compare with ripple carry adder for speed." },
+                { "id": "DLCA_M2_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Design a 3-to-8 line decoder and implement Boolean function F(A,B,C) = ∑m(1,3,5,7) using it." },
+                { "id": "DLCA_M2_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Design a 4:1 MUX. Implement F(A,B,C) = ∑m(1,2,4,7) using 4:1 MUX with A,B as select lines." },
+                { "id": "DLCA_M2_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Design a 4-bit carry look-ahead adder (CLA). Compare its speed with ripple carry adder." },
+                { "id": "DLCA_M2_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Design a BCD to 7-segment decoder. Show truth table and simplified Boolean expression for segment 'a'." },
+                { "id": "DLCA_M2_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain demultiplexer. Design a 1:8 DEMUX and show how multiple demultiplexers can be cascaded." },
+                { "id": "DLCA_M2_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Design a 4-bit magnitude comparator. Derive Boolean expressions for A>B, A=B, A<B outputs." },
+                { "id": "DLCA_M2_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain half adder, full adder and 4-bit binary adder with ripple carry. Draw complete logic diagrams and give truth tables." },
+                { "id": "DLCA_M2_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain encoders and decoders. Design: (i) 8:3 encoder, (ii) 2:4 decoder, (iii) implement F using decoder." },
+                { "id": "DLCA_M2_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Design a 4-bit BCD adder. Perform BCD addition: 87 + 64. Show correction logic clearly." },
+                { "id": "DLCA_M2_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Implement a full adder using only 2-input NAND gates. Then implement a 4-bit ripple carry adder using full adder modules." },
+                { "id": "DLCA_M2_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Design a 4-bit fast adder using carry look-ahead technique. Derive generate and propagate functions. Compare with ripple carry for 4, 8, 16-bit additions." },
+                { "id": "DLCA_M2_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Design a combinational circuit using PAL/PLA to implement three functions simultaneously. Show the PLA structure and programming table." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Sequential Circuits",
+              "questions": [
+                { "id": "DLCA_M3_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Differentiate between combinational and sequential circuits. Give two examples of each." },
+                { "id": "DLCA_M3_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Explain SR flip-flop with truth table, logic diagram and characteristic equation." },
+                { "id": "DLCA_M3_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Convert a JK flip-flop to a D flip-flop. Derive the excitation table." },
+                { "id": "DLCA_M3_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Design a Mod-6 synchronous counter using JK flip-flops." },
+                { "id": "DLCA_M3_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Design a sequence detector for the bit sequence 1011 using Mealy machine." },
+                { "id": "DLCA_M3_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain SISO, SIPO, PISO and PIPO shift registers with diagrams." },
+                { "id": "DLCA_M3_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Explain D and T flip-flops. Draw the characteristic table and excitation table. Derive characteristic equations." },
+                { "id": "DLCA_M3_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Design a 3-bit synchronous up counter using JK flip-flops. Draw state diagram and timing diagram." },
+                { "id": "DLCA_M3_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Design a Mealy machine to detect overlapping sequence 101. Give state table, state diagram and output function." },
+                { "id": "DLCA_M3_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Implement a 4-bit ring counter and twisted ring counter using flip-flops. Show timing diagrams." },
+                { "id": "DLCA_M3_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Design a Moore machine for sequence detection. Minimize the state table using implication chart method." },
+                { "id": "DLCA_M3_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Design a BCD counter (0-9) using D flip-flops. Show state diagram, state table and K-map minimization." },
+                { "id": "DLCA_M3_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain all flip-flops: SR, D, JK, T. Draw truth tables, logic diagrams, characteristic equations and excitation tables. Compare master-slave JK with regular JK." },
+                { "id": "DLCA_M3_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Design a 3-bit synchronous down counter using JK flip-flops. Show state diagram, excitation table and timing diagram." },
+                { "id": "DLCA_M3_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Design a Mealy/Moore sequential circuit that detects the sequence 1010 in a serial input stream (overlapping). Give state table, state diagram, excitation equations and circuit." },
+                { "id": "DLCA_M3_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Design a 4-bit universal shift register. Explain right shift, left shift, parallel load and reset operations with timing diagram." },
+                { "id": "DLCA_M3_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Apply state minimization to the given state table using merger chart method. Implement the minimized machine using D flip-flops." },
+                { "id": "DLCA_M3_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Design an ASM (Algorithmic State Machine) chart for a 4-bit binary multiplier. Implement using sequential circuits." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_code": "CSC305",
+          "subject_name": "Computer Graphics",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Introduction and Output Primitives",
+              "questions": [
+                { "id": "CG_M1_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Define computer graphics. Differentiate between raster scan and random scan displays." },
+                { "id": "CG_M1_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Explain Bresenham's line drawing algorithm. State its advantages over DDA." },
+                { "id": "CG_M1_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Trace Bresenham's algorithm to draw a line from (0,0) to (7,4)." },
+                { "id": "CG_M1_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Trace Midpoint circle drawing algorithm for a circle with center (0,0) and radius 8." },
+                { "id": "CG_M1_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain Midpoint ellipse algorithm. Derive the decision parameter for region 1." },
+                { "id": "CG_M1_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain flood fill and boundary fill algorithms. Compare them." },
+                { "id": "CG_M1_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Apply DDA algorithm to draw a line from (1,1) to (6,4). Show all steps in a table." },
+                { "id": "CG_M1_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Apply Bresenham's circle drawing algorithm for center (0,0), radius 6. Show first octant points and apply 8-way symmetry." },
+                { "id": "CG_M1_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Explain the scan line fill algorithm. Apply it to fill the polygon with vertices (2,1),(6,1),(8,4),(4,7),(0,4)." },
+                { "id": "CG_M1_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Trace Midpoint ellipse drawing algorithm for ellipse with rx=8, ry=5 centered at origin. Show region 1 and region 2." },
+                { "id": "CG_M1_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Compare: DDA, Bresenham's line drawing and midpoint line drawing algorithms in terms of accuracy, efficiency and integer arithmetic." },
+                { "id": "CG_M1_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain character generation methods: bitmap and stroke. Discuss font attributes and text clipping." },
+                { "id": "CG_M1_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain raster scan and random scan display systems. Explain color CRT monitor working, resolution and pixel addressing in detail." },
+                { "id": "CG_M1_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain DDA and Bresenham's line drawing algorithms. Implement both for line from (2,3) to (10,8). Compare their performances." },
+                { "id": "CG_M1_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain Midpoint circle drawing algorithm. Derive decision parameter. Apply for center (5,5), radius 7. Show all points and use 8-fold symmetry." },
+                { "id": "CG_M1_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain scan line polygon fill algorithm and boundary fill algorithm with flood fill. Compare with code and diagrams." },
+                { "id": "CG_M1_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain Midpoint ellipse algorithm. Derive the decision parameters for both regions. Trace for rx=9, ry=6 centered at origin. Draw the complete ellipse." },
+                { "id": "CG_M1_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain anti-aliasing techniques: supersampling, area sampling and pixel phasing. Discuss their advantages and disadvantages." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "2D and 3D Transformations",
+              "questions": [
+                { "id": "CG_M2_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Write the homogeneous transformation matrices for 2D translation, rotation and scaling." },
+                { "id": "CG_M2_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Rotate triangle with vertices (1,0),(0,1),(2,1) by 45° counterclockwise about origin." },
+                { "id": "CG_M2_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Perform reflection of point (3,4) about: (i) x-axis, (ii) y-axis, (iii) line y=x." },
+                { "id": "CG_M2_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "What is window-to-viewport transformation? Derive the transformation equations." },
+                { "id": "CG_M2_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Scale triangle (1,1),(3,1),(2,3) with sx=2, sy=2 about point (1,1) using composite transformation." },
+                { "id": "CG_M2_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Write the 3D rotation matrices about x, y and z axes. Apply rotation of 90° about z-axis to cube." },
+                { "id": "CG_M2_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Derive the composite transformation matrix for rotation of an object about an arbitrary point (px, py)." },
+                { "id": "CG_M2_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Apply shearing in x-direction (shx = 2) and y-direction (shy = 3) to a unit square. Show result." },
+                { "id": "CG_M2_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Perform 3D rotation of point (1,1,1) by 30° about the y-axis. Use homogeneous coordinate matrix." },
+                { "id": "CG_M2_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Explain parallel and perspective projections. Derive the transformation for perspective projection." },
+                { "id": "CG_M2_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Derive the composite transformation matrix for 3D rotation about an arbitrary axis using direction cosines." },
+                { "id": "CG_M2_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain oblique projection (cavalier and cabinet). Derive projection equations and apply to a cube." },
+                { "id": "CG_M2_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain 2D transformations: translation, scaling, rotation, reflection, shearing. Write homogeneous matrices for each and compose into single matrix. Trace for given triangle." },
+                { "id": "CG_M2_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain window-to-viewport mapping. A window is defined by (Xwmin, Ywmin) = (20,30) and (Xwmax, Ywmax) = (120,80). The viewport spans (40,40) to (200,160). Map the points: (30,50), (100,70), (75,55)." },
+                { "id": "CG_M2_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Perform the following composite 2D transformation on triangle with vertices A(2,3), B(5,3), C(3,7): (i) Rotate 60° about A, (ii) Scale by sx=1.5, sy=1.5 about B. Show combined matrix." },
+                { "id": "CG_M2_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain 3D transformations: translation, scaling, rotation about each axis. Apply to a unit cube: (i) translate by (2,3,4), (ii) scale by (2,2,2), (iii) rotate 45° about z-axis." },
+                { "id": "CG_M2_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain axonometric projections (isometric, dimetric, trimetric). Derive isometric projection matrix. Apply to a unit cube and show the projected view." },
+                { "id": "CG_M2_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain two-point and three-point perspective projections. Derive projection matrices. Apply three-point perspective to a unit cube and identify vanishing points." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Clipping",
+              "questions": [
+                { "id": "CG_M3_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Explain Cohen-Sutherland line clipping algorithm. Define the 9 regions using outcode." },
+                { "id": "CG_M3_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Explain Sutherland-Hodgman polygon clipping algorithm steps." },
+                { "id": "CG_M3_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Apply Cohen-Sutherland algorithm to clip line from (-2,3) to (8,7) against window xmin=0, xmax=6, ymin=0, ymax=6." },
+                { "id": "CG_M3_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Explain parametric clipping (Liang-Barsky). State its advantages over Cohen-Sutherland." },
+                { "id": "CG_M3_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Apply Sutherland-Hodgman algorithm to clip the polygon with vertices (1,1),(5,1),(5,5),(1,5) against xmin=2 boundary." },
+                { "id": "CG_M3_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain Weiler-Atherton algorithm for polygon clipping against a non-convex clip polygon." },
+                { "id": "CG_M3_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Apply Cohen-Sutherland algorithm for lines: (i) (−1,2)→(5,4), (ii) (1,3)→(6,2), (iii) (2,1)→(4,5) against window [0,4]×[0,4]. Show outcode computation." },
+                { "id": "CG_M3_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Explain point clipping and text clipping. Describe 3 methods of text clipping." },
+                { "id": "CG_M3_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Apply Liang-Barsky algorithm to clip line from (0,1) to (6,5) against window Xmin=1, Xmax=5, Ymin=0, Ymax=4." },
+                { "id": "CG_M3_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Apply Sutherland-Hodgman algorithm to clip polygon {(1,2),(4,2),(5,5),(1,4)} against the window with boundaries at x=2, x=6, y=1, y=6." },
+                { "id": "CG_M3_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Derive the general formula for computing intersection point in Sutherland-Hodgman algorithm for each of the four clipping boundaries." },
+                { "id": "CG_M3_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain 3D clipping. Extend Cohen-Sutherland algorithm to 3D using 6-bit outcode. Show regions." },
+                { "id": "CG_M3_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain Cohen-Sutherland line clipping algorithm in detail. Apply on 5 line segments given a window. Classify: trivially visible, trivially invisible, and partially visible." },
+                { "id": "CG_M3_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain Sutherland-Hodgman polygon clipping algorithm. Apply to clip the polygon {(0.5,0),(2,3),(4,1),(3.5,4),(1,4)} against the rectangle window [1,3]×[1,4]." },
+                { "id": "CG_M3_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain Liang-Barsky line clipping algorithm. Derive the conditions for p and q. Apply to three line segments and compare result with Cohen-Sutherland." },
+                { "id": "CG_M3_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Compare all line clipping algorithms: Cohen-Sutherland, Liang-Barsky, Midpoint subdivision in terms of computational efficiency, ease of implementation and special cases." },
+                { "id": "CG_M3_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain Weiler-Atherton algorithm for clipping arbitrary polygons against arbitrary clip regions. Apply to a concave polygon clipped by a concave window." },
+                { "id": "CG_M3_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain 3D viewing pipeline: world coordinates → viewing coordinates → projection → device coordinates. Derive the view transformation matrix using eye point, look-at vector and up vector." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "subjects": [
+        {
+          "subject_code": "CSC401",
+          "subject_name": "Engineering Mathematics IV",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Random Variables and Probability Distributions",
+              "questions": [
+                { "id": "M4_M1_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Define random variable. Differentiate between discrete and continuous random variables." },
+                { "id": "M4_M1_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Find E[X] and Var[X] for X with P(X=0)=0.3, P(X=1)=0.4, P(X=2)=0.3." },
+                { "id": "M4_M1_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "A continuous RV X has pdf f(x) = kx^2 for 0≤x≤1. Find k and E[X]." },
+                { "id": "M4_M1_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "State Chebyshev's inequality. Apply it to find P(|X - μ| ≥ 2σ)." },
+                { "id": "M4_M1_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Find MGF of uniform distribution U(a,b) and derive mean and variance from it." },
+                { "id": "M4_M1_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Define joint probability density function. Find marginal densities from f(x,y) = 6xy(2-x-y) for 0<x<1, 0<y<1." },
+                { "id": "M4_M1_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "For a geometric distribution P(X=k) = (1-p)^(k-1) p, find the mean, variance and MGF." },
+                { "id": "M4_M1_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "If X ~ Exp(λ), find P(X > 3) and the median of X. Verify memoryless property." },
+                { "id": "M4_M1_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "The joint pdf of (X,Y) is f(x,y) = 2x, 0<x<1, 0<y<1. Find: Cov(X,Y) and ρ(X,Y)." },
+                { "id": "M4_M1_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "State and prove the Central Limit Theorem. Illustrate with a specific example." },
+                { "id": "M4_M1_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "The lifetime X (in hours) of a component has pdf f(x) = λe^{-λx}. Find reliability function, hazard rate and MTTF." },
+                { "id": "M4_M1_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Let X and Y be independent N(0,1). Find the distribution of Z = X^2 + Y^2." },
+                { "id": "M4_M1_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain Binomial, Poisson and Normal distributions thoroughly. Include pmf/pdf, parameters, mean, variance and MGF. Illustrate when Poisson approximates Binomial." },
+                { "id": "M4_M1_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain continuous distributions: Exponential, Gamma, Beta, Weibull. Give pdf, mean, variance and one application for each." },
+                { "id": "M4_M1_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain bivariate distributions. For f(x,y) = e^{-(x+y)} for x,y>0, find: marginals, conditional densities, E[X|Y], Cov(X,Y) and correlation." },
+                { "id": "M4_M1_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "State the Law of Large Numbers (weak and strong). Prove Chebyshev's inequality. Use CLT: If X ~ Bin(100, 0.4), find P(35 ≤ X ≤ 45) using normal approximation." },
+                { "id": "M4_M1_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Define characteristic function. Derive it for Normal distribution. Prove that sum of independent normal random variables is also normal." },
+                { "id": "M4_M1_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain order statistics. Find pdf of the minimum and maximum of n iid RVs. Apply to exponential distribution and derive the distribution of the range." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Sampling Theory and Estimation",
+              "questions": [
+                { "id": "M4_M2_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Differentiate between population and sample. Define sampling distribution." },
+                { "id": "M4_M2_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Define: point estimate, interval estimate and standard error." },
+                { "id": "M4_M2_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Construct 95% confidence interval for population mean when n=36, x̄=48, σ=6." },
+                { "id": "M4_M2_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Explain the t-distribution. When should it be used instead of normal distribution?" },
+                { "id": "M4_M2_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Test H0: μ = 50 against H1: μ ≠ 50 given n=25, x̄=53, s=10 at α=0.05 using t-test." },
+                { "id": "M4_M2_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain F-distribution. State its use in Analysis of Variance." },
+                { "id": "M4_M2_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Explain z-test for large samples. A sample of 100 has mean 64 inches. Population σ = 3 inches. Test if population mean = 65 inches at 5% significance." },
+                { "id": "M4_M2_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Explain chi-square test for goodness of fit. A die is thrown 120 times. Test if it is fair." },
+                { "id": "M4_M2_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "For a sample of size 16 from a normal population, x̄=25, s=4. Test H0: μ=22 at 1% level using t-test." },
+                { "id": "M4_M2_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Use chi-square test of independence on 2×2 contingency table: [[40,20],[30,60]]. Test at 5% significance." },
+                { "id": "M4_M2_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain Analysis of Variance (ANOVA) - one way classification. Derive the test statistic." },
+                { "id": "M4_M2_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain maximum likelihood estimation. Find MLE of λ in a Poisson distribution from a random sample x1, x2, ..., xn." },
+                { "id": "M4_M2_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain type I and type II errors, power of test, significance level. Describe one-tailed and two-tailed tests. Apply z-test to a given problem." },
+                { "id": "M4_M2_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain chi-square distribution and its applications: goodness of fit and test of independence. Apply both to given data." },
+                { "id": "M4_M2_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain t-distribution properties. Apply paired t-test to the given before-after data (n=10 pairs). State conclusion at 5% significance." },
+                { "id": "M4_M2_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain one-way ANOVA with 3 groups. Perform ANOVA on the given data and draw the ANOVA table. State conclusion." },
+                { "id": "M4_M2_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain Method of Moments and MLE for parameter estimation. Find estimates of μ and σ² for Normal distribution using both methods. Compare properties." },
+                { "id": "M4_M2_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain Bayesian estimation. For a Binomial likelihood and Beta prior, derive the posterior distribution. Show that Beta is conjugate prior. Apply to a coin-tossing example." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_code": "CSC402",
+          "subject_name": "Analysis of Algorithm",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Introduction and Divide & Conquer",
+              "questions": [
+                { "id": "AOA_M1_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Define algorithm. State characteristics of a good algorithm." },
+                { "id": "AOA_M1_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "State Master's theorem. Find T(n) for T(n) = 2T(n/2) + n." },
+                { "id": "AOA_M1_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Compare divide and conquer with dynamic programming." },
+                { "id": "AOA_M1_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Solve T(n) = 4T(n/2) + n^2 using Master's theorem." },
+                { "id": "AOA_M1_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Prove that the time complexity of merge sort is Θ(n log n) by solving the recurrence." },
+                { "id": "AOA_M1_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain Strassen's matrix multiplication. What is its time complexity compared to traditional method?" },
+                { "id": "AOA_M1_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Explain merge sort using divide and conquer. Write the algorithm and trace on {8,3,5,1,9,2,7,4}." },
+                { "id": "AOA_M1_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Apply quick sort on {10,80,30,90,40,50,70}. Use first element as pivot. Show all partitioning steps." },
+                { "id": "AOA_M1_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Explain binary search using divide and conquer. Derive its recurrence and solve to find O(log n)." },
+                { "id": "AOA_M1_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Explain Strassen's algorithm for 2×2 matrix multiplication. How does it reduce multiplications from 8 to 7?" },
+                { "id": "AOA_M1_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Solve T(n) = 3T(n/4) + n log n using substitution method. Verify using Master's theorem." },
+                { "id": "AOA_M1_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain the closest pair of points problem. Write divide and conquer algorithm. Analyze its time complexity." },
+                { "id": "AOA_M1_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain divide and conquer strategy. Discuss merge sort and quick sort. Compare their time complexities in best, average and worst cases." },
+                { "id": "AOA_M1_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "State and explain Master's theorem for solving recurrences with all three cases. Solve: T(n) = 9T(n/3)+n, T(n) = T(2n/3)+1, T(n) = 3T(n/4)+n log n." },
+                { "id": "AOA_M1_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain Strassen's matrix multiplication algorithm. Analyze time complexity. Implement for 4×4 matrices." },
+                { "id": "AOA_M1_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Solve recurrences using: (i) substitution, (ii) recursion tree, (iii) Master theorem: a) T(n)=2T(n/2)+n^2; b) T(n)=T(n-1)+n; c) T(n)=4T(n/2)+n^3." },
+                { "id": "AOA_M1_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain integer multiplication (Karatsuba algorithm). Reduce complexity from O(n^2) to O(n^1.585). Trace for (1234 × 5678)." },
+                { "id": "AOA_M1_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain the closest pair of points problem using divide and conquer. Analyze how the 7-point and 8-strip argument ensures O(n log n) complexity." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Greedy Method",
+              "questions": [
+                { "id": "AOA_M2_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "State the greedy approach. When does greedy give optimal solution?" },
+                { "id": "AOA_M2_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Explain fractional knapsack problem. Why can't greedy be applied to 0/1 knapsack?" },
+                { "id": "AOA_M2_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Apply Dijkstra's algorithm to the given weighted graph starting from vertex S." },
+                { "id": "AOA_M2_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Apply Kruskal's algorithm to find the MST of the given weighted graph." },
+                { "id": "AOA_M2_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Apply Huffman coding to characters with frequencies: A=45, B=13, C=12, D=16, E=9, F=5." },
+                { "id": "AOA_M2_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Prove the greedy choice property for the fractional knapsack problem." },
+                { "id": "AOA_M2_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Solve fractional knapsack: capacity=50, items: w=(10,20,30), v=(60,100,120). Find max value." },
+                { "id": "AOA_M2_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Apply Prim's algorithm on a given weighted graph to find MST starting from vertex A." },
+                { "id": "AOA_M2_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Apply Huffman encoding for message 'ABRACADABRA'. Build tree, assign codes, compute encoded length and compression ratio." },
+                { "id": "AOA_M2_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Apply Dijkstra's algorithm step by step on a weighted directed graph with 6 vertices. Show distance table at each step." },
+                { "id": "AOA_M2_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Solve the activity selection problem for n=11 activities with given start and finish times. Prove greedy choice is optimal." },
+                { "id": "AOA_M2_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain job sequencing with deadlines using greedy approach. Maximize profit with: jobs having deadlines and profits given." },
+                { "id": "AOA_M2_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain greedy method. Apply to: (i) fractional knapsack, (ii) activity selection. Compare results with brute force for each." },
+                { "id": "AOA_M2_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain Prim's and Kruskal's algorithms for MST. Apply both on the same graph and compare their time complexities." },
+                { "id": "AOA_M2_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Apply Dijkstra's algorithm on a weighted graph with 7 vertices. Trace step-by-step. Compare with Bellman-Ford for graphs with negative edges." },
+                { "id": "AOA_M2_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain Huffman coding in detail. Build Huffman tree for: {a:7, b:5, c:2, d:4, e:1, f:3, g:2}. Encode 'abcdef' and compute average code length." },
+                { "id": "AOA_M2_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain job sequencing with deadlines. For n=5 jobs with profits P={20,15,10,5,1} and deadlines D={2,2,1,3,3}, find optimal sequence. Prove correctness of greedy approach." },
+                { "id": "AOA_M2_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Prove that greedy gives optimal MST (Kruskal's). Use matroid theory to justify. Show a counterexample where greedy fails for TSP." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Dynamic Programming",
+              "questions": [
+                { "id": "AOA_M3_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "What is dynamic programming? State the principle of optimality." },
+                { "id": "AOA_M3_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Find the nth Fibonacci number using both recursion and DP. Compare their complexities." },
+                { "id": "AOA_M3_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Solve 0/1 knapsack: capacity=6, weights={1,2,3}, values={1,6,10}." },
+                { "id": "AOA_M3_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Find the Longest Common Subsequence of 'ABCBDAB' and 'BDCAB'." },
+                { "id": "AOA_M3_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Apply Floyd-Warshall algorithm to find all-pairs shortest paths for a given 4×4 adjacency matrix." },
+                { "id": "AOA_M3_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain Matrix Chain Multiplication using DP. Find the optimal parenthesization for 4 matrices." },
+                { "id": "AOA_M3_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Solve 0/1 knapsack problem using DP: n=5, W=10, weights={2,3,4,5,9}, values={3,4,5,8,10}. Show DP table." },
+                { "id": "AOA_M3_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Find LCS of X='AGGTAB' and Y='GXTXAYB'. Show the DP table and backtrack to find the sequence." },
+                { "id": "AOA_M3_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Solve Matrix Chain Multiplication for matrices A1(10×30), A2(30×5), A3(5×60) using DP. Find minimum multiplications." },
+                { "id": "AOA_M3_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Apply Floyd-Warshall algorithm on a graph with 4 nodes. Show matrix at each iteration k=0,1,2,3,4." },
+                { "id": "AOA_M3_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain Bellman-Ford algorithm. Apply to detect negative weight cycle in a given directed graph." },
+                { "id": "AOA_M3_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Solve the coin change problem using DP: find minimum number of coins {1,3,4} to make change for 6." },
+                { "id": "AOA_M3_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain DP approach to 0/1 knapsack. Solve for n=4, W=8, weights={2,3,4,5}, values={1,3,5,2}. Also trace back to find which items are selected." },
+                { "id": "AOA_M3_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain Longest Common Subsequence problem. Write DP algorithm. Apply to find LCS of 'ABCBDAB' and 'BDCABA'. Print all LCS strings." },
+                { "id": "AOA_M3_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Solve Matrix Chain Multiplication for matrices: A1(30×35), A2(35×15), A3(15×5), A4(5×10), A5(10×20), A6(20×25). Find optimal parenthesization." },
+                { "id": "AOA_M3_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Apply Floyd-Warshall algorithm on a given graph. Show all-pairs shortest paths and reconstruct the path between every pair." },
+                { "id": "AOA_M3_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain Optimal Binary Search Tree using DP. For keys {k1,k2,k3,k4} with probabilities p=(0.15,0.10,0.05,0.10) and dummy key probabilities q=(0.05,0.10,0.05,0.05,0.10), construct the OBST." },
+                { "id": "AOA_M3_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain Travelling Salesman Problem using DP (Held-Karp algorithm). Apply on 4-city TSP with given cost matrix. Compare DP solution with brute force." }
+              ]
+            },
+            {
+              "module_no": 4,
+              "module_name": "Backtracking and Branch & Bound",
+              "questions": [
+                { "id": "AOA_M4_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Explain backtracking strategy. Compare with brute force." },
+                { "id": "AOA_M4_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Solve 4-Queen problem using backtracking. Show the state space tree." },
+                { "id": "AOA_M4_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Explain Branch and Bound technique. State bounding functions." },
+                { "id": "AOA_M4_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Solve 0/1 knapsack using Branch and Bound with LC-search. Show live node tree." },
+                { "id": "AOA_M4_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Solve the graph coloring problem for K4 using backtracking with minimum colors." },
+                { "id": "AOA_M4_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain the difference between FIFO Branch and Bound (BFS) and LC Branch and Bound." },
+                { "id": "AOA_M4_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Apply backtracking to solve 8-Queens problem. Write the constraint function and show first two valid placements." },
+                { "id": "AOA_M4_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Explain Sum of Subsets problem using backtracking. Solve for set {3,5,6,7} with target sum = 15." },
+                { "id": "AOA_M4_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Apply Branch and Bound to TSP for 4 cities with cost matrix. Show the bounding function and optimal tour." },
+                { "id": "AOA_M4_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Apply m-coloring backtracking for the graph with 5 vertices and 6 edges. Find chromatic number." },
+                { "id": "AOA_M4_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Solve 0/1 knapsack using B&B with FIFO strategy: n=4, W=15, weights={4,5,6,3}, values={10,15,12,8}." },
+                { "id": "AOA_M4_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain Hamiltonian cycle problem. Apply backtracking to find if the given graph has a Hamiltonian cycle." },
+                { "id": "AOA_M4_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain N-Queens problem. Write complete backtracking algorithm with constraint checking. Solve for N=4 showing entire state space tree and all solutions." },
+                { "id": "AOA_M4_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain graph coloring problem. Write backtracking algorithm and apply for m=3 colors on a given graph with 5 vertices." },
+                { "id": "AOA_M4_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain Branch and Bound for 0/1 Knapsack. Apply with LC-search for n=4, W=10, weights={2,3,4,5}, values={3,5,4,8}. Show all live/dead/E-nodes." },
+                { "id": "AOA_M4_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Apply Branch and Bound TSP for 5 cities. Compare FIFO and LC strategies on same problem. Show complete tree exploration." },
+                { "id": "AOA_M4_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain NP-Hard and NP-Complete problems. Reduce 3-SAT to Clique problem. Explain the significance of P vs NP." },
+                { "id": "AOA_M4_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain approximation algorithms for NP-hard problems. Describe 2-approximation algorithm for TSP using MST. Show the approximation ratio bound." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_code": "CSC403",
+          "subject_name": "Database Management System",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Introduction and ER Model",
+              "questions": [
+                { "id": "DBMS_M1_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Define DBMS. Differentiate between DBMS and File System." },
+                { "id": "DBMS_M1_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Explain three schema architecture of DBMS." },
+                { "id": "DBMS_M1_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Differentiate between strong entity and weak entity. Give one example of each." },
+                { "id": "DBMS_M1_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Explain total participation vs partial participation with an example ER diagram." },
+                { "id": "DBMS_M1_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Convert the ER diagram to Relational schema for a university database (student, course, enrollment)." },
+                { "id": "DBMS_M1_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain generalization and specialization with example. Differentiate from aggregation." },
+                { "id": "DBMS_M1_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "List and explain the functions of DBA. What are the responsibilities of DBMS in data independence?" },
+                { "id": "DBMS_M1_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Explain the components of ER model: entity set, attribute types (simple, composite, multivalued, derived), and relationship set with cardinality." },
+                { "id": "DBMS_M1_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Design ER diagram for a Hospital Management System with entities: Patient, Doctor, Nurse, Ward, Prescription." },
+                { "id": "DBMS_M1_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Convert the following ER diagram to relational tables: Employee (Eid, Name), Department (Did, Dname), Works_In relationship with date_joined." },
+                { "id": "DBMS_M1_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Design ER diagram for an online shopping system. Include: Customer, Product, Order, Seller, Review, Cart. Show all cardinalities and participation constraints." },
+                { "id": "DBMS_M1_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain Extended ER features: specialization, generalization, aggregation and disjoint/overlapping constraints. Apply to a company database." },
+                { "id": "DBMS_M1_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain the evolution and need of DBMS. Discuss data models: relational, network, hierarchical and object-oriented. Compare with advantages/disadvantages." },
+                { "id": "DBMS_M1_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Design a complete ER diagram for a University Database: Student, Faculty, Course, Department, Subject, Enrollment. Show all attributes, keys, cardinalities and participation." },
+                { "id": "DBMS_M1_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Design ER diagram for a Bank: Branch, Account, Loan, Customer, Employee. Convert to relational schema. State all primary and foreign keys." },
+                { "id": "DBMS_M1_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain 3-tier architecture of DBMS with internal, conceptual and external schemas. Discuss data independence (physical and logical) with examples." },
+                { "id": "DBMS_M1_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Design ER diagram for an Airlines Reservation System. Convert to relational schema. Identify all constraints. Write 5 SQL queries to extract useful information." },
+                { "id": "DBMS_M1_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain aggregation in ER model. Design ER for a company with departments, employees and projects using aggregation to capture 'manages' relationship. Convert to relational model." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Relational Model and SQL",
+              "questions": [
+                { "id": "DBMS_M2_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Define: relation, tuple, attribute, domain, degree and cardinality." },
+                { "id": "DBMS_M2_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Differentiate between primary key, candidate key, super key and foreign key." },
+                { "id": "DBMS_M2_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Write SQL query to find 2nd highest salary from Employee table without using LIMIT." },
+                { "id": "DBMS_M2_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Explain INNER JOIN, LEFT JOIN, RIGHT JOIN and FULL OUTER JOIN with examples." },
+                { "id": "DBMS_M2_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain relational algebra operators: select, project, union, difference, cartesian product and join." },
+                { "id": "DBMS_M2_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Write SQL to create a view and a stored procedure. Explain advantages of each." },
+                { "id": "DBMS_M2_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Write SQL queries: (i) Create Student table, (ii) Insert 5 records, (iii) Update CGPA, (iv) Delete students with backlog, (v) Display top 3 students." },
+                { "id": "DBMS_M2_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Write relational algebra expressions for: (i) Find employees with salary > 50000, (ii) Find department names of all employees, (iii) Natural join of Employee and Department." },
+                { "id": "DBMS_M2_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "For tables Employee(Eid, Name, Salary, Dept_id) and Department(Did, Dname, Budget), write SQL for: (i) avg salary per dept, (ii) depts with avg salary > 60000, (iii) employees without dept." },
+                { "id": "DBMS_M2_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Explain subqueries (correlated and non-correlated). Write SQL using nested subquery to find employees earning more than average salary of their department." },
+                { "id": "DBMS_M2_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Write relational calculus (TRC and DRC) expressions for: find names of employees who manage at least one department." },
+                { "id": "DBMS_M2_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain SQL functions: aggregate (SUM, AVG, COUNT, MAX, MIN), string (CONCAT, SUBSTR, UPPER), date. Write one example query for each category." },
+                { "id": "DBMS_M2_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain DDL and DML commands with syntax. Write SQL to: create database, create 3 tables with constraints, perform CRUD operations, and use GROUP BY, HAVING, ORDER BY." },
+                { "id": "DBMS_M2_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain relational algebra operations with examples: σ, π, ∪, ∩, −, ×, ⋈, ÷. Apply each on given relations." },
+                { "id": "DBMS_M2_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "For a Library database: Book(ISBN, Title, Author, Year), Member(MID, Name, Email), Loan(LID, ISBN, MID, Date_issued, Due_date, Return_date). Write 10 complex SQL queries." },
+                { "id": "DBMS_M2_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain views in SQL. Explain triggers with syntax. Write a trigger that logs salary changes to an audit table. Discuss updatable vs non-updatable views." },
+                { "id": "DBMS_M2_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain stored procedures and functions in SQL with syntax. Write a stored procedure to generate a student report card. Also write a function to compute CGPA." },
+                { "id": "DBMS_M2_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain relational completeness (Codd's criteria). Compare relational algebra, tuple relational calculus and domain relational calculus. Show equivalence with examples." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Normalization",
+              "questions": [
+                { "id": "DBMS_M3_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "What is normalization? Why is it needed? Define functional dependency." },
+                { "id": "DBMS_M3_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Explain the anomalies in unnormalized tables: insertion, deletion and update anomalies." },
+                { "id": "DBMS_M3_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Identify all candidate keys for relation R(A,B,C,D,E) with FDs: A→BC, B→D, C→E." },
+                { "id": "DBMS_M3_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Normalize the relation R(Eid, Ename, Did, Dname, Skill) to 3NF. Show all steps." },
+                { "id": "DBMS_M3_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "What is BCNF? Give an example of a relation in 3NF but not in BCNF." },
+                { "id": "DBMS_M3_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain 4NF and 5NF. Give an example of a relation in BCNF but not in 4NF." },
+                { "id": "DBMS_M3_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Define 1NF, 2NF and 3NF with examples. Convert unnormalized table OrderDetails to 3NF step by step." },
+                { "id": "DBMS_M3_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Find all candidate keys for R(A,B,C,D) with FDs: AB→C, C→D, D→A." },
+                { "id": "DBMS_M3_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Normalize: R(StudentID, Name, CourseID, CourseName, Marks, Grade) using 1NF, 2NF and 3NF. State FDs at each stage." },
+                { "id": "DBMS_M3_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Show that relation R(A,B,C) with FDs A→B, B→C, C→A is in BCNF. Explain all candidate keys." },
+                { "id": "DBMS_M3_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "For R(A,B,C,D,E) with FDs: AB→C, C→D, D→E, E→A, find BCNF decomposition with dependency preservation." },
+                { "id": "DBMS_M3_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain multivalued dependencies and 4NF. Give an example. Decompose R(Emp, Skill, Language) into 4NF." },
+                { "id": "DBMS_M3_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain normalization forms: 1NF, 2NF, 3NF, BCNF with precise definitions, examples and diagrams. Show a complete normalization of Employee-Department schema." },
+                { "id": "DBMS_M3_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain Armstrong's axioms: reflexivity, augmentation, transitivity and derived rules. Apply to find closure of F+ for FD set: A→BC, B→CE, A→E." },
+                { "id": "DBMS_M3_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Decompose R(ABCDE) with FDs: A→B, BC→E, ED→A into BCNF. Check for: (i) lossless join, (ii) dependency preservation. If not dependency preserving, find 3NF decomposition instead." },
+                { "id": "DBMS_M3_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain canonical cover of FDs. Find minimal cover for: {A→BC, B→C, A→B, AB→C}. Then find 3NF decomposition using synthesis algorithm." },
+                { "id": "DBMS_M3_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain the schema refinement process for a University database. Start with a universal relation, identify all FDs, find minimal cover, perform 3NF synthesis, verify lossless join." },
+                { "id": "DBMS_M3_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain 4NF, 5NF (Project-Join Normal Form) and Domain-Key Normal Form (DKNF). Give examples. Discuss whether denormalization is ever justified in practice." }
+              ]
+            },
+            {
+              "module_no": 4,
+              "module_name": "Transaction Management and Concurrency Control",
+              "questions": [
+                { "id": "DBMS_M4_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Define transaction. Explain ACID properties." },
+                { "id": "DBMS_M4_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Differentiate between serial and serializable schedules." },
+                { "id": "DBMS_M4_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Test if schedule S = R1(A), W2(A), R2(B), W1(B), C1, C2 is conflict serializable." },
+                { "id": "DBMS_M4_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Explain 2-Phase Locking (2PL) protocol. How does it ensure serializability?" },
+                { "id": "DBMS_M4_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain deadlock prevention, detection and recovery in DBMS." },
+                { "id": "DBMS_M4_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain multiversion concurrency control (MVCC). Compare with lock-based protocols." },
+                { "id": "DBMS_M4_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Explain transaction states: Active, Partially committed, Committed, Failed, Aborted with state transition diagram." },
+                { "id": "DBMS_M4_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Explain conflict serializability using precedence graph. Draw the precedence graph for: S = R1(A), R2(B), W1(B), W2(A), C1, C2." },
+                { "id": "DBMS_M4_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Explain strict 2PL, Rigorous 2PL and Conservative 2PL. State the advantages and disadvantages of each." },
+                { "id": "DBMS_M4_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Explain timestamp-based concurrency control. Describe Thomas Write Rule." },
+                { "id": "DBMS_M4_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain recovery with UNDO and REDO operations. Describe the ARIES recovery algorithm briefly." },
+                { "id": "DBMS_M4_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain Wait-for graph for deadlock detection. Show an example with 3 transactions in deadlock." },
+                { "id": "DBMS_M4_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain ACID properties in detail with examples. Discuss transaction isolation levels: Read Uncommitted, Read Committed, Repeatable Read, Serializable." },
+                { "id": "DBMS_M4_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain serial vs concurrent schedules. Explain conflict equivalence and view equivalence. Test the given schedule for conflict serializability." },
+                { "id": "DBMS_M4_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain Two-Phase Locking protocol and its variants. Discuss lock compatibility matrix. Show how 2PL ensures serializability but may lead to deadlock." },
+                { "id": "DBMS_M4_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain database recovery techniques: log-based recovery, shadow paging, UNDO/REDO logging. Describe the checkpoint mechanism." },
+                { "id": "DBMS_M4_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain optimistic concurrency control (OCC). Describe its three phases: read, validation, write. Compare OCC with lock-based and timestamp-based protocols." },
+                { "id": "DBMS_M4_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain distributed database transactions. Discuss 2-Phase Commit (2PC) protocol. What are its failure scenarios and how are they handled? Explain 3PC as an improvement." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_code": "CSC404",
+          "subject_name": "Operating System",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Process Management",
+              "questions": [
+                { "id": "OS_M1_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Define process. Explain process states with state transition diagram." },
+                { "id": "OS_M1_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Differentiate between process and thread. Give advantages of multithreading." },
+                { "id": "OS_M1_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Differentiate between preemptive and non-preemptive scheduling." },
+                { "id": "OS_M1_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Explain multilevel feedback queue scheduling." },
+                { "id": "OS_M1_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain the critical section problem. State the three conditions it must satisfy." },
+                { "id": "OS_M1_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain the concept of monitors. Compare with semaphores." },
+                { "id": "OS_M1_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Apply FCFS, SJF and Round Robin (q=3) on processes: P1(AT=0,BT=8), P2(AT=1,BT=4), P3(AT=2,BT=9), P4(AT=3,BT=5). Compute average waiting time for each." },
+                { "id": "OS_M1_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Explain PCB (Process Control Block). List all fields stored in PCB and their purpose." },
+                { "id": "OS_M1_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Apply Priority scheduling (preemptive) for: P1(AT=0,BT=7,P=3), P2(AT=2,BT=2,P=1), P3(AT=4,BT=1,P=2), P4(AT=5,BT=3,P=4). Draw Gantt chart and compute turnaround time." },
+                { "id": "OS_M1_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Solve the Dining Philosophers problem using semaphores. Explain the deadlock scenario and how to avoid it." },
+                { "id": "OS_M1_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain Peterson's solution for mutual exclusion of 2 processes. Prove that it satisfies: mutual exclusion, progress and bounded waiting." },
+                { "id": "OS_M1_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Solve Producer-Consumer problem using semaphores. Write complete pseudocode for both producer and consumer." },
+                { "id": "OS_M1_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain FCFS, SJF (preemptive and non-preemptive), Priority and Round Robin scheduling. Apply all on same set of 5 processes. Compute average waiting time and turnaround time." },
+                { "id": "OS_M1_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain threads vs processes. Describe user-level threads vs kernel-level threads. Explain multithreading models: many-to-one, one-to-one, many-to-many." },
+                { "id": "OS_M1_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain Inter-Process Communication (IPC): shared memory and message passing. Discuss: pipes, named pipes, message queues, semaphores, shared memory with examples." },
+                { "id": "OS_M1_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain deadlock: conditions (Coffman), prevention, avoidance (Banker's algorithm), detection and recovery. Apply Banker's algorithm for safety test." },
+                { "id": "OS_M1_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Apply Banker's algorithm: n=4 processes, m=3 resources. Allocation: [[0,1,0],[2,0,0],[3,0,2],[2,1,1]], Max: [[7,5,3],[3,2,2],[9,0,2],[2,2,2]], Available: [3,3,2]. Find safe sequence." },
+                { "id": "OS_M1_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Compare scheduling algorithms with respect to: CPU utilization, throughput, turnaround time, waiting time, response time and starvation. What is the ideal scheduling algorithm and why?" }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Memory Management",
+              "questions": [
+                { "id": "OS_M2_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Explain fixed partitioning and dynamic partitioning in memory management." },
+                { "id": "OS_M2_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "What is paging? Explain with a diagram. Define page table, page number and offset." },
+                { "id": "OS_M2_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Differentiate between internal and external fragmentation. How is each resolved?" },
+                { "id": "OS_M2_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Explain TLB (Translation Lookaside Buffer). How does it speed up address translation?" },
+                { "id": "OS_M2_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Compare paging and segmentation. What is segmented-paging?" },
+                { "id": "OS_M2_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain demand paging. Define page fault and thrashing." },
+                { "id": "OS_M2_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Apply First-Fit, Best-Fit and Worst-Fit for processes of size 200K, 400K, 300K into partitions of 400K, 200K, 100K, 500K. Which leaves least fragmentation?" },
+                { "id": "OS_M2_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Explain virtual memory. Describe how paging implements virtual memory. Explain the role of page table." },
+                { "id": "OS_M2_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Apply FIFO, LRU and Optimal page replacement algorithms for reference string: 7,0,1,2,0,3,0,4,2,3,0,3,2 with 3 frames. Count page faults for each." },
+                { "id": "OS_M2_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Explain multilevel paging (2-level and 3-level). Calculate effective memory access time with given hit ratio for TLB." },
+                { "id": "OS_M2_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain working set model for virtual memory. How does it prevent thrashing? Define working set window." },
+                { "id": "OS_M2_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Apply page replacement algorithms: Clock (second chance), NFU (Not Frequently Used) on reference string 1,2,3,4,2,1,5,6,2,1,2,3,7,6 with 4 frames." },
+                { "id": "OS_M2_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain memory management techniques: contiguous (fixed, variable), paging, segmentation. Compare their pros and cons with fragmentation analysis." },
+                { "id": "OS_M2_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Apply FIFO, LRU, Optimal page replacement for reference string: 1,2,3,4,5,1,2,3,4,5,1,2 with 3 frames. Compute page faults. Compare algorithms." },
+                { "id": "OS_M2_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain paging in detail: logical vs physical address, page table, TLB, inverted page table. Calculate effective memory access time with TLB hit ratio = 90%, access time = 100ns." },
+                { "id": "OS_M2_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain segmentation. Compare with paging. Explain segmented paging. Give address translation examples for both." },
+                { "id": "OS_M2_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain thrashing phenomenon. Describe the working set model. Show how the OS can use the working set to control degree of multiprogramming." },
+                { "id": "OS_M2_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Design an OS memory manager. Explain demand paging with page fault handling routine. Discuss the prepaging strategy and compare with pure demand paging." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "File System and I/O Management",
+              "questions": [
+                { "id": "OS_M3_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Define file. Explain file attributes and file operations supported by OS." },
+                { "id": "OS_M3_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Explain different file access methods: sequential, direct and indexed." },
+                { "id": "OS_M3_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Compare contiguous, linked and indexed file allocation methods." },
+                { "id": "OS_M3_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Apply FCFS, SSTF and SCAN disk scheduling on request queue: {176, 79, 34, 60, 92, 11, 41, 114}. Head starts at 50." },
+                { "id": "OS_M3_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain inode structure in UNIX file system. What information is stored in each inode?" },
+                { "id": "OS_M3_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain device management in OS. Differentiate between character and block devices." },
+                { "id": "OS_M3_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Apply FCFS, SSTF, SCAN, C-SCAN, C-LOOK disk scheduling for request: {82,170,43,140,24,16,190}. Head at 100. Compute total head movement for each." },
+                { "id": "OS_M3_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Explain directory structures: single-level, two-level, tree-structured and acyclic-graph. Compare their advantages and limitations." },
+                { "id": "OS_M3_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Explain free space management methods: bitmap, linked list, grouping and counting. Compute space needed for bitmap for a 1TB disk with 4KB block size." },
+                { "id": "OS_M3_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Explain indexed file allocation. Describe single-level and multi-level index. What is the maximum file size with 3-level indexed allocation and 4KB block?" },
+                { "id": "OS_M3_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain RAID levels: RAID 0, 1, 5, 6 and 10. Compare their storage efficiency, performance and fault tolerance." },
+                { "id": "OS_M3_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain I/O software layers: interrupt handlers, device drivers, device-independent OS software, user-space I/O software. Trace an I/O request through all layers." },
+                { "id": "OS_M3_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain all disk scheduling algorithms: FCFS, SSTF, SCAN, C-SCAN, LOOK, C-LOOK. Apply all on the same request queue. Plot head movements and compare." },
+                { "id": "OS_M3_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain file system structure: boot block, super block, inode table, data blocks. Describe FAT (File Allocation Table) and compare with indexed allocation." },
+                { "id": "OS_M3_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain file allocation methods: contiguous, linked, FAT-based linked, indexed. For a 10MB file with 4KB blocks, calculate number of blocks, index blocks required and access time for random access." },
+                { "id": "OS_M3_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain the UNIX V7 file system in detail: boot block, super block, inode, direct and indirect blocks. Calculate maximum file size using 13-block inode with 1KB blocks." },
+                { "id": "OS_M3_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain Linux ext2 filesystem internals: group descriptor, block bitmap, inode bitmap, inode table, data blocks. Compare with ext3 and ext4. Discuss journaling." },
+                { "id": "OS_M3_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain NFS (Network File System) architecture. Describe the VFS (Virtual File System) layer in Linux. How does VFS allow mounting different file systems uniformly?" }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_code": "CSC405",
+          "subject_name": "Microprocessor",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "8086 Architecture and Instruction Set",
+              "questions": [
+                { "id": "MP_M1_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Draw the internal architecture of 8086. Explain BIU and EU." },
+                { "id": "MP_M1_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Explain the 8086 register set. Differentiate between segment and general purpose registers." },
+                { "id": "MP_M1_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Explain the following 8086 addressing modes: immediate, register, direct, and register indirect with examples." },
+                { "id": "MP_M1_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Write an 8086 ALP to multiply two 16-bit numbers using MUL instruction." },
+                { "id": "MP_M1_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain 8086 flag register. Which flags are affected by arithmetic and logical instructions?" },
+                { "id": "MP_M1_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain the concept of pipelining in 8086. How does pre-fetching improve execution speed?" },
+                { "id": "MP_M1_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Explain 8086 memory segmentation. Compute physical address for CS=2000H, IP=0300H." },
+                { "id": "MP_M1_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Write 8086 ALP to find the largest element in an array of 10 words." },
+                { "id": "MP_M1_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Write 8086 ALP to sort an array of 8 bytes in ascending order using bubble sort." },
+                { "id": "MP_M1_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Explain string instructions in 8086: MOVS, CMPS, SCAS, LODS, STOS with REP prefix. Write ALP to copy a string of 20 bytes." },
+                { "id": "MP_M1_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Write 8086 ALP for: (i) factorial of a number using recursion, (ii) Fibonacci series for n terms. Use PUSH/POP appropriately." },
+                { "id": "MP_M1_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain 8086 instruction types: data transfer, arithmetic, logical, shift/rotate, branch and string instructions. Give 2 examples from each." },
+                { "id": "MP_M1_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain 8086 internal architecture in detail. Describe EU, BIU, 14 registers, instruction queue and pipelining. Draw complete block diagram." },
+                { "id": "MP_M1_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain all 8086 addressing modes: immediate, register, direct, register indirect, base-relative, indexed, base-indexed, string. Give one instruction example for each." },
+                { "id": "MP_M1_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Write 8086 ALP to perform BCD addition of two 4-digit BCD numbers. Handle carry and DAA instruction properly." },
+                { "id": "MP_M1_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Write 8086 ALP for: (i) convert ASCII string to BCD, (ii) compute 2's complement of 16-bit number, (iii) count number of 1s in AX register. Explain each." },
+                { "id": "MP_M1_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Write a complete 8086 ALP to implement matrix multiplication of two 3×3 matrices stored in memory. Explain memory organization and register usage." },
+                { "id": "MP_M1_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain 8086 interrupt structure: hardware and software interrupts, IVT, INT instruction, IRET. Write an 8086 ISR for a keyboard interrupt. Explain the full interrupt servicing sequence." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Peripheral Interfacing and 8051",
+              "questions": [
+                { "id": "MP_M2_E_2_1", "marks": 2, "difficulty": "easy", "type": "short", "question": "Draw pin diagram of 8255 PPI. Explain its modes of operation." },
+                { "id": "MP_M2_E_2_2", "marks": 2, "difficulty": "easy", "type": "short", "question": "Explain 8051 microcontroller architecture. State differences from 8085/8086 microprocessor." },
+                { "id": "MP_M2_M_2_1", "marks": 2, "difficulty": "medium", "type": "short", "question": "Write 8086 code to initialize 8255 with Port A as output, Port B as input in Mode 0." },
+                { "id": "MP_M2_M_2_2", "marks": 2, "difficulty": "medium", "type": "short", "question": "Explain 8051 timer/counter operation. Write code to generate 1ms delay using Timer 0 in Mode 1." },
+                { "id": "MP_M2_H_2_1", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain 8259 Programmable Interrupt Controller. How does it manage interrupts from multiple sources?" },
+                { "id": "MP_M2_H_2_2", "marks": 2, "difficulty": "hard", "type": "short", "question": "Explain 8051 serial communication. Write 8051 code to transmit a character at 9600 baud." },
+                { "id": "MP_M2_E_3_1", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Explain interfacing of 8086 with 8255. Write control word and ALP to read 8-bit data from Port A and display on Port B." },
+                { "id": "MP_M2_E_3_2", "marks": 3, "difficulty": "easy", "type": "medium", "question": "Explain 8051 I/O ports. Write 8051 ALP to toggle all bits of Port 1 every 500ms." },
+                { "id": "MP_M2_M_3_1", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Explain 8257 DMA controller. How does DMA transfer improve data transfer speed over programmed I/O?" },
+                { "id": "MP_M2_M_3_2", "marks": 3, "difficulty": "medium", "type": "medium", "question": "Write 8051 ALP to interface a 4×4 matrix keypad. Implement key scanning and display the pressed key's ASCII code on Port 1." },
+                { "id": "MP_M2_H_3_1", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain memory interfacing with 8086: decode chip select signals for a 64KB RAM at address 0A0000H-0AFFFFH using decoders." },
+                { "id": "MP_M2_H_3_2", "marks": 3, "difficulty": "hard", "type": "medium", "question": "Explain 8051 interrupt system. Write ISR for external interrupt INT0 that counts pulses and displays on LEDs connected to Port 2." },
+                { "id": "MP_M2_E_5_1", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain 8255 in detail: internal architecture, Port A/B/C, 3 modes. Write control words for mode 0, mode 1. Write 8086 ALP for bidirectional data transfer." },
+                { "id": "MP_M2_E_5_2", "marks": 5, "difficulty": "easy", "type": "long", "question": "Explain 8051 architecture: CPU, memory, I/O ports, timers, serial port. Compare with 8086. Draw complete block diagram." },
+                { "id": "MP_M2_M_5_1", "marks": 5, "difficulty": "medium", "type": "long", "question": "Explain interfacing of 8086 with 8259 PIC. Program it in cascade mode. Write ISR for IR0 and IR7 interrupt service. Explain ICW and OCW configuration." },
+                { "id": "MP_M2_M_5_2", "marks": 5, "difficulty": "medium", "type": "long", "question": "Write 8051 ALP to: (i) interface a stepper motor and rotate it 90° clockwise, (ii) interface a DAC and generate a sawtooth wave. Explain hardware connections." },
+                { "id": "MP_M2_H_5_1", "marks": 5, "difficulty": "hard", "type": "long", "question": "Explain 8086 minimum and maximum mode configurations. Explain bus arbitration in maximum mode. Describe 8288 Bus Controller role in maximum mode." },
+                { "id": "MP_M2_H_5_2", "marks": 5, "difficulty": "hard", "type": "long", "question": "Design a complete 8051-based embedded system for temperature monitoring using ADC0804. Write complete 8051 assembly code, draw schematic, and explain operation." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

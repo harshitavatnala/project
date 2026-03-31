@@ -1,0 +1,301 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Configure Semester & Subjects</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="quesgenerate.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar">
+<div class="navdiv">
+<div class="logo">
+<a href="frontpage.html">Edu Tech</a>
+</div>
+
+<ul>
+<li>
+<label for="gsearch">Search:</label>
+<input type="search" id="gsearch" name="gsearch">
+</li>
+
+<li><a href="frontpage.html">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+
+<button onclick="location.href='login.html'">LoginIn</button>
+<button onclick="location.href='signup.html'">Signup</button>
+
+</ul>
+</div>
+</nav>
+
+<div class="container">
+<div class="card shadow-lg">
+
+<div class="card-header">
+<h4 class="mb-0">Configure semester & Subjects</h4>
+</div>
+
+<div class="card-body">
+
+<form id="classConfigForm">
+
+<div class="row">
+
+<div class="col-md-6 mb-3">
+
+<form id="classConfigForm">
+ <label class="form-label fw-bold">Select Semester</label> 
+<select class="form-select" id="semesterSelect">
+<select id="branch">
+<option selected disabled>Choose Branch...</option>
+<option value="First Year Engineering">First Year Engineering</option>
+<option value="Computer Engineering">Computer Engineering</option>
+<option value="Information Technology">Information Technology</option>
+<option value="Electronics">Electronics Engineering</option>
+<option value="Mechanical">Mechanical Engineering</option>
+<option value="Civil">Civil Engineering</option>
+<option value="Data Engineering">Data Engineering</option>
+</select>
+
+<select id="semester" class="form-select mb-3">   
+<option selected disabled>Choose Semester...</option>
+<option value="1">Semester 1</option>
+<option value="2">Semester 2</option>
+<option value="3">Semester 3</option>
+<option value="4">Semester 4</option>
+
+<input type="text" id="subjectInput" class="form-control mb-3" placeholder="Enter Subject Name">
+
+SECTION BUILDER 
+<div id="sectionsContainer"></div>
+
+<button type="button" class="btn btn-warning mb-3" onclick="addSection()">+ Add Section</button>
+
+<button class="btn btn-success w-100">Generate Paper</button>
+
+</form>
+</select>
+</div>
+
+<div class="col-md-6 mb-3">
+<label class="form-label fw-bold">Add Subjects</label>
+<select class="form-select" id="addSubjectSelect">
+<option selected disabled>Choose Subject...</option>
+<option value="C">maths</option>
+<option value="C">phys</option>
+<option value="C">chem</option>
+<option value="C">BEE</option>
+<option value="C">Mechanics</option>
+<option value="C">PCE</option>
+<option value="C">Graphics</option>
+<option value="C">Ds(data structure)</option>
+<option value="C">AOA</option>
+<option value="C">COA</option>
+<option value="C">DSGT</option>
+<option value="C">OS</option>
+<option value="C">DBMS</option>
+<option value="C">OE</option>
+<option value="C">CT</option>
+<option value="C">WT</option>
+</select>
+</div>
+
+</div>
+
+<div class="mt-4">
+
+<label class="form-label fw-bold">Add Name of the Chapter</label>
+
+<div class="input-group mb-3">
+<input type="text" id="subjectInput" class="form-control" placeholder="Enter Chapter Name">
+<button class="btn btn-outline-secondary" type="button" id="addSubjectBtn">
+Add Name of the Chapter
+</button>
+</div>
+
+<ul class="list-group" id="subjectList"></ul>
+
+</div>
+
+<div class="row">
+
+<div class="col-md-6 mb-3">
+<label class="form-label fw-bold">No. of Questions</label>
+<input type="number" class="form-control" id="numQuestions" placeholder="e.g. 10">
+</div>
+
+<div class="col-md-6 mb-3">
+<label class="form-label fw-bold">Marks per Question</label>
+<select class="form-select" id="marksPerQuest">
+<option value="0">0</option>
+<option value="1">2</option>
+<option value="2">3</option>
+<option value="3">4</option>
+<option value="4">5</option>
+<option value="5">6</option>
+<option value="6">7</option>
+<option value="7">8</option>
+</select>
+</div>
+
+</div>
+
+<div class="mb-3">
+
+<label class="form-label fw-bold d-block">Difficulty Level</label>
+
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="difficulty" value="easy" checked>
+<label class="form-check-label">Easy</label>
+</div>
+
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="difficulty" value="medium">
+<label class="form-check-label">Medium</label>
+</div>
+
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="difficulty" value="hard">
+<label class="for
+
+m-check-label">Hard</label>
+</div>
+
+</div>
+
+<div class="alert d-flex justify-content-between">
+<span>Total Marks:</span>
+<span id="totalMarksDisplay" class="badge bg-primary total-badge">0</span>
+</div>
+
+<button class="btn btn-success w-100">Generate Paper</button>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+</script>
+
+</body>
+</html>
+ -->
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generate Question Paper</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="quesgenerate.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar">
+<div class="navdiv">
+<div class="logo">
+<a href="frontpage.html">Edu Tech</a>
+</div>
+
+<ul>
+<li>
+<label for="gsearch">Search:</label>
+<input type="search" id="gsearch" name="gsearch">
+</li>
+
+<li><a href="frontpage.html">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+
+<button onclick="location.href='login.html'">LoginIn</button>
+<button onclick="location.href='signup.html'">Signup</button>
+
+</ul>
+</div>
+</nav>
+<div class="container mt-5">
+<div class="card p-4 shadow">
+
+<h4 class="mb-3">Generate Question Paper</h4>
+
+<form id="classConfigForm">
+
+<!-- Branch -->
+<select id="branch" class="form-select mb-3" required>
+<option selected disabled>Choose Branch</option>
+<option value="First Year Engineering">First Year Engineering</option>
+<option value="Computer Engineering">Computer Engineering</option>
+<option value="Information Technology">Information Technology</option>
+<option value="Electrical Engineering">Electrical Engineering</option>
+<option value="Mechanical">Mechanical Engineering</option>
+<option value="Civil Engineering">Civil Engineering</option>
+<option value="Data Engineering">Data Engineering</option>
+</select>
+
+<!-- Semester -->
+<select id="semester" class="form-select mb-3" required>
+<option selected disabled>Choose Semester</option>
+<option value="Semester 1">Semester 1</option>
+<option value="Semester 2">Semester 2</option>
+<option value="Semester 3">Semester 3</option>
+<option value="Semester 4">Semester 4</option>
+</select>
+
+<!-- Subject -->
+<select id="addSubjectSelect" class="form-select mb-3" required>
+<option selected disabled>Choose Subject</option>
+</select>
+
+<!-- Sections -->
+<div id="sectionsContainer"></div>
+
+<button type="button" class="btn btn-warning mb-3" onclick="addSection()">+ Add Section</button>
+
+<!-- Difficulty -->
+<div class="mb-3">
+<label class="fw-bold">Difficulty</label><br>
+
+<input type="radio" name="difficulty" value="easy" checked> Easy
+<input type="radio" name="difficulty" value="medium"> Medium
+<input type="radio" name="difficulty" value="hard"> Hard
+</div>
+
+<button type="submit" class="btn btn-success w-100">Generate Paper</button>
+
+</form>
+
+</div>
+</div>
+
+<!-- PDF Preview -->
+<div class="container mt-4" id="previewSection" style="display:none;">
+<h5>PDF Preview</h5>
+
+<iframe id="pdfPreview" width="100%" height="500px"></iframe>
+
+<br><br>
+
+<a id="downloadBtn" class="btn btn-primary" download="question-paper.pdf">
+Download PDF
+</a>
+</div>
+
+
+<script src="quesgenerate.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1199 @@
+{
+  "branch": "Civil Engineering",
+  "university": "Mumbai University (MU)",
+  "source": "muquestionpapers.com",
+  "schemes": ["NEP-2020", "R-19 (REV-2019 C Scheme)"],
+  "semesters": [
+
+    {
+      "semester": 1,
+      "scheme": "NEP-2020",
+      "subjects": [
+        {
+          "subject_name": "Applied Mathematics - I",
+          "subject_code": "AM-I",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Matrices",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define rank of a matrix and state its properties." },
+                { "marks": 2, "difficulty": "medium", "question": "Find the rank of the matrix A = [[1,2,3],[4,5,6],[7,8,9]]." },
+                { "marks": 2, "difficulty": "hard",   "question": "State the conditions for consistency of a system of linear equations using rank." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the concept of echelon form and reduced row echelon form with an example." },
+                { "marks": 3, "difficulty": "medium", "question": "Solve the system of equations: x+y+z=6, 2x+y-z=1, x-y+2z=3 using Gauss elimination." },
+                { "marks": 3, "difficulty": "hard",   "question": "Find eigenvalues and eigenvectors of A = [[2,1],[1,2]]." },
+                { "marks": 5, "difficulty": "easy",   "question": "State and prove Cayley-Hamilton theorem. Verify it for A = [[1,2],[3,4]]." },
+                { "marks": 5, "difficulty": "medium", "question": "Reduce the matrix to normal form and find its rank: A = [[1,2,3,0],[2,4,3,2],[3,2,1,3],[6,8,7,5]]." },
+                { "marks": 5, "difficulty": "hard",   "question": "Find the matrix A^8 using Cayley-Hamilton theorem for A = [[1,1],[0,1]]." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Differential Calculus",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "State Rolle's theorem and its geometric interpretation." },
+                { "marks": 2, "difficulty": "medium", "question": "Find nth derivative of y = e^(ax) sin(bx)." },
+                { "marks": 2, "difficulty": "hard",   "question": "State and explain Leibniz's theorem for the nth derivative of a product." },
+                { "marks": 3, "difficulty": "easy",   "question": "Verify Rolle's theorem for f(x) = x^2 - 4x + 3 on [1,3]." },
+                { "marks": 3, "difficulty": "medium", "question": "Find nth derivative of y = x^3 * e^(2x)." },
+                { "marks": 3, "difficulty": "hard",   "question": "If y = (sin⁻¹x)^2, prove that (1-x^2)y₂ - xy₁ = 2." },
+                { "marks": 5, "difficulty": "easy",   "question": "State and prove Lagrange's Mean Value Theorem. Verify for f(x) = x^3 on [1,3]." },
+                { "marks": 5, "difficulty": "medium", "question": "Using Leibniz's theorem find the nth derivative of y = x^2 e^(3x) sin(x)." },
+                { "marks": 5, "difficulty": "hard",   "question": "If y = e^(m sin⁻¹x), prove that (1-x^2)y_{n+2} - (2n+1)x y_{n+1} - (n^2 + m^2)y_n = 0." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Partial Differentiation and Applications",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define partial derivatives and give a geometric interpretation." },
+                { "marks": 2, "difficulty": "medium", "question": "If u = x^3 + y^3 + 3xy, find ∂u/∂x and ∂u/∂y." },
+                { "marks": 2, "difficulty": "hard",   "question": "State Euler's theorem for homogeneous functions of two variables." },
+                { "marks": 3, "difficulty": "easy",   "question": "Verify Euler's theorem for u = x^3 + y^3 + z^3 - 3xyz." },
+                { "marks": 3, "difficulty": "medium", "question": "Find the maxima and minima of f(x,y) = x^3 + y^3 - 3axy." },
+                { "marks": 3, "difficulty": "hard",   "question": "If u = f(x/y, y/z), prove that x(∂u/∂x) + y(∂u/∂y) + z(∂u/∂z) = 0." },
+                { "marks": 5, "difficulty": "easy",   "question": "State and prove Euler's theorem for homogeneous functions and apply it to u = (x^4 + y^4)/(x+y)." },
+                { "marks": 5, "difficulty": "medium", "question": "Find the extreme values of f(x,y) = x^2 + y^2 + 6x + 12 subject to x + y = 10 using Lagrange's multiplier." },
+                { "marks": 5, "difficulty": "hard",   "question": "If u = log[(x^3+y^3+z^3)/(x+y+z)], show that x(∂u/∂x)+y(∂u/∂y)+z(∂u/∂z) = 2." }
+              ]
+            },
+            {
+              "module_no": 4,
+              "module_name": "Integral Calculus",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Evaluate ∫₀^1 x^3(1-x)^2 dx using Beta function." },
+                { "marks": 2, "difficulty": "medium", "question": "State the relationship between Gamma and Beta functions." },
+                { "marks": 2, "difficulty": "hard",   "question": "Evaluate ∫₀^∞ x^4 e^(-x) dx using Gamma function." },
+                { "marks": 3, "difficulty": "easy",   "question": "Find the area enclosed between the parabola y^2 = 4x and the line y = x." },
+                { "marks": 3, "difficulty": "medium", "question": "Evaluate ∫∫ x y dA over the region bounded by y = x and y = x^2." },
+                { "marks": 3, "difficulty": "hard",   "question": "Change the order of integration and evaluate ∫₀^1 ∫_y^1 (e^x/x) dx dy." },
+                { "marks": 5, "difficulty": "easy",   "question": "Find the volume of the solid bounded by z = x^2 + y^2 and z = 4 using double integration." },
+                { "marks": 5, "difficulty": "medium", "question": "Evaluate ∫₀^∞ ∫₀^∞ e^(-(x^2+y^2)) dx dy by converting to polar coordinates." },
+                { "marks": 5, "difficulty": "hard",   "question": "Find the volume common to the cylinders x^2 + y^2 = a^2 and x^2 + z^2 = a^2 using triple integration." }
+              ]
+            },
+            {
+              "module_no": 5,
+              "module_name": "Ordinary Differential Equations",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Solve the differential equation dy/dx = (x+y)/(x-y)." },
+                { "marks": 2, "difficulty": "medium", "question": "Solve: (D^2 + 4D + 4)y = 0." },
+                { "marks": 2, "difficulty": "hard",   "question": "Find the particular integral of (D^2 + 1)y = sin(x)." },
+                { "marks": 3, "difficulty": "easy",   "question": "Solve the linear ODE: dy/dx + y cot x = 2 cos x." },
+                { "marks": 3, "difficulty": "medium", "question": "Solve (D^2 - 3D + 2)y = e^x + sin(2x)." },
+                { "marks": 3, "difficulty": "hard",   "question": "Solve by variation of parameters: y'' - 2y' + y = e^x / x." },
+                { "marks": 5, "difficulty": "easy",   "question": "Solve the Bernoulli equation: dy/dx + y = y^3." },
+                { "marks": 5, "difficulty": "medium", "question": "Solve (D^2 + 4)y = cos 2x + sin 2x using operator method." },
+                { "marks": 5, "difficulty": "hard",   "question": "Solve using method of variation of parameters: y'' + y = sec x." }
+              ]
+            },
+            {
+              "module_no": 6,
+              "module_name": "Numerical Methods",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "State Newton-Raphson method and write its iterative formula." },
+                { "marks": 2, "difficulty": "medium", "question": "Find a root of x^3 - x - 1 = 0 using Bisection method (two iterations)." },
+                { "marks": 2, "difficulty": "hard",   "question": "State the condition for convergence of Newton-Raphson method." },
+                { "marks": 3, "difficulty": "easy",   "question": "Apply Newton-Raphson method to find √5 correct to three decimal places." },
+                { "marks": 3, "difficulty": "medium", "question": "Using Trapezoidal rule, evaluate ∫₀^1 1/(1+x^2) dx with h = 0.25." },
+                { "marks": 3, "difficulty": "hard",   "question": "Solve dy/dx = x + y, y(0) = 1 using Euler's method for x = 0.1, 0.2." },
+                { "marks": 5, "difficulty": "easy",   "question": "Find the root of f(x) = x^3 - 2x - 5 using Newton-Raphson method correct to 4 decimal places." },
+                { "marks": 5, "difficulty": "medium", "question": "Evaluate ∫₀^6 1/(1+x^2) dx using Simpson's 1/3 rule with 6 equal intervals." },
+                { "marks": 5, "difficulty": "hard",   "question": "Apply Runge-Kutta method of 4th order to solve dy/dx = (y-x)/(y+x), y(0)=1 at x=0.2." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Applied Physics",
+          "subject_code": "AP",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Interference and Diffraction",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "State the conditions for constructive and destructive interference of light." },
+                { "marks": 2, "difficulty": "medium", "question": "What is diffraction? Distinguish between Fresnel and Fraunhofer diffraction." },
+                { "marks": 2, "difficulty": "hard",   "question": "Derive the condition for bright fringes in Newton's rings experiment." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the formation of Newton's rings and obtain an expression for fringe width." },
+                { "marks": 3, "difficulty": "medium", "question": "Explain single slit diffraction and derive condition for minima." },
+                { "marks": 3, "difficulty": "hard",   "question": "Derive the expression for resolving power of a diffraction grating." },
+                { "marks": 5, "difficulty": "easy",   "question": "Describe the YDSE experiment and derive an expression for fringe width." },
+                { "marks": 5, "difficulty": "medium", "question": "Explain the theory of Newton's rings and how to determine wavelength of light." },
+                { "marks": 5, "difficulty": "hard",   "question": "Obtain the expression for intensity distribution due to single slit diffraction and plot the pattern." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Laser and Fiber Optics",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "What is population inversion? Why is it necessary for laser action?" },
+                { "marks": 2, "difficulty": "medium", "question": "Define numerical aperture and acceptance angle of an optical fiber." },
+                { "marks": 2, "difficulty": "hard",   "question": "Distinguish between step-index and graded-index optical fibers." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the construction and working of He-Ne laser." },
+                { "marks": 3, "difficulty": "medium", "question": "Derive an expression for numerical aperture of an optical fiber." },
+                { "marks": 3, "difficulty": "hard",   "question": "Explain losses in optical fibers and mention methods to minimize them." },
+                { "marks": 5, "difficulty": "easy",   "question": "Describe the principle, construction and working of Ruby laser with energy level diagram." },
+                { "marks": 5, "difficulty": "medium", "question": "Explain the propagation of light in optical fibers. Describe step-index and graded-index fibers." },
+                { "marks": 5, "difficulty": "hard",   "question": "Derive the expression for numerical aperture in terms of refractive indices and state applications of optical fiber in communication." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Quantum Mechanics",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "State de Broglie hypothesis and write the formula for matter waves." },
+                { "marks": 2, "difficulty": "medium", "question": "State Heisenberg's uncertainty principle and give its physical significance." },
+                { "marks": 2, "difficulty": "hard",   "question": "Write the time-independent Schrödinger wave equation for a particle." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the Davisson-Germer experiment confirming de Broglie's hypothesis." },
+                { "marks": 3, "difficulty": "medium", "question": "Apply uncertainty principle to prove that electrons cannot exist inside the nucleus." },
+                { "marks": 3, "difficulty": "hard",   "question": "Obtain an expression for energy of a particle in a 1D box (particle in a box problem)." },
+                { "marks": 5, "difficulty": "easy",   "question": "Derive de Broglie wavelength and discuss experimental verification." },
+                { "marks": 5, "difficulty": "medium", "question": "Derive the expression for energy eigenvalues and eigenfunctions of a particle confined in a 1D infinite potential well." },
+                { "marks": 5, "difficulty": "hard",   "question": "Set up and solve the Schrödinger equation for a particle in a 3D box and obtain degeneracy." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Applied Chemistry",
+          "subject_code": "AC",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Water Technology",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define hardness of water and its types." },
+                { "marks": 2, "difficulty": "medium", "question": "What is boiler scale? How does it affect boiler efficiency?" },
+                { "marks": 2, "difficulty": "hard",   "question": "What is priming and foaming? How can they be prevented?" },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the lime-soda process of water softening." },
+                { "marks": 3, "difficulty": "medium", "question": "Explain internal treatment of boiler water using phosphate conditioning and calgon treatment." },
+                { "marks": 3, "difficulty": "hard",   "question": "Describe the reverse osmosis process for water purification with a diagram." },
+                { "marks": 5, "difficulty": "easy",   "question": "Explain the Zeolite process of water softening. Give its advantages, disadvantages and reactions." },
+                { "marks": 5, "difficulty": "medium", "question": "A sample of water contains following impurities per litre: Ca(HCO3)2=16.2mg, MgCl2=9.5mg, CaSO4=13.6mg. Calculate temporary and permanent hardness in ppm." },
+                { "marks": 5, "difficulty": "hard",   "question": "Describe ion exchange resin method of demineralization of water. Explain regeneration of resins." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Corrosion and Its Prevention",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define corrosion and give two factors affecting the rate of corrosion." },
+                { "marks": 2, "difficulty": "medium", "question": "Explain the electrochemical theory of corrosion with an example." },
+                { "marks": 2, "difficulty": "hard",   "question": "What is galvanic corrosion? Explain with an example." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain dry corrosion and wet corrosion with examples." },
+                { "marks": 3, "difficulty": "medium", "question": "Explain cathodic protection and anodic protection as methods of corrosion prevention." },
+                { "marks": 3, "difficulty": "hard",   "question": "What are corrosion inhibitors? Classify them and give examples." },
+                { "marks": 5, "difficulty": "easy",   "question": "Explain the mechanism of electrochemical corrosion in neutral medium (oxygen absorption type)." },
+                { "marks": 5, "difficulty": "medium", "question": "Explain different methods of surface coating for corrosion prevention. Describe hot dipping and galvanizing." },
+                { "marks": 5, "difficulty": "hard",   "question": "What is passivation? Explain stress corrosion and intergranular corrosion with mechanisms." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Fuels and Combustion",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define calorific value and distinguish between HCV and LCV." },
+                { "marks": 2, "difficulty": "medium", "question": "What is proximate analysis of coal? What information does it give?" },
+                { "marks": 2, "difficulty": "hard",   "question": "What is ultimate analysis of coal? List the elements determined." },
+                { "marks": 3, "difficulty": "easy",   "question": "What are petroleum products? Give fractions obtained from fractional distillation of petroleum." },
+                { "marks": 3, "difficulty": "medium", "question": "Explain the Bomb calorimeter method for determination of calorific value of solid fuel." },
+                { "marks": 3, "difficulty": "hard",   "question": "Calculate the theoretical quantity of air required for combustion of C2H6. (Given: C=12, H=1, O=16)." },
+                { "marks": 5, "difficulty": "easy",   "question": "Explain manufacture of synthetic petrol by Fischer-Tropsch process." },
+                { "marks": 5, "difficulty": "medium", "question": "The ultimate analysis of coal gives: C=85%, H=5%, N=2%, S=1%, O=5%, Ash=2%. Calculate the theoretical mass of air required per kg of coal burned." },
+                { "marks": 5, "difficulty": "hard",   "question": "Write a detailed note on CNG, LPG, and biogas as alternative fuels. Compare their properties." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Engineering Mechanics",
+          "subject_code": "EM",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Resultant of Force Systems",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "State and explain Lami's theorem." },
+                { "marks": 2, "difficulty": "medium", "question": "Find the resultant of two concurrent forces 10N and 15N acting at 60° to each other." },
+                { "marks": 2, "difficulty": "hard",   "question": "Define couple. Prove that a couple can be replaced by another couple anywhere in its plane." },
+                { "marks": 3, "difficulty": "easy",   "question": "State and explain the principle of transmissibility and parallelogram law of forces." },
+                { "marks": 3, "difficulty": "medium", "question": "Resolve a 100N force into two components along x and y axes making 30° with x-axis." },
+                { "marks": 3, "difficulty": "hard",   "question": "Find the resultant of a system of coplanar concurrent forces: F1=10N at 0°, F2=20N at 60°, F3=15N at 150°." },
+                { "marks": 5, "difficulty": "easy",   "question": "State and prove Varignon's theorem of moments." },
+                { "marks": 5, "difficulty": "medium", "question": "Find the resultant of a system of parallel forces: 20N↑ at x=1m, 30N↓ at x=3m, 40N↑ at x=5m." },
+                { "marks": 5, "difficulty": "hard",   "question": "Reduce the force system to a force and couple at A. Find the position of resultant if forces are: 50N right at A, 80N up at B (AB=4m), 60N left at C (AC=7m)." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Equilibrium of Force Systems",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "State the conditions of equilibrium of a coplanar concurrent force system." },
+                { "marks": 2, "difficulty": "medium", "question": "A body of 200N is hung by two strings making 30° and 45° with vertical. Find tension in each string." },
+                { "marks": 2, "difficulty": "hard",   "question": "Define free body diagram. Why is it important in solving equilibrium problems?" },
+                { "marks": 3, "difficulty": "easy",   "question": "State the six conditions of equilibrium of a general 3D force system." },
+                { "marks": 3, "difficulty": "medium", "question": "A beam AB of length 6m is hinged at A and rests on a roller at B. It carries 20kN at C (AC=2m) and 15kN at D (AD=4m). Find support reactions." },
+                { "marks": 3, "difficulty": "hard",   "question": "A ladder AB of length 5m and weight 200N rests against a smooth wall at B and rough floor at A with coefficient of friction 0.4. Find the angle the ladder can safely make with floor." },
+                { "marks": 5, "difficulty": "easy",   "question": "A simply supported beam of span 8m carries a UDL of 10kN/m over the entire span and a point load of 40kN at midspan. Determine support reactions." },
+                { "marks": 5, "difficulty": "medium", "question": "Determine the forces in the members of the given pin-jointed truss by method of joints." },
+                { "marks": 5, "difficulty": "hard",   "question": "A bar AB of length 4m and weight 300N is hinged at A and supported by a cable BC at B making 60° with horizontal. A load of 500N hangs at B. Find tension in cable and reaction at A." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Centroid and Moment of Inertia",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define centroid and centre of gravity. State the difference between them." },
+                { "marks": 2, "difficulty": "medium", "question": "Find the centroid of a semicircular lamina of radius R from the diameter." },
+                { "marks": 2, "difficulty": "hard",   "question": "State and explain the parallel axis theorem and perpendicular axis theorem." },
+                { "marks": 3, "difficulty": "easy",   "question": "Find the centroid of an L-section 120mm×80mm×10mm (horizontal and vertical legs)." },
+                { "marks": 3, "difficulty": "medium", "question": "Determine moment of inertia of a rectangle b×d about its centroidal axes." },
+                { "marks": 3, "difficulty": "hard",   "question": "Find the MI of a T-section (flange 100×20mm, web 20×80mm) about its centroidal axis." },
+                { "marks": 5, "difficulty": "easy",   "question": "Find centroid of a composite section made of a rectangle 100×80mm with a circular hole of 30mm dia at its centre." },
+                { "marks": 5, "difficulty": "medium", "question": "Find the moment of inertia of an I-section (flange 150×20mm, web 20×120mm) about the centroidal x-x and y-y axes." },
+                { "marks": 5, "difficulty": "hard",   "question": "Determine the centroid and moment of inertia of a composite section: rectangle 200×100mm, with a triangular notch 80mm base and 60mm height removed from the top." }
+              ]
+            },
+            {
+              "module_no": 4,
+              "module_name": "Friction and Belt Drives",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "State the laws of dry friction (Coulomb's laws of friction)." },
+                { "marks": 2, "difficulty": "medium", "question": "A block of 500N rests on a horizontal floor. μ=0.3. Find the force required to just move it." },
+                { "marks": 2, "difficulty": "hard",   "question": "Derive the formula for tension ratio in a flat belt drive." },
+                { "marks": 3, "difficulty": "easy",   "question": "Define angle of friction, angle of repose, and cone of friction." },
+                { "marks": 3, "difficulty": "medium", "question": "A 200N block on a 30° inclined plane has μ=0.25. Find the force parallel to incline needed to just push it up." },
+                { "marks": 3, "difficulty": "hard",   "question": "A flat belt transmits power between pulleys. μ=0.3, angle of lap=150°, tight side=2000N. Find slack side tension and power transmitted at 15m/s." },
+                { "marks": 5, "difficulty": "easy",   "question": "Explain the concept of screw jack. Derive the expression for effort required to raise a load with square threads." },
+                { "marks": 5, "difficulty": "medium", "question": "A ladder 5m long and 250N rests against a smooth vertical wall and on a rough horizontal floor (μ=0.35). Find minimum angle with floor for equilibrium." },
+                { "marks": 5, "difficulty": "hard",   "question": "Derive the expression for torque required to lift a load W with a square threaded screw and show that efficiency = tan(α)/tan(α+φ)." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Basic Electrical & Electronics Engineering",
+          "subject_code": "BEEE",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "DC Circuits",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "State Kirchhoff's Voltage Law and Current Law." },
+                { "marks": 2, "difficulty": "medium", "question": "Find equivalent resistance of 3Ω, 6Ω in parallel, series with 4Ω." },
+                { "marks": 2, "difficulty": "hard",   "question": "State Norton's theorem." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain star-delta transformation for resistive networks." },
+                { "marks": 3, "difficulty": "medium", "question": "Using mesh analysis, find currents in each branch of a circuit with two loops and two EMF sources." },
+                { "marks": 3, "difficulty": "hard",   "question": "Apply Thevenin's theorem to find current through 5Ω resistor in a DC circuit." },
+                { "marks": 5, "difficulty": "easy",   "question": "State and explain Superposition theorem with a suitable example." },
+                { "marks": 5, "difficulty": "medium", "question": "Find Thevenin's equivalent circuit across terminals AB for a given network with two sources." },
+                { "marks": 5, "difficulty": "hard",   "question": "Using Norton's theorem determine current through load RL=10Ω in a given DC network." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Semiconductor Devices and Applications",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define a p-n junction diode and explain its forward and reverse bias operation." },
+                { "marks": 2, "difficulty": "medium", "question": "Explain the working of a Zener diode as voltage regulator." },
+                { "marks": 2, "difficulty": "hard",   "question": "What is the difference between BJT and FET? State applications of each." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the operation of a half-wave rectifier with waveforms and derive its efficiency." },
+                { "marks": 3, "difficulty": "medium", "question": "Explain a full-wave bridge rectifier. Derive expressions for average output voltage and ripple factor." },
+                { "marks": 3, "difficulty": "hard",   "question": "Explain common-emitter configuration of a BJT. Draw input and output characteristics." },
+                { "marks": 5, "difficulty": "easy",   "question": "Explain the structure, working and VI characteristics of a p-n junction diode." },
+                { "marks": 5, "difficulty": "medium", "question": "Describe the working of a full-wave rectifier with capacitor filter. Draw output waveforms and derive ripple factor." },
+                { "marks": 5, "difficulty": "hard",   "question": "Explain the common emitter transistor amplifier circuit. Derive expressions for voltage gain and current gain." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Professional and Communication Ethics",
+          "subject_code": "PCE",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Engineering Ethics and Professionalism",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define engineering ethics. Why is ethics important for engineers?" },
+                { "marks": 2, "difficulty": "medium", "question": "What is a code of ethics? Mention any two codes of the Institution of Engineers (India)." },
+                { "marks": 2, "difficulty": "hard",   "question": "Explain the concept of moral dilemma in professional practice with an example." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the responsibilities of a professional engineer towards society and the environment." },
+                { "marks": 3, "difficulty": "medium", "question": "Describe the role of professional engineering societies in maintaining ethical standards." },
+                { "marks": 3, "difficulty": "hard",   "question": "Discuss the Bhopal gas tragedy as a case study in engineering ethics and identify the ethical failures." },
+                { "marks": 5, "difficulty": "easy",   "question": "Explain the various theories of engineering ethics: utilitarian, deontological and virtue ethics with examples." },
+                { "marks": 5, "difficulty": "medium", "question": "Discuss the concept of whistleblowing in engineering with suitable examples. What are the risks involved?" },
+                { "marks": 5, "difficulty": "hard",   "question": "Analyse the Challenger space shuttle disaster from an engineering ethics perspective. What lessons can engineers learn?" }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Technical Communication",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "What is technical communication? Distinguish it from general communication." },
+                { "marks": 2, "difficulty": "medium", "question": "List the characteristics of a good technical report." },
+                { "marks": 2, "difficulty": "hard",   "question": "What is active and passive voice? Give examples of converting active to passive in technical writing." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the different types of technical reports and their formats." },
+                { "marks": 3, "difficulty": "medium", "question": "Describe the structure of a formal technical report with examples for each section." },
+                { "marks": 3, "difficulty": "hard",   "question": "Write a short technical report on the failure investigation of a bridge with appropriate sections." },
+                { "marks": 5, "difficulty": "easy",   "question": "Describe the principles of effective technical writing. What are the 7 Cs of communication?" },
+                { "marks": 5, "difficulty": "medium", "question": "Explain the process of writing a technical proposal. Give the format and important sections to include." },
+                { "marks": 5, "difficulty": "hard",   "question": "Write a technical report on a site visit to a construction project covering observations, findings, and recommendations." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "semester": 1,
+      "scheme": "R-19 (REV-2019 C Scheme)",
+      "subjects": [
+        {
+          "subject_name": "Engineering Mathematics - I",
+          "subject_code": "M1",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Complex Numbers and Hyperbolic Functions",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Express (3+4i)/(2-3i) in the form a+ib." },
+                { "marks": 2, "difficulty": "medium", "question": "State De Moivre's theorem and express cos(3θ) in terms of cos(θ)." },
+                { "marks": 2, "difficulty": "hard",   "question": "Prove that (1+cosθ+i sinθ)^n + (1+cosθ-i sinθ)^n = 2^(n+1) cos^n(θ/2) cos(nθ/2)." },
+                { "marks": 3, "difficulty": "easy",   "question": "Find all values of (1+i)^(1/3) using De Moivre's theorem." },
+                { "marks": 3, "difficulty": "medium", "question": "Separate sinh(x+iy) into real and imaginary parts." },
+                { "marks": 3, "difficulty": "hard",   "question": "If sin(A+iB) = x+iy, prove that x^2/sin^2A - y^2/cos^2A = 1." },
+                { "marks": 5, "difficulty": "easy",   "question": "Using De Moivre's theorem expand sin(5θ) in terms of sin(θ)." },
+                { "marks": 5, "difficulty": "medium", "question": "Sum the series: cosα + cos(α+β) + cos(α+2β) + ... to n terms using complex numbers." },
+                { "marks": 5, "difficulty": "hard",   "question": "If tan(A+iB) = x + iy, prove that x^2 + y^2 + 2x cot(2A) = 1 and tan(2B) = 2y/(1-x^2-y^2)." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Differential Calculus - I",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "State Maclaurin's theorem and write the expansion of e^x." },
+                { "marks": 2, "difficulty": "medium", "question": "Evaluate lim(x→0) (e^x - 1 - x)/x^2 using L'Hopital's rule." },
+                { "marks": 2, "difficulty": "hard",   "question": "Find the curvature of y = x^2 at origin." },
+                { "marks": 3, "difficulty": "easy",   "question": "Expand sin(x) using Maclaurin's series up to x^5." },
+                { "marks": 3, "difficulty": "medium", "question": "Find the radius of curvature of x = a cos^3t, y = a sin^3t at t = π/4." },
+                { "marks": 3, "difficulty": "hard",   "question": "Expand log(1+x) using Taylor's theorem and find the value of log(1.1) correct to 3 decimals." },
+                { "marks": 5, "difficulty": "easy",   "question": "Expand e^x cos(x) using Maclaurin's series up to x^4." },
+                { "marks": 5, "difficulty": "medium", "question": "Find the envelope of the family of straight lines y = mx + a/m where m is parameter." },
+                { "marks": 5, "difficulty": "hard",   "question": "Trace the curve r = a(1 + cosθ) (Cardioid) and find the area enclosed by it." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Engineering Physics - I",
+          "subject_code": "PHY1",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Crystallography",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define unit cell. What are Bravais lattices?" },
+                { "marks": 2, "difficulty": "medium", "question": "Calculate atomic radius and packing fraction for BCC structure." },
+                { "marks": 2, "difficulty": "hard",   "question": "State and derive Bragg's law of X-ray diffraction." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the crystal structure of NaCl with a neat diagram." },
+                { "marks": 3, "difficulty": "medium", "question": "Derive packing efficiency for FCC structure." },
+                { "marks": 3, "difficulty": "hard",   "question": "Describe the powder diffraction method (Debye-Scherrer method) for crystal structure analysis." },
+                { "marks": 5, "difficulty": "easy",   "question": "Explain different types of crystal systems and Bravais lattices with diagrams." },
+                { "marks": 5, "difficulty": "medium", "question": "Describe the Laue's method of X-ray diffraction. Explain how crystal structure is determined." },
+                { "marks": 5, "difficulty": "hard",   "question": "Derive the structure factor for BCC and FCC structures. Explain missing reflections." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Band Theory of Solids",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "What is a Fermi level? How does it change with temperature in a conductor?" },
+                { "marks": 2, "difficulty": "medium", "question": "Distinguish between conductor, semiconductor and insulator on the basis of band theory." },
+                { "marks": 2, "difficulty": "hard",   "question": "Explain the concept of effective mass of an electron in a solid." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain intrinsic and extrinsic semiconductors. Distinguish between n-type and p-type." },
+                { "marks": 3, "difficulty": "medium", "question": "Derive an expression for Fermi energy of a free electron gas at T=0K." },
+                { "marks": 3, "difficulty": "hard",   "question": "Using Kronig-Penney model, explain the formation of allowed and forbidden bands." },
+                { "marks": 5, "difficulty": "easy",   "question": "Explain the band theory of solids and classify materials as conductors, semiconductors and insulators." },
+                { "marks": 5, "difficulty": "medium", "question": "Derive the expression for free electron density in a semiconductor using Fermi-Dirac statistics." },
+                { "marks": 5, "difficulty": "hard",   "question": "Derive expression for carrier concentration in intrinsic semiconductor and calculate Fermi level position." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Engineering Chemistry - I",
+          "subject_code": "CHEM1",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Electrochemistry",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define electrode potential and standard electrode potential." },
+                { "marks": 2, "difficulty": "medium", "question": "Write the Nernst equation and explain each term." },
+                { "marks": 2, "difficulty": "hard",   "question": "What is concentration cell? Give an example and write its cell notation." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the working of a Calomel electrode with a neat diagram." },
+                { "marks": 3, "difficulty": "medium", "question": "Calculate EMF of the cell Zn|ZnSO4(0.01M)||CuSO4(0.1M)|Cu at 25°C (E°cell=1.10V)." },
+                { "marks": 3, "difficulty": "hard",   "question": "Explain Glass electrode and its use in pH measurement." },
+                { "marks": 5, "difficulty": "easy",   "question": "Explain the construction and working of a Daniel cell. Derive expression for EMF using Nernst equation." },
+                { "marks": 5, "difficulty": "medium", "question": "What is potentiometric titration? Describe determination of pH using glass electrode and potentiometer." },
+                { "marks": 5, "difficulty": "hard",   "question": "Explain the construction, working and applications of a Lithium-ion battery. Compare with lead acid battery." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Polymers",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define polymer and monomer. Give examples of addition and condensation polymers." },
+                { "marks": 2, "difficulty": "medium", "question": "What is degree of polymerization and number average molecular weight?" },
+                { "marks": 2, "difficulty": "hard",   "question": "What are conducting polymers? Give two examples." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain addition polymerization with mechanism using free radical method." },
+                { "marks": 3, "difficulty": "medium", "question": "Explain the preparation, properties and uses of Nylon 6,6." },
+                { "marks": 3, "difficulty": "hard",   "question": "Write a note on biodegradable polymers with examples and their significance." },
+                { "marks": 5, "difficulty": "easy",   "question": "Describe the preparation, properties and uses of PVC, LDPE and HDPE." },
+                { "marks": 5, "difficulty": "medium", "question": "Explain the preparation and properties of epoxy resins and their applications in civil engineering." },
+                { "marks": 5, "difficulty": "hard",   "question": "Write a note on glass-reinforced plastics (GRP) and carbon fiber composites. Discuss their applications in construction." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Engineering Mechanics",
+          "subject_code": "EM",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Resultant of Coplanar Force Systems",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "State the parallelogram law of forces and the triangle law of forces." },
+                { "marks": 2, "difficulty": "medium", "question": "Three concurrent forces 10N, 20N and 30N act along x, y, and at 120° to x-axis respectively. Find resultant." },
+                { "marks": 2, "difficulty": "hard",   "question": "Reduce a force system to a wrench. Define pitch of wrench." },
+                { "marks": 3, "difficulty": "easy",   "question": "A force of 100N acts at a point. Resolve it into two components making 30° and 60° with the force." },
+                { "marks": 3, "difficulty": "medium", "question": "Find the resultant of forces: 30N at 0°, 40N at 90°, 20N at 135°, 50N at 270°." },
+                { "marks": 3, "difficulty": "hard",   "question": "Four forces 10N, 20N, 30N, 40N act along sides of a square of side 2m. Find resultant and its position." },
+                { "marks": 5, "difficulty": "easy",   "question": "State and prove Varignon's theorem. Use it to find moment of 100N force about point O." },
+                { "marks": 5, "difficulty": "medium", "question": "Reduce the force system to a single force: F1=50N→ at (0,0), F2=30N↑ at (4,0), F3=20N← at (4,3)." },
+                { "marks": 5, "difficulty": "hard",   "question": "Determine the resultant of a non-coplanar force system with forces acting along coordinate axes." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Basic Electrical Engineering",
+          "subject_code": "BEE",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "AC Fundamentals",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define RMS value and average value of alternating current." },
+                { "marks": 2, "difficulty": "medium", "question": "Find RMS value of v = 100 sin(314t + 30°). Also find frequency and phase angle." },
+                { "marks": 2, "difficulty": "hard",   "question": "Prove that average power in a purely inductive circuit is zero." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the concept of power factor. What is the effect of low power factor?" },
+                { "marks": 3, "difficulty": "medium", "question": "A series RLC circuit has R=10Ω, L=0.1H, C=100μF. Find impedance and current for v=100sin(100t)." },
+                { "marks": 3, "difficulty": "hard",   "question": "Derive the condition for resonance in series RLC circuit and find resonant frequency, Q-factor and bandwidth." },
+                { "marks": 5, "difficulty": "easy",   "question": "Explain phasor representation of AC quantities. Draw phasor diagram for R-L-C series circuit." },
+                { "marks": 5, "difficulty": "medium", "question": "A 50Ω resistance is connected in series with a 0.1H inductor and 200μF capacitor. Supply voltage is 230V, 50Hz. Find current, voltage across each element, power factor and power." },
+                { "marks": 5, "difficulty": "hard",   "question": "Derive expressions for real, reactive and apparent power in AC circuits. Explain power triangle." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "semester": 2,
+      "scheme": "NEP-2020",
+      "subjects": [
+        {
+          "subject_name": "Applied Mathematics - II",
+          "subject_code": "AM-II",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Laplace Transform",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "State the definition of Laplace transform. Find L{t^n}." },
+                { "marks": 2, "difficulty": "medium", "question": "Find L{e^(at) sin(bt)} using first shifting theorem." },
+                { "marks": 2, "difficulty": "hard",   "question": "State and prove the initial value theorem for Laplace transform." },
+                { "marks": 3, "difficulty": "easy",   "question": "Find the Laplace transform of f(t) = t^2 e^(-3t) + 4 sin(2t)." },
+                { "marks": 3, "difficulty": "medium", "question": "Using Laplace transform, solve y'' + 3y' + 2y = e^(-t), y(0)=0, y'(0)=1." },
+                { "marks": 3, "difficulty": "hard",   "question": "Find L⁻¹{s/[(s^2+1)(s^2+4)]} using partial fractions." },
+                { "marks": 5, "difficulty": "easy",   "question": "Find the inverse Laplace transform of (3s+7)/(s^2-2s-3)." },
+                { "marks": 5, "difficulty": "medium", "question": "Using Laplace transform solve: y'' - 4y' + 4y = t e^(2t), y(0)=0, y'(0)=0." },
+                { "marks": 5, "difficulty": "hard",   "question": "Evaluate ∫₀^∞ (e^(-t) sin t)/t dt using Laplace transform." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Fourier Series",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "State Dirichlet's conditions for existence of Fourier series." },
+                { "marks": 2, "difficulty": "medium", "question": "Find the Fourier coefficient a₀ for f(x) = x in (-π, π)." },
+                { "marks": 2, "difficulty": "hard",   "question": "State and prove Parseval's identity for Fourier series." },
+                { "marks": 3, "difficulty": "easy",   "question": "Obtain Fourier series for f(x) = x in (0, 2π)." },
+                { "marks": 3, "difficulty": "medium", "question": "Find the Fourier series for f(x) = |x| in (-π, π) and hence find sum of 1 + 1/9 + 1/25 + ..." },
+                { "marks": 3, "difficulty": "hard",   "question": "Expand f(x) = x(π-x) as a Fourier sine series in (0, π). Deduce the value of π^3/32." },
+                { "marks": 5, "difficulty": "easy",   "question": "Find the Fourier series for f(x) = x^2 in (-π, π) and deduce π^2/6 = 1 + 1/4 + 1/9 + ..." },
+                { "marks": 5, "difficulty": "medium", "question": "Find half-range cosine series for f(x) = x(2-x) in (0,2). Deduce the value of π^2/8." },
+                { "marks": 5, "difficulty": "hard",   "question": "Find the Fourier series for f(x) = π-x in (0,2π) and hence sum the series 1 - 1/3 + 1/5 - ..." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Vector Calculus",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define gradient of a scalar field and state its physical significance." },
+                { "marks": 2, "difficulty": "medium", "question": "Find div F where F = x^2 i + y^2 j + z^2 k." },
+                { "marks": 2, "difficulty": "hard",   "question": "State Green's theorem in the plane and mention conditions for its validity." },
+                { "marks": 3, "difficulty": "easy",   "question": "Find curl of F = (x^2 - y^2)i + 2xy j and check if it is irrotational." },
+                { "marks": 3, "difficulty": "medium", "question": "Evaluate ∫∫_S F⃗ · dS where F = xi + yj + zk and S is the surface of the cube 0≤x,y,z≤1." },
+                { "marks": 3, "difficulty": "hard",   "question": "Apply Stokes' theorem to evaluate ∮ F⃗ · dr⃗ for F = (y-z)i + (z-x)j + (x-y)k over a triangle." },
+                { "marks": 5, "difficulty": "easy",   "question": "State and prove Gauss Divergence theorem. Verify for F = x^2 i + y^2 j + z^2 k over unit cube." },
+                { "marks": 5, "difficulty": "medium", "question": "State Stokes' theorem. Verify it for F = (x^2+y^2)i - 2xyj taken over rectangle (0,0), (a,0), (a,b), (0,b)." },
+                { "marks": 5, "difficulty": "hard",   "question": "Using Green's theorem, find the area of the ellipse x^2/a^2 + y^2/b^2 = 1." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Applied Physics - II",
+          "subject_code": "AP-II",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Superconductivity and Nanotechnology",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define superconductivity and mention critical temperature." },
+                { "marks": 2, "difficulty": "medium", "question": "Explain Meissner effect with a neat diagram." },
+                { "marks": 2, "difficulty": "hard",   "question": "What is BCS theory? State the assumptions of this theory." },
+                { "marks": 3, "difficulty": "easy",   "question": "Distinguish between Type-I and Type-II superconductors with examples." },
+                { "marks": 3, "difficulty": "medium", "question": "Explain SQUID and its working principle. State its applications." },
+                { "marks": 3, "difficulty": "hard",   "question": "Describe the applications of superconductors in Maglev trains and MRI machines." },
+                { "marks": 5, "difficulty": "easy",   "question": "Explain the properties of nanomaterials and compare them with bulk materials. Give applications." },
+                { "marks": 5, "difficulty": "medium", "question": "Explain carbon nanotubes: structure, properties, types and applications in engineering." },
+                { "marks": 5, "difficulty": "hard",   "question": "Explain different synthesis methods of nanomaterials: top-down and bottom-up approaches with examples." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Applied Chemistry - II",
+          "subject_code": "AC-II",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Surface Chemistry and Catalysis",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define adsorption. Distinguish between physisorption and chemisorption." },
+                { "marks": 2, "difficulty": "medium", "question": "State Freundlich adsorption isotherm and its limitations." },
+                { "marks": 2, "difficulty": "hard",   "question": "What is enzyme catalysis? State its characteristics." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain Langmuir adsorption isotherm with derivation." },
+                { "marks": 3, "difficulty": "medium", "question": "Explain the preparation and properties of colloidal solutions by peptization and Bredig's arc method." },
+                { "marks": 3, "difficulty": "hard",   "question": "Explain the mechanism of heterogeneous catalysis. What is promoter and catalyst poison?" },
+                { "marks": 5, "difficulty": "easy",   "question": "Describe properties of colloids: Tyndall effect, Brownian motion, electrophoresis and coagulation." },
+                { "marks": 5, "difficulty": "medium", "question": "Explain preparation, properties and industrial applications of emulsions. What are emulsifying agents?" },
+                { "marks": 5, "difficulty": "hard",   "question": "Explain Haber's process for manufacture of ammonia with catalyst, temperature and pressure conditions. Discuss industrial importance." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Engineering Drawing",
+          "subject_code": "ED",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Projections of Points and Lines",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "What are the different quadrants in first and third angle projection?" },
+                { "marks": 2, "difficulty": "medium", "question": "Draw the projection of a point A situated 30mm above HP and 20mm in front of VP." },
+                { "marks": 2, "difficulty": "hard",   "question": "A line AB has one end A 20mm above HP and 30mm in front of VP, end B is 50mm above HP and 60mm in front of VP. Draw projections." },
+                { "marks": 3, "difficulty": "easy",   "question": "A line of 60mm true length is inclined at 30° to HP and parallel to VP. Draw its projections." },
+                { "marks": 3, "difficulty": "medium", "question": "A line PQ 70mm long is inclined at 45° to HP and 30° to VP. Draw its projections." },
+                { "marks": 3, "difficulty": "hard",   "question": "A line AB 80mm long is inclined at 30° to HP. Its front view is 60mm long. Find the apparent inclination of the line to VP and draw its projections." },
+                { "marks": 5, "difficulty": "easy",   "question": "Draw projections of a pentagonal prism of base 30mm and axis 60mm resting on its base on HP." },
+                { "marks": 5, "difficulty": "medium", "question": "Draw projections of a cylinder of diameter 50mm and height 70mm resting on HP with its axis inclined at 45° to HP and parallel to VP." },
+                { "marks": 5, "difficulty": "hard",   "question": "Draw the isometric view of a truncated square pyramid with base 40mm, top 25mm and height 50mm." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "semester": 3,
+      "scheme": "R-19 (REV-2019 C Scheme)",
+      "subjects": [
+        {
+          "subject_name": "Engineering Mathematics - III",
+          "subject_code": "M3",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Laplace Transform",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Find L{t^2 + 3t + 2}." },
+                { "marks": 2, "difficulty": "medium", "question": "Find L{e^(-2t) (3cos 4t - 5 sin 4t)}." },
+                { "marks": 2, "difficulty": "hard",   "question": "State and prove the time-shifting property of Laplace Transform." },
+                { "marks": 3, "difficulty": "easy",   "question": "Find L{(cos 2t - cos 3t)/t}." },
+                { "marks": 3, "difficulty": "medium", "question": "Find L⁻¹{(3s-1)/[(s+1)(s-2)^2]}." },
+                { "marks": 3, "difficulty": "hard",   "question": "Using Laplace transform solve: y'' + 5y' + 6y = sin(t), y(0)=0, y'(0)=1." },
+                { "marks": 5, "difficulty": "easy",   "question": "Find the Laplace transform of a periodic function f(t) with period T = 2π/ω, f(t) = sin(ωt)." },
+                { "marks": 5, "difficulty": "medium", "question": "Solve the system of equations using Laplace transform: dx/dt + 2y = e^t, dy/dt - 2x = 1; x(0)=1, y(0)=0." },
+                { "marks": 5, "difficulty": "hard",   "question": "Evaluate ∫₀^∞ t e^(-t) sin t dt using Laplace transform." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Fourier Series",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define even and odd functions. Give one example of each." },
+                { "marks": 2, "difficulty": "medium", "question": "Find Fourier coefficients a₀, aₙ, bₙ for f(x) = x in (-π, π)." },
+                { "marks": 2, "difficulty": "hard",   "question": "State Parseval's theorem for Fourier series and its applications." },
+                { "marks": 3, "difficulty": "easy",   "question": "Obtain the Fourier series for f(x) = π-x in (0, 2π) and hence sum the series 1/1 - 1/3 + 1/5 ..." },
+                { "marks": 3, "difficulty": "medium", "question": "Find half-range Fourier sine series for f(x) = x in (0, π)." },
+                { "marks": 3, "difficulty": "hard",   "question": "Find the Fourier series for f(x) = |sin x| in (-π, π)." },
+                { "marks": 5, "difficulty": "easy",   "question": "Expand f(x) = x^2 in (-π, π) as a Fourier series. Deduce that π^2/12 = 1 - 1/4 + 1/9 - ..." },
+                { "marks": 5, "difficulty": "medium", "question": "Find the Fourier series for f(x) = x - x^2 in (0,1) as a half-range sine series." },
+                { "marks": 5, "difficulty": "hard",   "question": "Apply Parseval's identity to Fourier series of f(x)=x to prove π^2/6 = Σ 1/n^2." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Complex Variables",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "State Cauchy-Riemann equations in Cartesian form." },
+                { "marks": 2, "difficulty": "medium", "question": "Show that f(z) = z̄ is not analytic anywhere." },
+                { "marks": 2, "difficulty": "hard",   "question": "State Cauchy's integral formula for nth derivative." },
+                { "marks": 3, "difficulty": "easy",   "question": "Check if f(z) = e^z is analytic and find its derivative." },
+                { "marks": 3, "difficulty": "medium", "question": "Evaluate ∮_C (3z^2 + 7z + 1)/(z - 1) dz where C: |z| = 2." },
+                { "marks": 3, "difficulty": "hard",   "question": "Find the bilinear transformation which maps z=0,1,∞ to w=1,0,∞." },
+                { "marks": 5, "difficulty": "easy",   "question": "Find all singularities and residues of f(z) = (z^2+1)/[(z-1)^2(z+2)]." },
+                { "marks": 5, "difficulty": "medium", "question": "Expand f(z) = 1/[(z^2+1)(z^2+4)] as Laurent series for 1 < |z| < 2." },
+                { "marks": 5, "difficulty": "hard",   "question": "Evaluate ∫₀^∞ dx/(1+x^4) using contour integration." }
+              ]
+            },
+            {
+              "module_no": 4,
+              "module_name": "Z-Transform",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define Z-transform and state its region of convergence." },
+                { "marks": 2, "difficulty": "medium", "question": "Find Z{a^n} for |z| > |a|." },
+                { "marks": 2, "difficulty": "hard",   "question": "State and prove the time-shifting property of Z-transform." },
+                { "marks": 3, "difficulty": "easy",   "question": "Find Z{n^2 a^n}." },
+                { "marks": 3, "difficulty": "medium", "question": "Find Z⁻¹{z/(z-1)(z-2)} using partial fractions." },
+                { "marks": 3, "difficulty": "hard",   "question": "Solve the difference equation u(n+2) - 3u(n+1) + 2u(n) = 0, u(0)=0, u(1)=1 using Z-transform." },
+                { "marks": 5, "difficulty": "easy",   "question": "Find Z{sin(nθ)} and Z{cos(nθ)} from first principles." },
+                { "marks": 5, "difficulty": "medium", "question": "Solve u_{n+2} - 4u_{n+1} + 4u_n = 2^n, u_0 = 0, u_1 = 1 using Z-transform." },
+                { "marks": 5, "difficulty": "hard",   "question": "Find the inverse Z-transform of X(z) = z^2/[(z-1/2)(z-1/3)] using inversion formula." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Mechanics of Solids",
+          "subject_code": "MOS",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Stress and Strain",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define stress and strain. State Hooke's law." },
+                { "marks": 2, "difficulty": "medium", "question": "A steel bar 20mm diameter, 300mm long is subjected to an axial pull of 50kN. E=200GPa. Find stress, strain and elongation." },
+                { "marks": 2, "difficulty": "hard",   "question": "Define principal stresses and principal planes. How are they determined?" },
+                { "marks": 3, "difficulty": "easy",   "question": "Derive the relationship between Young's modulus (E), Poisson's ratio (ν) and Bulk modulus (K)." },
+                { "marks": 3, "difficulty": "medium", "question": "At a point in a stressed body, the stresses are σx=80MPa, σy=40MPa, τxy=30MPa. Find principal stresses and maximum shear stress." },
+                { "marks": 3, "difficulty": "hard",   "question": "Draw Mohr's circle for σx=100MPa, σy=60MPa, τxy=50MPa and determine principal stresses and their planes." },
+                { "marks": 5, "difficulty": "easy",   "question": "A stepped bar of steel (E=200GPa) consists of 3 sections: 300mm long 30mm dia, 200mm long 20mm dia, 100mm long 15mm dia. Axial load 20kN. Find total elongation." },
+                { "marks": 5, "difficulty": "medium", "question": "Derive the expressions for principal stresses and maximum shear stress for a biaxial stress system. Draw Mohr's circle." },
+                { "marks": 5, "difficulty": "hard",   "question": "At a point in a strained material σx=150, σy=50, σz=100, τxy=τyz=τzx=50 MPa. Find principal stresses and principal planes using 3D stress analysis." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Bending of Beams",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "State the Euler-Bernoulli bending equation M/I = σ/y = E/R." },
+                { "marks": 2, "difficulty": "medium", "question": "A rectangular beam 150mm wide and 300mm deep carries a BM of 15kN·m. Find max bending stress." },
+                { "marks": 2, "difficulty": "hard",   "question": "What is section modulus? Why is I-section preferred over rectangular section?" },
+                { "marks": 3, "difficulty": "easy",   "question": "Derive the flexure formula from first principles for a beam in pure bending." },
+                { "marks": 3, "difficulty": "medium", "question": "A T-section beam (flange 100×15mm, web 15×120mm) is subjected to BM of 20kN·m. Find max bending stress." },
+                { "marks": 3, "difficulty": "hard",   "question": "Design a rectangular cross-section for a simply supported beam of 6m span carrying UDL of 10kN/m. Allowable bending stress is 150 MPa (b = d/2)." },
+                { "marks": 5, "difficulty": "easy",   "question": "A simply supported beam of 6m span carries a central point load of 30kN and a UDL of 10kN/m. Determine max BM and draw SFD and BMD." },
+                { "marks": 5, "difficulty": "medium", "question": "A T-section beam (flange 120×20mm, web 20×200mm) is used as simply supported beam of 5m carrying UDL 15kN/m. Find maximum tensile and compressive stresses." },
+                { "marks": 5, "difficulty": "hard",   "question": "Derive the shear stress distribution across an I-section and plot the shear stress diagram. Find ratio of max to mean shear stress." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Deflection of Beams",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "State Macaulay's method for finding deflection in beams. When is it used?" },
+                { "marks": 2, "difficulty": "medium", "question": "Find the slope at free end of a cantilever of length L carrying point load W at free end. (EI constant)" },
+                { "marks": 2, "difficulty": "hard",   "question": "State the moment-area theorems for deflection of beams." },
+                { "marks": 3, "difficulty": "easy",   "question": "Derive the expression for maximum deflection of a simply supported beam carrying UDL." },
+                { "marks": 3, "difficulty": "medium", "question": "Using Macaulay's method find deflection at midspan of a beam AB (L=6m) with point loads of 20kN at 2m and 30kN at 4m from A." },
+                { "marks": 3, "difficulty": "hard",   "question": "Using moment-area method, find the slope and deflection at the free end of a cantilever of length L with a UDL of w per unit length." },
+                { "marks": 5, "difficulty": "easy",   "question": "A simply supported beam of 8m span carries a central load of 40kN. E=200GPa, I=2×10⁻⁴ m⁴. Find slope at supports and deflection at midspan." },
+                { "marks": 5, "difficulty": "medium", "question": "A cantilever beam 3m long carries a point load of 20kN at 1m from fixed end. Find slope and deflection at free end using double integration method." },
+                { "marks": 5, "difficulty": "hard",   "question": "Using Castigliano's theorem find deflection at midspan of a simply supported beam of span L with UDL w per unit run." }
+              ]
+            },
+            {
+              "module_no": 4,
+              "module_name": "Torsion of Shafts",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "State the torsion formula T/J = τ/r = Gθ/L." },
+                { "marks": 2, "difficulty": "medium", "question": "Find the torque that can be safely transmitted by a solid shaft of 60mm diameter if allowable shear stress is 80MPa." },
+                { "marks": 2, "difficulty": "hard",   "question": "Compare solid and hollow shafts for same weight and same maximum shear stress. Which is better?" },
+                { "marks": 3, "difficulty": "easy",   "question": "Derive the torsion equation for a circular shaft from first principles." },
+                { "marks": 3, "difficulty": "medium", "question": "A hollow shaft of outer diameter 80mm and inner diameter 50mm transmits 60kW at 150 rpm. Find max shear stress and angle of twist per metre length." },
+                { "marks": 3, "difficulty": "hard",   "question": "Compare solid and hollow shafts of same material, same length, same weight and same maximum stress in terms of power transmission." },
+                { "marks": 5, "difficulty": "easy",   "question": "A solid circular shaft is to transmit 300kW at 200 rpm. Allowable shear stress is 70MPa. Find the diameter. Also find angle of twist per metre length if G=80GPa." },
+                { "marks": 5, "difficulty": "medium", "question": "A composite shaft consists of a steel tube (60mm OD, 10mm thick) fitted over a brass rod (40mm diameter). If the assembly is twisted by a torque of 1500 N·m, find stresses. G_steel=80GPa, G_brass=40GPa." },
+                { "marks": 5, "difficulty": "hard",   "question": "Derive expression for strain energy stored in a shaft due to torsion. A hollow shaft (D/d=2) transmits 200kW at 120 rpm. Find strain energy stored per unit volume. τ_allow=60MPa, G=80GPa." }
+              ]
+            },
+            {
+              "module_no": 5,
+              "module_name": "Columns and Struts",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "State Euler's formula for buckling load of a column. What are the assumptions?" },
+                { "marks": 2, "difficulty": "medium", "question": "Find the Euler critical load for a column 3m long, hinged at both ends, cross-section 50×100mm. E=200GPa." },
+                { "marks": 2, "difficulty": "hard",   "question": "What is effective length? Give effective length for different end conditions of columns." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the concept of slenderness ratio and its importance in column design." },
+                { "marks": 3, "difficulty": "medium", "question": "A hollow CI column 3m long fixed at both ends carries an axial load. OD=200mm, thickness=20mm. Find Euler's critical load. E=90GPa." },
+                { "marks": 3, "difficulty": "hard",   "question": "Derive Rankine's formula for columns and explain how it accounts for both short and long column behavior." },
+                { "marks": 5, "difficulty": "easy",   "question": "Derive Euler's formula for critical load of a column with both ends pinned. Extend to other end conditions." },
+                { "marks": 5, "difficulty": "medium", "question": "A solid circular column 4m long fixed at one end and hinged at other end, diameter=80mm, E=200GPa. Find Euler load and compare with Rankine's load (σc=320MPa, α=1/7500)." },
+                { "marks": 5, "difficulty": "hard",   "question": "A hollow steel column (OD=100mm, ID=80mm) is 5m long with both ends fixed. Calculate Euler's critical load and check against Rankine's formula. Discuss when each formula is applicable." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Engineering Geology",
+          "subject_code": "EG",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Mineralogy",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define mineral. Mention physical properties used to identify minerals." },
+                { "marks": 2, "difficulty": "medium", "question": "Describe the properties and engineering importance of quartz." },
+                { "marks": 2, "difficulty": "hard",   "question": "What are silicate minerals? Classify them with examples." },
+                { "marks": 3, "difficulty": "easy",   "question": "Describe the physical properties of feldspar group of minerals." },
+                { "marks": 3, "difficulty": "medium", "question": "Explain the engineering significance of pyroxene, amphibole and mica minerals." },
+                { "marks": 3, "difficulty": "hard",   "question": "Describe the clay minerals and their engineering significance in foundation soils." },
+                { "marks": 5, "difficulty": "easy",   "question": "Describe the physical properties and engineering uses of: quartz, feldspar, mica and calcite." },
+                { "marks": 5, "difficulty": "medium", "question": "Explain the classification of silicate minerals. Describe the structure and properties of each group." },
+                { "marks": 5, "difficulty": "hard",   "question": "Describe methods used for identification of minerals in the field. Explain the significance of clay minerals in civil engineering." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Petrology",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Classify rocks on the basis of their origin. Give two examples of each type." },
+                { "marks": 2, "difficulty": "medium", "question": "What is texture of a rock? How does it affect engineering properties?" },
+                { "marks": 2, "difficulty": "hard",   "question": "Distinguish between intrusive and extrusive igneous rocks. Give examples." },
+                { "marks": 3, "difficulty": "easy",   "question": "Describe the engineering properties of granite and its uses in construction." },
+                { "marks": 3, "difficulty": "medium", "question": "Describe the formation, properties and engineering uses of basalt and trap rock." },
+                { "marks": 3, "difficulty": "hard",   "question": "Explain metamorphic rocks with examples. Describe the engineering behavior of marble and quartzite." },
+                { "marks": 5, "difficulty": "easy",   "question": "Classify sedimentary rocks. Describe the engineering properties and uses of sandstone, limestone and shale." },
+                { "marks": 5, "difficulty": "medium", "question": "Explain the formation and engineering properties of metamorphic rocks. Describe properties of schist and slate." },
+                { "marks": 5, "difficulty": "hard",   "question": "Describe the criteria for selection of building stones. Evaluate the suitability of various rocks for use as road aggregates, dam foundation and building stone." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Structural Geology and Geomorphology",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define fold. Classify folds with diagrams." },
+                { "marks": 2, "difficulty": "medium", "question": "What is a fault? Distinguish between normal fault and reverse fault." },
+                { "marks": 2, "difficulty": "hard",   "question": "Define dip, strike and outcrop. How are they measured?" },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the engineering significance of folds and faults in site investigation." },
+                { "marks": 3, "difficulty": "medium", "question": "Describe different types of joints and their engineering significance." },
+                { "marks": 3, "difficulty": "hard",   "question": "Explain the influence of geological structures (faults, folds) on dam and tunnel construction." },
+                { "marks": 5, "difficulty": "easy",   "question": "Describe the geological problems encountered in tunnel construction and how they are overcome." },
+                { "marks": 5, "difficulty": "medium", "question": "Explain geological investigations required for dam site selection. What are the criteria for selection of a dam site?" },
+                { "marks": 5, "difficulty": "hard",   "question": "Describe subsurface exploration methods including borings, test pits and geophysical methods. Discuss their suitability for different site conditions." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Architectural Planning and Design of Buildings",
+          "subject_code": "APDB",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Building Byelaws and Planning",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "What are building bylaws? Why are they important in construction?" },
+                { "marks": 2, "difficulty": "medium", "question": "Define FAR (Floor Area Ratio) and setback. Give their significance in urban planning." },
+                { "marks": 2, "difficulty": "hard",   "question": "What is a development plan? Explain the role of local authorities in enforcing it." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the principles of planning a residential building. What factors are considered?" },
+                { "marks": 3, "difficulty": "medium", "question": "Describe the requirements for planning a staircase: width, rise, tread, headroom and lighting." },
+                { "marks": 3, "difficulty": "hard",   "question": "Explain the concept of barrier-free design for physically challenged persons. What are IS code provisions?" },
+                { "marks": 5, "difficulty": "easy",   "question": "Describe the principles of planning a school building. What functional requirements must be met?" },
+                { "marks": 5, "difficulty": "medium", "question": "Explain sustainable building design principles. What passive design features reduce energy consumption?" },
+                { "marks": 5, "difficulty": "hard",   "question": "Prepare a layout plan for a residential colony on a 2-hectare plot for 50 dwelling units. Describe planning considerations." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Building Components and Construction",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "What is a foundation? Name different types of shallow foundations." },
+                { "marks": 2, "difficulty": "medium", "question": "Distinguish between a load-bearing wall and a framed structure." },
+                { "marks": 2, "difficulty": "hard",   "question": "What is a lintel? Distinguish between a lintel and an arch." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the different types of floors and their suitability for various occupancies." },
+                { "marks": 3, "difficulty": "medium", "question": "Describe types of roofs and their suitability for different building purposes." },
+                { "marks": 3, "difficulty": "hard",   "question": "Describe the construction of a flat roof using RCC. Discuss waterproofing methods." },
+                { "marks": 5, "difficulty": "easy",   "question": "Describe the construction of a brick masonry wall with English and Flemish bond. State advantages of each." },
+                { "marks": 5, "difficulty": "medium", "question": "Explain the different types of lintels: timber, stone, brick, RCC and steel with their suitability and span range." },
+                { "marks": 5, "difficulty": "hard",   "question": "Describe the construction of a flat slab building. Compare flat slab with conventional beam-slab system." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Fluid Mechanics - I",
+          "subject_code": "FM1",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Properties of Fluid and Fluid Statics",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define viscosity and kinematic viscosity. State Newton's law of viscosity." },
+                { "marks": 2, "difficulty": "medium", "question": "Define surface tension and capillarity. Give examples of each." },
+                { "marks": 2, "difficulty": "hard",   "question": "Derive the expression for pressure variation in a static fluid (hydrostatic law)." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the measurement of pressure using simple manometer and differential manometer." },
+                { "marks": 3, "difficulty": "medium", "question": "Find the total hydrostatic force on a 3m×2m vertical gate immersed with top edge at 2m below the free surface." },
+                { "marks": 3, "difficulty": "hard",   "question": "Derive the expression for the centre of pressure of a plane surface submerged vertically in a fluid." },
+                { "marks": 5, "difficulty": "easy",   "question": "A trapezoidal gate (2m top, 1m bottom, 1.5m height) is hinged at top and vertical with top at free surface. Find force on gate and hinge reaction at bottom." },
+                { "marks": 5, "difficulty": "medium", "question": "A curved gate is formed by quarter circle of radius 2m submerged with flat side vertical. Determine horizontal and vertical components of hydrostatic force per unit width." },
+                { "marks": 5, "difficulty": "hard",   "question": "Derive the metacentric height formula and describe the experimental determination of metacentric height of a floating body." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Kinematics and Dynamics of Fluid Flow",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define streamline, pathline and streakline. How do they differ?" },
+                { "marks": 2, "difficulty": "medium", "question": "State the equation of continuity for 3D steady incompressible flow." },
+                { "marks": 2, "difficulty": "hard",   "question": "Derive Euler's equation of motion along a streamline." },
+                { "marks": 3, "difficulty": "easy",   "question": "State and derive Bernoulli's equation from Euler's equation. State assumptions." },
+                { "marks": 3, "difficulty": "medium", "question": "Water flows through a pipe of 300mm diameter at 6m/s. Pipe reduces to 150mm diameter. Find velocity in smaller pipe and pressure change." },
+                { "marks": 3, "difficulty": "hard",   "question": "Derive the expression for discharge through a venturimeter. Describe its construction and working." },
+                { "marks": 5, "difficulty": "easy",   "question": "A 200mm diameter pipe carries water at 3m/s. It has a venturimeter with throat diameter 100mm. Find discharge if Cd=0.98 and pressure difference is 15kPa." },
+                { "marks": 5, "difficulty": "medium", "question": "Derive the Darcy-Weisbach equation for friction head loss in pipe flow. State Chezy's formula and relate the two coefficients." },
+                { "marks": 5, "difficulty": "hard",   "question": "A pipe system consists of two pipes in series: pipe 1: L=500m, D=300mm, f=0.02; pipe 2: L=400m, D=200mm, f=0.025. Find total head loss and flow rate for a head difference of 20m. Include all minor losses." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "semester": 4,
+      "scheme": "R-19 (REV-2019 C Scheme)",
+      "subjects": [
+        {
+          "subject_name": "Engineering Mathematics - IV",
+          "subject_code": "M4",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Random Variables and Probability Distributions",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define random variable and distinguish between discrete and continuous random variables." },
+                { "marks": 2, "difficulty": "medium", "question": "For the PDF f(x) = kx(2-x) for 0<x<2, find k and the mean." },
+                { "marks": 2, "difficulty": "hard",   "question": "State the Central Limit Theorem and discuss its significance in engineering applications." },
+                { "marks": 3, "difficulty": "easy",   "question": "A random variable X follows binomial distribution with n=8, p=0.4. Find P(X≥6)." },
+                { "marks": 3, "difficulty": "medium", "question": "The number of defects per unit area follows Poisson distribution with mean 3. Find P(X=0), P(X≤2)." },
+                { "marks": 3, "difficulty": "hard",   "question": "Derive the mean and variance of the Poisson distribution from its probability mass function." },
+                { "marks": 5, "difficulty": "easy",   "question": "Fit a Poisson distribution to the following data and calculate expected frequencies: [data table given]." },
+                { "marks": 5, "difficulty": "medium", "question": "If X is normally distributed with mean 50 and SD 10, find P(40<X<60), P(X>65), and find x such that P(X<x)=0.9." },
+                { "marks": 5, "difficulty": "hard",   "question": "Derive the moment generating function of normal distribution and hence find mean and variance." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Sampling Theory and Hypothesis Testing",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define null hypothesis, alternative hypothesis and level of significance." },
+                { "marks": 2, "difficulty": "medium", "question": "Distinguish between Type I and Type II errors in hypothesis testing." },
+                { "marks": 2, "difficulty": "hard",   "question": "State the conditions for applying chi-square test of goodness of fit." },
+                { "marks": 3, "difficulty": "easy",   "question": "A sample of 100 items has mean 42 and SD 5. Test if population mean is 40 at 5% level of significance." },
+                { "marks": 3, "difficulty": "medium", "question": "Two samples of sizes n1=10, n2=12 have means x̄1=14, x̄2=16 and variances s1^2=3, s2^2=4. Test if means are equal (t-test)." },
+                { "marks": 3, "difficulty": "hard",   "question": "Carry out chi-square test for independence using a 2×2 contingency table for given data." },
+                { "marks": 5, "difficulty": "easy",   "question": "Explain the procedure for large sample test for proportion. A sample of 200 items has 30 defectives. Test if proportion of defectives is more than 10%." },
+                { "marks": 5, "difficulty": "medium", "question": "Perform ANOVA (one-way) for three groups with given data to test if means are equal at 5% significance." },
+                { "marks": 5, "difficulty": "hard",   "question": "Carry out two-way ANOVA for a given data table. State null hypotheses and draw conclusions at 5% significance." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Numerical Methods for Differential Equations",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Write the Runge-Kutta 4th order formula for solving ODE dy/dx = f(x,y)." },
+                { "marks": 2, "difficulty": "medium", "question": "Apply Euler's modified method to solve dy/dx = x+y, y(0)=1 at x=0.1." },
+                { "marks": 2, "difficulty": "hard",   "question": "Write Milne's predictor-corrector formulas for numerical solution of ODE." },
+                { "marks": 3, "difficulty": "easy",   "question": "Apply Runge-Kutta 4th order method to solve dy/dx = (y-x)/(y+x), y(0)=1 at x=0.2." },
+                { "marks": 3, "difficulty": "medium", "question": "Solve by Euler's method: dy/dx = xy + y^2, y(0)=1, find y(0.1) and y(0.2)." },
+                { "marks": 3, "difficulty": "hard",   "question": "Solve using finite differences: y'' = x + y, y(0) = 1, y(1) = 2 with h = 0.25 (boundary value problem)." },
+                { "marks": 5, "difficulty": "easy",   "question": "Explain the finite difference method for boundary value problems. Solve y'' - y = 0, y(0)=0, y(1)=sinh(1) with h=0.25." },
+                { "marks": 5, "difficulty": "medium", "question": "Solve the Laplace equation ∂²u/∂x² + ∂²u/∂y² = 0 over a unit square using finite difference method with h=1/3." },
+                { "marks": 5, "difficulty": "hard",   "question": "Using Crank-Nicolson method, solve the heat equation ∂u/∂t = ∂²u/∂x² with given initial and boundary conditions." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Structural Analysis",
+          "subject_code": "SA",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Influence Lines",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define influence line. What is its significance in structural analysis?" },
+                { "marks": 2, "difficulty": "medium", "question": "Draw the influence line for reaction at A for a simply supported beam of span L." },
+                { "marks": 2, "difficulty": "hard",   "question": "State Muller-Breslau principle for influence lines." },
+                { "marks": 3, "difficulty": "easy",   "question": "Draw the ILD for BM at a section 2m from left support for a simply supported beam of span 8m." },
+                { "marks": 3, "difficulty": "medium", "question": "Using ILD, find maximum BM at midspan of a beam 10m span when two point loads 20kN and 30kN (2m apart) cross the bridge." },
+                { "marks": 3, "difficulty": "hard",   "question": "Construct the ILD for BM and SF at a section of a propped cantilever. Explain the use of Muller-Breslau principle." },
+                { "marks": 5, "difficulty": "easy",   "question": "Draw ILDs for reactions and BM at midspan for a two-span continuous beam using the principle of superposition." },
+                { "marks": 5, "difficulty": "medium", "question": "A simply supported beam 12m span is traversed by a standard truck load (axle loads 80kN, 160kN, 160kN with 4m spacing). Find max BM using ILD." },
+                { "marks": 5, "difficulty": "hard",   "question": "Derive expressions for maximum absolute BM and shear due to a series of moving loads on a simply supported beam using ILD method." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Arches",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define a three-hinged arch. What are its advantages over a beam?" },
+                { "marks": 2, "difficulty": "medium", "question": "For a three-hinged parabolic arch of span 20m and rise 4m, find horizontal thrust when a point load of 30kN acts at 6m from left." },
+                { "marks": 2, "difficulty": "hard",   "question": "What is the significance of the line of thrust in arch design?" },
+                { "marks": 3, "difficulty": "easy",   "question": "Derive the expression for horizontal thrust in a three-hinged parabolic arch." },
+                { "marks": 3, "difficulty": "medium", "question": "A three-hinged parabolic arch span=30m, rise=6m, carries UDL 20kN/m over full span. Find horizontal thrust and reactions." },
+                { "marks": 3, "difficulty": "hard",   "question": "Find normal thrust and radial shear at section 8m from left for a three-hinged arch span=20m, rise=5m with a 40kN load at 8m from left." },
+                { "marks": 5, "difficulty": "easy",   "question": "A three-hinged circular arch span=20m, rise=4m. It carries concentrated loads of 60kN at 5m and 40kN at 15m from left support. Find reactions and horizontal thrust." },
+                { "marks": 5, "difficulty": "medium", "question": "A two-hinged parabolic arch span=30m, rise=8m carries a concentrated load of 80kN at 10m from left. Find horizontal thrust, reactions, BM, NF, radial SF at the load point." },
+                { "marks": 5, "difficulty": "hard",   "question": "Analyze a two-hinged parabolic arch with UDL on half the span. Derive the expression for horizontal thrust using the principle of least work." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Cables and Suspension Bridges",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define sag and dip in a suspension cable. What is the shape assumed by a cable under UDL?" },
+                { "marks": 2, "difficulty": "medium", "question": "A cable of span 40m and dip 5m carries a UDL of 10kN/m. Find tension at mid-span and at supports." },
+                { "marks": 2, "difficulty": "hard",   "question": "What is a stiffening girder? Why is it used in suspension bridges?" },
+                { "marks": 3, "difficulty": "easy",   "question": "Derive the equation of catenary for a cable carrying UDL on horizontal span." },
+                { "marks": 3, "difficulty": "medium", "question": "A suspension cable span=100m, dip=10m carries a load of 5kN/m. Find horizontal tension, max tension and cable length." },
+                { "marks": 3, "difficulty": "hard",   "question": "Derive the expression for length of a parabolic cable carrying UDL. Compare with catenary." },
+                { "marks": 5, "difficulty": "easy",   "question": "A suspension bridge has cable span=200m, central dip=20m. It carries dead load of 15kN/m and live load of 25kN/m. Find max and min tension in cable." },
+                { "marks": 5, "difficulty": "medium", "question": "A suspension cable is attached to towers of different heights. Left support is 5m higher than right. Span=50m, sag=6m. Load=8kN/m. Find tension at each support." },
+                { "marks": 5, "difficulty": "hard",   "question": "Analyze a suspension bridge with stiffening girder. Find maximum tension in cable and bending moment in girder for a given load system." }
+              ]
+            },
+            {
+              "module_no": 4,
+              "module_name": "Slope Deflection Method",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "State the assumptions in slope deflection method." },
+                { "marks": 2, "difficulty": "medium", "question": "Write slope-deflection equations for a beam element AB with near end A and far end B." },
+                { "marks": 2, "difficulty": "hard",   "question": "What is sway? When does it occur in frames? How is it accounted for in slope deflection method?" },
+                { "marks": 3, "difficulty": "easy",   "question": "Define fixed end moments for a beam with: (a) central point load W, (b) UDL w over full span." },
+                { "marks": 3, "difficulty": "medium", "question": "Analyse a fixed beam of span 5m with a central concentrated load of 40kN using slope deflection method." },
+                { "marks": 3, "difficulty": "hard",   "question": "Analyse a two-span continuous beam ABC (spans 4m and 6m) with a UDL of 20kN/m on BC and point load 30kN at midpoint of AB using slope deflection method." },
+                { "marks": 5, "difficulty": "easy",   "question": "Analyse a propped cantilever AB of span 6m carrying UDL of 10kN/m using slope deflection method. Find reactions and draw BMD." },
+                { "marks": 5, "difficulty": "medium", "question": "Analyse a two-span continuous beam with spans 4m and 6m. Span 1 carries 20kN/m UDL and span 2 carries 40kN at midspan. EI constant. Find support moments and draw BMD." },
+                { "marks": 5, "difficulty": "hard",   "question": "Analyze a portal frame (columns 4m, beam 6m) with horizontal load 20kN at top of left column. Account for sway using slope deflection method." }
+              ]
+            },
+            {
+              "module_no": 5,
+              "module_name": "Moment Distribution Method",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define stiffness factor, carry-over factor and distribution factor." },
+                { "marks": 2, "difficulty": "medium", "question": "Calculate distribution factors for a joint where members of spans 4m, 6m and 5m (all same EI) meet." },
+                { "marks": 2, "difficulty": "hard",   "question": "What is the significance of stiffness modification when far end is pinned in moment distribution method?" },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the steps involved in the moment distribution method (Hardy Cross method) with a simple example." },
+                { "marks": 3, "difficulty": "medium", "question": "Analyse a two-span continuous beam ABC (AB=4m, BC=6m) carrying UDL 25kN/m on both spans using Hardy Cross method." },
+                { "marks": 3, "difficulty": "hard",   "question": "Analyse a non-sway portal frame with given loading using moment distribution method and draw BMD." },
+                { "marks": 5, "difficulty": "easy",   "question": "Analyse a two-span continuous beam with fixed ends using moment distribution method. Spans 4m and 5m with loads 30kN and 20kN/m respectively." },
+                { "marks": 5, "difficulty": "medium", "question": "Analyse a three-span continuous beam with all spans equal, EI constant, carrying various loads using moment distribution. Draw BMD and SFD." },
+                { "marks": 5, "difficulty": "hard",   "question": "Analyse a sway portal frame using moment distribution method. Apply the sway correction and find final moments. Draw BMD." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Surveying",
+          "subject_code": "SUR",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Theodolite Surveying",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define included angle and deflection angle. How are they measured?" },
+                { "marks": 2, "difficulty": "medium", "question": "Explain the steps to measure horizontal angle by repetition method." },
+                { "marks": 2, "difficulty": "hard",   "question": "What are the permanent adjustments of a theodolite? List them in order." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the two-peg method for testing the collimation error of a level." },
+                { "marks": 3, "difficulty": "medium", "question": "Explain measurement of vertical angle using theodolite. What is the difference between angle of elevation and depression?" },
+                { "marks": 3, "difficulty": "hard",   "question": "Describe the transit method and repetition method for measurement of horizontal angles. State advantages of each." },
+                { "marks": 5, "difficulty": "easy",   "question": "Describe the construction and fundamental lines of a vernier transit theodolite. Explain the relationship between these axes." },
+                { "marks": 5, "difficulty": "medium", "question": "Describe triangulation surveying. What are the different orders of triangulation? Explain the Laplace station." },
+                { "marks": 5, "difficulty": "hard",   "question": "Describe the procedure of precise traversing using a theodolite and EDM. Explain methods of omitted measurement adjustment." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Tachymetry and Plane Table Surveying",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define tachymetry. What is the principle of stadia method?" },
+                { "marks": 2, "difficulty": "medium", "question": "Derive the distance formula for horizontal stadia reading when staff is vertical." },
+                { "marks": 2, "difficulty": "hard",   "question": "Compare stadia method and tangential method of tachymetry." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the plane table surveying methods: radiation, intersection and traversing." },
+                { "marks": 3, "difficulty": "medium", "question": "A tachymetric observation is made on a staff held vertically at P. Vertical angle=+6°, stadia readings = 1.32, 1.87, 2.42. K=100, C=0. Find horizontal distance and elevation of P if HI=1.38m and RL of instrument station = 250m." },
+                { "marks": 3, "difficulty": "hard",   "question": "Explain three-point problem in plane table surveying. Describe Lehmann's method for solving it." },
+                { "marks": 5, "difficulty": "easy",   "question": "Describe the complete procedure of intersection method in plane table surveying. State its merits and demerits." },
+                { "marks": 5, "difficulty": "medium", "question": "Derive the formula for computing horizontal distance and elevation in stadia surveying when the staff is held vertically and the sight is inclined." },
+                { "marks": 5, "difficulty": "hard",   "question": "Describe modern methods of surveying: Total Station, GPS and GIS. State their advantages over conventional methods." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Curves",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define tangent length and long chord of a simple circular curve." },
+                { "marks": 2, "difficulty": "medium", "question": "Calculate the radius of a simple circular curve if the deflection angle is 40° and tangent length is 150m." },
+                { "marks": 2, "difficulty": "hard",   "question": "What is a transition curve? Why is it provided between a straight and a circular curve?" },
+                { "marks": 3, "difficulty": "easy",   "question": "Derive elements of a simple circular curve: tangent length, length of curve, long chord and mid-ordinate." },
+                { "marks": 3, "difficulty": "medium", "question": "Set out a simple circular curve by the Rankine's method of deflection angles. Degree of curve=5°, deflection angle=30°, peg interval=20m." },
+                { "marks": 3, "difficulty": "hard",   "question": "Derive the equation of a transition curve (Euler's spiral). What are its properties?" },
+                { "marks": 5, "difficulty": "easy",   "question": "Two straights meet at a deflection angle of 50°. Set out a simple circular curve of radius 500m by offsets from chord produced method." },
+                { "marks": 5, "difficulty": "medium", "question": "Design a combined curve (transition+circular+transition) for a highway: R=400m, V=80kmph, L=80m transition. Calculate all elements and set out by deflection angles." },
+                { "marks": 5, "difficulty": "hard",   "question": "Describe the setting out of a vertical curve (summit and valley) by tangent length correction method. A summit curve connects two gradients +3% and -2%. V=80kmph. Design the curve." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Building Materials and Concrete Technology",
+          "subject_code": "BMCT",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Stones, Bricks and Lime",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "What are the desirable properties of building stones?" },
+                { "marks": 2, "difficulty": "medium", "question": "Classify bricks based on quality. What are the uses of each class?" },
+                { "marks": 2, "difficulty": "hard",   "question": "What is hydraulic lime? How does it differ from fat lime?" },
+                { "marks": 3, "difficulty": "easy",   "question": "Describe the tests conducted on bricks: water absorption, efflorescence and compressive strength." },
+                { "marks": 3, "difficulty": "medium", "question": "Explain the manufacturing process of bricks. Describe the different stages: preparation, moulding, drying and burning." },
+                { "marks": 3, "difficulty": "hard",   "question": "Describe the different types of lime and their uses. Explain slaking of lime and its industrial applications." },
+                { "marks": 5, "difficulty": "easy",   "question": "Describe the crushing, dressing and testing of building stones. What tests are used to determine suitability?" },
+                { "marks": 5, "difficulty": "medium", "question": "Explain the manufacturing process of burned clay bricks. Describe the Bull's trench kiln and Hoffman kiln." },
+                { "marks": 5, "difficulty": "hard",   "question": "Describe fly ash bricks and compare their properties with conventional bricks. Discuss their use as a sustainable building material." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Cement",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Name the major compounds in Portland cement and their contribution to strength." },
+                { "marks": 2, "difficulty": "medium", "question": "What is the Bogue's compound composition of OPC? State functions of each compound." },
+                { "marks": 2, "difficulty": "hard",   "question": "What is the significance of fineness of cement? How is it determined?" },
+                { "marks": 3, "difficulty": "easy",   "question": "Describe the wet process and dry process of manufacture of Portland cement." },
+                { "marks": 3, "difficulty": "medium", "question": "Explain the field tests and laboratory tests conducted on cement for quality control." },
+                { "marks": 3, "difficulty": "hard",   "question": "Describe different types of special cements: Low heat cement, Sulphate resisting cement and Rapid hardening cement with their uses." },
+                { "marks": 5, "difficulty": "easy",   "question": "Describe the complete manufacturing process of OPC by dry process. Explain the role of each raw material." },
+                { "marks": 5, "difficulty": "medium", "question": "Describe the hydration of cement. Explain the role of each Bogue compound in the heat of hydration." },
+                { "marks": 5, "difficulty": "hard",   "question": "Classify and describe different types of cement available in India. State IS code specifications and uses for each type." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Concrete Technology",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "What is workability of concrete? Name the factors affecting workability." },
+                { "marks": 2, "difficulty": "medium", "question": "Describe the slump test for measuring workability of concrete." },
+                { "marks": 2, "difficulty": "hard",   "question": "What is water-cement ratio? State its effect on strength and durability of concrete." },
+                { "marks": 3, "difficulty": "easy",   "question": "Explain the compaction factor test and Vee-Bee time test for workability of fresh concrete." },
+                { "marks": 3, "difficulty": "medium", "question": "Explain IS method of concrete mix design (IS 10262). State the steps involved." },
+                { "marks": 3, "difficulty": "hard",   "question": "What is special concrete? Describe high performance concrete (HPC) and self-compacting concrete (SCC) with their advantages." },
+                { "marks": 5, "difficulty": "easy",   "question": "Describe the properties of fresh concrete and hardened concrete. Explain the factors affecting compressive strength." },
+                { "marks": 5, "difficulty": "medium", "question": "Design a concrete mix for M25 grade using IS 10262-2009. Given: OPC 53 grade, coarse aggregate 20mm angular, zone II sand." },
+                { "marks": 5, "difficulty": "hard",   "question": "Describe the non-destructive testing methods for hardened concrete: rebound hammer, ultrasonic pulse velocity and core cutting. Compare their reliability." }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_name": "Fluid Mechanics - II",
+          "subject_code": "FM2",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Dimensional Analysis and Similitude",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "State Buckingham's Pi theorem. What are its advantages?" },
+                { "marks": 2, "difficulty": "medium", "question": "Explain geometric, kinematic and dynamic similarity for model testing." },
+                { "marks": 2, "difficulty": "hard",   "question": "What is Reynolds number? What type of similarity does it represent?" },
+                { "marks": 3, "difficulty": "easy",   "question": "Using dimensional analysis, derive the drag force on a sphere: F = f(V, D, ρ, μ)." },
+                { "marks": 3, "difficulty": "medium", "question": "A model is tested at 1:20 scale. Model velocity is 5m/s. Find prototype velocity (Froude scaling). Find prototype discharge if model discharge is 0.1 m³/s." },
+                { "marks": 3, "difficulty": "hard",   "question": "Derive the expression for the friction factor in pipes using dimensional analysis. What are the dimensionless groups?" },
+                { "marks": 5, "difficulty": "easy",   "question": "Using Buckingham's Pi theorem, find the relationship between the variables: P, D, N, ρ, μ for a centrifugal pump." },
+                { "marks": 5, "difficulty": "medium", "question": "Explain different types of models: hydraulic, distorted. State the conditions for each type of similarity. What are Froude and Reynolds models?" },
+                { "marks": 5, "difficulty": "hard",   "question": "A model of a spillway at 1:50 scale discharges 0.2 m³/s. Find prototype discharge. If model head is 0.5m, find prototype head. If model velocity is 2m/s, find prototype velocity." }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Flow Through Pipes",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define hydraulic gradient line and total energy line. What is the difference?" },
+                { "marks": 2, "difficulty": "medium", "question": "Write the Darcy-Weisbach equation and define friction factor f for laminar and turbulent flow." },
+                { "marks": 2, "difficulty": "hard",   "question": "What is water hammer? State the causes and effects. How is it controlled?" },
+                { "marks": 3, "difficulty": "easy",   "question": "Derive Hagen-Poiseuille equation for laminar flow in a circular pipe." },
+                { "marks": 3, "difficulty": "medium", "question": "A pipe 300mm diameter carries water at 0.3m³/s. Length=500m, f=0.02. Find head loss and power wasted." },
+                { "marks": 3, "difficulty": "hard",   "question": "Describe the graphical method (Moody diagram) for finding friction factor for turbulent flow in pipes." },
+                { "marks": 5, "difficulty": "easy",   "question": "Derive expressions for head loss due to: sudden expansion, sudden contraction, bends and pipe fittings. State values of loss coefficients." },
+                { "marks": 5, "difficulty": "medium", "question": "A pipeline connects two reservoirs 2km apart with heads 50m and 30m. Pipe D=250mm, f=0.02. Find discharge including minor losses." },
+                { "marks": 5, "difficulty": "hard",   "question": "Three reservoirs A, B, C are connected by pipes at a junction D. Given reservoir heads, pipe lengths, diameters and friction factors, find flow in each pipe using Hardy Cross method." }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Open Channel Flow",
+              "questions": [
+                { "marks": 2, "difficulty": "easy",   "question": "Define hydraulic depth, hydraulic radius and Froude number for open channel flow." },
+                { "marks": 2, "difficulty": "medium", "question": "Write Manning's equation and Chezy's equation for uniform flow in open channels." },
+                { "marks": 2, "difficulty": "hard",   "question": "Define specific energy and critical depth. How are they related?" },
+                { "marks": 3, "difficulty": "easy",   "question": "A rectangular channel 4m wide carries water at a depth of 1.5m at a velocity of 2m/s. Find discharge and Froude number. Is the flow subcritical or supercritical?" },
+                { "marks": 3, "difficulty": "medium", "question": "Design the most economical rectangular channel section to carry 10 m³/s. Manning's n=0.014, slope S=1/2500." },
+                { "marks": 3, "difficulty": "hard",   "question": "Derive the expression for critical depth and critical velocity for a rectangular channel. Prove that Fr=1 at critical flow." },
+                { "marks": 5, "difficulty": "easy",   "question": "What is hydraulic jump? Derive the conjugate depth relationship for a rectangular channel. Find energy loss." },
+                { "marks": 5, "difficulty": "medium", "question": "Design the most economical trapezoidal channel section for a discharge of 15 m³/s. S=1/3000, n=0.013, side slopes 1:1." },
+                { "marks": 5, "difficulty": "hard",   "question": "Derive the gradually varied flow (GVF) equation for an open channel. Classify the flow profiles for mild and steep slopes. Explain M1, M2, S1, S2 profiles." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+
+  ]
+}

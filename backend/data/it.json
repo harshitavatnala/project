@@ -1,0 +1,1706 @@
+{
+  "meta": {
+    "source": "muquestionpapers.com",
+    "branch": "Information Technology (BE)",
+    "schemes": ["NEP-2020", "R-19 (REV-2019 C-SCHEME)"],
+    "semesters": [1, 2, 3, 4],
+    "difficulty_levels": ["easy", "medium", "hard"],
+    "marks": [2, 3, 5],
+    "questions_per_module_per_difficulty_per_marks": 2
+  },
+
+  "semesters": {
+
+    "semester_1": {
+      "scheme": "NEP-2020 / R-19",
+      "subjects": {
+
+        "Applied_Mathematics_I": {
+          "subject_code": "M1",
+          "modules": {
+
+            "Module_1_Complex_Numbers_and_Functions": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Define a complex number. Write the polar form of z = 1 + i.", "year": "2023", "marks": 2 },
+                  { "q": "State De Moivre's theorem.", "year": "2022", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Find the modulus and argument of z = -1 + i√3.", "year": "2023", "marks": 3 },
+                  { "q": "Express z = 3 + 4i in polar form.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "If z = r(cosθ + i sinθ), prove that z^n = r^n(cos nθ + i sin nθ) using De Moivre's theorem.", "year": "2023", "marks": 5 },
+                  { "q": "Find all cube roots of unity and show that they form an equilateral triangle on the Argand diagram.", "year": "2022", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "State the Cauchy-Riemann equations in Cartesian form.", "year": "2023", "marks": 2 },
+                  { "q": "Define an analytic function with an example.", "year": "2024", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Check if f(z) = z^2 is analytic using Cauchy-Riemann equations.", "year": "2023", "marks": 3 },
+                  { "q": "Find the harmonic conjugate of u = x^2 - y^2.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Verify that u = e^x cos y is harmonic and find the corresponding analytic function f(z) = u + iv.", "year": "2024", "marks": 5 },
+                  { "q": "Show that u = x^3 - 3xy^2 is harmonic. Find v such that f(z) = u + iv is analytic.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "State Liouville's theorem for analytic functions.", "year": "2024", "marks": 2 },
+                  { "q": "Define a conformal mapping.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Find the bilinear transformation mapping z = 0, 1, ∞ to w = -1, -i, 1.", "year": "2023", "marks": 3 },
+                  { "q": "Show that w = 1/z transforms circles into circles or lines.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Using contour integration, evaluate ∮ (z^2 + 1)/(z^2 - 1) dz over |z| = 2.", "year": "2024", "marks": 5 },
+                  { "q": "Find the Laurent series expansion of f(z) = 1/((z)(z-1)) valid in 0 < |z| < 1.", "year": "2023", "marks": 5 }
+                ]
+              }
+            },
+
+            "Module_2_Differential_Calculus": {
+              "easy": {
+                "2_marks": [
+                  { "q": "State Rolle's theorem.", "year": "2022", "marks": 2 },
+                  { "q": "Define a saddle point of f(x,y).", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Find dy/dx if x = at^2, y = 2at using parametric differentiation.", "year": "2023", "marks": 3 },
+                  { "q": "Verify Rolle's theorem for f(x) = x^2 - 4 on [-2, 2].", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Find all maxima, minima and saddle points of f(x, y) = x^3 + y^3 - 3xy.", "year": "2024", "marks": 5 },
+                  { "q": "If u = f(x,y) where x = r cosθ, y = r sinθ, prove that (∂u/∂x)^2 + (∂u/∂y)^2 = (∂u/∂r)^2 + (1/r^2)(∂u/∂θ)^2.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "State the conditions for a function f(x,y) to have a maximum at a point.", "year": "2023", "marks": 2 },
+                  { "q": "What is meant by a total differential?", "year": "2022", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Using Lagrange's multipliers, find the extreme value of f(x,y) = xy subject to x + y = 10.", "year": "2023", "marks": 3 },
+                  { "q": "Find the Jacobian ∂(u,v)/∂(x,y) where u = x^2 - y^2, v = 2xy.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Expand f(x, y) = e^x sin y in a Taylor's series near origin up to third-degree terms.", "year": "2024", "marks": 5 },
+                  { "q": "Using Lagrange's method, find the maximum and minimum distances from the origin to the curve 3x^2 + 4xy + 3y^2 = 2.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "State Euler's theorem on homogeneous functions.", "year": "2022", "marks": 2 },
+                  { "q": "Define implicit differentiation.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "If u = x^2 tan^-1(y/x) - y^2 tan^-1(x/y), find x∂u/∂x + y∂u/∂y using Euler's theorem.", "year": "2023", "marks": 3 },
+                  { "q": "Show that the functions u = x + y, v = x^2 - y^2 are functionally dependent.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "A rectangular box open at the top is to have volume 32 m^3. Find the dimensions to minimise the material used.", "year": "2024", "marks": 5 },
+                  { "q": "Using Taylor's theorem, expand log(1 + x + y) near the origin up to third-order terms.", "year": "2023", "marks": 5 }
+                ]
+              }
+            },
+
+            "Module_3_Integral_Calculus": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Evaluate ∫ x e^x dx.", "year": "2022", "marks": 2 },
+                  { "q": "State the formula for Beta function B(m, n).", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Evaluate ∫₀^(π/2) sin^5 x dx using Beta and Gamma functions.", "year": "2023", "marks": 3 },
+                  { "q": "Find the area bounded by y = x^2 and y = 2x.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Evaluate the double integral ∫₀^1 ∫₀^(1-x) (x + y) dy dx.", "year": "2024", "marks": 5 },
+                  { "q": "Change the order of integration and evaluate ∫₀^1 ∫_x^√x xy dy dx.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "Write the relation between Beta and Gamma functions.", "year": "2022", "marks": 2 },
+                  { "q": "State the formula for volume using triple integration.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Evaluate ∫₀^∞ x^3 e^(-x) dx using Gamma function.", "year": "2023", "marks": 3 },
+                  { "q": "Convert to polar coordinates and evaluate ∫∫ (x^2 + y^2) over x^2 + y^2 ≤ a^2.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Find the volume of the solid bounded by z = x^2 + y^2 and z = 4 using double integrals.", "year": "2024", "marks": 5 },
+                  { "q": "Evaluate ∫∫∫ xyz dx dy dz over the first octant bounded by x+y+z = 1.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "State Dirichlet's condition for convergence of Fourier series.", "year": "2022", "marks": 2 },
+                  { "q": "Write the half-range Fourier sine series formula.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Find the Fourier series of f(x) = x in (-π, π).", "year": "2023", "marks": 3 },
+                  { "q": "Expand f(x) = x^2 as a half-range cosine series in (0, π).", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Find the Fourier series of f(x) = |x| in -π < x < π and hence deduce π^2/8 = 1 + 1/9 + 1/25 + ...", "year": "2024", "marks": 5 },
+                  { "q": "Find the Fourier series for f(x) = x(π - x) in 0 < x < π.", "year": "2023", "marks": 5 }
+                ]
+              }
+            },
+
+            "Module_4_Matrices": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Define rank of a matrix.", "year": "2022", "marks": 2 },
+                  { "q": "State Cayley-Hamilton theorem.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Find the rank of matrix A = [[1,2,3],[2,4,6],[3,6,9]].", "year": "2022", "marks": 3 },
+                  { "q": "Find the eigenvalues of A = [[2,1],[1,2]].", "year": "2023", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Using Cayley-Hamilton theorem, find A^-1 for A = [[1,2],[3,4]].", "year": "2023", "marks": 5 },
+                  { "q": "Diagonalise the matrix A = [[1,-1,0],[-1,2,-1],[0,-1,1]] if possible.", "year": "2024", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "Define a linearly independent set of vectors.", "year": "2022", "marks": 2 },
+                  { "q": "What is meant by an orthogonal matrix?", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Solve the system 2x + y = 5, x - y = 1 using matrix method.", "year": "2023", "marks": 3 },
+                  { "q": "Find the nature of the quadratic form Q = 2x^2 + 3y^2 + z^2 + 2xy.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Reduce Q = 3x^2 + 5y^2 + 3z^2 - 2yz + 2zx - 2xy to canonical form by orthogonal reduction.", "year": "2024", "marks": 5 },
+                  { "q": "Find the eigenvalues and eigenvectors of A = [[1,1,1],[1,1,1],[1,1,1]].", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "State the conditions for consistency of a system AX = B.", "year": "2022", "marks": 2 },
+                  { "q": "Define a positive definite matrix.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Apply Gauss-Seidel method to solve 10x + y = 12, x + 10y = 11 (first two iterations).", "year": "2023", "marks": 3 },
+                  { "q": "Show that the system x + y + z = 6, 2x + y + 2z = 9, x + 2y + 2z = 9 is consistent and solve it.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Apply the Gauss-Jordan method to solve x + y + z = 9, 2x - y + z = 6, x - 3y + 5z = 4.", "year": "2024", "marks": 5 },
+                  { "q": "Using LU decomposition, solve 2x + y = 5, x + 3y = 10.", "year": "2023", "marks": 5 }
+                ]
+              }
+            },
+
+            "Module_5_Ordinary_Differential_Equations": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Solve dy/dx = y/x.", "year": "2022", "marks": 2 },
+                  { "q": "Find the integrating factor of dy/dx + y = x.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Solve (D^2 - 3D + 2)y = 0.", "year": "2023", "marks": 3 },
+                  { "q": "Find the Complementary Function of (D^2 + 4)y = 0.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Solve (D^2 - 4D + 4)y = e^(2x) + sin 2x using the method of undetermined coefficients.", "year": "2024", "marks": 5 },
+                  { "q": "Solve the differential equation d^2y/dx^2 + 5dy/dx + 6y = e^x using the method of variation of parameters.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "State the condition for exactness of M dx + N dy = 0.", "year": "2022", "marks": 2 },
+                  { "q": "Classify the ODE d^2y/dx^2 + x(dy/dx) + y = 0.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Solve (e^y + 1)cos x dx + e^y sin x dy = 0.", "year": "2023", "marks": 3 },
+                  { "q": "Find PI of (D^2 + 1)y = cos 2x.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Solve x^2 d^2y/dx^2 - 3x dy/dx + 4y = x^2 (Cauchy-Euler equation).", "year": "2024", "marks": 5 },
+                  { "q": "Solve (D^3 - 6D^2 + 11D - 6)y = e^{2x} + e^{3x}.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define Laplace transform and state its linearity property.", "year": "2022", "marks": 2 },
+                  { "q": "Find L{t^3}.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Find the Laplace transform of f(t) = e^{at} sin bt.", "year": "2023", "marks": 3 },
+                  { "q": "Find L^{-1}{ 1/(s^2 + 6s + 13) }.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Using Laplace transforms, solve y'' + 4y = sin 2t with y(0) = 0, y'(0) = 1.", "year": "2024", "marks": 5 },
+                  { "q": "Apply Laplace transforms to solve y'' - 3y' + 2y = 4e^{2t}, y(0) = 1, y'(0) = -1.", "year": "2023", "marks": 5 }
+                ]
+              }
+            }
+
+          }
+        },
+
+        "Engineering_Physics_I": {
+          "subject_code": "PHY1",
+          "modules": {
+
+            "Module_1_Interference_and_Diffraction": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Define coherent sources. Give an example.", "year": "2022", "marks": 2 },
+                  { "q": "State the condition for constructive and destructive interference.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Derive the condition for dark fringes in Young's double slit experiment.", "year": "2023", "marks": 3 },
+                  { "q": "Calculate the fringe width in Young's experiment for λ = 600 nm, D = 1 m, d = 0.5 mm.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain Newton's rings experiment. Derive the expression for the diameter of dark rings.", "year": "2023", "marks": 5 },
+                  { "q": "Describe the Michelson interferometer and explain how it is used to measure wavelength of light.", "year": "2024", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "Distinguish between Fresnel and Fraunhofer diffraction.", "year": "2022", "marks": 2 },
+                  { "q": "Define resolving power of a diffraction grating.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain the single slit diffraction pattern with intensity distribution.", "year": "2023", "marks": 3 },
+                  { "q": "Calculate the number of lines per mm on a grating that just resolves two sodium lines at 589 nm and 589.6 nm.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Derive the expression for intensity distribution in the Fraunhofer diffraction pattern of a single slit.", "year": "2024", "marks": 5 },
+                  { "q": "Explain diffraction grating and derive the grating equation. Discuss its dispersive power.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define polarization. State Brewster's law.", "year": "2022", "marks": 2 },
+                  { "q": "Distinguish between ordinary and extraordinary rays in a doubly refracting crystal.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain half-wave plate and quarter-wave plate with applications.", "year": "2023", "marks": 3 },
+                  { "q": "Describe the optical activity of quartz and explain specific rotation.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Describe Nicol prism. Explain how it is used as a polariser and analyser.", "year": "2024", "marks": 5 },
+                  { "q": "Explain circular and elliptical polarization with the production of circularly polarized light using a quarter-wave plate.", "year": "2023", "marks": 5 }
+                ]
+              }
+            },
+
+            "Module_2_Quantum_Mechanics": {
+              "easy": {
+                "2_marks": [
+                  { "q": "State Heisenberg's uncertainty principle.", "year": "2022", "marks": 2 },
+                  { "q": "Define wave function ψ and state its physical significance.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Derive the de Broglie wavelength of a particle in terms of kinetic energy.", "year": "2023", "marks": 3 },
+                  { "q": "An electron is accelerated through a potential difference of 100 V. Calculate its de Broglie wavelength.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Derive the time-independent Schrödinger wave equation. Explain each term.", "year": "2024", "marks": 5 },
+                  { "q": "Apply Schrödinger equation to a particle in a one-dimensional box and find energy eigenvalues and eigenfunctions.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "State the normalisation condition for wave functions.", "year": "2022", "marks": 2 },
+                  { "q": "What is the Compton effect?", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain the concept of group velocity and phase velocity and derive their relationship.", "year": "2023", "marks": 3 },
+                  { "q": "Derive the Compton shift formula.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the quantum mechanical tunnelling effect with applications to alpha decay and tunnel diode.", "year": "2024", "marks": 5 },
+                  { "q": "Describe the characteristics of matter waves. Explain Davisson-Germer experiment as evidence for de Broglie hypothesis.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define Fermi energy and Fermi level.", "year": "2022", "marks": 2 },
+                  { "q": "State the free electron theory of metals.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain the differences between metals, semiconductors and insulators using band theory.", "year": "2023", "marks": 3 },
+                  { "q": "Explain Hall effect and its applications.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the concept of density of states in a metal. Derive an expression for the Fermi energy at 0 K.", "year": "2024", "marks": 5 },
+                  { "q": "Describe the energy band structure of semiconductors. Distinguish between intrinsic and extrinsic semiconductors.", "year": "2023", "marks": 5 }
+                ]
+              }
+            },
+
+            "Module_3_Lasers_and_Fibre_Optics": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Distinguish between stimulated and spontaneous emission.", "year": "2022", "marks": 2 },
+                  { "q": "Define numerical aperture of an optical fibre.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain population inversion and its role in laser action.", "year": "2023", "marks": 3 },
+                  { "q": "Derive the relation between NA, acceptance angle and refractive indices of a fibre.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "With a neat diagram explain the construction and working of He-Ne laser.", "year": "2024", "marks": 5 },
+                  { "q": "Describe the principle, construction and working of a semiconductor (diode) laser.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "What is the principle of total internal reflection in optical fibres?", "year": "2022", "marks": 2 },
+                  { "q": "Distinguish between step-index and graded-index fibres.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain signal attenuation in optical fibres. What are its causes?", "year": "2023", "marks": 3 },
+                  { "q": "List four applications of lasers in industry and medicine.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the working of Ruby laser. What are its characteristics and limitations?", "year": "2024", "marks": 5 },
+                  { "q": "Explain multimode and single-mode optical fibres. Compare their performance for communication applications.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define coherence length and coherence time for a laser.", "year": "2022", "marks": 2 },
+                  { "q": "What is the Q-switching technique in lasers?", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain mode locking in lasers and its application in generating ultrashort pulses.", "year": "2023", "marks": 3 },
+                  { "q": "Describe the dispersion mechanisms in optical fibres and methods to reduce them.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Derive Einstein's coefficients A and B and show that stimulated emission dominates in a laser medium.", "year": "2024", "marks": 5 },
+                  { "q": "Explain wavelength division multiplexing (WDM) in fibre optic communication with a block diagram.", "year": "2023", "marks": 5 }
+                ]
+              }
+            }
+
+          }
+        },
+
+        "Engineering_Chemistry_I": {
+          "subject_code": "CHEM1",
+          "modules": {
+
+            "Module_1_Electrochemistry": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Define standard electrode potential.", "year": "2022", "marks": 2 },
+                  { "q": "What is the EMF of a galvanic cell?", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain the hydrogen electrode and its use as a reference electrode.", "year": "2022", "marks": 3 },
+                  { "q": "Describe the calomel electrode.", "year": "2023", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Derive Nernst equation and explain its significance in electrochemistry.", "year": "2024", "marks": 5 },
+                  { "q": "What are concentration cells? Explain with examples and relevant equations.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "Define conductance and conductivity for electrolytic solutions.", "year": "2022", "marks": 2 },
+                  { "q": "What is Kohlrausch's law?", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain potentiometric titration for the determination of the endpoint of an acid-base reaction.", "year": "2023", "marks": 3 },
+                  { "q": "Describe the glass electrode and explain its use in pH measurement.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain in detail the working of a fuel cell with a suitable example.", "year": "2024", "marks": 5 },
+                  { "q": "Describe the construction and working of a lead-acid battery. Discuss the discharge and charging reactions.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define overpotential in electrolysis.", "year": "2022", "marks": 2 },
+                  { "q": "State Faraday's laws of electrolysis.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "What is passivity in metals? Explain with reference to iron.", "year": "2023", "marks": 3 },
+                  { "q": "Distinguish between galvanic corrosion and crevice corrosion.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the theory of electrochemical corrosion. Describe cathodic protection with examples.", "year": "2024", "marks": 5 },
+                  { "q": "Describe the electroplating of copper. Explain the role of bath composition and current density.", "year": "2023", "marks": 5 }
+                ]
+              }
+            },
+
+            "Module_2_Polymers_and_Composites": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Define a polymer and give two examples.", "year": "2022", "marks": 2 },
+                  { "q": "What is the degree of polymerization?", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Distinguish between addition and condensation polymerization with examples.", "year": "2023", "marks": 3 },
+                  { "q": "Explain the preparation and uses of Nylon-6,6.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Describe the preparation, properties and uses of Bakelite (phenol-formaldehyde resin).", "year": "2024", "marks": 5 },
+                  { "q": "What are conducting polymers? Explain the structure and applications of polyacetylene.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "Define Tg (glass transition temperature) for polymers.", "year": "2022", "marks": 2 },
+                  { "q": "What are biodegradable polymers? Give an example.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain compressive and tensile strength of composite materials.", "year": "2023", "marks": 3 },
+                  { "q": "Describe fibre-reinforced composites with applications.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the classification of composite materials. Describe the properties and applications of CFRP.", "year": "2024", "marks": 5 },
+                  { "q": "What are smart materials? Explain piezoelectric and shape memory alloys with their applications.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "What are nanomaterials? State the quantum size effect.", "year": "2022", "marks": 2 },
+                  { "q": "Define fullerenes and carbon nanotubes.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain top-down and bottom-up approaches for synthesis of nanoparticles.", "year": "2023", "marks": 3 },
+                  { "q": "Describe the sol-gel method for preparation of nanomaterials.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the properties and applications of carbon nanotubes (single-walled and multi-walled).", "year": "2024", "marks": 5 },
+                  { "q": "Describe the preparation, properties and applications of quantum dots.", "year": "2023", "marks": 5 }
+                ]
+              }
+            }
+
+          }
+        },
+
+        "Engineering_Mechanics": {
+          "subject_code": "EM",
+          "modules": {
+
+            "Module_1_Statics": {
+              "easy": {
+                "2_marks": [
+                  { "q": "State Varignon's theorem.", "year": "2022", "marks": 2 },
+                  { "q": "Define moment of a force about a point.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Find the resultant of a force system: F1 = 10 N (East), F2 = 20 N (North).", "year": "2023", "marks": 3 },
+                  { "q": "A beam AB of length 5 m is hinged at A and has a vertical load of 100 N at B. Find the reaction at A.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Find the centroid of a composite area consisting of a rectangle of 6×4 cm with a triangular notch of base 3 cm and height 2 cm cut from one end.", "year": "2024", "marks": 5 },
+                  { "q": "A ladder of length 5 m rests against a smooth wall and on a rough floor. If the ladder makes 60° with the floor and a man of 800 N stands at the midpoint, find reactions at wall and floor.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "Define second moment of area (moment of inertia) of a plane figure.", "year": "2022", "marks": 2 },
+                  { "q": "State the parallel axis theorem.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Find the moment of inertia of a rectangle 60 mm × 40 mm about its centroidal axes.", "year": "2023", "marks": 3 },
+                  { "q": "Explain free body diagrams with an example of a block on an inclined plane.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Find the moment of inertia of a T-section with flange 100×20 mm and web 80×20 mm about the centroidal X-axis.", "year": "2024", "marks": 5 },
+                  { "q": "Three forces act on a particle: 10 N at 0°, 15 N at 120°, 20 N at 240°. Find the resultant force by resolution method.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "State Coulomb's laws of dry friction.", "year": "2022", "marks": 2 },
+                  { "q": "Define angle of repose and coefficient of friction.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "A block of mass 50 kg rests on an inclined plane of 30°. Find the minimum force required to prevent sliding if μ = 0.3.", "year": "2023", "marks": 3 },
+                  { "q": "Explain the difference between static and kinetic friction with relevant equations.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "A screw jack has a square thread of pitch 6 mm and mean diameter 50 mm. Coefficient of friction is 0.1. Find the torque required to raise a load of 2 kN.", "year": "2024", "marks": 5 },
+                  { "q": "Analyse the truss shown with joints ABCDE under a load of 10 kN at C using method of joints.", "year": "2023", "marks": 5 }
+                ]
+              }
+            },
+
+            "Module_2_Dynamics": {
+              "easy": {
+                "2_marks": [
+                  { "q": "State Newton's second law of motion.", "year": "2022", "marks": 2 },
+                  { "q": "Define projectile motion.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "A ball is thrown vertically upward with velocity 20 m/s. Find the maximum height reached.", "year": "2023", "marks": 3 },
+                  { "q": "A car starts from rest and accelerates uniformly to 60 km/h in 10 s. Find acceleration and distance covered.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "A ball is projected with velocity 30 m/s at 45°. Find the range, maximum height and time of flight.", "year": "2024", "marks": 5 },
+                  { "q": "Derive the work-energy theorem and use it to find the velocity of a 5 kg block after descending 3 m on a rough incline of 30° with μ = 0.2.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "State the principle of impulse and momentum.", "year": "2022", "marks": 2 },
+                  { "q": "Define coefficient of restitution.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Two bodies of mass 4 kg and 6 kg collide head-on with velocities 6 m/s and 2 m/s respectively. If e = 0.6, find velocities after collision.", "year": "2023", "marks": 3 },
+                  { "q": "Explain D'Alembert's principle with an application.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "An Atwood machine has masses 8 kg and 5 kg. Find acceleration, tension in the string and velocity after 3 seconds using equations of motion.", "year": "2024", "marks": 5 },
+                  { "q": "A flywheel of mass 200 kg and radius of gyration 0.5 m is rotating at 300 rpm. If the braking torque is 50 N·m, find the time and revolutions to stop.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define radius of gyration.", "year": "2022", "marks": 2 },
+                  { "q": "State the law of conservation of angular momentum.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "A disc of mass 10 kg and radius 0.4 m rotates at 200 rpm. Find its kinetic energy and angular momentum.", "year": "2023", "marks": 3 },
+                  { "q": "Derive the equation for motion of a body on an inclined plane.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Find the MI of a solid cylinder about its central axis and about a diameter using parallel axis theorem. Mass = 5 kg, R = 0.2 m, length = 0.4 m.", "year": "2024", "marks": 5 },
+                  { "q": "Explain simple harmonic motion. Derive the equation x = A sin(ωt + φ) and find expressions for velocity and acceleration.", "year": "2023", "marks": 5 }
+                ]
+              }
+            }
+
+          }
+        },
+
+        "Basic_Electrical_Engineering": {
+          "subject_code": "BEE",
+          "modules": {
+
+            "Module_1_DC_Circuits": {
+              "easy": {
+                "2_marks": [
+                  { "q": "State Ohm's law.", "year": "2022", "marks": 2 },
+                  { "q": "State Kirchhoff's voltage and current laws.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Find the equivalent resistance when three resistors 3Ω, 6Ω, 9Ω are connected in parallel.", "year": "2023", "marks": 3 },
+                  { "q": "Using KVL, find the current in the loop of a single-loop DC circuit with E = 12 V, R1 = 2Ω, R2 = 4Ω.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Apply Thevenin's theorem to find the current through a 5Ω resistor in a given network.", "year": "2024", "marks": 5 },
+                  { "q": "Explain Norton's theorem and find Norton's equivalent circuit for the given network.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "Define the superposition principle for electrical circuits.", "year": "2022", "marks": 2 },
+                  { "q": "What is the maximum power transfer theorem?", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Apply the superposition theorem to find the current through 4Ω resistor in a network with two sources 6V and 12V.", "year": "2023", "marks": 3 },
+                  { "q": "Use Millman's theorem to find voltage across load resistance RL in the given network.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Using mesh analysis, find currents in a three-loop circuit with EMFs E1 = 10 V, E2 = 5 V, E3 = 15 V.", "year": "2024", "marks": 5 },
+                  { "q": "Using node analysis, find voltages at all nodes in a network with three independent sources.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define inductance and capacitance and state their units.", "year": "2022", "marks": 2 },
+                  { "q": "What is transient response in electrical circuits?", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Derive the expression for current in an RL circuit connected to a DC source at t = 0.", "year": "2023", "marks": 3 },
+                  { "q": "Explain the charging and discharging of a capacitor through a resistor.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "For an RLC series circuit, derive the characteristic equation. Discuss overdamped, critically damped and underdamped responses.", "year": "2024", "marks": 5 },
+                  { "q": "In a series RL circuit R = 10Ω, L = 0.1 H, E = 100 V. Find current and time constant. Also find current at t = 0.01 s.", "year": "2023", "marks": 5 }
+                ]
+              }
+            },
+
+            "Module_2_AC_Circuits_and_Transformers": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Define RMS value and peak value of an AC quantity.", "year": "2022", "marks": 2 },
+                  { "q": "Define power factor and state its significance.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "A series RLC circuit has R = 10Ω, L = 0.1H, C = 100μF and V = 100sin(314t). Find impedance and current.", "year": "2023", "marks": 3 },
+                  { "q": "Explain resonance in a series RLC circuit and derive the resonant frequency.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Derive the EMF equation of a transformer. Explain the significance of the transformation ratio.", "year": "2024", "marks": 5 },
+                  { "q": "Derive the equivalent circuit of a single-phase transformer and explain its importance in performance analysis.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "What is star-delta transformation? State its applications.", "year": "2022", "marks": 2 },
+                  { "q": "Distinguish between real, reactive and apparent power in AC circuits.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "In a balanced three-phase star-connected system, Vph = 220 V and load resistance = 10Ω per phase. Find line current and total power.", "year": "2023", "marks": 3 },
+                  { "q": "Explain power measurement in a three-phase system using two wattmeters.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the working of a three-phase induction motor. Derive expression for rotor frequency and slip.", "year": "2024", "marks": 5 },
+                  { "q": "Describe an auto-transformer and compare it with a two-winding transformer. State advantages and limitations.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define synchronous speed of an AC motor.", "year": "2022", "marks": 2 },
+                  { "q": "What is the principle of a DC generator?", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain the working principle of a single-phase induction motor. Why is it not self-starting?", "year": "2023", "marks": 3 },
+                  { "q": "Explain the difference between series and shunt DC motors with their speed-torque characteristics.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Describe the construction and working of a DC shunt motor. Derive expressions for back EMF and torque.", "year": "2024", "marks": 5 },
+                  { "q": "Explain the construction and working principle of a synchronous alternator. Derive the EMF equation.", "year": "2023", "marks": 5 }
+                ]
+              }
+            }
+
+          }
+        }
+
+      }
+    },
+
+    "semester_2": {
+      "scheme": "NEP-2020 / R-19",
+      "subjects": {
+
+        "Applied_Mathematics_II": {
+          "subject_code": "M2",
+          "modules": {
+
+            "Module_1_Statistics_and_Probability": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Define mean, median and mode.", "year": "2022", "marks": 2 },
+                  { "q": "State the addition theorem of probability.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "A bag contains 3 red and 2 blue balls. Find the probability of drawing 2 red balls.", "year": "2023", "marks": 3 },
+                  { "q": "Find the mean and variance of the data: 2, 4, 6, 8, 10.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Derive the Poisson distribution from the Binomial distribution as a limiting case.", "year": "2024", "marks": 5 },
+                  { "q": "In a normal distribution μ = 50 and σ = 10. Find the probability that X lies between 45 and 60.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "State Bayes' theorem.", "year": "2022", "marks": 2 },
+                  { "q": "Define conditional probability P(A|B).", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Three machines produce bolts in ratio 2:3:5. Defect rates are 1%, 2%, 3%. Find the probability that a randomly selected bolt is defective.", "year": "2023", "marks": 3 },
+                  { "q": "A random variable X has a Poisson distribution with mean 3. Find P(X = 2) and P(X ≤ 2).", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Fit a binomial distribution to the data given and test the goodness of fit.", "year": "2024", "marks": 5 },
+                  { "q": "Apply Bayes' theorem: Box I has 3 red, 2 black balls; Box II has 2 red, 3 black. One box is chosen at random and one ball drawn. If ball is red, find probability it came from Box I.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define correlation coefficient r between two variables.", "year": "2022", "marks": 2 },
+                  { "q": "Distinguish between regression and correlation.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Compute the correlation coefficient for the data pairs: (1,2),(2,3),(3,5),(4,4),(5,6).", "year": "2023", "marks": 3 },
+                  { "q": "Derive the regression line y on x for a bivariate dataset.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "For the given bivariate data, find both regression lines and predict y when x = 25.", "year": "2024", "marks": 5 },
+                  { "q": "Fit a straight line y = a + bx to the data by the method of least squares.", "year": "2023", "marks": 5 }
+                ]
+              }
+            },
+
+            "Module_2_Numerical_Methods": {
+              "easy": {
+                "2_marks": [
+                  { "q": "State the bisection method for finding roots.", "year": "2022", "marks": 2 },
+                  { "q": "Write the Newton-Raphson formula.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Using bisection method, find the root of f(x) = x^3 - 2x - 5 in [2, 3] (two iterations).", "year": "2023", "marks": 3 },
+                  { "q": "Using Newton-Raphson method, find the root of x^3 - 2x - 5 = 0 starting with x0 = 2.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Using Newton's forward difference formula, find f(1.5) given tabular values at x = 1, 2, 3, 4.", "year": "2024", "marks": 5 },
+                  { "q": "Apply Simpson's 1/3 rule to evaluate ∫₀^1 dx/(1+x) using 6 intervals.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "Write the Trapezoidal rule formula for numerical integration.", "year": "2022", "marks": 2 },
+                  { "q": "What is the order of error in Simpson's 3/8 rule?", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Evaluate ∫₀^1 e^{-x^2} dx using Trapezoidal rule with h = 0.25.", "year": "2023", "marks": 3 },
+                  { "q": "Apply Regula Falsi method to find root of x^3 - 4x + 1 = 0 in [0, 1] (two iterations).", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Using Euler's method, solve dy/dx = x + y with y(0) = 1. Find y at x = 0.3 with h = 0.1.", "year": "2024", "marks": 5 },
+                  { "q": "Using 4th order Runge-Kutta method, solve dy/dx = x + y with y(0) = 1 to find y(0.2), h = 0.1.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define forward and backward difference operators.", "year": "2022", "marks": 2 },
+                  { "q": "What is the Gauss elimination method?", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Solve the system by Gauss elimination: 2x+y-z=8, -3x-y+2z=-11, -2x+y+2z=-3.", "year": "2023", "marks": 3 },
+                  { "q": "Using Lagrange's interpolation, find f(2) given (0,1),(1,3),(3,55),(4,225).", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Apply the power method to find the dominant eigenvalue of A = [[2,1],[1,2]] starting with initial vector [1,0]^T (4 iterations).", "year": "2024", "marks": 5 },
+                  { "q": "Using Milne's predictor-corrector method, solve dy/dx = x + y with given starting values.", "year": "2023", "marks": 5 }
+                ]
+              }
+            }
+
+          }
+        },
+
+        "Engineering_Physics_II": {
+          "subject_code": "PHY2",
+          "modules": {
+
+            "Module_1_Dielectrics_and_Magnetics": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Define dielectric constant.", "year": "2022", "marks": 2 },
+                  { "q": "Distinguish between diamagnetic, paramagnetic and ferromagnetic materials.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain electric polarisation in dielectrics and derive the relation P = ε₀(εr -1)E.", "year": "2023", "marks": 3 },
+                  { "q": "What is hysteresis in ferromagnetic materials? Explain BH loop.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Derive the Clausius-Mossotti relation and explain its significance.", "year": "2024", "marks": 5 },
+                  { "q": "Explain the domain theory of ferromagnetism. Describe soft and hard magnetic materials with applications.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "Define superconductivity. State the Meissner effect.", "year": "2022", "marks": 2 },
+                  { "q": "Distinguish between Type I and Type II superconductors.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "State BCS theory of superconductivity and explain Cooper pairs.", "year": "2023", "marks": 3 },
+                  { "q": "Explain the applications of superconductors in MRI and MAGLEV trains.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Describe the Josephson junction and its applications in SQUID devices.", "year": "2024", "marks": 5 },
+                  { "q": "Explain the London equations for superconductors and derive the London penetration depth.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "State Maxwell's equations in differential form.", "year": "2022", "marks": 2 },
+                  { "q": "Define displacement current.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Derive the wave equation for electromagnetic waves in free space from Maxwell's equations.", "year": "2023", "marks": 3 },
+                  { "q": "Explain Poynting's theorem and physical significance of Poynting vector.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Derive Maxwell's equations in integral form. Explain the physical significance of each equation.", "year": "2024", "marks": 5 },
+                  { "q": "Show that electromagnetic waves are transverse in nature and derive the relationship between E, B and wave velocity.", "year": "2023", "marks": 5 }
+                ]
+              }
+            }
+
+          }
+        },
+
+        "Engineering_Chemistry_II": {
+          "subject_code": "CHEM2",
+          "modules": {
+
+            "Module_1_Water_Treatment": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Define hardness of water. What causes it?", "year": "2022", "marks": 2 },
+                  { "q": "Distinguish between temporary and permanent hardness.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain the lime-soda process for removal of hardness.", "year": "2023", "marks": 3 },
+                  { "q": "Calculate the hardness of water containing CaCl2 = 111 mg/L and MgSO4 = 120 mg/L.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Describe ion-exchange resin method for water softening. Write reactions involved.", "year": "2024", "marks": 5 },
+                  { "q": "Explain reverse osmosis. Describe its application in water purification.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "What is BOD? State its significance.", "year": "2022", "marks": 2 },
+                  { "q": "Define COD of waste water.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain desalination of sea water by electrodialysis.", "year": "2023", "marks": 3 },
+                  { "q": "Describe the EDTA method for determination of hardness.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Describe the coagulation and flocculation process in water treatment. Mention alum and its action.", "year": "2024", "marks": 5 },
+                  { "q": "Explain the treatment of industrial effluent by primary, secondary and tertiary methods.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define calorific value of a fuel. State Dulong's formula.", "year": "2022", "marks": 2 },
+                  { "q": "Distinguish between HCV and LCV.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Calculate HCV of a fuel using Dulong's formula given C = 84%, H = 10%, O = 4%, S = 2%.", "year": "2023", "marks": 3 },
+                  { "q": "Explain proximate analysis of coal and its importance.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Describe the manufacture of producer gas and water gas. Compare their calorific values and uses.", "year": "2024", "marks": 5 },
+                  { "q": "Explain flue gas analysis using Orsat apparatus. What information does it provide?", "year": "2023", "marks": 5 }
+                ]
+              }
+            }
+
+          }
+        },
+
+        "Basic_Electronics_Engineering": {
+          "subject_code": "BEE2",
+          "modules": {
+
+            "Module_1_Semiconductors_and_Diodes": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Distinguish between intrinsic and extrinsic semiconductors.", "year": "2022", "marks": 2 },
+                  { "q": "Define knee voltage and peak inverse voltage of a diode.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain the working of a p-n junction diode in forward and reverse bias.", "year": "2023", "marks": 3 },
+                  { "q": "Draw and explain the V-I characteristics of a Zener diode.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the full-wave bridge rectifier. Derive expressions for average and RMS output voltage, ripple factor.", "year": "2024", "marks": 5 },
+                  { "q": "Describe Zener diode as a voltage regulator. Draw the circuit and explain its operation.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "State the principle of a BJT.", "year": "2022", "marks": 2 },
+                  { "q": "Define α and β of a transistor and relate them.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain CE configuration of a BJT with input and output characteristics.", "year": "2023", "marks": 3 },
+                  { "q": "Calculate Q-point for a fixed bias circuit with VCC = 12V, RB = 500kΩ, RC = 2kΩ, β = 100.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain voltage divider bias for a BJT amplifier. Derive the expression for stability factor S.", "year": "2024", "marks": 5 },
+                  { "q": "Describe MOSFET structure and working (enhancement type). Draw transfer characteristics.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define the ideal op-amp characteristics.", "year": "2022", "marks": 2 },
+                  { "q": "State virtual ground concept in op-amp circuits.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Design an inverting amplifier with gain = -10 and input resistance = 10kΩ.", "year": "2023", "marks": 3 },
+                  { "q": "Explain the summing amplifier using op-amp and derive the output expression.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the op-amp integrator and differentiator. Derive output expressions and show waveforms.", "year": "2024", "marks": 5 },
+                  { "q": "Describe the 555 timer IC in astable multivibrator mode. Derive expressions for frequency and duty cycle.", "year": "2023", "marks": 5 }
+                ]
+              }
+            }
+
+          }
+        }
+
+      }
+    },
+
+    "semester_3": {
+      "scheme": "R-19 (REV-2019 C-SCHEME)",
+      "subjects": {
+
+        "Engineering_Mathematics_III": {
+          "subject_code": "M3",
+          "modules": {
+
+            "Module_1_Laplace_Transform": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Find L{sin at}.", "year": "2022", "marks": 2 },
+                  { "q": "State the first shifting theorem of Laplace transform.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Find L{te^{-t} cos t}.", "year": "2023", "marks": 3 },
+                  { "q": "Find the Laplace transform of the square wave of period T.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Using Laplace transform, solve y'' + 4y' + 3y = e^{-t}, y(0) = 0, y'(0) = 1.", "year": "2024", "marks": 5 },
+                  { "q": "Find L^{-1}{ s/((s+1)(s+2)) } using partial fractions.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "State the convolution theorem for Laplace transforms.", "year": "2022", "marks": 2 },
+                  { "q": "Define unit step function U(t-a) and find its Laplace transform.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Using convolution theorem, find L^{-1}{ 1/(s^2(s^2+a^2)) }.", "year": "2023", "marks": 3 },
+                  { "q": "Apply Heaviside's expansion formula to invert F(s) = (s+3)/((s+1)(s+2)).", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Solve the system of ODEs: dx/dt = 2x - y, dy/dt = x + 2y, x(0)=1, y(0)=0 using Laplace transform.", "year": "2024", "marks": 5 },
+                  { "q": "Find L^{-1}{ (s^2+s+1)/(s^3+s) } using partial fractions.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define Fourier transform and its inverse.", "year": "2022", "marks": 2 },
+                  { "q": "State Parseval's identity for Fourier transform.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Find the Fourier transform of f(x) = e^{-|x|}.", "year": "2023", "marks": 3 },
+                  { "q": "Find the Fourier sine transform of f(x) = e^{-ax}/x, x > 0.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Using Fourier cosine transform, solve the boundary value problem u_t = c^2 u_{xx}.", "year": "2024", "marks": 5 },
+                  { "q": "Derive the Z-transform and find Z{a^n}, |z| > |a|.", "year": "2023", "marks": 5 }
+                ]
+              }
+            }
+
+          }
+        },
+
+        "Data_Structure_and_Analysis": {
+          "subject_code": "DSA",
+          "modules": {
+
+            "Module_1_Arrays_and_Linked_Lists": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Define a data structure and classify data structures.", "year": "2022", "marks": 2 },
+                  { "q": "Distinguish between singly and doubly linked lists.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Write an algorithm to insert a node at the end of a singly linked list.", "year": "2023", "marks": 3 },
+                  { "q": "Explain the differences between an array and a linked list.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Write complete C code for a circular linked list with insertion, deletion and traversal operations.", "year": "2024", "marks": 5 },
+                  { "q": "Implement a doubly linked list and perform insertion at beginning, end and a given position.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "Define stack and state LIFO principle.", "year": "2022", "marks": 2 },
+                  { "q": "What is a queue? Distinguish between linear and circular queue.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Convert the infix expression A+(B*C)-(D/E) to postfix.", "year": "2023", "marks": 3 },
+                  { "q": "Evaluate the postfix expression 5 3 + 2 * using a stack.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Implement a stack using linked list. Write push, pop and display operations in C.", "year": "2024", "marks": 5 },
+                  { "q": "Implement a priority queue using an array. Write enqueue and dequeue operations.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define a binary tree. What is a complete binary tree?", "year": "2022", "marks": 2 },
+                  { "q": "State the properties of a binary search tree (BST).", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Write the algorithm for inorder, preorder and postorder traversal of a binary tree.", "year": "2023", "marks": 3 },
+                  { "q": "Insert the keys 50, 30, 70, 20, 40, 60, 80 into an empty BST. Show the resulting tree.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Construct an AVL tree by inserting the keys 10, 20, 30, 25, 28, 27 one by one. Show all rotations.", "year": "2024", "marks": 5 },
+                  { "q": "Write the algorithm for deletion in a BST considering all three cases. Show an example for each.", "year": "2023", "marks": 5 }
+                ]
+              }
+            },
+
+            "Module_2_Sorting_and_Searching": {
+              "easy": {
+                "2_marks": [
+                  { "q": "State the time complexity of bubble sort in best and worst cases.", "year": "2022", "marks": 2 },
+                  { "q": "What is a hash function? Give an example.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Sort the array {64, 34, 25, 12, 22, 11, 90} using selection sort. Show all passes.", "year": "2023", "marks": 3 },
+                  { "q": "Explain linear search and binary search. Compare their time complexities.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain merge sort with a detailed example on {38, 27, 43, 3, 9, 82, 10}. Analyse its time complexity.", "year": "2024", "marks": 5 },
+                  { "q": "Explain quick sort. Perform a complete trace on {10, 80, 30, 90, 40, 50, 70} using last element as pivot.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "Define collision in hashing and list two collision resolution methods.", "year": "2022", "marks": 2 },
+                  { "q": "What is a heap? Define min-heap and max-heap.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Build a max-heap from {3, 10, 5, 6, 4, 9, 2}.", "year": "2023", "marks": 3 },
+                  { "q": "Explain linear probing for collision resolution in hashing with an example.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain heap sort algorithm. Trace it on {5, 3, 8, 4, 9, 1}. Analyse its time and space complexity.", "year": "2024", "marks": 5 },
+                  { "q": "Describe chaining as a collision handling technique in hashing. Compare with open addressing.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define Big-O, Ω and Θ notations.", "year": "2022", "marks": 2 },
+                  { "q": "What is a graph? Distinguish between directed and undirected graphs.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain BFS traversal with an example. Write its time complexity.", "year": "2023", "marks": 3 },
+                  { "q": "Perform DFS on the given graph starting from vertex A and list the traversal order.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Implement Dijkstra's shortest path algorithm on a weighted graph with 5 vertices.", "year": "2024", "marks": 5 },
+                  { "q": "Explain Kruskal's algorithm for finding a minimum spanning tree with a complete trace on a given graph.", "year": "2023", "marks": 5 }
+                ]
+              }
+            }
+
+          }
+        },
+
+        "Database_Management_System": {
+          "subject_code": "DBMS",
+          "modules": {
+
+            "Module_1_Relational_Model_and_SQL": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Define a relation and give an example.", "year": "2022", "marks": 2 },
+                  { "q": "Distinguish between primary key and foreign key.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain SELECT statement in SQL with GROUP BY and HAVING clauses.", "year": "2023", "marks": 3 },
+                  { "q": "Write SQL queries to create a table STUDENT with attributes Roll, Name, Marks, Grade.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain all types of JOINs in SQL with examples (INNER, LEFT, RIGHT, FULL OUTER).", "year": "2024", "marks": 5 },
+                  { "q": "Given tables EMP(EmpID, Name, DeptID, Salary) and DEPT(DeptID, DeptName), write queries to find the highest salary department and list all employees with their department names.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "Define first, second and third normal forms.", "year": "2022", "marks": 2 },
+                  { "q": "What is a functional dependency? Give an example.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Normalize the relation R(A,B,C,D) with FDs A→B, A→C, B→D to 3NF.", "year": "2023", "marks": 3 },
+                  { "q": "Explain BCNF with an example. Distinguish BCNF from 3NF.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the process of normalization from 1NF to BCNF with a complete example.", "year": "2024", "marks": 5 },
+                  { "q": "Draw the ER diagram for a hospital database and convert it to relational tables.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define transaction. State ACID properties.", "year": "2022", "marks": 2 },
+                  { "q": "What is a deadlock? State conditions for its occurrence.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain the two-phase locking protocol for concurrency control.", "year": "2023", "marks": 3 },
+                  { "q": "Describe the recovery procedure using undo and redo logs after a system failure.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain serializability of transactions. Distinguish between conflict serializability and view serializability.", "year": "2024", "marks": 5 },
+                  { "q": "Describe RAID levels 0, 1, and 5. Compare them in terms of performance, reliability and storage efficiency.", "year": "2023", "marks": 5 }
+                ]
+              }
+            },
+
+            "Module_2_NoSQL_and_Advanced_Databases": {
+              "easy": {
+                "2_marks": [
+                  { "q": "What is a NoSQL database? Give two examples.", "year": "2022", "marks": 2 },
+                  { "q": "Distinguish between SQL and NoSQL databases.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain the CAP theorem for distributed databases.", "year": "2023", "marks": 3 },
+                  { "q": "Describe key-value stores with an example (e.g., Redis).", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the document data model in MongoDB. Show how to create, read, update and delete documents.", "year": "2024", "marks": 5 },
+                  { "q": "Describe the concept of indexing in databases. Explain B-tree and Hash indexing.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "Define a view in SQL. State its advantages.", "year": "2022", "marks": 2 },
+                  { "q": "What is a stored procedure in SQL?", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Write a PL/SQL block to find the factorial of a number using a loop.", "year": "2023", "marks": 3 },
+                  { "q": "Explain triggers in SQL. Write a trigger to log updates on a salary table.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the concept of data warehousing. Describe OLTP vs OLAP and star schema.", "year": "2024", "marks": 5 },
+                  { "q": "Explain cursor in PL/SQL. Write a program to use an explicit cursor to fetch and display employee data.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define XML. State its role in data exchange.", "year": "2022", "marks": 2 },
+                  { "q": "What is MapReduce in the context of big data?", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain the Hadoop architecture and the role of HDFS.", "year": "2023", "marks": 3 },
+                  { "q": "Describe spatial databases and give two real-world applications.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain distributed database architecture. Describe data fragmentation and replication strategies.", "year": "2024", "marks": 5 },
+                  { "q": "Describe data mining and the major techniques: classification, clustering and association rules.", "year": "2023", "marks": 5 }
+                ]
+              }
+            }
+
+          }
+        },
+
+        "Principle_of_Communication": {
+          "subject_code": "POC",
+          "modules": {
+
+            "Module_1_Analog_Modulation": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Define amplitude modulation (AM) and state the modulation index formula.", "year": "2022", "marks": 2 },
+                  { "q": "Define frequency modulation (FM).", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Derive the expression for the spectrum of an AM signal.", "year": "2023", "marks": 3 },
+                  { "q": "Compare AM, FM and PM modulation techniques.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Describe the working of an FM demodulator using a PLL. Explain with a block diagram.", "year": "2024", "marks": 5 },
+                  { "q": "Explain the generation of DSB-SC and SSB signals. Compare their bandwidth and power efficiency.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "Define sampling theorem. State the Nyquist rate.", "year": "2022", "marks": 2 },
+                  { "q": "What is pulse code modulation (PCM)?", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain the process of quantization in PCM. Distinguish between uniform and non-uniform quantization.", "year": "2023", "marks": 3 },
+                  { "q": "Explain delta modulation and its limitations.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Describe the block diagram of a PCM transmitter and receiver. Explain each block.", "year": "2024", "marks": 5 },
+                  { "q": "Explain TDM and FDM. Compare them with a practical example.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define SNR in communication systems.", "year": "2022", "marks": 2 },
+                  { "q": "What is a superheterodyne receiver?", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain noise figure and noise temperature in communication systems.", "year": "2023", "marks": 3 },
+                  { "q": "Describe the working of a superheterodyne AM receiver with a block diagram.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Derive the signal-to-noise ratio of an FM receiver and compare with AM.", "year": "2024", "marks": 5 },
+                  { "q": "Explain spread spectrum communication. Describe FHSS and DSSS techniques.", "year": "2023", "marks": 5 }
+                ]
+              }
+            }
+
+          }
+        },
+
+        "Paradigms_and_Computer_Programming_Foundation": {
+          "subject_code": "PCPF",
+          "modules": {
+
+            "Module_1_OOP_with_Java": {
+              "easy": {
+                "2_marks": [
+                  { "q": "List the four pillars of object-oriented programming.", "year": "2022", "marks": 2 },
+                  { "q": "Distinguish between overloading and overriding in Java.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain inheritance in Java with a suitable example. Mention types of inheritance.", "year": "2023", "marks": 3 },
+                  { "q": "Explain polymorphism with an example of runtime polymorphism in Java.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Write a Java program implementing an abstract class Shape with method area(). Extend it in Circle and Rectangle classes.", "year": "2024", "marks": 5 },
+                  { "q": "Explain the concept of interface in Java. Write a program with two interfaces Printable and Showable, both implemented by a class Doc.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "What is exception handling in Java? List Java's exception hierarchy.", "year": "2022", "marks": 2 },
+                  { "q": "Distinguish between checked and unchecked exceptions.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain try-catch-finally in Java with a custom exception example.", "year": "2023", "marks": 3 },
+                  { "q": "Explain multithreading in Java. Write a program creating two threads using Runnable interface.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain Java generics with an example of a generic class and a generic method.", "year": "2024", "marks": 5 },
+                  { "q": "Describe Java Collections Framework. Write a program using ArrayList, HashMap and demonstrate their operations.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define functional programming. State two features of functional paradigm.", "year": "2022", "marks": 2 },
+                  { "q": "What are lambda expressions in Java 8?", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain Java Streams API. Write an example to filter and sort a list using stream operations.", "year": "2023", "marks": 3 },
+                  { "q": "Explain the logic programming paradigm. Describe Prolog with an example.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Compare object-oriented, functional and logic programming paradigms. Give one example of each.", "year": "2024", "marks": 5 },
+                  { "q": "Explain the concept of closures in functional programming. Demonstrate with a Python/Java example.", "year": "2023", "marks": 5 }
+                ]
+              }
+            }
+
+          }
+        }
+
+      }
+    },
+
+    "semester_4": {
+      "scheme": "R-19 (REV-2019 C-SCHEME)",
+      "subjects": {
+
+        "Engineering_Mathematics_IV": {
+          "subject_code": "M4",
+          "modules": {
+
+            "Module_1_Complex_Integration": {
+              "easy": {
+                "2_marks": [
+                  { "q": "State Cauchy's integral theorem.", "year": "2022", "marks": 2 },
+                  { "q": "Define a singularity of a complex function. List its types.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Evaluate ∮ z^2/(z-1) dz over |z| = 2 using Cauchy's integral formula.", "year": "2023", "marks": 3 },
+                  { "q": "Find the residue of f(z) = 1/(z^2(z-1)) at z = 0 and z = 1.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Evaluate ∮ (z^3 - sin 3z)/(z - π/2)^3 over |z| = 2 using Cauchy's integral formula.", "year": "2024", "marks": 5 },
+                  { "q": "Using residue theorem, evaluate ∫₀^{2π} dθ/(5 + 4cosθ).", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "State the maximum modulus theorem.", "year": "2022", "marks": 2 },
+                  { "q": "Define a meromorphic function.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Expand f(z) = z/(z^2-1) as a Laurent series valid in 1 < |z| < ∞.", "year": "2023", "marks": 3 },
+                  { "q": "Find poles and residues of f(z) = (z^2+1)/((z-1)^2(z+1)).", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Evaluate ∫_{-∞}^{∞} x^2/(x^4+1) dx using contour integration.", "year": "2024", "marks": 5 },
+                  { "q": "Find the bilinear transformation that maps |z| = 1 onto the real axis with specific fixed points.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define Z-transform and state its linearity property.", "year": "2022", "marks": 2 },
+                  { "q": "Find Z{n} for |z| > 1.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Find the inverse Z-transform of F(z) = z/(z-1)(z-2) for |z| > 2.", "year": "2023", "marks": 3 },
+                  { "q": "Solve the difference equation y(n+2) - 3y(n+1) + 2y(n) = 0, y(0) = 0, y(1) = 1 using Z-transform.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Using Z-transform, solve the difference equation y(n+2) - 5y(n+1) + 6y(n) = 4^n, y(0) = 0, y(1) = 1.", "year": "2024", "marks": 5 },
+                  { "q": "Explain the inversion integral formula for Z-transform and apply it to a given example.", "year": "2023", "marks": 5 }
+                ]
+              }
+            }
+
+          }
+        },
+
+        "Analysis_of_Algorithm": {
+          "subject_code": "AOA",
+          "modules": {
+
+            "Module_1_Algorithm_Design_Paradigms": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Define an algorithm. State its properties.", "year": "2022", "marks": 2 },
+                  { "q": "Distinguish between time complexity and space complexity.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain the divide and conquer strategy. Give two examples.", "year": "2023", "marks": 3 },
+                  { "q": "Trace merge sort on {6,5,3,1,8,7,2,4} and compute its time complexity.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the Strassen's matrix multiplication algorithm. Analyse its time complexity.", "year": "2024", "marks": 5 },
+                  { "q": "Using binary search, trace the search for 30 in {10,20,30,40,50}. Write its algorithm and complexity.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "State the greedy choice property and optimal substructure.", "year": "2022", "marks": 2 },
+                  { "q": "Define dynamic programming and memoization.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Solve the fractional knapsack problem: items (w, v) = (10,60),(20,100),(30,120), W = 50.", "year": "2023", "marks": 3 },
+                  { "q": "Find the minimum number of coins for change of 11 using coins {1,3,4} using dynamic programming.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Apply the 0/1 Knapsack problem using dynamic programming. Items: (w=2,v=6),(w=2,v=10),(w=3,v=12), W=5.", "year": "2024", "marks": 5 },
+                  { "q": "Find the Longest Common Subsequence (LCS) of X = ABCBDAB and Y = BDCABA using dynamic programming.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define NP, NP-hard and NP-complete problems.", "year": "2022", "marks": 2 },
+                  { "q": "State the P vs NP problem.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain reduction in NP-completeness. Show SAT ≤p 3-SAT conceptually.", "year": "2023", "marks": 3 },
+                  { "q": "Explain backtracking with the N-Queens problem for N = 4.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain branch and bound algorithm. Solve the travelling salesman problem on a small 4-city example.", "year": "2024", "marks": 5 },
+                  { "q": "Explain approximation algorithms. Describe a 2-approximation algorithm for the vertex cover problem.", "year": "2023", "marks": 5 }
+                ]
+              }
+            },
+
+            "Module_2_Graph_Algorithms": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Define strongly connected components in a graph.", "year": "2022", "marks": 2 },
+                  { "q": "State the difference between Prim's and Kruskal's algorithms.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Apply Prim's algorithm to find the MST of a given weighted graph.", "year": "2023", "marks": 3 },
+                  { "q": "Explain topological sorting with an example.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Apply Dijkstra's algorithm on a graph with 6 vertices. Show all steps and produce the shortest path tree.", "year": "2024", "marks": 5 },
+                  { "q": "Explain the Bellman-Ford algorithm. Show how it detects negative cycles.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "Define the Floyd-Warshall algorithm's purpose.", "year": "2022", "marks": 2 },
+                  { "q": "What is the All-Pairs Shortest Path problem?", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Apply Floyd-Warshall algorithm on a 4×4 weighted adjacency matrix.", "year": "2023", "marks": 3 },
+                  { "q": "Explain Kosaraju's algorithm for finding SCCs in a directed graph.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the network flow problem. Apply Ford-Fulkerson algorithm to find max flow in a given network.", "year": "2024", "marks": 5 },
+                  { "q": "Describe the minimum cut theorem and prove Max-Flow = Min-Cut.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define amortized analysis.", "year": "2022", "marks": 2 },
+                  { "q": "What is a randomized algorithm? Give an example.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain the potential method of amortized analysis. Apply it to dynamic array doubling.", "year": "2023", "marks": 3 },
+                  { "q": "Describe randomized quick sort and analyse its expected time complexity.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain skip lists and their expected O(log n) search time using probabilistic analysis.", "year": "2024", "marks": 5 },
+                  { "q": "Describe the concept of self-reducing problems and polynomial-time reductions with two examples.", "year": "2023", "marks": 5 }
+                ]
+              }
+            }
+
+          }
+        },
+
+        "Computer_Organization_and_Architecture": {
+          "subject_code": "COA",
+          "modules": {
+
+            "Module_1_CPU_and_Memory": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Define instruction cycle and state its phases.", "year": "2022", "marks": 2 },
+                  { "q": "Distinguish between RISC and CISC processors.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain the functions of ALU, control unit and registers in a CPU.", "year": "2023", "marks": 3 },
+                  { "q": "Explain the memory hierarchy. Compare cache, main memory and secondary memory.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Describe instruction pipelining. Explain pipeline hazards (structural, data, control) and solutions.", "year": "2024", "marks": 5 },
+                  { "q": "Explain cache memory organisation. Describe direct, fully-associative and set-associative mapping.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "Define addressing modes. List four types.", "year": "2022", "marks": 2 },
+                  { "q": "What is virtual memory? Define page fault.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain immediate, direct, indirect and register addressing modes with examples.", "year": "2023", "marks": 3 },
+                  { "q": "Describe demand paging and the page replacement algorithms FIFO and LRU.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the floating-point representation using IEEE 754 standard. Convert -6.75 to 32-bit IEEE format.", "year": "2024", "marks": 5 },
+                  { "q": "Describe DMA (Direct Memory Access). Explain the operation of a DMA controller.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "What is superscalar architecture?", "year": "2022", "marks": 2 },
+                  { "q": "Define branch prediction in CPUs.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain vector processing and SIMD architecture. Give practical applications.", "year": "2023", "marks": 3 },
+                  { "q": "Compare VLIW (Very Long Instruction Word) with superscalar processors.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain multiprocessor systems. Describe UMA and NUMA architectures. Compare their performance.", "year": "2024", "marks": 5 },
+                  { "q": "Describe the interconnection networks for multiprocessors: bus, crossbar switch and hypercube.", "year": "2023", "marks": 5 }
+                ]
+              }
+            },
+
+            "Module_2_Input_Output_and_Parallel_Processing": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Distinguish between synchronous and asynchronous I/O.", "year": "2022", "marks": 2 },
+                  { "q": "What are interrupts? State the role of interrupt vector table.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain programmed I/O, interrupt-driven I/O and DMA. Compare them.", "year": "2023", "marks": 3 },
+                  { "q": "Describe the priority interrupt system with daisy chaining.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain RAID organisation levels 0, 1, 3 and 5. State use cases for each.", "year": "2024", "marks": 5 },
+                  { "q": "Describe Flynn's taxonomy of computer architectures. Give examples of SISD, SIMD, MISD and MIMD.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "What is Amdahl's law? State its implication for parallel processing.", "year": "2022", "marks": 2 },
+                  { "q": "Define speedup and efficiency in parallel computing.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "A program is 80% parallelisable. Using Amdahl's law, find maximum speedup with 10 processors.", "year": "2023", "marks": 3 },
+                  { "q": "Explain shared memory vs. message passing in parallel processing.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain OpenMP programming model for shared-memory parallelism with a parallel loop example.", "year": "2024", "marks": 5 },
+                  { "q": "Describe the GPU architecture and explain how CUDA enables data parallelism.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "What is a systolic array?", "year": "2022", "marks": 2 },
+                  { "q": "Define cache coherence in multiprocessors.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain MESI protocol for cache coherence in multiprocessor systems.", "year": "2023", "marks": 3 },
+                  { "q": "Describe write-back and write-through cache update policies.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain systolic array architecture for matrix multiplication. Show the data flow with an example.", "year": "2024", "marks": 5 },
+                  { "q": "Describe the memory consistency models: sequential consistency and relaxed consistency.", "year": "2023", "marks": 5 }
+                ]
+              }
+            }
+
+          }
+        },
+
+        "Operating_Systems": {
+          "subject_code": "OS",
+          "modules": {
+
+            "Module_1_Process_Management": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Define a process and a thread. Distinguish between them.", "year": "2022", "marks": 2 },
+                  { "q": "List the states of a process and draw the process state diagram.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain preemptive and non-preemptive scheduling with examples.", "year": "2023", "marks": 3 },
+                  { "q": "Apply the Round Robin algorithm to processes P1(burst=5), P2(burst=3), P3(burst=6) with quantum=2.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the Critical Section Problem. Describe Peterson's solution and verify mutual exclusion and progress.", "year": "2024", "marks": 5 },
+                  { "q": "Explain semaphores. Show how to solve the Producer-Consumer problem using semaphores.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "Define deadlock. State the four Coffman conditions.", "year": "2022", "marks": 2 },
+                  { "q": "Define context switching.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Apply the Banker's algorithm to determine if the system is in a safe state for the given allocation and need matrices.", "year": "2023", "marks": 3 },
+                  { "q": "Explain deadlock detection and recovery strategies.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the Dining Philosophers Problem. Present the solution using monitors or semaphores.", "year": "2024", "marks": 5 },
+                  { "q": "Compare FCFS, SJF, Priority and Round Robin CPU scheduling with Gantt charts for a given example.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define page table and TLB (Translation Lookaside Buffer).", "year": "2022", "marks": 2 },
+                  { "q": "Distinguish between internal and external fragmentation.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Apply the LRU page replacement algorithm to page reference string 7,0,1,2,0,3,0,4,2,3 with 3 frames.", "year": "2023", "marks": 3 },
+                  { "q": "Explain segmentation and paging. State advantages and disadvantages of each.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the file system structure. Describe FAT, inodes (Unix) and NTFS data structures.", "year": "2024", "marks": 5 },
+                  { "q": "Explain disk scheduling algorithms FCFS, SSTF and SCAN. Apply each on request queue {98, 183, 37, 122, 14, 124, 65, 67} with head at 53.", "year": "2023", "marks": 5 }
+                ]
+              }
+            },
+
+            "Module_2_Memory_and_File_Systems": {
+              "easy": {
+                "2_marks": [
+                  { "q": "Define logical vs physical address space.", "year": "2022", "marks": 2 },
+                  { "q": "Define thrashing in virtual memory.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain the concept of working set model to avoid thrashing.", "year": "2023", "marks": 3 },
+                  { "q": "Describe the first-fit, best-fit and worst-fit memory allocation strategies.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the Unix i-node file system structure. How are large files handled using direct, indirect and double indirect blocks?", "year": "2024", "marks": 5 },
+                  { "q": "Compare the various file allocation methods: contiguous, linked and indexed. Give advantages and disadvantages.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "What is a device driver?", "year": "2022", "marks": 2 },
+                  { "q": "Define system call. Give two examples.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain the kernel modes: user mode vs kernel mode. How does a system call transition between them?", "year": "2023", "marks": 3 },
+                  { "q": "Describe the I/O subsystem and its buffering strategies in an OS.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain the Linux kernel architecture. Describe the roles of VFS, process scheduler and memory manager.", "year": "2024", "marks": 5 },
+                  { "q": "Describe real-time operating systems. Explain EDF (Earliest Deadline First) scheduling.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "Define a hypervisor. Distinguish between Type 1 and Type 2 hypervisors.", "year": "2022", "marks": 2 },
+                  { "q": "What is containerisation? Distinguish it from virtualisation.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain process migration in distributed operating systems.", "year": "2023", "marks": 3 },
+                  { "q": "Describe the concept of distributed shared memory (DSM).", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Explain Docker containerisation. How do containers compare to virtual machines in terms of performance and isolation?", "year": "2024", "marks": 5 },
+                  { "q": "Describe the architecture of a cloud computing system. Explain IaaS, PaaS and SaaS with examples.", "year": "2023", "marks": 5 }
+                ]
+              }
+            }
+
+          }
+        },
+
+        "Microprocessor": {
+          "subject_code": "MP",
+          "modules": {
+
+            "Module_1_8086_Architecture": {
+              "easy": {
+                "2_marks": [
+                  { "q": "List the registers of 8086 microprocessor.", "year": "2022", "marks": 2 },
+                  { "q": "Define segment register and explain physical address calculation in 8086.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain the internal architecture of 8086 with BIU and EU.", "year": "2023", "marks": 3 },
+                  { "q": "Differentiate between minimum and maximum mode of 8086.", "year": "2022", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Describe the memory segmentation in 8086. Calculate physical address when CS = 2000H and IP = 0100H.", "year": "2024", "marks": 5 },
+                  { "q": "Explain the interrupt structure of 8086 with the role of INTR, NMI and INT instruction.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "medium": {
+                "2_marks": [
+                  { "q": "Write a note on the flag register of 8086.", "year": "2022", "marks": 2 },
+                  { "q": "Distinguish between JMP, CALL and RET instructions.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Write an 8086 ALP to add two 16-bit numbers stored in memory.", "year": "2023", "marks": 3 },
+                  { "q": "Write an ALP for 8086 to find the largest element in an array of 10 bytes.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Write an 8086 ALP to sort an array of 10 numbers using bubble sort.", "year": "2024", "marks": 5 },
+                  { "q": "Describe 8255 PPI. Write an 8086 program to interface 8255 in mode 0 for I/O operations.", "year": "2023", "marks": 5 }
+                ]
+              },
+              "hard": {
+                "2_marks": [
+                  { "q": "What is memory-mapped I/O? Distinguish from port-mapped I/O.", "year": "2022", "marks": 2 },
+                  { "q": "Describe the role of 8259 PIC in interrupt management.", "year": "2023", "marks": 2 }
+                ],
+                "3_marks": [
+                  { "q": "Explain DMA controller 8237 and its interfacing with 8086.", "year": "2023", "marks": 3 },
+                  { "q": "Write an ALP using 8086 to generate a square wave using timer 8253.", "year": "2024", "marks": 3 }
+                ],
+                "5_marks": [
+                  { "q": "Describe the architecture of 8051 microcontroller. Compare it with 8086 microprocessor.", "year": "2024", "marks": 5 },
+                  { "q": "Write an 8051 C program to interface a 4×4 keypad and display key value on 7-segment display.", "year": "2023", "marks": 5 }
+                ]
+              }
+            }
+
+          }
+        }
+
+      }
+    }
+
+  }
+}

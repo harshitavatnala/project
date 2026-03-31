@@ -1,0 +1,1154 @@
+{
+  "Mechanical Engineering": {
+    "Semester 3": {
+      "Engineering Mathematics III": [
+        {
+          "module": "Module 1: Laplace Transform",
+          "questions": [
+            { "question": "Define Laplace Transform", "marks": 2, "difficulty": "easy" },
+            { "question": "State the first shifting theorem of Laplace Transform", "marks": 2, "difficulty": "easy" },
+            { "question": "Find the Laplace Transform of t²e³ᵗ", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain the convolution theorem for Laplace Transform", "marks": 3, "difficulty": "medium" },
+            { "question": "Solve the differential equation using Laplace Transform: y'' + 4y = sin2t, y(0)=0, y'(0)=0", "marks": 5, "difficulty": "hard" },
+            { "question": "Find inverse Laplace Transform of s/(s²+4)² using convolution theorem", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: Fourier Series",
+          "questions": [
+            { "question": "State Dirichlet's conditions for Fourier series", "marks": 2, "difficulty": "easy" },
+            { "question": "Define even and odd functions with examples", "marks": 2, "difficulty": "easy" },
+            { "question": "Find Fourier series of f(x) = x in (-π, π)", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain half range sine and cosine series", "marks": 3, "difficulty": "medium" },
+            { "question": "Obtain Fourier series for f(x) = x² in (0, 2π) and deduce the value of 1/1² + 1/2² + 1/3² + ...", "marks": 5, "difficulty": "hard" },
+            { "question": "Find the half range cosine series for f(x) = x(π-x) in (0, π)", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: Partial Differential Equations",
+          "questions": [
+            { "question": "Form PDE by eliminating arbitrary constants from z = ax + by + ab", "marks": 2, "difficulty": "easy" },
+            { "question": "Define homogeneous and non-homogeneous PDE", "marks": 2, "difficulty": "easy" },
+            { "question": "Solve the PDE: p² + q² = x + y", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain method of separation of variables for solving PDE", "marks": 3, "difficulty": "medium" },
+            { "question": "Derive one dimensional wave equation and solve it using separation of variables", "marks": 5, "difficulty": "hard" },
+            { "question": "Solve the heat equation ∂u/∂t = c²(∂²u/∂x²) with appropriate boundary conditions", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: Complex Variables",
+          "questions": [
+            { "question": "Define analytic function", "marks": 2, "difficulty": "easy" },
+            { "question": "State Cauchy-Riemann equations", "marks": 2, "difficulty": "easy" },
+            { "question": "If f(z) = u + iv is analytic and u = x² - y², find v", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain conformal mapping with examples", "marks": 3, "difficulty": "medium" },
+            { "question": "Evaluate ∮(z² + 1)/(z² - 1) dz around |z| = 2 using Cauchy's residue theorem", "marks": 5, "difficulty": "hard" },
+            { "question": "Find bilinear transformation which maps z = 0, -1, ∞ to w = -1, -2, 1", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: Probability and Statistics",
+          "questions": [
+            { "question": "Define probability density function", "marks": 2, "difficulty": "easy" },
+            { "question": "State properties of normal distribution", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain Poisson distribution with example", "marks": 3, "difficulty": "medium" },
+            { "question": "Find mean and variance of binomial distribution", "marks": 3, "difficulty": "medium" },
+            { "question": "In a normal distribution, 31% items are under 45 and 8% are over 64. Find mean and standard deviation", "marks": 5, "difficulty": "hard" },
+            { "question": "Fit a Poisson distribution to the given frequency data and test goodness of fit using chi-square test", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ],
+      "Thermodynamics": [
+        {
+          "module": "Module 1: Basic Concepts and Laws",
+          "questions": [
+            { "question": "Define thermodynamic system and surroundings", "marks": 2, "difficulty": "easy" },
+            { "question": "State Zeroth law of thermodynamics", "marks": 2, "difficulty": "easy" },
+            { "question": "Differentiate between intensive and extensive properties", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain quasi-static process with example", "marks": 3, "difficulty": "medium" },
+            { "question": "Derive the expression for work done in various thermodynamic processes", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain PMM-1 and PMM-2 with their violations", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: First Law of Thermodynamics",
+          "questions": [
+            { "question": "State first law of thermodynamics", "marks": 2, "difficulty": "easy" },
+            { "question": "Define enthalpy", "marks": 2, "difficulty": "easy" },
+            { "question": "Derive steady flow energy equation", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain the concept of internal energy", "marks": 3, "difficulty": "medium" },
+            { "question": "Apply SFEE to turbine, compressor, nozzle and throttling device", "marks": 5, "difficulty": "hard" },
+            { "question": "A gas undergoes a cyclic process. Calculate heat transfer in each process and net work done", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: Second Law of Thermodynamics",
+          "questions": [
+            { "question": "State Kelvin-Planck statement of second law", "marks": 2, "difficulty": "easy" },
+            { "question": "Define COP of heat pump and refrigerator", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain Clausius inequality", "marks": 3, "difficulty": "medium" },
+            { "question": "Prove equivalence of Kelvin-Planck and Clausius statements", "marks": 3, "difficulty": "medium" },
+            { "question": "Derive expression for efficiency of Carnot cycle", "marks": 5, "difficulty": "hard" },
+            { "question": "Two reversible heat engines operate in series. Derive intermediate temperature for equal work output", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: Entropy",
+          "questions": [
+            { "question": "Define entropy", "marks": 2, "difficulty": "easy" },
+            { "question": "State principle of increase of entropy", "marks": 2, "difficulty": "easy" },
+            { "question": "Derive expression for change in entropy for ideal gas", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain T-S diagram for various processes", "marks": 3, "difficulty": "medium" },
+            { "question": "Calculate entropy change when two bodies at different temperatures are brought to thermal equilibrium", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain the concept of availability and irreversibility with numerical example", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: Properties of Pure Substances",
+          "questions": [
+            { "question": "Define dryness fraction", "marks": 2, "difficulty": "easy" },
+            { "question": "What is triple point and critical point?", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain T-v diagram for water", "marks": 3, "difficulty": "medium" },
+            { "question": "Calculate specific volume of wet steam using steam tables", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain the use of Mollier diagram and steam tables with numerical", "marks": 5, "difficulty": "hard" },
+            { "question": "Derive expression for entropy change during constant pressure heating of water from subcooled to superheated state", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ],
+      "Strength of Materials": [
+        {
+          "module": "Module 1: Simple Stresses and Strains",
+          "questions": [
+            { "question": "Define stress and strain", "marks": 2, "difficulty": "easy" },
+            { "question": "State Hooke's law", "marks": 2, "difficulty": "easy" },
+            { "question": "Derive relation between E, G and K", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain thermal stresses in composite bars", "marks": 3, "difficulty": "medium" },
+            { "question": "A composite bar of steel and copper is subjected to axial load. Find stresses in each material", "marks": 5, "difficulty": "hard" },
+            { "question": "Derive expression for deformation in uniformly tapering circular bar under axial load", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: Shear Force and Bending Moment",
+          "questions": [
+            { "question": "Define shear force and bending moment", "marks": 2, "difficulty": "easy" },
+            { "question": "State point of contraflexure", "marks": 2, "difficulty": "easy" },
+            { "question": "Draw SFD and BMD for simply supported beam with UDL", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain relation between load, shear force and bending moment", "marks": 3, "difficulty": "medium" },
+            { "question": "Draw SFD and BMD for cantilever beam with combination of point loads and UDL", "marks": 5, "difficulty": "hard" },
+            { "question": "Draw SFD and BMD for overhanging beam with various loading conditions", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: Bending and Shear Stresses",
+          "questions": [
+            { "question": "State assumptions in theory of simple bending", "marks": 2, "difficulty": "easy" },
+            { "question": "Write bending equation", "marks": 2, "difficulty": "easy" },
+            { "question": "Derive flexure formula M/I = σ/y = E/R", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain shear stress distribution in rectangular section", "marks": 3, "difficulty": "medium" },
+            { "question": "A T-section beam is subjected to bending moment. Find maximum bending stress", "marks": 5, "difficulty": "hard" },
+            { "question": "Compare the strength of hollow and solid circular shafts of same material and weight", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: Torsion",
+          "questions": [
+            { "question": "State assumptions in theory of pure torsion", "marks": 2, "difficulty": "easy" },
+            { "question": "Write torsion equation", "marks": 2, "difficulty": "easy" },
+            { "question": "Derive expression for power transmitted by shaft", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain the concept of equivalent torque and equivalent bending moment", "marks": 3, "difficulty": "medium" },
+            { "question": "Design a hollow shaft to transmit given power at given rpm with permissible shear stress", "marks": 5, "difficulty": "hard" },
+            { "question": "A shaft is subjected to combined bending and torsion. Find principal stresses and maximum shear stress", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: Deflection of Beams",
+          "questions": [
+            { "question": "Define slope and deflection", "marks": 2, "difficulty": "easy" },
+            { "question": "State Macaulay's method", "marks": 2, "difficulty": "easy" },
+            { "question": "Derive expression for deflection of cantilever with point load at free end", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain moment area method for finding slope and deflection", "marks": 3, "difficulty": "medium" },
+            { "question": "Find deflection at center of simply supported beam with UDL using double integration method", "marks": 5, "difficulty": "hard" },
+            { "question": "Determine slope and deflection for beam with overhang using Macaulay's method", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ],
+      "Production Process I": [
+        {
+          "module": "Module 1: Casting Process",
+          "questions": [
+            { "question": "Define casting process", "marks": 2, "difficulty": "easy" },
+            { "question": "List types of patterns", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain pattern allowances", "marks": 3, "difficulty": "medium" },
+            { "question": "Differentiate between green sand and dry sand moulding", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe the sand casting process with neat sketch", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain various casting defects, their causes and remedies", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: Special Casting Methods",
+          "questions": [
+            { "question": "Define die casting", "marks": 2, "difficulty": "easy" },
+            { "question": "List advantages of investment casting", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain centrifugal casting process", "marks": 3, "difficulty": "medium" },
+            { "question": "Compare hot chamber and cold chamber die casting", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe investment casting process with neat sketch and applications", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain continuous casting process with advantages and applications", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: Welding Processes",
+          "questions": [
+            { "question": "Define welding", "marks": 2, "difficulty": "easy" },
+            { "question": "State types of welding joints", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain arc welding process", "marks": 3, "difficulty": "medium" },
+            { "question": "Compare AC and DC welding", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain TIG and MIG welding processes with neat sketches", "marks": 5, "difficulty": "hard" },
+            { "question": "Describe resistance welding processes with applications", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: Metal Forming Processes",
+          "questions": [
+            { "question": "Define rolling process", "marks": 2, "difficulty": "easy" },
+            { "question": "List types of forging operations", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain extrusion process with types", "marks": 3, "difficulty": "medium" },
+            { "question": "Differentiate between hot working and cold working", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe forging operations with neat sketches and applications", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain wire drawing and tube drawing processes with neat sketches", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: Sheet Metal Operations",
+          "questions": [
+            { "question": "Define blanking and piercing", "marks": 2, "difficulty": "easy" },
+            { "question": "List types of sheet metal operations", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain bending operation with bend allowance", "marks": 3, "difficulty": "medium" },
+            { "question": "Differentiate between progressive die and compound die", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe deep drawing process with defects and remedies", "marks": 5, "difficulty": "hard" },
+            { "question": "Design a progressive die for given component with neat sketch", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ],
+      "Material Science": [
+        {
+          "module": "Module 1: Crystal Structure",
+          "questions": [
+            { "question": "Define unit cell", "marks": 2, "difficulty": "easy" },
+            { "question": "State Miller indices", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain BCC, FCC and HCP structures", "marks": 3, "difficulty": "medium" },
+            { "question": "Calculate atomic packing factor for FCC structure", "marks": 3, "difficulty": "medium" },
+            { "question": "Derive the relationship between lattice parameter and atomic radius for BCC and FCC structures", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain X-ray diffraction method for crystal structure determination", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: Crystal Imperfections",
+          "questions": [
+            { "question": "Define point defects", "marks": 2, "difficulty": "easy" },
+            { "question": "List types of dislocations", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain edge and screw dislocations", "marks": 3, "difficulty": "medium" },
+            { "question": "Differentiate between vacancy and interstitial defects", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain the effect of dislocations on mechanical properties of materials", "marks": 5, "difficulty": "hard" },
+            { "question": "Describe grain boundaries and their influence on material properties", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: Phase Diagrams",
+          "questions": [
+            { "question": "Define phase and component", "marks": 2, "difficulty": "easy" },
+            { "question": "State Gibbs phase rule", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain lever rule with example", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe eutectic and eutectoid reactions", "marks": 3, "difficulty": "medium" },
+            { "question": "Draw and explain Iron-Carbon equilibrium diagram", "marks": 5, "difficulty": "hard" },
+            { "question": "Apply lever rule to calculate phases and their compositions from binary phase diagram", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: Heat Treatment",
+          "questions": [
+            { "question": "Define annealing", "marks": 2, "difficulty": "easy" },
+            { "question": "State purpose of hardening", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain TTT diagram", "marks": 3, "difficulty": "medium" },
+            { "question": "Differentiate between normalizing and annealing", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain surface hardening processes: carburizing, nitriding and induction hardening", "marks": 5, "difficulty": "hard" },
+            { "question": "Describe tempering process with microstructural changes and effect on mechanical properties", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: Engineering Materials",
+          "questions": [
+            { "question": "Define alloy steel", "marks": 2, "difficulty": "easy" },
+            { "question": "List types of cast iron", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain properties and applications of stainless steel", "marks": 3, "difficulty": "medium" },
+            { "question": "Compare grey cast iron and white cast iron", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe aluminium alloys with their heat treatment and applications", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain copper alloys (brass and bronze) with composition, properties and applications", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ]
+    },
+    "Semester 4": {
+      "Engineering Mathematics IV": [
+        {
+          "module": "Module 1: Complex Integration",
+          "questions": [
+            { "question": "State Cauchy's integral theorem", "marks": 2, "difficulty": "easy" },
+            { "question": "Define residue of a function", "marks": 2, "difficulty": "easy" },
+            { "question": "Evaluate ∮(z + 1)/(z² + 2z) dz around |z| = 3", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain types of singularities with examples", "marks": 3, "difficulty": "medium" },
+            { "question": "Evaluate ∫(0 to 2π) dθ/(5 + 4cosθ) using residue theorem", "marks": 5, "difficulty": "hard" },
+            { "question": "Evaluate ∫(0 to ∞) x²/(x⁴ + 1) dx using contour integration", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: Matrix Theory",
+          "questions": [
+            { "question": "Define eigenvalue and eigenvector", "marks": 2, "difficulty": "easy" },
+            { "question": "State Cayley-Hamilton theorem", "marks": 2, "difficulty": "easy" },
+            { "question": "Find eigenvalues and eigenvectors of given matrix", "marks": 3, "difficulty": "medium" },
+            { "question": "Verify Cayley-Hamilton theorem for given matrix", "marks": 3, "difficulty": "medium" },
+            { "question": "Use Cayley-Hamilton theorem to find inverse of matrix", "marks": 5, "difficulty": "hard" },
+            { "question": "Diagonalize the given matrix and find A^n", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: Correlation and Regression",
+          "questions": [
+            { "question": "Define correlation coefficient", "marks": 2, "difficulty": "easy" },
+            { "question": "State properties of regression coefficients", "marks": 2, "difficulty": "easy" },
+            { "question": "Calculate Karl Pearson's correlation coefficient for given data", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain the difference between correlation and regression", "marks": 3, "difficulty": "medium" },
+            { "question": "Fit a straight line y = a + bx to given data using least squares method", "marks": 5, "difficulty": "hard" },
+            { "question": "Find both regression lines and estimate value of y for given x", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: Probability Distributions",
+          "questions": [
+            { "question": "Define probability distribution function", "marks": 2, "difficulty": "easy" },
+            { "question": "State properties of Poisson distribution", "marks": 2, "difficulty": "easy" },
+            { "question": "Find mean and variance of given probability distribution", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain normal distribution with its properties", "marks": 3, "difficulty": "medium" },
+            { "question": "Fit a binomial distribution to given frequency data", "marks": 5, "difficulty": "hard" },
+            { "question": "Using normal distribution, find probability that measurement lies between given limits", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: Sampling Theory and Testing of Hypothesis",
+          "questions": [
+            { "question": "Define null hypothesis", "marks": 2, "difficulty": "easy" },
+            { "question": "State level of significance", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain chi-square test for goodness of fit", "marks": 3, "difficulty": "medium" },
+            { "question": "Differentiate between Type I and Type II errors", "marks": 3, "difficulty": "medium" },
+            { "question": "Apply t-test to test the significance of difference between two sample means", "marks": 5, "difficulty": "hard" },
+            { "question": "Apply chi-square test to test independence of attributes in contingency table", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ],
+      "Fluid Mechanics": [
+        {
+          "module": "Module 1: Properties of Fluids",
+          "questions": [
+            { "question": "Define viscosity", "marks": 2, "difficulty": "easy" },
+            { "question": "State Newton's law of viscosity", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain surface tension and capillarity", "marks": 3, "difficulty": "medium" },
+            { "question": "Differentiate between Newtonian and Non-Newtonian fluids", "marks": 3, "difficulty": "medium" },
+            { "question": "Derive expression for capillary rise in a tube", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain compressibility and bulk modulus with numerical problem", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: Fluid Statics",
+          "questions": [
+            { "question": "State Pascal's law", "marks": 2, "difficulty": "easy" },
+            { "question": "Define centre of pressure", "marks": 2, "difficulty": "easy" },
+            { "question": "Derive expression for hydrostatic force on plane surface", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain types of manometers", "marks": 3, "difficulty": "medium" },
+            { "question": "Find total pressure and centre of pressure on inclined plane surface submerged in liquid", "marks": 5, "difficulty": "hard" },
+            { "question": "Derive expression for hydrostatic force on curved surface with numerical", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: Fluid Kinematics",
+          "questions": [
+            { "question": "Define streamline and pathline", "marks": 2, "difficulty": "easy" },
+            { "question": "State continuity equation", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain types of fluid flow", "marks": 3, "difficulty": "medium" },
+            { "question": "Derive three-dimensional continuity equation", "marks": 3, "difficulty": "medium" },
+            { "question": "Derive velocity potential and stream function and establish relationship between them", "marks": 5, "difficulty": "hard" },
+            { "question": "Given velocity components, determine whether flow is rotational or irrotational and find stream function", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: Fluid Dynamics",
+          "questions": [
+            { "question": "State Bernoulli's theorem", "marks": 2, "difficulty": "easy" },
+            { "question": "Define momentum equation", "marks": 2, "difficulty": "easy" },
+            { "question": "Derive Euler's equation of motion", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain applications of Bernoulli's equation", "marks": 3, "difficulty": "medium" },
+            { "question": "Derive expression for discharge through venturimeter", "marks": 5, "difficulty": "hard" },
+            { "question": "Apply momentum equation to find force exerted by jet on stationary and moving plates", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: Flow Through Pipes",
+          "questions": [
+            { "question": "Define major and minor losses", "marks": 2, "difficulty": "easy" },
+            { "question": "State Darcy-Weisbach equation", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain hydraulic gradient and total energy line", "marks": 3, "difficulty": "medium" },
+            { "question": "Derive Hagen-Poiseuille equation for laminar flow through pipe", "marks": 3, "difficulty": "medium" },
+            { "question": "Calculate head loss and power required to pump water through pipe system", "marks": 5, "difficulty": "hard" },
+            { "question": "Analyze pipes in series and parallel to find equivalent pipe", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ],
+      "Kinematics of Machinery": [
+        {
+          "module": "Module 1: Fundamentals of Mechanisms",
+          "questions": [
+            { "question": "Define kinematic pair", "marks": 2, "difficulty": "easy" },
+            { "question": "State Gruebler's criterion", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain types of kinematic pairs with examples", "marks": 3, "difficulty": "medium" },
+            { "question": "Differentiate between mechanism and machine", "marks": 3, "difficulty": "medium" },
+            { "question": "Determine degrees of freedom of given mechanism using Kutzbach criterion", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain inversions of four bar chain with applications", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: Velocity and Acceleration Analysis",
+          "questions": [
+            { "question": "Define instantaneous centre", "marks": 2, "difficulty": "easy" },
+            { "question": "State Kennedy's theorem", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain relative velocity method", "marks": 3, "difficulty": "medium" },
+            { "question": "Find velocity of slider in slider crank mechanism graphically", "marks": 3, "difficulty": "medium" },
+            { "question": "Determine angular velocity and acceleration of links in four bar mechanism", "marks": 5, "difficulty": "hard" },
+            { "question": "Analyze velocity and acceleration in slider crank mechanism using analytical method", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: Cams",
+          "questions": [
+            { "question": "Define cam and follower", "marks": 2, "difficulty": "easy" },
+            { "question": "List types of followers", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain displacement diagrams for different follower motions", "marks": 3, "difficulty": "medium" },
+            { "question": "Differentiate between uniform velocity and SHM of follower", "marks": 3, "difficulty": "medium" },
+            { "question": "Design cam profile for roller follower with SHM during rise and uniform velocity during return", "marks": 5, "difficulty": "hard" },
+            { "question": "Draw cam profile for offset roller follower with cycloidal motion", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: Gears",
+          "questions": [
+            { "question": "Define module and pitch circle", "marks": 2, "difficulty": "easy" },
+            { "question": "State law of gearing", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain gear terminology", "marks": 3, "difficulty": "medium" },
+            { "question": "Compare involute and cycloidal tooth profiles", "marks": 3, "difficulty": "medium" },
+            { "question": "Derive expression for length of path of contact and contact ratio", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain interference in gears and methods to avoid it", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: Gear Trains",
+          "questions": [
+            { "question": "Define gear train", "marks": 2, "difficulty": "easy" },
+            { "question": "State types of gear trains", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain compound gear train with example", "marks": 3, "difficulty": "medium" },
+            { "question": "Differentiate between simple and compound gear trains", "marks": 3, "difficulty": "medium" },
+            { "question": "Determine speed ratio of epicyclic gear train using tabular method", "marks": 5, "difficulty": "hard" },
+            { "question": "Design a gear train for given velocity ratio with specified number of gears", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ],
+      "Production Process II": [
+        {
+          "module": "Module 1: Theory of Metal Cutting",
+          "questions": [
+            { "question": "Define orthogonal and oblique cutting", "marks": 2, "difficulty": "easy" },
+            { "question": "State chip thickness ratio", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain types of chips formed during machining", "marks": 3, "difficulty": "medium" },
+            { "question": "Derive expression for shear angle", "marks": 3, "difficulty": "medium" },
+            { "question": "Apply Merchant's circle diagram to determine cutting forces", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain tool wear mechanism and Taylor's tool life equation", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: Lathe Machine",
+          "questions": [
+            { "question": "List main parts of lathe", "marks": 2, "difficulty": "easy" },
+            { "question": "Define feed and depth of cut", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain operations performed on lathe", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe taper turning methods", "marks": 3, "difficulty": "medium" },
+            { "question": "Calculate machining time for given turning operation", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain thread cutting operation on lathe with gear train calculation", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: Drilling and Boring Machines",
+          "questions": [
+            { "question": "Define drilling operation", "marks": 2, "difficulty": "easy" },
+            { "question": "List types of drilling machines", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain operations performed on drilling machine", "marks": 3, "difficulty": "medium" },
+            { "question": "Differentiate between drilling and boring", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe jig boring machine with applications", "marks": 5, "difficulty": "hard" },
+            { "question": "Calculate machining time for drilling and reaming operations", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: Milling Machine",
+          "questions": [
+            { "question": "Define milling operation", "marks": 2, "difficulty": "easy" },
+            { "question": "List types of milling cutters", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain up milling and down milling", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe indexing methods", "marks": 3, "difficulty": "medium" },
+            { "question": "Calculate differential indexing for cutting given number of teeth", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain gear cutting on milling machine with indexing calculation", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: Grinding and Finishing Processes",
+          "questions": [
+            { "question": "Define grinding process", "marks": 2, "difficulty": "easy" },
+            { "question": "State grinding wheel specifications", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain types of grinding machines", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe selection of grinding wheel for given application", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain super finishing processes: honing, lapping and buffing", "marks": 5, "difficulty": "hard" },
+            { "question": "Describe centreless grinding with advantages and applications", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ],
+      "Applied Thermodynamics": [
+        {
+          "module": "Module 1: Air Standard Cycles",
+          "questions": [
+            { "question": "Define air standard efficiency", "marks": 2, "difficulty": "easy" },
+            { "question": "State assumptions in air standard cycles", "marks": 2, "difficulty": "easy" },
+            { "question": "Derive expression for efficiency of Otto cycle", "marks": 3, "difficulty": "medium" },
+            { "question": "Compare Otto and Diesel cycles", "marks": 3, "difficulty": "medium" },
+            { "question": "Derive expression for efficiency of Diesel cycle and solve numerical", "marks": 5, "difficulty": "hard" },
+            { "question": "Analyze dual cycle with P-V and T-S diagrams and derive expression for efficiency", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: IC Engines",
+          "questions": [
+            { "question": "Define brake thermal efficiency", "marks": 2, "difficulty": "easy" },
+            { "question": "State classification of IC engines", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain working of four stroke petrol engine", "marks": 3, "difficulty": "medium" },
+            { "question": "Differentiate between SI and CI engines", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe fuel injection systems in CI engines", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain performance testing of IC engines with heat balance sheet", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: Steam Nozzles and Turbines",
+          "questions": [
+            { "question": "Define nozzle efficiency", "marks": 2, "difficulty": "easy" },
+            { "question": "State conditions for maximum discharge through nozzle", "marks": 2, "difficulty": "easy" },
+            { "question": "Derive expression for mass flow rate through convergent nozzle", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain the need for convergent-divergent nozzle", "marks": 3, "difficulty": "medium" },
+            { "question": "Design a convergent-divergent nozzle for given steam conditions", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain compounding of steam turbines with velocity diagrams", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: Gas Turbines",
+          "questions": [
+            { "question": "Define work ratio of gas turbine", "marks": 2, "difficulty": "easy" },
+            { "question": "List components of gas turbine plant", "marks": 2, "difficulty": "easy" },
+            { "question": "Derive expression for optimum pressure ratio for maximum work output", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain open and closed cycle gas turbines", "marks": 3, "difficulty": "medium" },
+            { "question": "Analyze gas turbine cycle with regeneration, reheating and intercooling", "marks": 5, "difficulty": "hard" },
+            { "question": "Compare actual and ideal Brayton cycle with numerical", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: Refrigeration and Air Conditioning",
+          "questions": [
+            { "question": "Define ton of refrigeration", "marks": 2, "difficulty": "easy" },
+            { "question": "State types of refrigeration systems", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain vapour compression refrigeration cycle", "marks": 3, "difficulty": "medium" },
+            { "question": "Compare vapour compression and vapour absorption systems", "marks": 3, "difficulty": "medium" },
+            { "question": "Analyze vapour compression cycle on P-h and T-s diagrams with numerical", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain psychrometric processes with examples", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ]
+    }
+  },
+  "Electronics Engineering": {
+    "Semester 3": {
+      "Engineering Mathematics III": [
+        {
+          "module": "Module 1: Laplace Transform",
+          "questions": [
+            { "question": "Define Laplace Transform", "marks": 2, "difficulty": "easy" },
+            { "question": "State linearity property of Laplace Transform", "marks": 2, "difficulty": "easy" },
+            { "question": "Find Laplace Transform of e^(-2t)sin3t", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain initial and final value theorems", "marks": 3, "difficulty": "medium" },
+            { "question": "Solve differential equation using Laplace Transform: y'' + 3y' + 2y = e^(-t), y(0)=1, y'(0)=0", "marks": 5, "difficulty": "hard" },
+            { "question": "Find inverse Laplace Transform using partial fractions and convolution theorem", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: Fourier Transform",
+          "questions": [
+            { "question": "Define Fourier Transform", "marks": 2, "difficulty": "easy" },
+            { "question": "State properties of Fourier Transform", "marks": 2, "difficulty": "easy" },
+            { "question": "Find Fourier Transform of rectangular pulse", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain Parseval's identity for Fourier Transform", "marks": 3, "difficulty": "medium" },
+            { "question": "Find Fourier Transform of e^(-a|t|) and evaluate related integral", "marks": 5, "difficulty": "hard" },
+            { "question": "Solve integral equation using Fourier Transform", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: Z-Transform",
+          "questions": [
+            { "question": "Define Z-Transform", "marks": 2, "difficulty": "easy" },
+            { "question": "State region of convergence for Z-Transform", "marks": 2, "difficulty": "easy" },
+            { "question": "Find Z-Transform of a^n u(n)", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain shifting property of Z-Transform", "marks": 3, "difficulty": "medium" },
+            { "question": "Solve difference equation using Z-Transform", "marks": 5, "difficulty": "hard" },
+            { "question": "Find inverse Z-Transform using partial fraction method", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: Vector Calculus",
+          "questions": [
+            { "question": "Define gradient of scalar field", "marks": 2, "difficulty": "easy" },
+            { "question": "State Stoke's theorem", "marks": 2, "difficulty": "easy" },
+            { "question": "Find divergence and curl of given vector field", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain physical interpretation of divergence and curl", "marks": 3, "difficulty": "medium" },
+            { "question": "Verify Gauss divergence theorem for given vector field and surface", "marks": 5, "difficulty": "hard" },
+            { "question": "Apply Stoke's theorem to evaluate line integral", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: Complex Variables",
+          "questions": [
+            { "question": "Define analytic function", "marks": 2, "difficulty": "easy" },
+            { "question": "State Cauchy-Riemann equations in polar form", "marks": 2, "difficulty": "easy" },
+            { "question": "Verify if given function is analytic and find its derivative", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain harmonic functions and their properties", "marks": 3, "difficulty": "medium" },
+            { "question": "Evaluate contour integral using residue theorem", "marks": 5, "difficulty": "hard" },
+            { "question": "Find bilinear transformation mapping given points", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ],
+      "Electronic Devices and Circuits": [
+        {
+          "module": "Module 1: Semiconductor Physics",
+          "questions": [
+            { "question": "Define intrinsic and extrinsic semiconductors", "marks": 2, "difficulty": "easy" },
+            { "question": "State mass action law", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain energy band diagram of semiconductor", "marks": 3, "difficulty": "medium" },
+            { "question": "Derive expression for Fermi level in n-type semiconductor", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain Hall effect and its applications", "marks": 5, "difficulty": "hard" },
+            { "question": "Analyze drift and diffusion currents in semiconductors with numerical", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: PN Junction Diode",
+          "questions": [
+            { "question": "Define depletion region", "marks": 2, "difficulty": "easy" },
+            { "question": "State diode equation", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain V-I characteristics of PN junction diode", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe Zener breakdown and avalanche breakdown", "marks": 3, "difficulty": "medium" },
+            { "question": "Analyze diode as rectifier with filter circuits", "marks": 5, "difficulty": "hard" },
+            { "question": "Design Zener voltage regulator for given specifications", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: Bipolar Junction Transistor",
+          "questions": [
+            { "question": "Define alpha and beta of transistor", "marks": 2, "difficulty": "easy" },
+            { "question": "State transistor configurations", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain input and output characteristics of CE configuration", "marks": 3, "difficulty": "medium" },
+            { "question": "Derive relationship between α and β", "marks": 3, "difficulty": "medium" },
+            { "question": "Analyze transistor biasing circuits with stability factor", "marks": 5, "difficulty": "hard" },
+            { "question": "Design voltage divider bias circuit for given Q-point", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: Field Effect Transistors",
+          "questions": [
+            { "question": "Define pinch-off voltage", "marks": 2, "difficulty": "easy" },
+            { "question": "List types of FETs", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain characteristics of JFET", "marks": 3, "difficulty": "medium" },
+            { "question": "Compare JFET and MOSFET", "marks": 3, "difficulty": "medium" },
+            { "question": "Analyze MOSFET biasing circuits", "marks": 5, "difficulty": "hard" },
+            { "question": "Design FET amplifier for given specifications", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: Power Devices and Special Diodes",
+          "questions": [
+            { "question": "Define SCR and its triggering", "marks": 2, "difficulty": "easy" },
+            { "question": "List applications of photodiode", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain V-I characteristics of SCR", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe working of LED and photodiode", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain TRIAC and DIAC with characteristics and applications", "marks": 5, "difficulty": "hard" },
+            { "question": "Analyze power control circuit using SCR with numerical", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ],
+      "Digital Circuit Design": [
+        {
+          "module": "Module 1: Number Systems and Boolean Algebra",
+          "questions": [
+            { "question": "Convert decimal 45 to binary", "marks": 2, "difficulty": "easy" },
+            { "question": "State De Morgan's theorems", "marks": 2, "difficulty": "easy" },
+            { "question": "Simplify Boolean expression using K-map", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain BCD and excess-3 codes", "marks": 3, "difficulty": "medium" },
+            { "question": "Minimize Boolean function using Quine-McCluskey method", "marks": 5, "difficulty": "hard" },
+            { "question": "Design BCD to seven segment decoder", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: Combinational Logic Circuits",
+          "questions": [
+            { "question": "Define multiplexer", "marks": 2, "difficulty": "easy" },
+            { "question": "List types of adders", "marks": 2, "difficulty": "easy" },
+            { "question": "Design 4:1 multiplexer using logic gates", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain half adder and full adder", "marks": 3, "difficulty": "medium" },
+            { "question": "Design 4-bit binary adder/subtractor", "marks": 5, "difficulty": "hard" },
+            { "question": "Implement Boolean function using multiplexer", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: Sequential Logic Circuits",
+          "questions": [
+            { "question": "Define flip-flop", "marks": 2, "difficulty": "easy" },
+            { "question": "State difference between latch and flip-flop", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain SR, JK, D and T flip-flops", "marks": 3, "difficulty": "medium" },
+            { "question": "Convert JK flip-flop to D flip-flop", "marks": 3, "difficulty": "medium" },
+            { "question": "Design master-slave JK flip-flop", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain race around condition and methods to eliminate it", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: Counters",
+          "questions": [
+            { "question": "Define modulus of counter", "marks": 2, "difficulty": "easy" },
+            { "question": "List types of counters", "marks": 2, "difficulty": "easy" },
+            { "question": "Design 3-bit ripple counter", "marks": 3, "difficulty": "medium" },
+            { "question": "Differentiate between synchronous and asynchronous counters", "marks": 3, "difficulty": "medium" },
+            { "question": "Design mod-6 synchronous counter using JK flip-flops", "marks": 5, "difficulty": "hard" },
+            { "question": "Design ring counter and Johnson counter with timing diagrams", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: Registers and Memory",
+          "questions": [
+            { "question": "Define shift register", "marks": 2, "difficulty": "easy" },
+            { "question": "State types of shift registers", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain SISO, SIPO, PISO and PIPO registers", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe universal shift register", "marks": 3, "difficulty": "medium" },
+            { "question": "Design bidirectional shift register", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain RAM and ROM organization with memory expansion", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ],
+      "Electrical Network Analysis": [
+        {
+          "module": "Module 1: Network Theorems",
+          "questions": [
+            { "question": "State Thevenin's theorem", "marks": 2, "difficulty": "easy" },
+            { "question": "Define superposition theorem", "marks": 2, "difficulty": "easy" },
+            { "question": "Find Thevenin equivalent of given network", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain maximum power transfer theorem", "marks": 3, "difficulty": "medium" },
+            { "question": "Analyze network using Norton's theorem with source transformation", "marks": 5, "difficulty": "hard" },
+            { "question": "Apply Millman's theorem to parallel voltage sources", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: Network Topology",
+          "questions": [
+            { "question": "Define tree and co-tree", "marks": 2, "difficulty": "easy" },
+            { "question": "State incidence matrix", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain tie-set and cut-set matrices", "marks": 3, "difficulty": "medium" },
+            { "question": "Find fundamental loops and cutsets of given graph", "marks": 3, "difficulty": "medium" },
+            { "question": "Analyze network using tie-set matrix method", "marks": 5, "difficulty": "hard" },
+            { "question": "Apply Tellegen's theorem to verify power balance", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: Transient Analysis",
+          "questions": [
+            { "question": "Define time constant", "marks": 2, "difficulty": "easy" },
+            { "question": "State initial and final conditions for L and C", "marks": 2, "difficulty": "easy" },
+            { "question": "Analyze transient response of RC circuit", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain natural and forced response of RL circuit", "marks": 3, "difficulty": "medium" },
+            { "question": "Solve RLC series circuit transient response for step input", "marks": 5, "difficulty": "hard" },
+            { "question": "Analyze transient response of network using Laplace Transform", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: Two-Port Networks",
+          "questions": [
+            { "question": "Define Z-parameters", "marks": 2, "difficulty": "easy" },
+            { "question": "State conditions for reciprocity and symmetry", "marks": 2, "difficulty": "easy" },
+            { "question": "Find Y-parameters of given two-port network", "marks": 3, "difficulty": "medium" },
+            { "question": "Convert Z-parameters to ABCD parameters", "marks": 3, "difficulty": "medium" },
+            { "question": "Analyze cascaded two-port networks using ABCD parameters", "marks": 5, "difficulty": "hard" },
+            { "question": "Find image impedance and propagation constant of symmetric network", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: Network Synthesis",
+          "questions": [
+            { "question": "Define positive real function", "marks": 2, "difficulty": "easy" },
+            { "question": "State Hurwitz polynomial", "marks": 2, "difficulty": "easy" },
+            { "question": "Test if given function is positive real", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain properties of LC and RC driving point impedance", "marks": 3, "difficulty": "medium" },
+            { "question": "Synthesize LC network using Foster and Cauer forms", "marks": 5, "difficulty": "hard" },
+            { "question": "Realize given driving point impedance using RC network", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ],
+      "Electronic Instrumentation": [
+        {
+          "module": "Module 1: Measurement Fundamentals",
+          "questions": [
+            { "question": "Define accuracy and precision", "marks": 2, "difficulty": "easy" },
+            { "question": "State types of errors in measurement", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain static and dynamic characteristics of instruments", "marks": 3, "difficulty": "medium" },
+            { "question": "Differentiate between systematic and random errors", "marks": 3, "difficulty": "medium" },
+            { "question": "Analyze error propagation in multi-step measurement", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain calibration procedure and traceability standards", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: Analog Instruments",
+          "questions": [
+            { "question": "Define PMMC instrument", "marks": 2, "difficulty": "easy" },
+            { "question": "List types of analog meters", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain working of moving iron instrument", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe shunt and multiplier in ammeter and voltmeter", "marks": 3, "difficulty": "medium" },
+            { "question": "Design multi-range ammeter with Ayrton shunt", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain dynamometer type wattmeter with phasor diagram", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: Bridges and Potentiometers",
+          "questions": [
+            { "question": "State balance condition for Wheatstone bridge", "marks": 2, "difficulty": "easy" },
+            { "question": "Define Q-meter", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain Maxwell's bridge for inductance measurement", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe Schering bridge for capacitance measurement", "marks": 3, "difficulty": "medium" },
+            { "question": "Analyze Kelvin double bridge for low resistance measurement", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain AC potentiometer with applications", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: Oscilloscope",
+          "questions": [
+            { "question": "Define CRO and its parts", "marks": 2, "difficulty": "easy" },
+            { "question": "State function of time base circuit", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain block diagram of CRO", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe frequency measurement using Lissajous patterns", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain digital storage oscilloscope with specifications", "marks": 5, "difficulty": "hard" },
+            { "question": "Analyze phase measurement and rise time measurement using CRO", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: Digital Instruments",
+          "questions": [
+            { "question": "Define resolution of digital meter", "marks": 2, "difficulty": "easy" },
+            { "question": "List advantages of digital instruments", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain ramp type digital voltmeter", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe successive approximation type ADC", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain dual slope integrating type DVM with numerical", "marks": 5, "difficulty": "hard" },
+            { "question": "Describe digital frequency counter with time and frequency modes", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ]
+    },
+    "Semester 4": {
+      "Engineering Mathematics IV": [
+        {
+          "module": "Module 1: Complex Integration",
+          "questions": [
+            { "question": "State Cauchy's integral formula", "marks": 2, "difficulty": "easy" },
+            { "question": "Define pole and its order", "marks": 2, "difficulty": "easy" },
+            { "question": "Find residue of f(z) = z/(z²+1) at its poles", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain Laurent's series expansion", "marks": 3, "difficulty": "medium" },
+            { "question": "Evaluate ∮ e^z/(z-1)³ dz around |z|=2 using residue theorem", "marks": 5, "difficulty": "hard" },
+            { "question": "Evaluate real integrals using contour integration", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: Probability and Random Variables",
+          "questions": [
+            { "question": "Define random variable", "marks": 2, "difficulty": "easy" },
+            { "question": "State properties of probability density function", "marks": 2, "difficulty": "easy" },
+            { "question": "Find mean and variance of given distribution", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain cumulative distribution function", "marks": 3, "difficulty": "medium" },
+            { "question": "Derive moment generating function of normal distribution", "marks": 5, "difficulty": "hard" },
+            { "question": "Analyze joint probability distribution and find marginal distributions", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: Sampling Theory",
+          "questions": [
+            { "question": "Define standard error", "marks": 2, "difficulty": "easy" },
+            { "question": "State central limit theorem", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain sampling distribution of mean", "marks": 3, "difficulty": "medium" },
+            { "question": "Find confidence interval for population mean", "marks": 3, "difficulty": "medium" },
+            { "question": "Apply t-test for testing significance of single mean", "marks": 5, "difficulty": "hard" },
+            { "question": "Perform chi-square test for goodness of fit", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: Vector Spaces and Linear Transformations",
+          "questions": [
+            { "question": "Define vector space", "marks": 2, "difficulty": "easy" },
+            { "question": "State rank-nullity theorem", "marks": 2, "difficulty": "easy" },
+            { "question": "Check if given set is linearly independent", "marks": 3, "difficulty": "medium" },
+            { "question": "Find rank and nullity of given linear transformation", "marks": 3, "difficulty": "medium" },
+            { "question": "Find matrix representation of linear transformation", "marks": 5, "difficulty": "hard" },
+            { "question": "Apply Gram-Schmidt process for orthonormalization", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: Matrix Theory",
+          "questions": [
+            { "question": "Define eigenvalue and eigenvector", "marks": 2, "difficulty": "easy" },
+            { "question": "State Cayley-Hamilton theorem", "marks": 2, "difficulty": "easy" },
+            { "question": "Find eigenvalues and eigenvectors of 3x3 matrix", "marks": 3, "difficulty": "medium" },
+            { "question": "Verify Cayley-Hamilton theorem for given matrix", "marks": 3, "difficulty": "medium" },
+            { "question": "Diagonalize matrix and find its nth power", "marks": 5, "difficulty": "hard" },
+            { "question": "Use Cayley-Hamilton theorem to find inverse of matrix", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ],
+      "Linear Integrated Circuits": [
+        {
+          "module": "Module 1: Operational Amplifier Basics",
+          "questions": [
+            { "question": "Define ideal op-amp characteristics", "marks": 2, "difficulty": "easy" },
+            { "question": "State virtual ground concept", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain op-amp specifications: CMRR, slew rate, offset voltage", "marks": 3, "difficulty": "medium" },
+            { "question": "Derive expression for gain of inverting amplifier", "marks": 3, "difficulty": "medium" },
+            { "question": "Analyze frequency response of op-amp with compensation", "marks": 5, "difficulty": "hard" },
+            { "question": "Design instrumentation amplifier with given specifications", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: Op-Amp Applications",
+          "questions": [
+            { "question": "Define summing amplifier", "marks": 2, "difficulty": "easy" },
+            { "question": "List linear applications of op-amp", "marks": 2, "difficulty": "easy" },
+            { "question": "Design integrator and differentiator using op-amp", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain V to I and I to V converter", "marks": 3, "difficulty": "medium" },
+            { "question": "Design active filters: low pass, high pass, band pass", "marks": 5, "difficulty": "hard" },
+            { "question": "Analyze and design precision rectifier circuit", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: Non-Linear Op-Amp Circuits",
+          "questions": [
+            { "question": "Define comparator", "marks": 2, "difficulty": "easy" },
+            { "question": "State Schmitt trigger operation", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain zero crossing detector", "marks": 3, "difficulty": "medium" },
+            { "question": "Design Schmitt trigger with given threshold levels", "marks": 3, "difficulty": "medium" },
+            { "question": "Design astable and monostable multivibrator using op-amp", "marks": 5, "difficulty": "hard" },
+            { "question": "Analyze function generator using op-amp", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: Timers and PLL",
+          "questions": [
+            { "question": "State pin configuration of 555 timer", "marks": 2, "difficulty": "easy" },
+            { "question": "Define PLL and its components", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain 555 timer in astable mode", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe basic PLL operation", "marks": 3, "difficulty": "medium" },
+            { "question": "Design PWM generator using 555 timer", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain frequency synthesizer using PLL", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: Data Converters",
+          "questions": [
+            { "question": "Define resolution of ADC", "marks": 2, "difficulty": "easy" },
+            { "question": "List types of DAC", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain R-2R ladder DAC", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe successive approximation ADC", "marks": 3, "difficulty": "medium" },
+            { "question": "Analyze dual slope ADC with numerical", "marks": 5, "difficulty": "hard" },
+            { "question": "Design sample and hold circuit with specifications", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ],
+      "Principles of Communication Systems": [
+        {
+          "module": "Module 1: Introduction to Communication",
+          "questions": [
+            { "question": "Define modulation and its need", "marks": 2, "difficulty": "easy" },
+            { "question": "State types of noise in communication", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain block diagram of communication system", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe thermal noise and shot noise", "marks": 3, "difficulty": "medium" },
+            { "question": "Calculate noise figure and noise temperature of cascaded system", "marks": 5, "difficulty": "hard" },
+            { "question": "Analyze signal to noise ratio in communication channels", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: Amplitude Modulation",
+          "questions": [
+            { "question": "Define modulation index", "marks": 2, "difficulty": "easy" },
+            { "question": "State types of AM", "marks": 2, "difficulty": "easy" },
+            { "question": "Derive expression for AM wave and its spectrum", "marks": 3, "difficulty": "medium" },
+            { "question": "Compare DSBSC and SSB modulation", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain generation of SSB using filter and phase shift methods", "marks": 5, "difficulty": "hard" },
+            { "question": "Analyze AM transmitter and receiver with numerical", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: Angle Modulation",
+          "questions": [
+            { "question": "Define frequency deviation", "marks": 2, "difficulty": "easy" },
+            { "question": "State difference between FM and PM", "marks": 2, "difficulty": "easy" },
+            { "question": "Derive expression for FM wave and bandwidth", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain Carson's rule for FM bandwidth", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe FM generation using direct and indirect methods", "marks": 5, "difficulty": "hard" },
+            { "question": "Analyze FM receiver with limiter and discriminator", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: Pulse Modulation",
+          "questions": [
+            { "question": "Define sampling theorem", "marks": 2, "difficulty": "easy" },
+            { "question": "List types of pulse modulation", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain PAM, PWM and PPM with waveforms", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe quantization error in PCM", "marks": 3, "difficulty": "medium" },
+            { "question": "Analyze PCM system with companding", "marks": 5, "difficulty": "hard" },
+            { "question": "Compare TDM and FDM systems", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: Digital Communication",
+          "questions": [
+            { "question": "Define bit rate and baud rate", "marks": 2, "difficulty": "easy" },
+            { "question": "State types of digital modulation", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain ASK, FSK and PSK with waveforms", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe QPSK modulation scheme", "marks": 3, "difficulty": "medium" },
+            { "question": "Analyze error probability in digital communication", "marks": 5, "difficulty": "hard" },
+            { "question": "Compare various digital modulation techniques for bandwidth and error performance", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ],
+      "Control Systems": [
+        {
+          "module": "Module 1: Introduction to Control Systems",
+          "questions": [
+            { "question": "Define open loop and closed loop systems", "marks": 2, "difficulty": "easy" },
+            { "question": "State advantages of feedback", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain block diagram reduction techniques", "marks": 3, "difficulty": "medium" },
+            { "question": "Find transfer function using Mason's gain formula", "marks": 3, "difficulty": "medium" },
+            { "question": "Derive transfer function of DC motor", "marks": 5, "difficulty": "hard" },
+            { "question": "Model mechanical and electrical systems using analogies", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: Time Domain Analysis",
+          "questions": [
+            { "question": "Define rise time and settling time", "marks": 2, "difficulty": "easy" },
+            { "question": "State types of test signals", "marks": 2, "difficulty": "easy" },
+            { "question": "Derive step response of first order system", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain time domain specifications of second order system", "marks": 3, "difficulty": "medium" },
+            { "question": "Calculate steady state error for different types of systems", "marks": 5, "difficulty": "hard" },
+            { "question": "Analyze effect of P, PI, PD and PID controllers on system response", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: Stability Analysis",
+          "questions": [
+            { "question": "Define BIBO stability", "marks": 2, "difficulty": "easy" },
+            { "question": "State Routh's stability criterion", "marks": 2, "difficulty": "easy" },
+            { "question": "Apply Routh-Hurwitz criterion for given system", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain special cases in Routh array", "marks": 3, "difficulty": "medium" },
+            { "question": "Determine range of K for stability using Routh criterion", "marks": 5, "difficulty": "hard" },
+            { "question": "Analyze relative stability using Routh criterion", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: Root Locus Analysis",
+          "questions": [
+            { "question": "Define root locus", "marks": 2, "difficulty": "easy" },
+            { "question": "State rules for constructing root locus", "marks": 2, "difficulty": "easy" },
+            { "question": "Find centroid and asymptotes for given system", "marks": 3, "difficulty": "medium" },
+            { "question": "Determine break-away and break-in points", "marks": 3, "difficulty": "medium" },
+            { "question": "Sketch complete root locus for given transfer function", "marks": 5, "difficulty": "hard" },
+            { "question": "Design compensator using root locus method", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: Frequency Domain Analysis",
+          "questions": [
+            { "question": "Define gain margin and phase margin", "marks": 2, "difficulty": "easy" },
+            { "question": "State Nyquist stability criterion", "marks": 2, "difficulty": "easy" },
+            { "question": "Draw Bode plot for given transfer function", "marks": 3, "difficulty": "medium" },
+            { "question": "Determine stability from Nyquist plot", "marks": 3, "difficulty": "medium" },
+            { "question": "Find gain margin and phase margin from Bode plot", "marks": 5, "difficulty": "hard" },
+            { "question": "Design lag-lead compensator using Bode plot", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ],
+      "Microprocessor and Microcontroller": [
+        {
+          "module": "Module 1: 8085 Microprocessor",
+          "questions": [
+            { "question": "State pin diagram of 8085", "marks": 2, "difficulty": "easy" },
+            { "question": "List flags in 8085", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain architecture of 8085", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe addressing modes of 8085", "marks": 3, "difficulty": "medium" },
+            { "question": "Write ALP for 8-bit multiplication", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain timing diagram for memory read/write", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 2: 8085 Programming",
+          "questions": [
+            { "question": "Define instruction cycle", "marks": 2, "difficulty": "easy" },
+            { "question": "List data transfer instructions", "marks": 2, "difficulty": "easy" },
+            { "question": "Write ALP to add two 16-bit numbers", "marks": 3, "difficulty": "medium" },
+            { "question": "Explain stack operations with examples", "marks": 3, "difficulty": "medium" },
+            { "question": "Write ALP to sort array in ascending order", "marks": 5, "difficulty": "hard" },
+            { "question": "Write ALP for BCD to binary conversion", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 3: 8085 Interfacing",
+          "questions": [
+            { "question": "Define memory mapped I/O", "marks": 2, "difficulty": "easy" },
+            { "question": "State functions of 8255 PPI", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain modes of 8255", "marks": 3, "difficulty": "medium" },
+            { "question": "Interface 8255 with 8085 in mode 0", "marks": 3, "difficulty": "medium" },
+            { "question": "Interface ADC 0804 with 8085", "marks": 5, "difficulty": "hard" },
+            { "question": "Interface stepper motor with 8085 using 8255", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 4: 8051 Microcontroller",
+          "questions": [
+            { "question": "State architecture of 8051", "marks": 2, "difficulty": "easy" },
+            { "question": "List SFRs in 8051", "marks": 2, "difficulty": "easy" },
+            { "question": "Explain memory organization of 8051", "marks": 3, "difficulty": "medium" },
+            { "question": "Describe timer modes in 8051", "marks": 3, "difficulty": "medium" },
+            { "question": "Write program for serial communication using 8051", "marks": 5, "difficulty": "hard" },
+            { "question": "Explain interrupt system of 8051 with priority", "marks": 5, "difficulty": "hard" }
+          ]
+        },
+        {
+          "module": "Module 5: 8051 Programming and Interfacing",
+          "questions": [
+            { "question": "Define addressing modes of 8051", "marks": 2, "difficulty": "easy" },
+            { "question": "List bit manipulation instructions", "marks": 2, "difficulty": "easy" },
+            { "question": "Write program for time delay using timer", "marks": 3, "difficulty": "medium" },
+            { "question": "Interface LCD with 8051", "marks": 3, "difficulty": "medium" },
+            { "question": "Write program for external interrupt handling", "marks": 5, "difficulty": "hard" },
+            { "question": "Interface keypad and 7-segment display with 8051", "marks": 5, "difficulty": "hard" }
+          ]
+        }
+      ]
+    }
+  }
+}
