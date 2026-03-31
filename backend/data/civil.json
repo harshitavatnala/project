@@ -10,7 +10,7 @@
       "scheme": "NEP-2020",
       "subjects": [
         {
-          "subject_name": "Applied Mathematics - I",
+          "subject_name": "Applied Mathematics  I",
           "subject_code": "AM-I",
           "modules": [
             {
@@ -510,7 +510,7 @@
       "scheme": "NEP-2020",
       "subjects": [
         {
-          "subject_name": "Applied Mathematics - II",
+          "subject_name": "Applied Mathematics  II",
           "subject_code": "AM-II",
           "modules": [
             {
@@ -631,7 +631,7 @@
       "scheme": "R-19 (REV-2019 C Scheme)",
       "subjects": [
         {
-          "subject_name": "Engineering Mathematics - III",
+          "subject_name": "Engineering Mathematics III",
           "subject_code": "M3",
           "modules": [
             {

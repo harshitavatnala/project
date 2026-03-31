@@ -99,11 +99,11 @@
             text-decoration: underline;
             color: #fff;
         }
-
+/* 
         /* Responsive */
-        @media (max-width: 400px) {
+        /* @media (max-width: 400px) {
             div {
                 width: 90%;
                 padding: 30px 20px;
             }
-        }
+        } */ 
