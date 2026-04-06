@@ -23,7 +23,8 @@
             box-shadow: 0 8px 32px rgba(0,0,0,0.2);
             color: #fff;
             text-align: center;
-            transition: 0.3s ease;
+            transition: 0.3s ease; 
+            
         }
 
         div:hover {
@@ -99,11 +100,11 @@
             text-decoration: underline;
             color: #fff;
         }
-/* 
+
         /* Responsive */
-        /* @media (max-width: 400px) {
+         @media (max-width: 400px) {
             div {
                 width: 90%;
                 padding: 30px 20px;
             }
-        } */ 
+        } 

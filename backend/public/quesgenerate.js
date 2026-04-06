@@ -327,61 +327,61 @@ document.addEventListener("DOMContentLoaded", function () {
             console.error("Error generating paper:", error);
             alert("Failed to generate paper. Please try again.");
         }
-    document.getElementById("classConfigForm").addEventListener("submit", async function (e) {
-    e.preventDefault();
+//     document.getElementById("classConfigForm").addEventListener("submit", async function (e) {
+//     e.preventDefault();
 
-    const branch = document.getElementById("branch").value;
-    const semester = document.getElementById("semester").value;
-    const subject = document.getElementById("addSubjectSelect").value;
-    const difficulty = document.querySelector('input[name="difficulty"]:checked').value;
+//     const branch = document.getElementById("branch").value;
+//     const semester = document.getElementById("semester").value;
+//     const subject = document.getElementById("addSubjectSelect").value;
+//     const difficulty = document.querySelector('input[name="difficulty"]:checked').value;
 
-    const questions = document.querySelectorAll(".questions");
-    const marks = document.querySelectorAll(".marks");
+//     const questions = document.querySelectorAll(".questions");
+//     const marks = document.querySelectorAll(".marks");
 
-    let sections = [];
+//     let sections = [];
 
-    for (let i = 0; i < questions.length; i++) {
-        sections.push({
-            numQuestions: questions[i].value,
-            marks: marks[i].value
-        });
-    }
+//     for (let i = 0; i < questions.length; i++) {
+//         sections.push({
+//             numQuestions: questions[i].value,
+//             marks: marks[i].value
+//         });
+//     }
 
-    try {
-        const response = await fetch("http://localhost:5000/generate-paper", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                branch,
-                semester,
-                subject,
-                difficulty,
-                sections
-            })
-        });
+//     try {
+//         const response = await fetch("http://localhost:5000/generate-paper", {
+//             method: "POST",
+//             headers: {
+//                 "Content-Type": "application/json"
+//             },
+//             body: JSON.stringify({
+//                 branch,
+//                 semester,
+//                 subject,
+//                 difficulty,
+//                 sections
+//             })
+//         });
 
-        if (!response.ok) {
-            const err = await response.text();
-            alert("Error: " + err);
-            return;
-        }
+//         if (!response.ok) {
+//             const err = await response.text();
+//             alert("Error: " + err);
+//             return;
+//         }
 
-        const blob = await response.blob();
-        const url = window.URL.createObjectURL(blob);
+//         const blob = await response.blob();
+//         const url = window.URL.createObjectURL(blob);
 
-        // Show PDF preview
-        document.getElementById("pdfPreview").src = url;
+//         // Show PDF preview
+//         document.getElementById("pdfPreview").src = url;
 
-        // Enable download
-        document.getElementById("downloadBtn").href = url;
+//         // Enable download
+//         document.getElementById("downloadBtn").href = url;
 
-    } catch (err) {
-        console.error(err);
-        alert("Failed to connect to server");
-    }
-});
+//     } catch (err) {
+//         console.error(err);
+//         alert("Failed to connect to server");
+//     }
+// });
     });
 });
 

@@ -9,7 +9,7 @@
     "NEP-2020": {
       "semester_1": {
         "subjects": {
-          "Applied_Mathematics_I": {
+          "Applied Mathematics I": {
             "subject_code": "AM1",
             "scheme": "NEP-2020",
             "semester": 1,
@@ -72,7 +72,7 @@
             }
           },
 
-          "Applied_Physics": {
+          "Applied Physics": {
             "subject_code": "APHY",
             "scheme": "NEP-2020",
             "semester": 1,
@@ -135,7 +135,7 @@
             }
           },
 
-          "Applied_Chemistry": {
+          "Applied Chemistry": {
             "subject_code": "ACHEM",
             "scheme": "NEP-2020",
             "semester": 1,
@@ -198,7 +198,7 @@
             }
           },
 
-          "Engineering_Mechanics": {
+          "Engineering Mechanics": {
             "subject_code": "EM",
             "scheme": "NEP-2020",
             "semester": 1,
@@ -261,7 +261,7 @@
             }
           },
 
-          "Basic_Electrical_Electronics_Engineering": {
+          "Basic Electrical and Electronics Engineering": {
             "subject_code": "BEEE",
             "scheme": "NEP-2020",
             "semester": 1,
@@ -324,7 +324,7 @@
             }
           },
 
-          "Professional_Communication_Ethics": {
+          "Professional Communication Ethics": {
             "subject_code": "PCE",
             "scheme": "NEP-2020",
             "semester": 1,
@@ -389,9 +389,9 @@
         }
       },
 
-      "semester_2": {
+      "semester 2": {
         "subjects": {
-          "Applied_Mathematics_II": {
+          "Applied Mathematics II": {
             "subject_code": "AM2",
             "scheme": "NEP-2020",
             "semester": 2,
@@ -454,7 +454,7 @@
             }
           },
 
-          "Data_Structure_NEP": {
+          "Data Structure": {
             "subject_code": "DS",
             "scheme": "NEP-2020",
             "semester": 2,
@@ -524,7 +524,7 @@
     "R19_C_Scheme": {
       "semester_1": {
         "subjects": {
-          "Engineering_Mathematics_I": {
+          "Engineering Mathematics I": {
             "subject_code": "M1",
             "scheme": "REV-2019-C",
             "semester": 1,
@@ -587,7 +587,7 @@
             }
           },
 
-          "Engineering_Physics_I": {
+          "Engineering Physics I": {
             "subject_code": "PHY1",
             "scheme": "REV-2019-C",
             "semester": 1,
@@ -650,7 +650,7 @@
             }
           },
 
-          "Engineering_Chemistry_I": {
+          "Engineering Chemistry I": {
             "subject_code": "CHEM1",
             "scheme": "REV-2019-C",
             "semester": 1,
@@ -713,7 +713,7 @@
             }
           },
 
-          "Engineering_Mechanics_R19": {
+          "Engineering Mechanics R19": {
             "subject_code": "EM_R19",
             "scheme": "REV-2019-C",
             "semester": 1,
@@ -776,7 +776,7 @@
             }
           },
 
-          "Basic_Electrical_Engineering_R19": {
+          "Basic Electrical Engineering_R19": {
             "subject_code": "BEE_R19",
             "scheme": "REV-2019-C",
             "semester": 1,
@@ -841,9 +841,9 @@
         }
       },
 
-      "semester_2": {
+      "semester2": {
         "subjects": {
-          "Engineering_Mathematics_II": {
+          "Engineering Mathematics II": {
             "subject_code": "M2",
             "scheme": "REV-2019-C",
             "semester": 2,
@@ -906,7 +906,7 @@
             }
           },
 
-          "Engineering_Physics_II": {
+          "Engineering Physics II": {
             "subject_code": "PHY2",
             "scheme": "REV-2019-C",
             "semester": 2,
@@ -969,7 +969,7 @@
             }
           },
 
-          "Engineering_Chemistry_II": {
+          "Engineering Chemistry II": {
             "subject_code": "CHEM2",
             "scheme": "REV-2019-C",
             "semester": 2,
@@ -1032,7 +1032,7 @@
             }
           },
 
-          "C_Programming": {
+          "C Programming": {
             "subject_code": "CP",
             "scheme": "REV-2019-C",
             "semester": 2,
@@ -1095,7 +1095,7 @@
             }
           },
 
-          "Engineering_Graphics_R19": {
+          "Engineering Graphics R19": {
             "subject_code": "EG",
             "scheme": "REV-2019-C",
             "semester": 2,
@@ -1158,7 +1158,7 @@
             }
           },
 
-          "Professional_Communication_Ethics_R19": {
+          "Professional Communication Ethics": {
             "subject_code": "PCE_R19",
             "scheme": "REV-2019-C",
             "semester": 2,
