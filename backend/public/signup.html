@@ -14,7 +14,7 @@
     <div class="container">
         <h2>SignUp</h2>
         <p class="subtitle">Create your account</p>
-        <form action="signup.php" method="post">
+        <form id="signupForm">
             <div class="input-group">
                 <input type="text" id="name" name="name" placeholder=" " required>
                 <label for="name">Enter your name</label>
@@ -43,12 +43,13 @@
                 <label for="password">Create a Password</label>
             </div>
 
-            <button type="submit">SignUp</button>
+            <button onclick="window.location.href='frontpage.html'">SignUp</button>
         </form>
         <p class="login-link">Already have an account?
             <a href="login.html">Login</a>
         </p>
     </div>
+    <script src="signup.js"></script>
 </body>
 
 </html>

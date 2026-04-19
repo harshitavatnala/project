@@ -133,14 +133,19 @@ app.get("/", (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 });
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
+const { use } = require("react");
 
 // 🔹 SIGN UP
 app.post("/signup", (req, res) => {
     const { name, email, branch, password } = req.body;
 
     const filePath = path.join(__dirname, "data", "users.json");
-    let users = JSON.parse(fs.readFileSync(filePath));
+    let users = [];
+    if (fs.existsSync(filePath)) {
+        users = JSON.parse(fs.readFileSync(filePath));
+    }
+    // let users = JSON.parse(fs.readFileSync(filePath));
 
     // Check if user exists
     const existingUser = users.find(u => u.email === email);
