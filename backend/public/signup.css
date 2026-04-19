@@ -10,7 +10,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            background: linear-gradient(135deg, #aa62f7, #649bfc);
         }
 
         .container {
@@ -20,7 +20,7 @@
             padding: 40px 35px;
             width: 400px;
             box-shadow: 0 8px 32px rgba(0,0,0,0.2);
-            color: #fff;
+            color: #ffffff;
             text-align: center;
             transition: 0.3s ease;
         }
@@ -39,7 +39,7 @@
         p.subtitle {
             font-size: 14px;
             margin-bottom: 25px;
-            color: #f0f0f0;
+            color: #ffffff;
         }
 
         form {
@@ -59,7 +59,7 @@
             border: none;
             border-radius: 12px;
             background: rgba(255,255,255,0.2);
-            color: #fff;
+            color: #2f2f2f;
             font-size: 16px;
             outline: none;
             transition: 0.3s ease;
@@ -76,7 +76,7 @@
             top: 50%;
             left: 15px;
             transform: translateY(-50%);
-            color: #f0f0f0;
+            color: #2f2f2f;
             font-size: 16px;
             pointer-events: none;
             transition: 0.3s ease;

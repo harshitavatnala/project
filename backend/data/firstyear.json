@@ -1,21 +1,22 @@
- 
-
 {
-
+  "meta": {
   "university": "Mumbai University (MU)",
-  "course": "First Year Engineering (FE)",
-  "source": "muquestionpapers.com - PYQs",
+  "branch": "First Year Engineering",
+  "source": "muquestionpapers.com PYQs",
   "schemes": {
     "NEP-2020": {
-      "semester_1": {
-        "subjects": {
-          "Applied Mathematics I": {
+      "semesters": [
+      {
+        "semester": 1,
+        "subjects": [
+          {
             "subject_code": "AM1",
+            "subject_name": "Applied Mathematics I",
             "scheme": "NEP-2020",
-            "semester": 1,
-            "modules": {
-              "Module_1": {
-                "name": "Complex Numbers and Hyperbolic Functions",
+            "modules": [
+              {
+              "module_no": 1,
+                "module_name": "Complex Numbers and Hyperbolic Functions",
                 "questions": [
                   { "id": "AM1_NEP_M1_E_2", "difficulty": "easy", "marks": 2, "question": "Define modulus and argument of a complex number." },
                   { "id": "AM1_NEP_M1_E_2b", "difficulty": "easy", "marks": 2, "question": "State De Moivre's theorem." },
@@ -25,8 +26,9 @@
                   { "id": "AM1_NEP_M1_H_5b", "difficulty": "hard", "marks": 5, "question": "Separate into real and imaginary parts: sin(α + iβ). Hence find sin(π/4 + i·log2)." }
                 ]
               },
-              "Module_2": {
-                "name": "Successive Differentiation and Leibnitz Theorem",
+              {
+              "module_no": 2,
+                "module_name": "Successive Differentiation and Leibnitz Theorem",
                 "questions": [
                   { "id": "AM1_NEP_M2_E_2", "difficulty": "easy", "marks": 2, "question": "State Leibnitz theorem for nth derivative of a product of two functions." },
                   { "id": "AM1_NEP_M2_E_2b", "difficulty": "easy", "marks": 2, "question": "Find the nth derivative of y = sin(ax + b)." },
@@ -36,8 +38,9 @@
                   { "id": "AM1_NEP_M2_H_5b", "difficulty": "hard", "marks": 5, "question": "Using Leibnitz theorem find the nth derivative of x²·e^(3x)·sin(2x)." }
                 ]
               },
-              "Module_3": {
-                "name": "Partial Differentiation and Applications",
+              {
+              "module_no": 3,
+                "module_name": "Partial Differentiation and Applications",
                 "questions": [
                   { "id": "AM1_NEP_M3_E_2", "difficulty": "easy", "marks": 2, "question": "State Euler's theorem for homogeneous functions." },
                   { "id": "AM1_NEP_M3_E_2b", "difficulty": "easy", "marks": 2, "question": "Define a homogeneous function with an example." },
@@ -47,8 +50,9 @@
                   { "id": "AM1_NEP_M3_H_5b", "difficulty": "hard", "marks": 5, "question": "If u = f(r), r = √(x²+y²), prove that ∂²u/∂x² + ∂²u/∂y² = f''(r) + (1/r)f'(r)." }
                 ]
               },
-              "Module_4": {
-                "name": "Applications of Differential Calculus",
+              {
+              "module_no": 4,
+                "module_name": "Applications of Differential Calculus",
                 "questions": [
                   { "id": "AM1_NEP_M4_E_2", "difficulty": "easy", "marks": 2, "question": "Write the formula for radius of curvature in Cartesian form." },
                   { "id": "AM1_NEP_M4_E_2b", "difficulty": "easy", "marks": 2, "question": "Define evolute and involute of a curve." },
@@ -58,8 +62,9 @@
                   { "id": "AM1_NEP_M4_H_5b", "difficulty": "hard", "marks": 5, "question": "Find the asymptotes of y³ - x²y + 2x² - y² = 0 and trace the curve." }
                 ]
               },
-              "Module_5": {
-                "name": "Integral Calculus",
+              {
+              "module_no": 5,
+                "module_name": "Integral Calculus",
                 "questions": [
                   { "id": "AM1_NEP_M5_E_2", "difficulty": "easy", "marks": 2, "question": "Evaluate ∫₀^(π/2) sin⁵x dx using Walli's formula." },
                   { "id": "AM1_NEP_M5_E_2b", "difficulty": "easy", "marks": 2, "question": "State properties of definite integrals." },
@@ -69,16 +74,16 @@
                   { "id": "AM1_NEP_M5_H_5b", "difficulty": "hard", "marks": 5, "question": "Find the volume of the solid bounded by the paraboloid z = x² + y² and the plane z = 4 using triple integration." }
                 ]
               }
-            }
+            ]
           },
-
-          "Applied Physics": {
+          {
             "subject_code": "APHY",
+            "subject_name": "Applied Physics I",
             "scheme": "NEP-2020",
-            "semester": 1,
-            "modules": {
-              "Module_1": {
-                "name": "Interference of Light",
+            "modules": [
+              {
+                "module_no": 1,
+                "module_name": "Interference of Light",
                 "questions": [
                   { "id": "APHY_NEP_M1_E_2", "difficulty": "easy", "marks": 2, "question": "State the conditions necessary for sustained interference of light." },
                   { "id": "APHY_NEP_M1_E_2b", "difficulty": "easy", "marks": 2, "question": "What is coherent source? Give two examples." },
@@ -88,8 +93,9 @@
                   { "id": "APHY_NEP_M1_H_5b", "difficulty": "hard", "marks": 5, "question": "Describe Michelson's interferometer experiment. How is it used to determine wavelength of monochromatic light?" }
                 ]
               },
-              "Module_2": {
-                "name": "Diffraction of Light",
+              {
+                "module_no": 2,
+                "module_name": "Diffraction of Light",
                 "questions": [
                   { "id": "APHY_NEP_M2_E_2", "difficulty": "easy", "marks": 2, "question": "Distinguish between Fresnel and Fraunhofer diffraction." },
                   { "id": "APHY_NEP_M2_E_2b", "difficulty": "easy", "marks": 2, "question": "Define resolving power of an optical instrument." },
@@ -99,19 +105,21 @@
                   { "id": "APHY_NEP_M2_H_5b", "difficulty": "hard", "marks": 5, "question": "What is a diffraction grating? Derive the grating equation and explain how it can be used to determine the wavelength of spectral lines." }
                 ]
               },
-              "Module_3": {
-                "name": "Lasers and Optical Fibers",
+              {
+                "module_no": 3,
+                "module_name": "Lasers and Optical Fibers",
                 "questions": [
                   { "id": "APHY_NEP_M3_E_2", "difficulty": "easy", "marks": 2, "question": "What is population inversion? Why is it necessary for laser action?" },
                   { "id": "APHY_NEP_M3_E_2b", "difficulty": "easy", "marks": 2, "question": "State two applications of optical fibers in communication." },
                   { "id": "APHY_NEP_M3_M_3", "difficulty": "medium", "marks": 3, "question": "Explain the principle of He-Ne laser with an energy level diagram." },
                   { "id": "APHY_NEP_M3_M_3b", "difficulty": "medium", "marks": 3, "question": "A step-index optical fiber has core refractive index 1.5 and cladding index 1.45. Calculate numerical aperture and acceptance angle." },
                   { "id": "APHY_NEP_M3_H_5", "difficulty": "hard", "marks": 5, "question": "Derive Einstein's relations for stimulated emission and spontaneous emission. Obtain the ratio A/B and comment on its significance at optical frequencies." },
-                  { "id": "APHY_NEP_M3_H_5b", "difficulty": "hard", "marks": 5, "question": "Explain the construction and working of semiconductor diode laser. Compare its properties with He-Ne laser." }
+                  { "id": "APHY_NEP_M3_H_5b", "difficulty":"hard", "marks": 5,"question": "Explain the construction and working of semiconductor diode laser. Compare its properties with He-Ne laser." }
                 ]
               },
-              "Module_4": {
-                "name": "Ultrasonics",
+              {
+                "module_no": 4,
+                "module_name": "Ultrasonics",
                 "questions": [
                   { "id": "APHY_NEP_M4_E_2", "difficulty": "easy", "marks": 2, "question": "What are ultrasonic waves? Give the range of their frequency." },
                   { "id": "APHY_NEP_M4_E_2b", "difficulty": "easy", "marks": 2, "question": "State the piezoelectric effect." },
@@ -121,8 +129,9 @@
                   { "id": "APHY_NEP_M4_H_5b", "difficulty": "hard", "marks": 5, "question": "Explain the NDT application of ultrasonics using pulse echo method. Draw the block diagram and describe each component." }
                 ]
               },
-              "Module_5": {
-                "name": "Quantum Mechanics",
+              {
+                "module_no": 5,
+                "module_name": "Quantum Mechanics",
                 "questions": [
                   { "id": "APHY_NEP_M5_E_2", "difficulty": "easy", "marks": 2, "question": "State de Broglie's hypothesis. Write the expression for de Broglie wavelength." },
                   { "id": "APHY_NEP_M5_E_2b", "difficulty": "easy", "marks": 2, "question": "State Heisenberg's uncertainty principle." },
@@ -132,16 +141,16 @@
                   { "id": "APHY_NEP_M5_H_5b", "difficulty": "hard", "marks": 5, "question": "Describe Davisson-Germer experiment to demonstrate wave nature of electrons. How does the result support de Broglie's hypothesis?" }
                 ]
               }
-            }
+            ]
           },
-
-          "Applied Chemistry": {
+          {
             "subject_code": "ACHEM",
+            "subject_name": "Applied Chemistry I",
             "scheme": "NEP-2020",
-            "semester": 1,
-            "modules": {
-              "Module_1": {
-                "name": "Electrochemistry",
+            "modules": [
+              {
+                "module_no": 1,
+                "module_name": "Electrochemistry",
                 "questions": [
                   { "id": "ACHEM_NEP_M1_E_2", "difficulty": "easy", "marks": 2, "question": "State Faraday's first law of electrolysis." },
                   { "id": "ACHEM_NEP_M1_E_2b", "difficulty": "easy", "marks": 2, "question": "Define standard electrode potential with an example." },
@@ -151,8 +160,9 @@
                   { "id": "ACHEM_NEP_M1_H_5b", "difficulty": "hard", "marks": 5, "question": "Explain the mechanism of corrosion in iron by electrochemical theory. Describe cathodic protection and sacrificial anode methods to prevent corrosion." }
                 ]
               },
-              "Module_2": {
-                "name": "Polymers",
+              {
+                "module_no": 2,
+                "module_name": "Polymers",
                 "questions": [
                   { "id": "ACHEM_NEP_M2_E_2", "difficulty": "easy", "marks": 2, "question": "Define the degree of polymerization and molecular weight of a polymer." },
                   { "id": "ACHEM_NEP_M2_E_2b", "difficulty": "easy", "marks": 2, "question": "Distinguish between addition and condensation polymerization with examples." },
@@ -162,8 +172,9 @@
                   { "id": "ACHEM_NEP_M2_H_5b", "difficulty": "hard", "marks": 5, "question": "Describe the properties, preparation and uses of: (a) Buna-S rubber (b) Neoprene rubber. How does vulcanization improve properties?" }
                 ]
               },
-              "Module_3": {
-                "name": "Water Technology",
+              {
+                "module_no": 3,
+                "module_name": "Water Technology",
                 "questions": [
                   { "id": "ACHEM_NEP_M3_E_2", "difficulty": "easy", "marks": 2, "question": "Define hardness of water. Mention its types." },
                   { "id": "ACHEM_NEP_M3_E_2b", "difficulty": "easy", "marks": 2, "question": "What is BOD? State its significance in water analysis." },
@@ -173,8 +184,9 @@
                   { "id": "ACHEM_NEP_M3_H_5b", "difficulty": "hard", "marks": 5, "question": "Describe the cold lime-soda process for softening of water. Give the chemical reactions and calculate the quantities of lime and soda required for removing various types of hardness." }
                 ]
               },
-              "Module_4": {
-                "name": "Fuels and Combustion",
+              {
+                "module_no": 4,
+                "module_name": "Fuels and Combustion",
                 "questions": [
                   { "id": "ACHEM_NEP_M4_E_2", "difficulty": "easy", "marks": 2, "question": "Define calorific value. Distinguish between HCV and LCV." },
                   { "id": "ACHEM_NEP_M4_E_2b", "difficulty": "easy", "marks": 2, "question": "What is proximate analysis of coal? State the parameters determined." },
@@ -184,8 +196,9 @@
                   { "id": "ACHEM_NEP_M4_H_5b", "difficulty": "hard", "marks": 5, "question": "Using Dulong's formula, calculate the gross calorific value of coal having the following ultimate analysis: C=80%, H=5%, O=5%, S=2%, N=2%, Ash=6%. (HCV of H₂ = 34400 kcal/kg, C = 8080 kcal/kg, S = 2240 kcal/kg)" }
                 ]
               },
-              "Module_5": {
-                "name": "Engineering Materials (Alloys and Composites)",
+              {
+                "module_no": 5,
+                "module_name": "Engineering Materials (Alloys and Composites)",
                 "questions": [
                   { "id": "ACHEM_NEP_M5_E_2", "difficulty": "easy", "marks": 2, "question": "What is an alloy? State the purpose of alloying." },
                   { "id": "ACHEM_NEP_M5_E_2b", "difficulty": "easy", "marks": 2, "question": "Define composite material and give two examples." },
@@ -195,16 +208,17 @@
                   { "id": "ACHEM_NEP_M5_H_5b", "difficulty": "hard", "marks": 5, "question": "Explain nanomaterials: (a) Carbon nanotubes – synthesis and properties (b) Quantum dots and their applications in nanotechnology." }
                 ]
               }
-            }
+            ]
           },
-
-          "Engineering Mechanics": {
+          {
             "subject_code": "EM",
+            "subject_name": "Engineering Mechanics",
             "scheme": "NEP-2020",
             "semester": 1,
-            "modules": {
-              "Module_1": {
-                "name": "Resultant of Force Systems",
+            "modules": [
+              {
+                "module_no": 1,
+                "module_name": "Resultant of Force Systems",
                 "questions": [
                   { "id": "EM_NEP_M1_E_2", "difficulty": "easy", "marks": 2, "question": "State Varignon's theorem of moments." },
                   { "id": "EM_NEP_M1_E_2b", "difficulty": "easy", "marks": 2, "question": "Define resultant force and equilibrant." },
@@ -214,8 +228,9 @@
                   { "id": "EM_NEP_M1_H_5b", "difficulty": "hard", "marks": 5, "question": "Determine the resultant of the force-couple system and find its line of action: Forces 100N at (0,0), 80N at (3,0), couple of 200N·m (CW)." }
                 ]
               },
-              "Module_2": {
-                "name": "Equilibrium of Forces",
+              {
+                "module_no": 2,
+                "module_name": "Equilibrium of Forces",
                 "questions": [
                   { "id": "EM_NEP_M2_E_2", "difficulty": "easy", "marks": 2, "question": "State Lami's theorem for three concurrent coplanar forces in equilibrium." },
                   { "id": "EM_NEP_M2_E_2b", "difficulty": "easy", "marks": 2, "question": "Define free body diagram with a simple example." },
@@ -225,8 +240,9 @@
                   { "id": "EM_NEP_M2_H_5b", "difficulty": "hard", "marks": 5, "question": "A uniform ladder 5m long weighing 200N leans against a smooth wall making angle 60° with floor. A man of 800N stands at 2m from top. Find reactions and minimum μ at floor." }
                 ]
               },
-              "Module_3": {
-                "name": "Centroid and Moment of Inertia",
+              {
+                "module_no": 3,
+                "module_name": "Centroid and Moment of Inertia",
                 "questions": [
                   { "id": "EM_NEP_M3_E_2", "difficulty": "easy", "marks": 2, "question": "State parallel axis theorem for moment of inertia." },
                   { "id": "EM_NEP_M3_E_2b", "difficulty": "easy", "marks": 2, "question": "State the perpendicular axis theorem for moment of inertia." },
@@ -236,8 +252,9 @@
                   { "id": "EM_NEP_M3_H_5b", "difficulty": "hard", "marks": 5, "question": "Find the centroid and MI about centroidal axes of a composite figure: a semicircle of radius 60mm on top of a rectangle 120×80mm." }
                 ]
               },
-              "Module_4": {
-                "name": "Kinematics of Particles",
+              {
+                "module_no": 4,
+                "module_name": "Kinematics of Particles",
                 "questions": [
                   { "id": "EM_NEP_M4_E_2", "difficulty": "easy", "marks": 2, "question": "Define angular velocity and angular acceleration. State their relationship." },
                   { "id": "EM_NEP_M4_E_2b", "difficulty": "easy", "marks": 2, "question": "Write the equations of uniformly accelerated motion." },
@@ -247,8 +264,9 @@
                   { "id": "EM_NEP_M4_H_5b", "difficulty": "hard", "marks": 5, "question": "A ball is thrown horizontally from a cliff 80m high with v₀ = 20 m/s. Find: (a) time of flight (b) horizontal distance covered (c) velocity just before hitting ground." }
                 ]
               },
-              "Module_5": {
-                "name": "Kinetics of Particles",
+              {
+                "module_no": 5,
+                "module_name": "Kinetics of Particles",
                 "questions": [
                   { "id": "EM_NEP_M5_E_2", "difficulty": "easy", "marks": 2, "question": "State Newton's second law of motion in vector form." },
                   { "id": "EM_NEP_M5_E_2b", "difficulty": "easy", "marks": 2, "question": "Define coefficient of restitution." },
@@ -258,16 +276,16 @@
                   { "id": "EM_NEP_M5_H_5b", "difficulty": "hard", "marks": 5, "question": "Using work-energy theorem, find the velocity of a 10 kg block after traveling 5m on a rough surface (μ=0.2, inclination=20°), if it starts from rest at the top." }
                 ]
               }
-            }
+            ]
           },
-
-          "Basic Electrical and Electronics Engineering": {
+          {
             "subject_code": "BEEE",
+            "subject_name": "Basic Electrical and Electronics Engineering",
             "scheme": "NEP-2020",
-            "semester": 1,
-            "modules": {
-              "Module_1": {
-                "name": "DC Circuits",
+            "modules": [
+              {
+                "module_no": 1,
+                "module_name": "DC Circuits",
                 "questions": [
                   { "id": "BEEE_NEP_M1_E_2", "difficulty": "easy", "marks": 2, "question": "State Kirchhoff's current and voltage laws." },
                   { "id": "BEEE_NEP_M1_E_2b", "difficulty": "easy", "marks": 2, "question": "Define EMF and terminal voltage of a battery." },
@@ -277,8 +295,9 @@
                   { "id": "BEEE_NEP_M1_H_5b", "difficulty": "hard", "marks": 5, "question": "Using Norton's theorem, find the current through the load resistor RL=5Ω in a circuit having two current sources 2A, 4A and resistors 3Ω, 6Ω, 12Ω." }
                 ]
               },
-              "Module_2": {
-                "name": "AC Circuits",
+              {
+                "module_no": 2,
+                "module_name": "AC Circuits",
                 "questions": [
                   { "id": "BEEE_NEP_M2_E_2", "difficulty": "easy", "marks": 2, "question": "Define RMS value and peak value of an alternating quantity." },
                   { "id": "BEEE_NEP_M2_E_2b", "difficulty": "easy", "marks": 2, "question": "What is power factor? State its significance in AC circuits." },
@@ -288,8 +307,9 @@
                   { "id": "BEEE_NEP_M2_H_5b", "difficulty": "hard", "marks": 5, "question": "Derive the expression for average power and reactive power in AC circuit. A circuit draws 5kVA at 0.8 pf lagging. Find active power, reactive power and suggest capacitor to improve pf to unity." }
                 ]
               },
-              "Module_3": {
-                "name": "Single Phase Transformer",
+              {
+                "module_no": 3,
+                "module_name": "Single Phase Transformer",
                 "questions": [
                   { "id": "BEEE_NEP_M3_E_2", "difficulty": "easy", "marks": 2, "question": "State the principle of a transformer. On what law is it based?" },
                   { "id": "BEEE_NEP_M3_E_2b", "difficulty": "easy", "marks": 2, "question": "Define voltage regulation and efficiency of a transformer." },
@@ -299,8 +319,9 @@
                   { "id": "BEEE_NEP_M3_H_5b", "difficulty": "hard", "marks": 5, "question": "Explain the construction of a core-type and shell-type transformer. Compare their advantages and applications." }
                 ]
               },
-              "Module_4": {
-                "name": "DC Machines",
+              {
+                "module_no": 4,
+                "module_name": "DC Machines",
                 "questions": [
                   { "id": "BEEE_NEP_M4_E_2", "difficulty": "easy", "marks": 2, "question": "State the working principle of a DC generator." },
                   { "id": "BEEE_NEP_M4_E_2b", "difficulty": "easy", "marks": 2, "question": "Classify DC motors based on field excitation." },
@@ -310,8 +331,9 @@
                   { "id": "BEEE_NEP_M4_H_5b", "difficulty": "hard", "marks": 5, "question": "Explain the principle and working of a 3-phase induction motor. Why is it called an asynchronous motor? Derive the expression for slip." }
                 ]
               },
-              "Module_5": {
-                "name": "Semiconductor Devices",
+              {
+                "module_no": 5,
+                "module_name": "Semiconductor Devices",
                 "questions": [
                   { "id": "BEEE_NEP_M5_E_2", "difficulty": "easy", "marks": 2, "question": "Define threshold voltage of a MOSFET." },
                   { "id": "BEEE_NEP_M5_E_2b", "difficulty": "easy", "marks": 2, "question": "Draw the symbol and VI characteristics of a Zener diode." },
@@ -321,16 +343,16 @@
                   { "id": "BEEE_NEP_M5_H_5b", "difficulty": "hard", "marks": 5, "question": "Design a transistor amplifier in common emitter configuration. Explain voltage gain, current gain, input and output impedance. Sketch the frequency response." }
                 ]
               }
-            }
+            ]
           },
-
-          "Professional Communication Ethics": {
+          {
             "subject_code": "PCE",
+            "subject_name": "Professional Communication and Ethics",
             "scheme": "NEP-2020",
-            "semester": 1,
-            "modules": {
-              "Module_1": {
-                "name": "Communication Fundamentals",
+            "modules": [
+              {
+                "module_no": 1,
+                "module_name": "Communication Fundamentals",
                 "questions": [
                   { "id": "PCE_NEP_M1_E_2", "difficulty": "easy", "marks": 2, "question": "Define communication and state its importance in engineering profession." },
                   { "id": "PCE_NEP_M1_E_2b", "difficulty": "easy", "marks": 2, "question": "List any four barriers to effective communication." },
@@ -340,8 +362,9 @@
                   { "id": "PCE_NEP_M1_H_5b", "difficulty": "hard", "marks": 5, "question": "Describe the 7C's of effective communication with relevant examples from engineering workplace scenarios." }
                 ]
               },
-              "Module_2": {
-                "name": "Technical Writing",
+              {
+                "module_no": 2,
+                "module_name": "Technical Writing",
                 "questions": [
                   { "id": "PCE_NEP_M2_E_2", "difficulty": "easy", "marks": 2, "question": "Write a short note on elements of a business letter." },
                   { "id": "PCE_NEP_M2_E_2b", "difficulty": "easy", "marks": 2, "question": "Distinguish between abstract and executive summary." },
@@ -351,8 +374,9 @@
                   { "id": "PCE_NEP_M2_H_5b", "difficulty": "hard", "marks": 5, "question": "Prepare a resume and cover letter for the post of junior engineer in an IT firm, highlighting your academic achievements and project experience." }
                 ]
               },
-              "Module_3": {
-                "name": "Professional Ethics",
+              {
+                "module_no": 3,
+                "module_name": "Professional Ethics",
                 "questions": [
                   { "id": "PCE_NEP_M3_E_2", "difficulty": "easy", "marks": 2, "question": "Define engineering ethics. State any two codes of professional conduct." },
                   { "id": "PCE_NEP_M3_E_2b", "difficulty": "easy", "marks": 2, "question": "What is intellectual property? Give two examples relevant to engineering." },
@@ -362,8 +386,9 @@
                   { "id": "PCE_NEP_M3_H_5b", "difficulty": "hard", "marks": 5, "question": "Analyze the role of whistleblowing in engineering profession. When is it ethically justified? Discuss with reference to a real-world engineering disaster." }
                 ]
               },
-              "Module_4": {
-                "name": "Presentation and Oral Communication",
+              {
+                "module_no": 4,
+                "module_name": "Presentation and Oral Communication",
                 "questions": [
                   { "id": "PCE_NEP_M4_E_2", "difficulty": "easy", "marks": 2, "question": "List the key components of an effective oral presentation." },
                   { "id": "PCE_NEP_M4_E_2b", "difficulty": "easy", "marks": 2, "question": "What is non-verbal communication? Give three examples." },
@@ -373,8 +398,9 @@
                   { "id": "PCE_NEP_M4_H_5b", "difficulty": "hard", "marks": 5, "question": "You are presenting a project proposal to industry experts. Describe how you would handle technical questions, objections and hostile audience effectively." }
                 ]
               },
-              "Module_5": {
-                "name": "Group Discussion and Interview Skills",
+              {
+                "module_no": 5,
+                "module_name": "Group Discussion and Interview Skills",
                 "questions": [
                   { "id": "PCE_NEP_M5_E_2", "difficulty": "easy", "marks": 2, "question": "What is a group discussion? State its purpose in campus recruitment." },
                   { "id": "PCE_NEP_M5_E_2b", "difficulty": "easy", "marks": 2, "question": "List five DOs and DON'Ts during a job interview." },
@@ -384,20 +410,21 @@
                   { "id": "PCE_NEP_M5_H_5b", "difficulty": "hard", "marks": 5, "question": "Write a comprehensive guide for a fresher engineer preparing for campus placement: covering resume writing, aptitude test, GD, technical interview and HR round." }
                 ]
               }
-            }
+            ]
           }
-        }
+        ]
       },
-
-      "semester 2": {
-        "subjects": {
-          "Applied Mathematics II": {
+      {
+      "semester": 2,
+        "subjects": [
+          {
             "subject_code": "AM2",
+            "subject_name": "Applied Mathematics-II",
             "scheme": "NEP-2020",
-            "semester": 2,
-            "modules": {
-              "Module_1": {
-                "name": "Differential Equations of First Order",
+            "modules": [
+              {
+                "module_no": 1,
+                "module_name": "Differential Equations of First Order",
                 "questions": [
                   { "id": "AM2_NEP_M1_E_2", "difficulty": "easy", "marks": 2, "question": "What is an exact differential equation? State the necessary and sufficient condition for exactness." },
                   { "id": "AM2_NEP_M1_E_2b", "difficulty": "easy", "marks": 2, "question": "Solve: dy/dx = (x + y)." },
@@ -407,8 +434,9 @@
                   { "id": "AM2_NEP_M1_H_5b", "difficulty": "hard", "marks": 5, "question": "Find the orthogonal trajectories of the family of parabolas y² = 4ax where a is a parameter." }
                 ]
               },
-              "Module_2": {
-                "name": "Linear Differential Equations with Constant Coefficients",
+              {
+                "module_no": 2,
+                "module_name": "Linear Differential Equations with Constant Coefficients",
                 "questions": [
                   { "id": "AM2_NEP_M2_E_2", "difficulty": "easy", "marks": 2, "question": "Write the general solution structure of y'' + 4y' + 4y = 0." },
                   { "id": "AM2_NEP_M2_E_2b", "difficulty": "easy", "marks": 2, "question": "Define complementary function and particular integral." },
@@ -418,8 +446,9 @@
                   { "id": "AM2_NEP_M2_H_5b", "difficulty": "hard", "marks": 5, "question": "Solve the simultaneous differential equations: dx/dt + 2y = 0, dy/dt - 2x = 0 with x(0)=1, y(0)=0." }
                 ]
               },
-              "Module_3": {
-                "name": "Laplace Transform",
+              {
+                "module_no": 3,
+                "module_name": "Laplace Transform",
                 "questions": [
                   { "id": "AM2_NEP_M3_E_2", "difficulty": "easy", "marks": 2, "question": "State the linearity property of Laplace transform." },
                   { "id": "AM2_NEP_M3_E_2b", "difficulty": "easy", "marks": 2, "question": "Find L{t·e^(at)}." },
@@ -429,8 +458,9 @@
                   { "id": "AM2_NEP_M3_H_5b", "difficulty": "hard", "marks": 5, "question": "Find L{f(t)} if f(t) is a periodic square wave of period T with value A for 0 < t < T/2 and -A for T/2 < t < T." }
                 ]
               },
-              "Module_4": {
-                "name": "Vector Calculus",
+              {
+                "module_no": 4,
+                "module_name": "Vector Calculus",
                 "questions": [
                   { "id": "AM2_NEP_M4_E_2", "difficulty": "easy", "marks": 2, "question": "Define gradient of a scalar function. State the formula for ∇f." },
                   { "id": "AM2_NEP_M4_E_2b", "difficulty": "easy", "marks": 2, "question": "State Green's theorem in the plane." },
@@ -440,8 +470,9 @@
                   { "id": "AM2_NEP_M4_H_5b", "difficulty": "hard", "marks": 5, "question": "Verify Gauss's divergence theorem for F = x²î + y²ĵ + z²k̂ over the cube bounded by 0≤x,y,z≤1." }
                 ]
               },
-              "Module_5": {
-                "name": "Numerical Methods",
+              {
+                "module_no": 5,
+                "module_name": "Numerical Methods",
                 "questions": [
                   { "id": "AM2_NEP_M5_E_2", "difficulty": "easy", "marks": 2, "question": "State the convergence condition for Newton-Raphson method." },
                   { "id": "AM2_NEP_M5_E_2b", "difficulty": "easy", "marks": 2, "question": "Write the formula for Runge-Kutta 4th order method." },
@@ -451,17 +482,16 @@
                   { "id": "AM2_NEP_M5_H_5b", "difficulty": "hard", "marks": 5, "question": "Solve the system of equations using Gauss-Seidel iteration: 8x+y+z=8, 2x+4y+z=4, x+y+3z=5. Perform 4 iterations starting with (0,0,0)." }
                 ]
               }
-            }
+            ]
           },
-
-          "Data Structure": {
+            {
             "subject_code": "DS",
+            "subject_name": "Data Structures",
             "scheme": "NEP-2020",
-            "semester": 2,
-            "branch": "Computer Engineering / IT",
-            "modules": {
-              "Module_1": {
-                "name": "Introduction to Data Structures and Arrays",
+            "modules": [
+              {
+                "module_no": 1,
+                "module_name": "Introduction to Data Structures and Arrays",
                 "questions": [
                   { "id": "DS_NEP_M1_E_2", "difficulty": "easy", "marks": 2, "question": "Define a data structure. Classify data structures with examples." },
                   { "id": "DS_NEP_M1_E_2b", "difficulty": "easy", "marks": 2, "question": "What is time complexity? State Big-O for linear search." },
@@ -471,8 +501,9 @@
                   { "id": "DS_NEP_M1_H_5b", "difficulty": "hard", "marks": 5, "question": "Implement and analyze Quick Sort. Explain with an example showing pivot selection and partitioning. What is its worst-case complexity and when does it occur?" }
                 ]
               },
-              "Module_2": {
-                "name": "Linked Lists",
+              {
+                "module_no": 2,
+                "module_name": "Linked Lists",
                 "questions": [
                   { "id": "DS_NEP_M2_E_2", "difficulty": "easy", "marks": 2, "question": "What is a linked list? How does it differ from an array?" },
                   { "id": "DS_NEP_M2_E_2b", "difficulty": "easy", "marks": 2, "question": "What is a doubly linked list? Draw its structure with two nodes." },
@@ -482,8 +513,9 @@
                   { "id": "DS_NEP_M2_H_5b", "difficulty": "hard", "marks": 5, "question": "Write a program to merge two sorted linked lists into a single sorted list without using extra space. Analyze time and space complexity." }
                 ]
               },
-              "Module_3": {
-                "name": "Stacks and Queues",
+              {
+                "module_no": 3,
+                "module_name": "Stacks and Queues",
                 "questions": [
                   { "id": "DS_NEP_M3_E_2", "difficulty": "easy", "marks": 2, "question": "State LIFO and FIFO. Give one application of each." },
                   { "id": "DS_NEP_M3_E_2b", "difficulty": "easy", "marks": 2, "question": "Convert the infix expression A+B*C to postfix." },
@@ -493,8 +525,9 @@
                   { "id": "DS_NEP_M3_H_5b", "difficulty": "hard", "marks": 5, "question": "Explain priority queue. Implement a min-heap based priority queue in C. Show heap after inserting 10, 4, 8, 2, 6." }
                 ]
               },
-              "Module_4": {
-                "name": "Trees",
+              {
+                "module_no": 4,
+                "module_name": "Trees",
                 "questions": [
                   { "id": "DS_NEP_M4_E_2", "difficulty": "easy", "marks": 2, "question": "Define: Height of a tree, level of a node, degree of a node." },
                   { "id": "DS_NEP_M4_E_2b", "difficulty": "easy", "marks": 2, "question": "Write in-order traversal for a BST containing: 50, 30, 70, 20, 40." },
@@ -504,8 +537,9 @@
                   { "id": "DS_NEP_M4_H_5b", "difficulty": "hard", "marks": 5, "question": "Explain Huffman coding tree construction. Build a Huffman tree for characters: A(5), B(9), C(12), D(13), E(16), F(45). Find codes for each character and total bits for a 1000-char message." }
                 ]
               },
-              "Module_5": {
-                "name": "Graphs and Hashing",
+              {
+                "module_no": 5,
+                "module_name": "Graphs and Hashing",
                 "questions": [
                   { "id": "DS_NEP_M5_E_2", "difficulty": "easy", "marks": 2, "question": "Distinguish between BFS and DFS traversals of a graph." },
                   { "id": "DS_NEP_M5_E_2b", "difficulty": "easy", "marks": 2, "question": "Define hash function and collision. State two collision resolution techniques." },
@@ -515,12 +549,11 @@
                   { "id": "DS_NEP_M5_H_5b", "difficulty": "hard", "marks": 5, "question": "Explain open addressing (linear probing, quadratic probing, double hashing) for collision resolution. Insert keys 18, 26, 35, 9, 64, 47, 96, 36 into a hash table of size 11 using h(k) = k mod 11." }
                 ]
               }
-            }
+            ]
           }
-        }
-      }
-    },
-
+        ]
+      },
+    {
     "R19_C_Scheme": {
       "semester_1": {
         "subjects": {
@@ -1223,15 +1256,10 @@
         }
       }
     }
-  },
-
-  "_metadata": {
-    "total_schemes": 2,
-    "schemes_included": ["NEP-2020", "REV-2019-C-Scheme (R19)"],
-    "semesters": [1, 2],
-    "difficulty_levels": ["easy", "medium", "hard"],
-    "marks_distribution": [2, 3, 5],
-    "questions_per_unit_per_difficulty_per_marks": 2,
-    "note": "FE (First Year Engineering) subjects are COMMON for all branches in MU. Branch-specific subjects start from Semester 3. Semester 2 NEP includes branch-specific electives (Data Structure for CS/IT, Elements of Mechanical/Electrical/Telecom/Chemical for respective branches) but only one example included here. Expand similarly for other branch-specific Sem 2 NEP subjects."
+  }
+]
+}
+  }
   }
 }
+

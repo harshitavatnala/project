@@ -1,3 +1,4 @@
+
 const express = require("express");
 const cors = require("cors");
 const fs = require("fs");
@@ -136,7 +137,7 @@ const bcrypt = require("bcrypt");
 
 // 🔹 SIGN UP
 app.post("/signup", (req, res) => {
-    const { name, email, password } = req.body;
+    const { name, email, branch, password } = req.body;
 
     const filePath = path.join(__dirname, "data", "users.json");
     let users = JSON.parse(fs.readFileSync(filePath));

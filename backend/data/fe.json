@@ -1,0 +1,3401 @@
+{
+  "meta": {
+    "university": "Mumbai University (MU)",
+    "branch": "First Year Engineering (Common for All Branches)",
+    "source": "muquestionpapers.com PYQs",
+    "schemes": [
+      "R-19 (REV-2019 C Scheme)",
+      "NEP"
+    ],
+    "generated": "2026-04-19"
+  },
+  "semesters": [
+    {
+      "semester": 1,
+      "subjects": [
+        {
+          "subject_code": "FEC101",
+          "subject_name": "Applied Mathematics I",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Complex Numbers and Hyperbolic Functions",
+              "questions": [
+                {
+                  "id": "FE1_M1_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Express (3 + 4i) / (1 - 2i) in the form a + ib."
+                },
+                {
+                  "id": "FE1_M1_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Find the modulus and argument of the complex number -1 + i."
+                },
+                {
+                  "id": "FE1_M1_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "State De Moivre's theorem and use it to find (1 + i)^8."
+                },
+                {
+                  "id": "FE1_M1_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Prove that cosh²x - sinh²x = 1."
+                },
+                {
+                  "id": "FE1_M1_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Separate sin(α + iβ) into real and imaginary parts."
+                },
+                {
+                  "id": "FE1_M1_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Find all values of (1 + i)^(1/3) using De Moivre's theorem."
+                },
+                {
+                  "id": "FE1_M1_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Find the cube roots of unity and show that their sum is zero."
+                },
+                {
+                  "id": "FE1_M1_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Express cos(5θ) in terms of cos(θ) using De Moivre's theorem."
+                },
+                {
+                  "id": "FE1_M1_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "If cosh(x) = sec(θ), prove that x = log(sec(θ) + tan(θ))."
+                },
+                {
+                  "id": "FE1_M1_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Find the real and imaginary parts of log(3 + 4i)."
+                },
+                {
+                  "id": "FE1_M1_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Prove that cos(nθ) can be expressed as a polynomial in cos(θ) of degree n. Hence find cos(4θ)."
+                },
+                {
+                  "id": "FE1_M1_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Solve the equation z^4 + 1 = 0 and represent the roots on an Argand diagram."
+                },
+                {
+                  "id": "FE1_M1_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "State and prove De Moivre's theorem for rational indices. Use it to expand sin(5θ) and cos(5θ) in terms of sinθ and cosθ."
+                },
+                {
+                  "id": "FE1_M1_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Define hyperbolic functions sinh(x), cosh(x), tanh(x). Prove the identities: (i) cosh²x - sinh²x = 1 (ii) sinh(2x) = 2sinh(x)cosh(x)."
+                },
+                {
+                  "id": "FE1_M1_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "If cos(θ + iφ) = r(cos α + i sin α), prove that r² = cos²θ + sinh²φ and tan(α) = -tanh(φ)tan(θ)."
+                },
+                {
+                  "id": "FE1_M1_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Find all roots of the equation z^5 - 1 = 0. Show that the roots are in geometric progression and find the sum of all roots."
+                },
+                {
+                  "id": "FE1_M1_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Express sin^6θ in terms of multiple angles using De Moivre's theorem. Hence evaluate ∫₀^π sin^6θ dθ."
+                },
+                {
+                  "id": "FE1_M1_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Find the general value of log(1 + i). Also find the principal value. Prove that i^i is real and find all its values."
+                }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Differential Calculus",
+              "questions": [
+                {
+                  "id": "FE1_M2_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Find the nth derivative of e^(ax) sin(bx)."
+                },
+                {
+                  "id": "FE1_M2_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "State Rolle's theorem and verify it for f(x) = x² - 4x + 3 on [1, 3]."
+                },
+                {
+                  "id": "FE1_M2_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Find the nth derivative of x² · e^(3x) using Leibnitz's theorem."
+                },
+                {
+                  "id": "FE1_M2_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Evaluate lim(x→0) [(sin x - x) / x³] using L'Hôpital's rule."
+                },
+                {
+                  "id": "FE1_M2_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "If y = e^(a sin⁻¹x), prove that (1-x²)y₂ - xy₁ - a²y = 0."
+                },
+                {
+                  "id": "FE1_M2_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Using Taylor's series, expand sin(x) about x = π/2 up to 4 terms."
+                },
+                {
+                  "id": "FE1_M2_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "State and verify Lagrange's Mean Value theorem for f(x) = x³ - x² - x + 1 on [0, 2]."
+                },
+                {
+                  "id": "FE1_M2_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Find the nth derivative of 1/(x² - 5x + 6) using partial fractions."
+                },
+                {
+                  "id": "FE1_M2_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "If y = sin(m sin⁻¹x), prove that (1-x²)yₙ₊₂ - (2n+1)xyₙ₊₁ + (m²-n²)yₙ = 0."
+                },
+                {
+                  "id": "FE1_M2_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Expand f(x) = e^x in Taylor's series about x = 0 and hence find the value of e correct to 4 decimal places."
+                },
+                {
+                  "id": "FE1_M2_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Evaluate: lim(x→0) [x - sin(x)] / [x - tan(x)]."
+                },
+                {
+                  "id": "FE1_M2_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "If y = (sin⁻¹x)², prove that (1-x²)y₂ - xy₁ = 2. Hence find the Maclaurin series expansion of y."
+                },
+                {
+                  "id": "FE1_M2_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "State and prove Leibnitz's theorem for the nth derivative of a product of two functions. Apply it to find the nth derivative of x² sin(x)."
+                },
+                {
+                  "id": "FE1_M2_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Expand log(1+x) and (1+x)^n using Maclaurin's series. State the conditions for validity of these expansions."
+                },
+                {
+                  "id": "FE1_M2_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "State and prove Cauchy's Mean Value theorem. Use it to prove L'Hôpital's rule for the 0/0 form. Evaluate lim(x→0) [(e^x - 1 - x) / x²]."
+                },
+                {
+                  "id": "FE1_M2_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "If y = e^(tan⁻¹x), find the nth derivative yₙ(0). Hence write the Maclaurin series for y up to 5 terms."
+                },
+                {
+                  "id": "FE1_M2_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Evaluate: (i) lim(x→0) [1/x - 1/sin(x)] (ii) lim(x→0) [x^(sin x)] (iii) lim(x→∞) [x sin(1/x)]. Use appropriate forms of L'Hôpital's rule."
+                },
+                {
+                  "id": "FE1_M2_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "If y^(1/m) + y^(-1/m) = 2x, prove that (x²-1)yₙ₊₂ + (2n+1)xyₙ₊₁ + (n²-m²)yₙ = 0 using Leibnitz's theorem."
+                }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Partial Differentiation",
+              "questions": [
+                {
+                  "id": "FE1_M3_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "If u = x² + y² + z², find ∂u/∂x, ∂u/∂y, ∂u/∂z."
+                },
+                {
+                  "id": "FE1_M3_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "State Euler's theorem for homogeneous functions and verify for f(x,y) = x³ + y³."
+                },
+                {
+                  "id": "FE1_M3_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "If u = log(x² + y²), show that ∂²u/∂x² + ∂²u/∂y² = 0 (Laplace equation)."
+                },
+                {
+                  "id": "FE1_M3_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "If z = f(x + ct) + g(x - ct), prove that ∂²z/∂t² = c² ∂²z/∂x²."
+                },
+                {
+                  "id": "FE1_M3_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "If u = f(x-y, y-z, z-x), prove that ∂u/∂x + ∂u/∂y + ∂u/∂z = 0."
+                },
+                {
+                  "id": "FE1_M3_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Find the stationary values of f(x,y) = x² + y² - 2x - 4y + 11."
+                },
+                {
+                  "id": "FE1_M3_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "If u = x³y + y³z + z³x, find the total differential du."
+                },
+                {
+                  "id": "FE1_M3_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "State and prove Euler's theorem for homogeneous functions. Apply it to f(x,y) = (x^(1/2) + y^(1/2)) / (x + y)^(1/2)."
+                },
+                {
+                  "id": "FE1_M3_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "If u = x^y, find ∂²u/∂x∂y and verify that ∂²u/∂x∂y = ∂²u/∂y∂x."
+                },
+                {
+                  "id": "FE1_M3_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Using Jacobians, find ∂(u,v)/∂(x,y) if u = x² - y², v = 2xy."
+                },
+                {
+                  "id": "FE1_M3_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Find the extreme values of f(x,y) = x³ + y³ - 3axy (a > 0) and determine their nature."
+                },
+                {
+                  "id": "FE1_M3_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "If u = f(r) where r = √(x² + y²), prove that ∂²u/∂x² + ∂²u/∂y² = f''(r) + f'(r)/r."
+                },
+                {
+                  "id": "FE1_M3_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "State and prove Euler's theorem and its corollary for homogeneous functions. If u = sin⁻¹[(x+y)/(√x+√y)], find x(∂u/∂x) + y(∂u/∂y)."
+                },
+                {
+                  "id": "FE1_M3_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "If x = r cosθ, y = r sinθ, find: (i) ∂r/∂x, ∂r/∂y, ∂θ/∂x, ∂θ/∂y (ii) ∂(x,y)/∂(r,θ) and ∂(r,θ)/∂(x,y)."
+                },
+                {
+                  "id": "FE1_M3_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Find the maximum and minimum values of f(x,y) = x³ + 3xy² - 15x² - 15y² + 72x. Use the second order conditions to confirm the nature of each stationary point."
+                },
+                {
+                  "id": "FE1_M3_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Define Jacobian. Prove that if u = f(x,y) and v = g(x,y) are functions of x and y, then J·J' = 1 where J and J' are mutual Jacobians. Verify for u = e^x sin y, v = e^x cos y."
+                },
+                {
+                  "id": "FE1_M3_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "A rectangular box open at the top is to have a volume of 32 cubic meters. Find the dimensions so that the total surface area is minimum using Lagrange's method of undetermined multipliers."
+                },
+                {
+                  "id": "FE1_M3_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "If u, v, w are functions of x, y, z defined by u = x+y+z, v = y+z, w = z, find ∂(x,y,z)/∂(u,v,w). Also verify J·J' = 1."
+                }
+              ]
+            },
+            {
+              "module_no": 4,
+              "module_name": "Integral Calculus",
+              "questions": [
+                {
+                  "id": "FE1_M4_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Evaluate ∫ x² e^x dx using integration by parts."
+                },
+                {
+                  "id": "FE1_M4_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Evaluate ∫₀^(π/2) sin³x cos²x dx using reduction formulae."
+                },
+                {
+                  "id": "FE1_M4_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Evaluate ∫ dx / (x² + 4x + 13) using completion of square."
+                },
+                {
+                  "id": "FE1_M4_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Evaluate ∫₀^1 x³(1-x)² dx using Beta function."
+                },
+                {
+                  "id": "FE1_M4_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Evaluate ∫ (x² + 1) / [(x²+2)(x²+3)] dx using partial fractions."
+                },
+                {
+                  "id": "FE1_M4_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Prove that Γ(n+1) = n! for positive integer n."
+                },
+                {
+                  "id": "FE1_M4_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "State the reduction formula for ∫ sinⁿx dx and use it to evaluate ∫₀^(π/2) sin⁵x dx."
+                },
+                {
+                  "id": "FE1_M4_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Evaluate ∫₀^∞ x⁴ e^(-x) dx using Gamma function."
+                },
+                {
+                  "id": "FE1_M4_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Evaluate ∫ (2x+3) / √(x²+4x+5) dx."
+                },
+                {
+                  "id": "FE1_M4_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Express B(m,n) in terms of Gamma functions. Hence evaluate B(3/2, 5/2)."
+                },
+                {
+                  "id": "FE1_M4_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Evaluate ∫₀^(π/2) √(tanx) dx using Beta and Gamma functions."
+                },
+                {
+                  "id": "FE1_M4_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Evaluate ∫ x⁴ / [(x²+1)(x²+4)] dx using partial fractions."
+                },
+                {
+                  "id": "FE1_M4_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "State the reduction formulae for ∫sinⁿx dx, ∫cosⁿx dx, ∫sinᵐx cosⁿx dx. Use them to evaluate ∫₀^(π/2) sin⁶x cos⁴x dx."
+                },
+                {
+                  "id": "FE1_M4_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Define Beta and Gamma functions. Prove that B(m,n) = Γ(m)Γ(n)/Γ(m+n). Evaluate: (i) Γ(1/2) (ii) B(2,5) (iii) ∫₀^1 x^4(1-x)^3 dx."
+                },
+                {
+                  "id": "FE1_M4_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Evaluate: (i) ∫ √(a²-x²) dx (ii) ∫ x²/√(a²-x²) dx (iii) ∫₀^a x^m (a²-x²)^n dx using Gamma/Beta functions."
+                },
+                {
+                  "id": "FE1_M4_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Evaluate: (i) ∫ (3x+2) / [(x-1)(x²+1)] dx (ii) ∫ x² / [(x+1)(x-2)²] dx using partial fractions."
+                },
+                {
+                  "id": "FE1_M4_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Prove that Γ(1/2) = √π using the result B(1/2, 1/2) = π. Hence evaluate: (i) ∫₀^∞ e^(-x²) dx (ii) ∫₀^(π/2) sin^(1/2)x cos^(3/2)x dx."
+                },
+                {
+                  "id": "FE1_M4_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Evaluate ∫₀^∞ x^(m-1) / (1+x)^(m+n) dx = B(m,n). Use this to evaluate ∫₀^∞ x^4 / (1+x)^9 dx."
+                }
+              ]
+            },
+            {
+              "module_no": 5,
+              "module_name": "Multiple Integrals",
+              "questions": [
+                {
+                  "id": "FE1_M5_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Evaluate ∫₀^1 ∫₀^1 (x + y) dx dy."
+                },
+                {
+                  "id": "FE1_M5_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Change the order of integration for ∫₀^1 ∫ₓ^1 f(x,y) dy dx and write the new limits."
+                },
+                {
+                  "id": "FE1_M5_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Evaluate ∫₀^(π) ∫₀^(sin θ) r dr dθ."
+                },
+                {
+                  "id": "FE1_M5_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Find the area enclosed by the ellipse x²/a² + y²/b² = 1 using double integration."
+                },
+                {
+                  "id": "FE1_M5_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Evaluate ∫₀^1 ∫₀^(√(1-x²)) ∫₀^(√(1-x²-y²)) dz dy dx."
+                },
+                {
+                  "id": "FE1_M5_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Find the volume of the sphere x² + y² + z² = a² using triple integration in spherical coordinates."
+                },
+                {
+                  "id": "FE1_M5_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Evaluate ∫₀^1 ∫ₓ^√x (x + y) dy dx."
+                },
+                {
+                  "id": "FE1_M5_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Find the area bounded by the parabola y² = 4x and the line x = 4 using double integration."
+                },
+                {
+                  "id": "FE1_M5_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Change the order of integration and evaluate ∫₀^4 ∫(√x)^2 xy dy dx."
+                },
+                {
+                  "id": "FE1_M5_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Evaluate ∫₀^a ∫₀^(√(a²-x²)) x² y dy dx by changing to polar coordinates."
+                },
+                {
+                  "id": "FE1_M5_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Find the volume of the solid bounded by the paraboloid z = x² + y² and the plane z = 4 using cylindrical coordinates."
+                },
+                {
+                  "id": "FE1_M5_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Evaluate ∫∫∫ xyz dV over the region bounded by x=0, y=0, z=0 and x+y+z=1."
+                },
+                {
+                  "id": "FE1_M5_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Explain how to change order of integration. Change order and evaluate: (i) ∫₀^1 ∫ₓ^1 (e^y / y) dy dx (ii) ∫₀^2 ∫ₓ²^(2x) xy dy dx."
+                },
+                {
+                  "id": "FE1_M5_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Evaluate ∫∫ √(a²-x²-y²) dA over the region x² + y² ≤ a² by changing to polar coordinates. Hence find the volume of the hemisphere."
+                },
+                {
+                  "id": "FE1_M5_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Find the area common to the circles r = a√2 and r = 2a cosθ using double integration in polar form."
+                },
+                {
+                  "id": "FE1_M5_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Evaluate ∫₀^1 ∫₀^1 ∫₀^1 (x² + y² + z²) dx dy dz. Also find the mass of a unit cube if the density at a point is ρ(x,y,z) = x+y+z."
+                },
+                {
+                  "id": "FE1_M5_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Find the volume bounded by the cylinder x² + y² = 4, the planes z = 0 and z = x + y + 4 using cylindrical coordinates."
+                },
+                {
+                  "id": "FE1_M5_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Using transformation u = x+y, v = x-y, evaluate ∫∫ (x+y)²(x-y)² dA over the square region with vertices (0,0), (1,0), (1,1), (0,1). Compute the Jacobian explicitly."
+                }
+              ]
+            },
+            {
+              "module_no": 6,
+              "module_name": "Differential Equations",
+              "questions": [
+                {
+                  "id": "FE1_M6_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Solve dy/dx = (x² + y²) / 2xy using homogeneous substitution."
+                },
+                {
+                  "id": "FE1_M6_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Find the integrating factor and solve: (x² + y²)dx - 2xy dy = 0."
+                },
+                {
+                  "id": "FE1_M6_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Solve the Bernoulli equation: dy/dx + y = y² cos x."
+                },
+                {
+                  "id": "FE1_M6_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Solve d²y/dx² - 5 dy/dx + 6y = 0."
+                },
+                {
+                  "id": "FE1_M6_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Solve d²y/dx² + 4y = tan(2x) using method of variation of parameters."
+                },
+                {
+                  "id": "FE1_M6_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Solve x² d²y/dx² + 2x dy/dx - 6y = x⁴ (Cauchy's equation)."
+                },
+                {
+                  "id": "FE1_M6_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Solve (2xy + y² - 2x) dx + (x² + 2xy - 2y) dy = 0. Check for exactness first."
+                },
+                {
+                  "id": "FE1_M6_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Solve d²y/dx² - 3dy/dx + 2y = e^(3x) using method of undetermined coefficients."
+                },
+                {
+                  "id": "FE1_M6_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Solve the linear ODE: dy/dx + (2x / (1+x²)) y = 1/(1+x²)."
+                },
+                {
+                  "id": "FE1_M6_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Solve d²y/dx² + y = cosec(x) using variation of parameters."
+                },
+                {
+                  "id": "FE1_M6_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Solve x² d²y/dx² - 3x dy/dx + 4y = x² log x (Cauchy-Euler equation)."
+                },
+                {
+                  "id": "FE1_M6_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Find the orthogonal trajectories of the family of curves x² + y² = cx."
+                },
+                {
+                  "id": "FE1_M6_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Classify and solve: (i) (x+y+1)dx + (2x+2y-1)dy = 0 (ii) dy/dx = (y-x)/(y+x) (iii) dy/dx + y cot x = sin(2x)."
+                },
+                {
+                  "id": "FE1_M6_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Solve d²y/dx² - 6dy/dx + 9y = e^(3x) + sin(3x). Find the complementary function and particular integral separately."
+                },
+                {
+                  "id": "FE1_M6_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "A circuit has R=20Ω, L=1H, E=100sin(50t)V. Set up the ODE and find the current i(t) with i(0)=0 using method of undetermined coefficients."
+                },
+                {
+                  "id": "FE1_M6_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Solve x² d²y/dx² + x dy/dx + y = log x · sin(log x) using Cauchy-Euler substitution x = e^z."
+                },
+                {
+                  "id": "FE1_M6_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Solve d²y/dx² + y = sec x using variation of parameters. Clearly state the Wronskian and the formulas for u and v."
+                },
+                {
+                  "id": "FE1_M6_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "A particle moves under simple harmonic motion with d²x/dt² + ω²x = F₀ cos(ωt). Show that resonance occurs and find the solution. Discuss the physical significance of the growing amplitude."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_code": "FEC102",
+          "subject_name": "Applied Physics I",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Interference and Diffraction",
+              "questions": [
+                {
+                  "id": "PHY1_M1_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "State the conditions for constructive and destructive interference of light."
+                },
+                {
+                  "id": "PHY1_M1_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "What is a diffraction grating? Write the grating equation."
+                },
+                {
+                  "id": "PHY1_M1_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "In Newton's rings experiment, the diameter of the 5th dark ring is 0.3 cm. Find the radius of curvature of the lens if λ = 5893 Å."
+                },
+                {
+                  "id": "PHY1_M1_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Distinguish between Fresnel and Fraunhofer diffraction."
+                },
+                {
+                  "id": "PHY1_M1_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Explain the missing orders in a double slit diffraction pattern and derive the condition for missing orders."
+                },
+                {
+                  "id": "PHY1_M1_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Define resolving power of a diffraction grating and derive an expression for it."
+                },
+                {
+                  "id": "PHY1_M1_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Explain Newton's rings experiment. Derive the expression for the diameter of the nth dark ring."
+                },
+                {
+                  "id": "PHY1_M1_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Explain the formation of colours in thin films and give at least two practical examples."
+                },
+                {
+                  "id": "PHY1_M1_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Derive the intensity distribution in a single slit Fraunhofer diffraction pattern. Where do minima occur?"
+                },
+                {
+                  "id": "PHY1_M1_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "A grating has 6000 lines/cm. Find the angles of diffraction for the first and second order principal maxima for λ = 5000 Å."
+                },
+                {
+                  "id": "PHY1_M1_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Derive the condition for bright and dark fringes in Young's double slit experiment. Calculate the fringe width if D = 1m, d = 0.5mm, λ = 6000 Å."
+                },
+                {
+                  "id": "PHY1_M1_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "What is the Rayleigh criterion of resolution? How does it apply to a telescope objective lens of diameter D?"
+                },
+                {
+                  "id": "PHY1_M1_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Describe the Michelson interferometer. Explain how it can be used to measure the wavelength of monochromatic light. Draw a neat diagram."
+                },
+                {
+                  "id": "PHY1_M1_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Explain the theory of Newton's rings. Derive expressions for the diameter of bright and dark rings. How is this used to find the wavelength of light?"
+                },
+                {
+                  "id": "PHY1_M1_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Explain Fraunhofer diffraction at a single slit. Derive the intensity pattern I = I₀ (sin α / α)². Sketch the intensity distribution and explain secondary maxima."
+                },
+                {
+                  "id": "PHY1_M1_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Explain the construction and working of a diffraction grating. Derive the grating equation. How is grating used to determine wavelength?"
+                },
+                {
+                  "id": "PHY1_M1_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Describe the Fabry-Perot interferometer. Derive expressions for the positions of maxima. Compare its resolving power with that of a diffraction grating."
+                },
+                {
+                  "id": "PHY1_M1_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Explain the theory of Fresnel diffraction at a circular aperture using zone plate concept. Derive the focal length of a zone plate and compare it with a convex lens."
+                }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Polarization and Laser",
+              "questions": [
+                {
+                  "id": "PHY1_M2_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "What is plane polarised light? How is it produced using a polaroid?"
+                },
+                {
+                  "id": "PHY1_M2_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "State Brewster's law and derive an expression for Brewster's angle."
+                },
+                {
+                  "id": "PHY1_M2_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Distinguish between positive and negative uniaxial crystals with examples."
+                },
+                {
+                  "id": "PHY1_M2_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Explain the terms: population inversion, stimulated emission, and metastable state with respect to lasers."
+                },
+                {
+                  "id": "PHY1_M2_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Explain the optical activity of a substance. Define specific rotation."
+                },
+                {
+                  "id": "PHY1_M2_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "What is holography? How is a hologram recorded and reconstructed?"
+                },
+                {
+                  "id": "PHY1_M2_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Explain the construction and working of a He-Ne laser with an energy level diagram."
+                },
+                {
+                  "id": "PHY1_M2_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Explain double refraction in a uniaxial crystal. Define ordinary and extraordinary rays."
+                },
+                {
+                  "id": "PHY1_M2_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "A half-wave plate and a quarter-wave plate are inserted in a beam of plane polarised light. Describe the state of polarisation of the emergent beam in each case."
+                },
+                {
+                  "id": "PHY1_M2_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Explain the principle, construction, and working of a Ruby laser with energy level diagram."
+                },
+                {
+                  "id": "PHY1_M2_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Explain Nicol prism construction. How does it act as a polariser and analyser?"
+                },
+                {
+                  "id": "PHY1_M2_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Explain the principle and advantages of optical fibre communication. Define numerical aperture and acceptance angle."
+                },
+                {
+                  "id": "PHY1_M2_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Explain the different types of polarised light: plane, circular, elliptical. Describe how each can be produced using a quarter-wave plate. Distinguish with neat diagrams."
+                },
+                {
+                  "id": "PHY1_M2_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Describe the construction of an optical fibre. Derive the expression for numerical aperture (NA). Explain single mode and multimode fibres with applications."
+                },
+                {
+                  "id": "PHY1_M2_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Explain the three-level and four-level laser systems. What are the advantages of a four-level system? Describe the working of a semiconductor laser diode."
+                },
+                {
+                  "id": "PHY1_M2_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Describe the phenomenon of double refraction. Explain the construction and action of a Nicol prism. How is it used to detect the type of polarised light?"
+                },
+                {
+                  "id": "PHY1_M2_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Describe the principle of holography. Explain the recording and reconstruction of a hologram. Compare with conventional photography. List applications of holography."
+                },
+                {
+                  "id": "PHY1_M2_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Explain electro-optic and magneto-optic effects. Describe the Kerr cell and Faraday effect. Derive the Verdet constant and explain its applications in optical modulation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_code": "FEC103",
+          "subject_name": "Applied Chemistry I",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Water Technology",
+              "questions": [
+                {
+                  "id": "CHEM1_M1_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Define hardness of water. Distinguish between temporary and permanent hardness."
+                },
+                {
+                  "id": "CHEM1_M1_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Define BOD and COD of water. What do high values of BOD indicate?"
+                },
+                {
+                  "id": "CHEM1_M1_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "A sample of water has 1.62 mg/L of Ca(HCO₃)₂ and 1.90 mg/L of MgSO₄. Calculate its temporary and permanent hardness in ppm."
+                },
+                {
+                  "id": "CHEM1_M1_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Explain the principle of reverse osmosis. State its advantages over distillation."
+                },
+                {
+                  "id": "CHEM1_M1_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Explain the disadvantages of using hard water in boilers (scale, sludge, priming, foaming, caustic embrittlement)."
+                },
+                {
+                  "id": "CHEM1_M1_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Explain the Permutit / Zeolite process for softening of water. Give its advantages and disadvantages."
+                },
+                {
+                  "id": "CHEM1_M1_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Describe the lime-soda process for softening of water. Write the reactions involved for temporary and permanent hardness."
+                },
+                {
+                  "id": "CHEM1_M1_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Explain the steps involved in the municipal treatment of water for public supply."
+                },
+                {
+                  "id": "CHEM1_M1_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Water analysis showed: Ca²⁺ = 40 mg/L, Mg²⁺ = 24 mg/L, HCO₃⁻ = 183 mg/L, Cl⁻ = 71 mg/L. Calculate total hardness in ppm."
+                },
+                {
+                  "id": "CHEM1_M1_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Explain ion-exchange method of water softening. What are the regeneration steps for cationic and anionic resins?"
+                },
+                {
+                  "id": "CHEM1_M1_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Explain the determination of hardness by EDTA method. Write the reactions and calculate hardness in mg/L of CaCO₃."
+                },
+                {
+                  "id": "CHEM1_M1_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "What is desalination of water? Explain the electrodialysis method with a labelled diagram."
+                },
+                {
+                  "id": "CHEM1_M1_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Explain the internal treatment of boiler water: (i) Phosphate conditioning (ii) Colloidal conditioning (iii) Calgon conditioning (iv) NaOH treatment. Write relevant reactions."
+                },
+                {
+                  "id": "CHEM1_M1_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Describe the ion exchange process for demineralisation of water. Draw a neat diagram, write reactions, and explain the regeneration of resins."
+                },
+                {
+                  "id": "CHEM1_M1_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "A hard water sample required 20 mL of 0.01M EDTA for 100 mL sample (with EBT indicator). A further 5mL of EDTA was needed after removing Ca²⁺. Calculate Ca²⁺ hardness, Mg²⁺ hardness, and total hardness in mg/L CaCO₃."
+                },
+                {
+                  "id": "CHEM1_M1_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Discuss the various methods of sewage treatment: primary, secondary (biological), and tertiary treatment. What is the role of activated sludge?"
+                },
+                {
+                  "id": "CHEM1_M1_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Explain the causes of scale and sludge formation in boilers. How do scales affect fuel consumption? Describe the methods to prevent and remove scales."
+                },
+                {
+                  "id": "CHEM1_M1_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Write short notes on: (i) Reverse Osmosis – principle, membrane, applications (ii) Electrodialysis (iii) Nanofiltration vs Ultrafiltration. Compare these advanced water purification methods."
+                }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Fuels and Combustion",
+              "questions": [
+                {
+                  "id": "CHEM1_M2_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Define calorific value of fuel. Distinguish between HCV and LCV."
+                },
+                {
+                  "id": "CHEM1_M2_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "What is a producer gas? Write its composition and two applications."
+                },
+                {
+                  "id": "CHEM1_M2_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "A fuel has composition C=80%, H=4%, O=8%, S=2%, ash=6%. Calculate the minimum amount of air required for complete combustion (by mass)."
+                },
+                {
+                  "id": "CHEM1_M2_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Explain the proximate analysis of coal and state the significance of each parameter."
+                },
+                {
+                  "id": "CHEM1_M2_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Explain the cracking of petroleum. Differentiate between thermal and catalytic cracking."
+                },
+                {
+                  "id": "CHEM1_M2_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Define octane number and cetane number. What is the significance of these in fuels?"
+                },
+                {
+                  "id": "CHEM1_M2_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Describe the determination of calorific value of solid/liquid fuel using Bomb calorimeter. Give all relevant equations."
+                },
+                {
+                  "id": "CHEM1_M2_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Explain the manufacture of water gas. Write reactions and state its uses."
+                },
+                {
+                  "id": "CHEM1_M2_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Calculate the HCV and LCV of a fuel with C=75%, H=5%, O=10%, S=2%, N=3%, moisture=5% (in mass %). Given: HCV of C=33940 kJ/kg, H=143800 kJ/kg, S=9160 kJ/kg."
+                },
+                {
+                  "id": "CHEM1_M2_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Explain the ultimate analysis of coal. How is it different from proximate analysis? State the use of each."
+                },
+                {
+                  "id": "CHEM1_M2_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "What is Orsat's apparatus? How is flue gas analysis done using it? Write the reactions for CO₂, O₂, and CO absorption."
+                },
+                {
+                  "id": "CHEM1_M2_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Explain the manufacture and properties of CNG and LPG. Compare their advantages over conventional fuels."
+                },
+                {
+                  "id": "CHEM1_M2_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Explain the refining of petroleum. Describe fractional distillation of crude oil and list the fractions obtained with boiling range and applications."
+                },
+                {
+                  "id": "CHEM1_M2_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Explain the manufacture of coal gas and coke oven gas. Write their composition, calorific value, and uses. How is ammonia recovered as a by-product?"
+                },
+                {
+                  "id": "CHEM1_M2_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Calculate the theoretical volume of air needed for the combustion of 1 m³ of a gaseous fuel: CO=28%, H₂=15%, CH₄=5%, CO₂=7%, N₂=45%. Write all combustion equations."
+                },
+                {
+                  "id": "CHEM1_M2_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Discuss biofuels: (i) Biogas – composition, production by anaerobic digestion, advantages (ii) Biodiesel – transesterification reaction, advantages over petrodiesel (iii) Bioethanol – fermentation. State environmental benefits."
+                },
+                {
+                  "id": "CHEM1_M2_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Describe the various methods to improve the quality of petrol: (i) Reforming (ii) Alkylation (iii) Isomerisation (iv) Addition of anti-knock agents. Explain the mechanism of knocking in petrol engines."
+                },
+                {
+                  "id": "CHEM1_M2_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Describe hydrogen as a fuel of the future. How is it produced by steam reforming and electrolysis? Explain hydrogen fuel cells, their working principle, and compare with conventional combustion engines."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_code": "FEC104",
+          "subject_name": "Engineering Mechanics",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "System of Forces and Equilibrium",
+              "questions": [
+                {
+                  "id": "EM_M1_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "State Varignon's theorem of moments and give its significance."
+                },
+                {
+                  "id": "EM_M1_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Define free body diagram. Draw the FBD for a ball resting on a smooth inclined plane."
+                },
+                {
+                  "id": "EM_M1_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Two forces of 100N and 150N act at a point at an angle of 60°. Find their resultant."
+                },
+                {
+                  "id": "EM_M1_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Explain Lami's theorem and state the conditions for its application."
+                },
+                {
+                  "id": "EM_M1_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Three concurrent forces act on a particle. Two of them are 200N at 30° and 150N at 120°. Find the third force for equilibrium."
+                },
+                {
+                  "id": "EM_M1_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Define the couple. Prove that the moment of a couple is the same about any point in its plane."
+                },
+                {
+                  "id": "EM_M1_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "A simply supported beam AB of span 6m carries a UDL of 10 kN/m over entire span. Find the support reactions at A and B."
+                },
+                {
+                  "id": "EM_M1_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Explain the concept of resultant of parallel forces. Find the resultant of: 100N upward at A, 200N downward at B (AB = 3m) and 150N upward at C (BC = 2m)."
+                },
+                {
+                  "id": "EM_M1_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Find the support reactions for a simply supported beam of span 8m loaded with a point load of 40 kN at 3m from A and a point load of 60 kN at 6m from A."
+                },
+                {
+                  "id": "EM_M1_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Three coplanar forces act on a body: 200N at 0°, 150N at 90°, 100N at 200°. Find the magnitude and direction of the resultant using the analytical method."
+                },
+                {
+                  "id": "EM_M1_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "A 5m ladder weighing 200N leans against a smooth vertical wall making 60° with the ground. Find the reactions at the wall and ground (ground is rough, µ=0.3). Check if ladder is in equilibrium."
+                },
+                {
+                  "id": "EM_M1_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Reduce the given force system (3 forces and a couple) to a single resultant force. Forces: F₁=100N at A(0,0), F₂=200N at B(3,0), F₃=150N at C(0,4). All forces vertical upward, couple M=500 N·m."
+                },
+                {
+                  "id": "EM_M1_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "State and prove Varignon's theorem. Apply it to find the moment of a 500N force acting along the direction 3i+4j about the origin if the position vector of its point of application is 2i+3j m."
+                },
+                {
+                  "id": "EM_M1_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "A beam AB of span 10m, hinged at A and roller at B, carries: 50 kN at 2m, 80 kN at 5m, a UDL of 20 kN/m between 6m and 9m from A. Find the reactions at A and B."
+                },
+                {
+                  "id": "EM_M1_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "A composite force system consists of three forces: 200N along +x, 150N at 45° in xy-plane, and 250N along +z. Find the resultant force and its direction cosines."
+                },
+                {
+                  "id": "EM_M1_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "A bar AC is hinged at A and supported by a rope BC. Load of 10 kN acts vertically at C. AB is horizontal and BC makes 30° with BC. Find the tension in BC and reaction at A."
+                },
+                {
+                  "id": "EM_M1_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Find the reactions at all supports of a propped cantilever AB (4m span, fixed at A, prop at B) carrying a UDL of 30 kN/m over the full span. Assume prop reaction R at B and solve using equilibrium."
+                },
+                {
+                  "id": "EM_M1_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Analyse a pin-jointed truss with 7 members and 5 joints. Clearly label joint positions and use the method of joints to find the force in each member. State if each member is in tension or compression."
+                }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Centroid, Moment of Inertia and Friction",
+              "questions": [
+                {
+                  "id": "EM_M2_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Define centroid. Where does the centroid of a triangle with base b and height h lie?"
+                },
+                {
+                  "id": "EM_M2_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "State the parallel axis theorem for moment of inertia with the formula."
+                },
+                {
+                  "id": "EM_M2_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Define angle of friction and angle of repose. Prove that they are equal for a body on an inclined plane."
+                },
+                {
+                  "id": "EM_M2_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "A rectangular section 100mm × 150mm. Find its moment of inertia about the centroidal axis parallel to the longer side."
+                },
+                {
+                  "id": "EM_M2_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Find the centroid of a semicircular area of radius r from its diameter."
+                },
+                {
+                  "id": "EM_M2_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Define radius of gyration. What is its physical significance in engineering?"
+                },
+                {
+                  "id": "EM_M2_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Find the centroid of an L-section with dimensions: vertical flange 100mm × 20mm and horizontal flange 80mm × 20mm."
+                },
+                {
+                  "id": "EM_M2_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "A block of mass 50 kg rests on a rough horizontal surface (µ=0.4). Find the force required to (i) just slide the block and (ii) slide it up an incline of 20°."
+                },
+                {
+                  "id": "EM_M2_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Find the moment of inertia of a T-section (flange 100×20mm, web 80×20mm) about the centroidal horizontal axis."
+                },
+                {
+                  "id": "EM_M2_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "A block of 200N rests on an incline of 30°. The coefficient of friction between the block and incline is 0.25. Find the least force along the incline to prevent sliding down and to slide it up."
+                },
+                {
+                  "id": "EM_M2_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Find the centroid of a composite area consisting of a rectangle 120×80mm with a semicircular cutout of radius 30mm on one of the shorter sides."
+                },
+                {
+                  "id": "EM_M2_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Derive the condition for a self-locking screw jack using the concept of friction. When is a screw said to be self-locking?"
+                },
+                {
+                  "id": "EM_M2_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Find the moment of inertia of an I-section (top flange 100×20mm, web 120×15mm, bottom flange 150×20mm) about its centroidal x-x and y-y axes. Also find the radius of gyration."
+                },
+                {
+                  "id": "EM_M2_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Find the centroid of a composite plane figure consisting of a rectangle 200×100mm, a triangle (base 100mm, height 80mm) placed on top of the rectangle, with a circular hole of radius 30mm at the centre of the rectangle."
+                },
+                {
+                  "id": "EM_M2_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Explain the laws of dry friction (Coulomb's laws). A ladder of length 5m and weight 200N leans against a smooth wall. The foot of the ladder is 3m from the wall. Find the minimum µ at the floor to prevent slipping."
+                },
+                {
+                  "id": "EM_M2_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "A screw jack has a square thread of mean radius 30mm and pitch 8mm. The coefficient of friction is 0.15. Find: (i) torque to lift a load of 10 kN (ii) torque to lower the load (iii) efficiency of the screw jack."
+                },
+                {
+                  "id": "EM_M2_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Derive, from first principles, the moment of inertia of (i) a solid circle of radius R about its diameter and (ii) a hollow cylinder of inner radius r and outer radius R about its axis. Use these to find MI of an annular disc."
+                },
+                {
+                  "id": "EM_M2_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Explain belt friction (capstan equation). Derive the relation T₁/T₂ = e^(µθ). A rope is wound 1.5 turns around a post. If µ=0.3 and the tight side tension is 2000N, find the slack side tension (holding force)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_code": "FEC105",
+          "subject_name": "Basic Electrical and Electronics Engineering",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "DC Circuits and Network Theorems",
+              "questions": [
+                {
+                  "id": "BEE_M1_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "State Kirchhoff's voltage law (KVL) and current law (KCL) with an example each."
+                },
+                {
+                  "id": "BEE_M1_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Distinguish between independent and dependent sources in a DC circuit."
+                },
+                {
+                  "id": "BEE_M1_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "State Thevenin's theorem. What are V_th and R_th for a circuit with a 10V source and a 5Ω internal resistance?"
+                },
+                {
+                  "id": "BEE_M1_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "State the maximum power transfer theorem. For what value of load resistance is power maximum?"
+                },
+                {
+                  "id": "BEE_M1_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Apply Norton's theorem to find the current through a 10Ω resistor connected between terminals A and B of a circuit."
+                },
+                {
+                  "id": "BEE_M1_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Prove that Thevenin's theorem and Norton's theorem are equivalent (source transformation)."
+                },
+                {
+                  "id": "BEE_M1_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Using Kirchhoff's laws, find the currents in all branches of a circuit with two meshes: Mesh 1: 10V source, 5Ω, 2Ω (shared); Mesh 2: 20V source, 3Ω, 2Ω (shared)."
+                },
+                {
+                  "id": "BEE_M1_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Find the equivalent resistance between terminals A and B of a balanced Wheatstone bridge with P=Q=R=S=10Ω."
+                },
+                {
+                  "id": "BEE_M1_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Using Thevenin's theorem, find the current through a 5Ω resistor in a circuit with 20V source, 10Ω and 15Ω resistors."
+                },
+                {
+                  "id": "BEE_M1_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Convert a star (Y) network with Za=6Ω, Zb=4Ω, Zc=3Ω to an equivalent delta (Δ) network."
+                },
+                {
+                  "id": "BEE_M1_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Using superposition theorem, find the current through a 4Ω resistor in a circuit with two sources: 12V and 6A."
+                },
+                {
+                  "id": "BEE_M1_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Find the value of load resistance R_L for maximum power transfer. Calculate the maximum power if V_th=20V and R_th=5Ω."
+                },
+                {
+                  "id": "BEE_M1_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Using mesh analysis, find all mesh currents and branch currents in a circuit with 3 meshes: V₁=30V, V₂=20V, R₁=2Ω, R₂=4Ω, R₃=6Ω, R₄=3Ω, R₅=5Ω."
+                },
+                {
+                  "id": "BEE_M1_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "State and prove Thevenin's theorem. Apply it to find the current through R_L=10Ω connected between A and B. Given: V=50V, R₁=20Ω, R₂=30Ω, R₃=15Ω."
+                },
+                {
+                  "id": "BEE_M1_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Using node voltage method, find the voltage at each node and power supplied by each source in a circuit with 3 nodes, 2 voltage sources and 5 resistors."
+                },
+                {
+                  "id": "BEE_M1_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Derive the Star-Delta and Delta-Star conversion formulas. A balanced delta-connected load has each arm = 30Ω. Find the equivalent star resistance and verify by calculating the current for a line voltage of 400V."
+                },
+                {
+                  "id": "BEE_M1_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "State and prove the Superposition theorem. Apply it to a circuit having two voltage sources V₁=12V and V₂=6V and three resistors R₁=3Ω, R₂=6Ω, R₃=4Ω. Find current through R₃."
+                },
+                {
+                  "id": "BEE_M1_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Find the Thevenin and Norton equivalents of a circuit having a dependent current source (2Vx) in addition to independent sources. Verify the equivalence by computing current through a 10Ω load."
+                }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "AC Circuits and Transformers",
+              "questions": [
+                {
+                  "id": "BEE_M2_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Define RMS value and average value of a sinusoidal AC voltage. State their relation."
+                },
+                {
+                  "id": "BEE_M2_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Define power factor. Why is a low power factor undesirable in practice?"
+                },
+                {
+                  "id": "BEE_M2_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "A series RLC circuit has R=10Ω, L=0.1H, C=100µF. Find the resonant frequency and Q-factor."
+                },
+                {
+                  "id": "BEE_M2_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Explain the working principle of a single-phase transformer using Faraday's law."
+                },
+                {
+                  "id": "BEE_M2_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Derive the expression for the impedance of a series RLC circuit and draw its phasor diagram."
+                },
+                {
+                  "id": "BEE_M2_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "What are hysteresis loss and eddy current loss in a transformer? How are they minimised?"
+                },
+                {
+                  "id": "BEE_M2_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "A coil of resistance 10Ω and inductance 0.1H is connected to a 230V, 50Hz supply. Find impedance, current, power factor, and power consumed."
+                },
+                {
+                  "id": "BEE_M2_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Explain the open circuit and short circuit tests on a transformer. What parameters are obtained from each test?"
+                },
+                {
+                  "id": "BEE_M2_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "A 230V, 50Hz supply is connected to a parallel circuit of R=20Ω and L=0.1H. Find the total current, impedance, and power factor of the combination."
+                },
+                {
+                  "id": "BEE_M2_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "A 5 kVA, 200/400V, 50Hz single-phase transformer has R₁=0.3Ω, R₂=1.2Ω, X₁=0.6Ω, X₂=2.4Ω. Find equivalent impedance referred to the primary side."
+                },
+                {
+                  "id": "BEE_M2_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "A series RLC circuit has R=5Ω, L=10mH, C=100µF, supplied from 100V variable-frequency source. Find: (i) resonant frequency (ii) current at resonance (iii) voltages across L and C at resonance."
+                },
+                {
+                  "id": "BEE_M2_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "A 10 kVA transformer has full-load copper loss = 200W and iron loss = 100W. Find the efficiency at full load and at half load for 0.8 pf lagging."
+                },
+                {
+                  "id": "BEE_M2_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Derive expressions for true power (P), reactive power (Q), and apparent power (S) in an AC circuit. Draw the power triangle. Calculate P, Q, S, and pf for a circuit with Z = 8+j6 Ω and V = 230V."
+                },
+                {
+                  "id": "BEE_M2_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Explain the construction and working principle of a single-phase transformer. Derive the EMF equation. What is the turns ratio? Explain ideal vs practical transformer."
+                },
+                {
+                  "id": "BEE_M2_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "A balanced three-phase star-connected load of (10+j8)Ω per phase is connected to a 400V, 3-phase supply. Find: (i) phase voltage (ii) line current (iii) power factor (iv) total power."
+                },
+                {
+                  "id": "BEE_M2_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Explain the concept of power factor improvement. A 230V, 50Hz industrial load draws 50A at 0.6 pf lagging. Calculate the capacitor value required to improve the pf to 0.95 lagging. Show phasor diagram."
+                },
+                {
+                  "id": "BEE_M2_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Derive the condition for resonance in a parallel RLC circuit. Show that the resonant frequency is f₀ = (1/2π)√[(1/LC) - (R/L)²]. Find the dynamic impedance and Q-factor at resonance."
+                },
+                {
+                  "id": "BEE_M2_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Explain all-day efficiency of a transformer. A 50 kVA, 11000/220V, 50Hz transformer has iron loss=500W and full-load copper loss=800W. Find efficiency at full load and 75% load (pf=0.9) and all-day efficiency given a specific load schedule."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_code": "FEL101",
+          "subject_name": "Engineering Graphics",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Projections and Orthographic Views",
+              "questions": [
+                {
+                  "id": "EG_M1_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "What is orthographic projection? State the difference between first-angle and third-angle projection."
+                },
+                {
+                  "id": "EG_M1_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Define a line in space. How is a line represented in its front view and top view in orthographic projection?"
+                },
+                {
+                  "id": "EG_M1_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "A point P is 30mm above HP, 25mm in front of VP, and 20mm from the left PP. Draw its three views and state the quadrant it belongs to."
+                },
+                {
+                  "id": "EG_M1_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Find the true length of a line AB whose front view is 60mm long and inclined at 30° to xy line, and top view is 50mm long and inclined at 45°."
+                },
+                {
+                  "id": "EG_M1_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "A hexagonal prism (base side 30mm, axis 60mm) rests on its base on HP. Draw its projections."
+                },
+                {
+                  "id": "EG_M1_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Draw the development of a cone with base diameter 60mm and height 80mm. Also find the slant height."
+                },
+                {
+                  "id": "EG_M1_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Draw the projections of a cylinder (base dia 50mm, axis 70mm) resting on its base on HP with its axis vertical."
+                },
+                {
+                  "id": "EG_M1_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Draw the isometric view of a cube of side 40mm."
+                },
+                {
+                  "id": "EG_M1_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "A cone (base dia 60mm, height 80mm) is resting on HP with its axis inclined at 45° to HP and parallel to VP. Draw the projections."
+                },
+                {
+                  "id": "EG_M1_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Draw the front view, top view, and side view of an object and also show the corresponding isometric view from given orthographic views."
+                },
+                {
+                  "id": "EG_M1_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "A sphere of diameter 50mm is resting on HP. A plane cuts the sphere parallel to HP at a distance 10mm above its centre. Draw the section views and show the true shape."
+                },
+                {
+                  "id": "EG_M1_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Draw the development of the lateral surface of a square pyramid with base side 40mm and height 70mm cut by a plane bisecting the axis."
+                },
+                {
+                  "id": "EG_M1_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Draw three views (FV, TV, SV) in first-angle projection for a given 3D object and convert them to an isometric view. The object is a combination of a rectangular base (80×60×20mm) topped with a triangular prism."
+                },
+                {
+                  "id": "EG_M1_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "A cone (base dia 50mm, height 80mm) rests on its generator on HP. The generator is parallel to VP. Draw the elevation and plan."
+                },
+                {
+                  "id": "EG_M1_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Draw the projections of a hexagonal pyramid (base side 30mm, axis 60mm) when its base is on HP and one of its base edges is inclined at 30° to VP."
+                },
+                {
+                  "id": "EG_M1_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Draw the isometric view of a machine component made up of a cylinder of diameter 50mm and height 30mm placed centrally on a rectangular plate of 100×70×15mm."
+                },
+                {
+                  "id": "EG_M1_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "A cylinder (dia 60mm, height 90mm) resting on HP is cut by a plane inclined at 50° to HP and perpendicular to VP passing through midpoint of axis. Draw front view, sectional top view, and the true shape of section."
+                },
+                {
+                  "id": "EG_M1_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Draw the development of the lateral surface of a cone (base dia 60mm, height 80mm) with a circular hole of diameter 20mm drilled centrally through its axis."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "subjects": [
+        {
+          "subject_code": "FEC201",
+          "subject_name": "Applied Mathematics II",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Matrices and Linear Algebra",
+              "questions": [
+                {
+                  "id": "FE2_M1_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Define rank of a matrix. Find the rank of A = [[1,2,3],[0,1,2],[0,0,0]]."
+                },
+                {
+                  "id": "FE2_M1_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "State the Cayley-Hamilton theorem. Verify it for A = [[1,2],[3,4]]."
+                },
+                {
+                  "id": "FE2_M1_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Find the eigenvalues and eigenvectors of A = [[2,1],[1,2]]."
+                },
+                {
+                  "id": "FE2_M1_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Solve the system 2x+y=5, x+3y=7 using Cramer's rule."
+                },
+                {
+                  "id": "FE2_M1_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Show that the system Ax = b is consistent if and only if rank(A) = rank([A|b]). Apply to a specific example."
+                },
+                {
+                  "id": "FE2_M1_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Diagonalize the matrix A = [[4,-1],[2,1]] if possible. Find the diagonal matrix and the transformation matrix."
+                },
+                {
+                  "id": "FE2_M1_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Reduce the matrix A = [[1,2,-1],[2,5,2],[3,7,1]] to row echelon form and find its rank."
+                },
+                {
+                  "id": "FE2_M1_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Solve using Gauss elimination: x+y+z=6, 2x+3y+z=14, x+y+2z=10."
+                },
+                {
+                  "id": "FE2_M1_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Find the eigenvalues and corresponding eigenvectors of A = [[3,1,0],[0,2,1],[0,0,1]]."
+                },
+                {
+                  "id": "FE2_M1_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Using Cayley-Hamilton theorem, find A⁻¹ for A = [[1,1,1],[1,2,3],[1,4,9]]."
+                },
+                {
+                  "id": "FE2_M1_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Diagonalize A = [[2,1,0],[0,2,1],[0,0,2]]. Discuss whether it is possible. Find A⁴ using the diagonalization if possible."
+                },
+                {
+                  "id": "FE2_M1_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Find the condition for which the system x+y+z=1, x+2y+3z=5, 2x+3y+kz=7 has (i) unique solution (ii) no solution (iii) infinitely many solutions."
+                },
+                {
+                  "id": "FE2_M1_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Solve the following system using Gauss-Jordan method: 2x+y+z=10, 3x+2y+3z=18, x+4y+9z=16. Also check using matrix inversion."
+                },
+                {
+                  "id": "FE2_M1_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "State and prove the Cayley-Hamilton theorem. Use it to find A⁸ - 5A⁷ + ... (simplified polynomial) for A = [[2,1],[1,2]]."
+                },
+                {
+                  "id": "FE2_M1_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Find the eigenvalues and eigenvectors of A = [[1,1,0],[0,2,1],[0,0,3]]. Is A diagonalizable? If yes, find the diagonal form."
+                },
+                {
+                  "id": "FE2_M1_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Reduce the quadratic form Q = 2x² + 2y² + 3z² + 4xy + 2xz to canonical form. Find its rank, index, and signature. State the nature of the form."
+                },
+                {
+                  "id": "FE2_M1_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Find the largest eigenvalue of A = [[5,4],[1,2]] using the power method. Perform 5 iterations starting from x₀ = [1,1]ᵀ."
+                },
+                {
+                  "id": "FE2_M1_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Given a 3×3 matrix with eigenvalues λ₁, λ₂, λ₃ and corresponding eigenvectors, explain modal matrix approach to solve a system of differential equations dx/dt = Ax. Illustrate with a specific example."
+                }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Correlation, Regression and Probability",
+              "questions": [
+                {
+                  "id": "FE2_M2_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Define Karl Pearson's coefficient of correlation. What does r = -1 indicate?"
+                },
+                {
+                  "id": "FE2_M2_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "State Bayes' theorem and write its mathematical expression."
+                },
+                {
+                  "id": "FE2_M2_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "The two lines of regression are 3x+2y=26 and 6x+y=31. Find the means of x and y."
+                },
+                {
+                  "id": "FE2_M2_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "In a Poisson distribution, P(X=0)=0.2. Find the mean and P(X=2)."
+                },
+                {
+                  "id": "FE2_M2_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "State and prove the addition theorem of probability for two non-mutually exclusive events."
+                },
+                {
+                  "id": "FE2_M2_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "For a normal distribution, 68.27% of data lies within ±1σ. State the corresponding percentages for ±2σ and ±3σ bands."
+                },
+                {
+                  "id": "FE2_M2_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Calculate Karl Pearson's coefficient of correlation for given bivariate data (n=5 pairs of x,y values). Interpret the result."
+                },
+                {
+                  "id": "FE2_M2_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "A binomial distribution has mean 6 and variance 4. Find n, p, q, and P(X≥2)."
+                },
+                {
+                  "id": "FE2_M2_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Fit a regression line of y on x and x on y for given data. Use it to estimate y when x=25."
+                },
+                {
+                  "id": "FE2_M2_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "In a normal distribution with µ=50 and σ=10, find: (i) P(X>60) (ii) P(40<X<60) (iii) the value of x such that P(X<x)=0.90."
+                },
+                {
+                  "id": "FE2_M2_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Three machines A, B, C produce 50%, 30%, 20% of items. The defective rates are 3%, 4%, 5%. An item is found defective. Find the probability it came from machine A (Bayes' theorem)."
+                },
+                {
+                  "id": "FE2_M2_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Prove that for a Poisson distribution: (i) mean = λ (ii) variance = λ. What is the moment generating function?"
+                },
+                {
+                  "id": "FE2_M2_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Derive the equations of lines of regression of y on x and x on y. For given data, compute both regression lines, find r from them, and estimate y for x = 20."
+                },
+                {
+                  "id": "FE2_M2_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Define Binomial, Poisson, and Normal distributions. State conditions under which each is applicable. Solve: (i) P(X=3) for B(10, 0.3) (ii) P(X≤2) for Poisson(λ=2) (iii) P(45<X<55) for N(50,100)."
+                },
+                {
+                  "id": "FE2_M2_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Compute rank correlation (Spearman's) for a given dataset of 8 pairs of observations. Interpret the result and compare with Karl Pearson's method."
+                },
+                {
+                  "id": "FE2_M2_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Prove Bayes' theorem. Two urns U₁ and U₂ contain (3W, 2B) and (4W, 3B) balls respectively. A ball is drawn: (i) from U₁ (ii) from U₂ with equal probability. The ball is white. Find the probability it came from U₁."
+                },
+                {
+                  "id": "FE2_M2_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Derive the Poisson distribution as a limiting case of Binomial distribution. A factory produces 1% defective items. A sample of 100 is drawn. Find the probability of exactly 2 defectives and at most 2 defectives."
+                },
+                {
+                  "id": "FE2_M2_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "The heights of 1000 students are normally distributed with mean 168cm and SD 8cm. Find: (i) number with height >180cm (ii) number between 160cm and 175cm (iii) minimum height of tallest 10%. Use standard normal tables."
+                }
+              ]
+            },
+            {
+              "module_no": 3,
+              "module_name": "Numerical Methods",
+              "questions": [
+                {
+                  "id": "FE2_M3_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "State the bisection method for finding roots. What is the convergence rate?"
+                },
+                {
+                  "id": "FE2_M3_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Write the Newton-Raphson formula for finding the root of f(x) = 0."
+                },
+                {
+                  "id": "FE2_M3_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Using Newton's forward difference formula, find f(1.5) given f(1)=1, f(2)=8, f(3)=27."
+                },
+                {
+                  "id": "FE2_M3_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Apply Simpson's 1/3 rule to evaluate ∫₀^1 1/(1+x) dx with h=0.25. Compare with exact value."
+                },
+                {
+                  "id": "FE2_M3_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Solve dy/dx = x + y, y(0) = 1 using Euler's method with h = 0.1. Find y(0.2)."
+                },
+                {
+                  "id": "FE2_M3_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Explain the Runge-Kutta 4th order method and write the formula for k₁, k₂, k₃, k₄."
+                },
+                {
+                  "id": "FE2_M3_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Find the real root of x³ - x - 11 = 0 correct to 3 decimal places using bisection method starting with a=2, b=3."
+                },
+                {
+                  "id": "FE2_M3_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Using Newton's forward interpolation formula, interpolate f(1.5) from the data: x=1,2,3,4 and f(x)=2,5,10,17."
+                },
+                {
+                  "id": "FE2_M3_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Evaluate ∫₀^6 f(x)dx using Trapezoidal rule from tabulated data at x=0,1,2,3,4,5,6."
+                },
+                {
+                  "id": "FE2_M3_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Apply Newton-Raphson method to find √17 correct to 4 decimal places. Start with x₀=4."
+                },
+                {
+                  "id": "FE2_M3_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Solve dy/dx = (x-y)/(x+y), y(0)=1 using Runge-Kutta 4th order method with h=0.1. Find y(0.1)."
+                },
+                {
+                  "id": "FE2_M3_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Construct a difference table for f(x) = x³ at x = 0,1,2,3,4,5. Use Newton's backward formula to find f(4.5)."
+                },
+                {
+                  "id": "FE2_M3_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Explain Newton-Raphson method geometrically. Derive its formula. Apply to find root of e^x - 3x = 0 near x=1. Perform 4 iterations and comment on convergence."
+                },
+                {
+                  "id": "FE2_M3_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Derive Newton's forward difference interpolation formula. Using it, find f(3.5) and f'(3) from the data: x = 1,2,3,4,5; f(x) = 2,5,10,17,26."
+                },
+                {
+                  "id": "FE2_M3_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Evaluate ∫₀^(π) sin(x) dx using: (i) Trapezoidal rule (ii) Simpson's 1/3 rule (iii) Simpson's 3/8 rule, each with n=6. Compare the errors with the exact value."
+                },
+                {
+                  "id": "FE2_M3_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Apply the Runge-Kutta 4th order method to solve dy/dx = x + y², y(0) = 0. Find y(0.1) and y(0.2) with step size h=0.1. Compare with y(0.2) obtained by Euler's method."
+                },
+                {
+                  "id": "FE2_M3_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Solve the system of equations by Gauss-Seidel iteration: 5x+2y+z=12, x+4y+2z=15, x+2y+5z=20. Perform 4 iterations starting from (0,0,0) and check convergence."
+                },
+                {
+                  "id": "FE2_M3_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Derive Lagrange's interpolation formula. Given data: x=0,1,3,4; f(x)=1,3,49,129. Find f(2). Compare with Newton's divided difference method."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_code": "FEC202",
+          "subject_name": "Semiconductor Physics",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Quantum Mechanics",
+              "questions": [
+                {
+                  "id": "PHY2_M1_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "State de Broglie's hypothesis of wave-particle duality. Write the de Broglie wavelength formula."
+                },
+                {
+                  "id": "PHY2_M1_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "State Heisenberg's uncertainty principle. Write the three forms of uncertainty relations."
+                },
+                {
+                  "id": "PHY2_M1_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Calculate the de Broglie wavelength of an electron accelerated through 100V."
+                },
+                {
+                  "id": "PHY2_M1_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "What is the physical significance of the wave function ψ? What conditions must ψ satisfy?"
+                },
+                {
+                  "id": "PHY2_M1_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Derive the time-independent Schrödinger wave equation from the general wave equation."
+                },
+                {
+                  "id": "PHY2_M1_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Explain the quantum mechanical tunneling effect. Give two real-world applications."
+                },
+                {
+                  "id": "PHY2_M1_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Explain Davisson-Germer experiment. How did it confirm de Broglie's hypothesis?"
+                },
+                {
+                  "id": "PHY2_M1_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Apply the uncertainty principle to estimate the minimum energy of an electron confined to a box of width 10⁻¹⁰ m."
+                },
+                {
+                  "id": "PHY2_M1_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Solve the Schrödinger equation for a particle in a 1D infinite potential well. Find the energy eigenvalues and normalised eigenfunctions."
+                },
+                {
+                  "id": "PHY2_M1_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Explain the Compton effect. Derive the expression for Compton shift: Δλ = (h/m₀c)(1 - cosφ)."
+                },
+                {
+                  "id": "PHY2_M1_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Calculate the ground state energy and wavelength of photon emitted during transition from n=2 to n=1 for an electron in a 1D box of width 2Å."
+                },
+                {
+                  "id": "PHY2_M1_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Discuss the concept of expectation values in quantum mechanics. Find <x> and <p> for the ground state of a particle in a 1D box."
+                },
+                {
+                  "id": "PHY2_M1_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Explain the photoelectric effect and Einstein's explanation. Derive the equation: KE_max = hν - φ. What are the limitations of classical theory? How did quantum theory resolve them?"
+                },
+                {
+                  "id": "PHY2_M1_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Describe Davisson-Germer experiment. How does the observation verify de Broglie's relation? Explain the experimental setup, observations, and conclusions with a neat diagram."
+                },
+                {
+                  "id": "PHY2_M1_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Solve the Schrödinger equation for a particle in a 1D box of width L. Obtain energy levels Eₙ = n²h²/8mL². Normalise the wave functions. Sketch the wave functions and probability densities for n=1,2,3."
+                },
+                {
+                  "id": "PHY2_M1_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "State and explain Heisenberg's uncertainty principle. Use it to: (i) prove that electrons cannot reside inside the nucleus (ii) estimate the ground state energy of hydrogen atom."
+                },
+                {
+                  "id": "PHY2_M1_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Derive the time-dependent Schrödinger equation from basic principles. Obtain the time-independent form. Explain the concept of stationary states and their physical significance."
+                },
+                {
+                  "id": "PHY2_M1_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Describe quantum tunneling and derive the transmission coefficient T = e^(-2αL) where α = √(2m(V₀-E))/ħ. Apply this to explain α-decay using Gamow's theory."
+                }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Semiconductor Physics and Nanotechnology",
+              "questions": [
+                {
+                  "id": "PHY2_M2_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Distinguish between intrinsic and extrinsic semiconductors. Give one example of each type."
+                },
+                {
+                  "id": "PHY2_M2_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Define the Hall effect. Write the formula for Hall coefficient R_H."
+                },
+                {
+                  "id": "PHY2_M2_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Explain the formation of energy bands in solids using Kronig-Penney model (qualitatively)."
+                },
+                {
+                  "id": "PHY2_M2_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "What is quantum confinement? Explain how it leads to size-dependent properties of nanomaterials."
+                },
+                {
+                  "id": "PHY2_M2_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Derive the expression for carrier concentration in an intrinsic semiconductor."
+                },
+                {
+                  "id": "PHY2_M2_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Explain the BCS theory of superconductivity. What are Cooper pairs and phonon interaction?"
+                },
+                {
+                  "id": "PHY2_M2_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Explain the Hall effect in n-type and p-type semiconductors. What information does the Hall coefficient provide?"
+                },
+                {
+                  "id": "PHY2_M2_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Describe the top-down and bottom-up approaches for nanomaterial synthesis with suitable examples."
+                },
+                {
+                  "id": "PHY2_M2_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Derive the expression for the Fermi level in an n-type semiconductor. How does doping affect the Fermi level position?"
+                },
+                {
+                  "id": "PHY2_M2_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Explain the properties and applications of carbon nanotubes (CNTs): electrical, mechanical, and thermal."
+                },
+                {
+                  "id": "PHY2_M2_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "A semiconductor has n = 2×10²⁰/m³, µₑ = 0.4 m²/V·s, µₕ = 0.2 m²/V·s. Calculate: (i) resistivity (ii) conductivity (iii) Hall coefficient."
+                },
+                {
+                  "id": "PHY2_M2_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Explain the Meissner effect in superconductors. Distinguish between Type I and Type II superconductors. Give their applications."
+                },
+                {
+                  "id": "PHY2_M2_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Explain energy band theory of solids. Classify metals, insulators, and semiconductors on the basis of energy bands and band gaps. Draw energy band diagrams for each."
+                },
+                {
+                  "id": "PHY2_M2_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Explain nanoscience and nanotechnology. Discuss quantum dots, quantum wires, and quantum wells. What is the density of states in each case? List applications."
+                },
+                {
+                  "id": "PHY2_M2_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Derive an expression for the carrier concentration and electrical conductivity of an intrinsic semiconductor. How does conductivity vary with temperature? Explain the concept of effective mass."
+                },
+                {
+                  "id": "PHY2_M2_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Describe SQUID (Superconducting Quantum Interference Device). Explain the Josephson effect and how it is used in SQUID. Mention its applications in biomedical and fundamental research."
+                },
+                {
+                  "id": "PHY2_M2_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Explain the concept of Fermi-Dirac distribution function. Sketch it at T=0K and T>0K. Discuss its significance in determining the electrical properties of metals and semiconductors."
+                },
+                {
+                  "id": "PHY2_M2_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Discuss graphene in detail: structure, synthesis by CVD and mechanical exfoliation, electronic band structure, unique properties (conductivity, strength, optical), and applications in electronics and energy storage."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_code": "FEC203",
+          "subject_name": "Engineering Chemistry II",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Electrochemistry and Corrosion",
+              "questions": [
+                {
+                  "id": "CHEM2_M1_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Define electrode potential. State the standard hydrogen electrode (SHE) convention."
+                },
+                {
+                  "id": "CHEM2_M1_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Distinguish between dry corrosion and wet corrosion with one example each."
+                },
+                {
+                  "id": "CHEM2_M1_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Write the Nernst equation and calculate the cell potential for Zn/Zn²⁺(0.1M) || Cu²⁺(1M)/Cu at 25°C. E°cell = 1.10V."
+                },
+                {
+                  "id": "CHEM2_M1_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Explain the galvanic cell and the electrochemical (galvanic) corrosion. Give two factors that affect corrosion rate."
+                },
+                {
+                  "id": "CHEM2_M1_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Explain the hydrogen evolution and oxygen absorption mechanisms of electrochemical corrosion."
+                },
+                {
+                  "id": "CHEM2_M1_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Describe cathodic protection by impressed current method. Where is it applied practically?"
+                },
+                {
+                  "id": "CHEM2_M1_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Explain the electrochemical series. How is it used to predict: (i) feasibility of a reaction (ii) reducing power of metals?"
+                },
+                {
+                  "id": "CHEM2_M1_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Describe electroless plating of copper. Write the chemical reactions involved and state its advantages over electroplating."
+                },
+                {
+                  "id": "CHEM2_M1_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Explain the concentration cell and its role in corrosion. Give the example of differential aeration corrosion."
+                },
+                {
+                  "id": "CHEM2_M1_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Calculate the EMF of the cell: Ni/Ni²⁺(0.01M) || Fe³⁺(0.1M)/Fe²⁺(0.01M)/Pt at 25°C. Given: E°Ni = -0.25V, E°Fe³⁺/Fe²⁺ = +0.77V."
+                },
+                {
+                  "id": "CHEM2_M1_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Describe various methods of protecting metals from corrosion: (i) surface coating (ii) cathodic protection (iii) anodising."
+                },
+                {
+                  "id": "CHEM2_M1_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Explain the working of a lithium-ion battery. Write electrode reactions during charging and discharging. State its advantages over lead-acid battery."
+                },
+                {
+                  "id": "CHEM2_M1_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Describe the construction and working of a Calomel electrode. How is it used as a reference electrode? Compare with SHE. How is the electrode potential of a metal measured using calomel electrode?"
+                },
+                {
+                  "id": "CHEM2_M1_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Explain the electroplating of chromium. What is the composition of the plating bath? Write the electrode reactions. State the conditions for obtaining a good quality deposit. List applications."
+                },
+                {
+                  "id": "CHEM2_M1_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Describe the various types of corrosion: (i) Galvanic corrosion (ii) Pitting corrosion (iii) Intergranular corrosion (iv) Stress corrosion cracking. Explain the mechanism and prevention of each."
+                },
+                {
+                  "id": "CHEM2_M1_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Explain the working of a hydrogen-oxygen fuel cell. Write the electrode reactions. Calculate the theoretical EMF. Compare efficiency with conventional thermal power generation. State advantages and applications."
+                },
+                {
+                  "id": "CHEM2_M1_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Derive the Nernst equation from thermodynamic principles (ΔG = -nFE). Apply it to calculate the EMF of Daniel cell when [Zn²⁺]=[0.001M] and [Cu²⁺]=[0.1M]. Also find the equilibrium constant for the cell reaction."
+                },
+                {
+                  "id": "CHEM2_M1_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Discuss passivation in metals. Explain how stainless steel resists corrosion. What is the role of Cr and Ni in stainless steel? Describe anodic protection and compare it with cathodic protection."
+                }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Polymers and Composite Materials",
+              "questions": [
+                {
+                  "id": "CHEM2_M2_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Define polymerisation. Distinguish between addition and condensation polymerisation with one example each."
+                },
+                {
+                  "id": "CHEM2_M2_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Define the glass transition temperature (Tg). What is its significance for polymers?"
+                },
+                {
+                  "id": "CHEM2_M2_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Write the structure, preparation reaction, and two uses of Nylon-6,6 and Teflon."
+                },
+                {
+                  "id": "CHEM2_M2_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "What are conducting polymers? Give two examples and their applications in electronics."
+                },
+                {
+                  "id": "CHEM2_M2_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Explain the biodegradable polymer PLA (poly lactic acid). How is it synthesized and what are its environmental advantages?"
+                },
+                {
+                  "id": "CHEM2_M2_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "What are composites? Define matrix, reinforcement, and interface in a composite material."
+                },
+                {
+                  "id": "CHEM2_M2_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Explain the preparation, properties, and uses of Bakelite and Polystyrene."
+                },
+                {
+                  "id": "CHEM2_M2_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "What are elastomers? Explain the vulcanisation of natural rubber. How does vulcanisation improve properties?"
+                },
+                {
+                  "id": "CHEM2_M2_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Compare thermoplastics and thermosetting plastics with respect to: structure, properties, processing, and examples."
+                },
+                {
+                  "id": "CHEM2_M2_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Explain the glass fibre-reinforced plastic (GFRP) composite. Describe its composition, fabrication, and applications."
+                },
+                {
+                  "id": "CHEM2_M2_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Explain number average molecular weight (Mn) and weight average molecular weight (Mw) of polymers. Define polydispersity index (PDI)."
+                },
+                {
+                  "id": "CHEM2_M2_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Explain carbon fibre reinforced polymer (CFRP). Describe its fabrication by lay-up method, properties, and uses in aerospace."
+                },
+                {
+                  "id": "CHEM2_M2_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Explain the following synthetic fibres in detail: (i) Nylon 6,6 – synthesis, properties, uses (ii) Dacron/Terylene – synthesis, properties, uses (iii) Kevlar – synthesis and use in bulletproof vests."
+                },
+                {
+                  "id": "CHEM2_M2_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Describe the mechanism of free radical addition polymerisation. Explain the three stages: initiation, propagation, and termination. Give an example of polymerisation of styrene."
+                },
+                {
+                  "id": "CHEM2_M2_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Discuss conducting polymers: (i) Polyacetylene (ii) Polyaniline (iii) Polypyrrole. Explain the doping mechanism that makes them conducting. State their applications in sensors, batteries, and solar cells."
+                },
+                {
+                  "id": "CHEM2_M2_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Discuss ceramic matrix composites (CMC) and metal matrix composites (MMC). Explain their composition, fabrication techniques, properties, and compare with polymer matrix composites."
+                },
+                {
+                  "id": "CHEM2_M2_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Explain biodegradable polymers: their need, classification, synthesis, and degradation mechanisms. Discuss PHA (polyhydroxyalkanoates) and PHB in detail. What are the environmental and industrial implications?"
+                },
+                {
+                  "id": "CHEM2_M2_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Discuss the relationship between polymer structure and properties. Explain how crystallinity, cross-linking, degree of polymerisation, and tacticity affect: (i) tensile strength (ii) glass transition temperature (iii) solubility (iv) melting point."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_code": "FEC204",
+          "subject_name": "Engineering Graphics",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Intersection of Surfaces and Conversion of Views",
+              "questions": [
+                {
+                  "id": "CAD_M1_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "What is interpenetration of solids? Give two engineering examples where this concept is applied."
+                },
+                {
+                  "id": "CAD_M1_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "Explain the concept of a sectional view. When are half-sections used?"
+                },
+                {
+                  "id": "CAD_M1_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "State the rules for drawing a true shape of a section when a solid is cut by an oblique plane."
+                },
+                {
+                  "id": "CAD_M1_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Explain the conversion of isometric view to three orthographic views (FV, TV, SV)."
+                },
+                {
+                  "id": "CAD_M1_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "A cylinder and a prism intersect. Explain the method of finding the curve of intersection using cutting planes."
+                },
+                {
+                  "id": "CAD_M1_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Explain the principles of perspective drawing. What are vanishing points?"
+                },
+                {
+                  "id": "CAD_M1_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Draw the three orthographic views and the isometric projection of a combination solid: a cone of base diameter 60mm, height 80mm, placed on a cylinder of diameter 70mm, height 40mm."
+                },
+                {
+                  "id": "CAD_M1_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "A square prism (base 40mm, height 80mm) is cut by a plane making 45° with HP. Draw the front view, sectional top view, and the true shape of the section."
+                },
+                {
+                  "id": "CAD_M1_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "A cylinder (dia 60mm, height 80mm) intersects a cone (base dia 80mm, height 100mm) coaxially. Draw the curve of intersection."
+                },
+                {
+                  "id": "CAD_M1_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Draw the orthographic projections and isometric view of a given object from its pictorial view. The object has an L-shaped cross-section of given dimensions."
+                },
+                {
+                  "id": "CAD_M1_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "A cylinder (dia 50mm) penetrates a square prism (base 50mm) at right angles. Their axes intersect. Draw the curve of intersection and develop the lateral surface of the prism."
+                },
+                {
+                  "id": "CAD_M1_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Two cylinders of equal diameter 50mm intersect at right angles. Their axes are coplanar. Draw the curve of interpenetration."
+                },
+                {
+                  "id": "CAD_M1_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Convert the given isometric view of a machine part to three orthographic views in first angle projection. Add dimensions. The part includes a rectangular block with a cylindrical boss and a slot."
+                },
+                {
+                  "id": "CAD_M1_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "A cylinder (dia 60mm, height 90mm) is cut by a plane inclined at 45° to the HP and perpendicular to VP passing through the midpoint of the axis. Draw the elevation, sectional plan, and the true shape of the section."
+                },
+                {
+                  "id": "CAD_M1_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "A square prism (base 50mm, height 90mm) and a cylinder (dia 50mm, height 90mm) are placed co-axially one above the other. A horizontal plane cuts both midway. Draw the sectional front view, sectional side view, and the top view."
+                },
+                {
+                  "id": "CAD_M1_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Develop the complete surface of a cone (base dia 80mm, height 100mm) from which a cylinder (dia 30mm) is bored centrally through the axis. Represent the hole on the development."
+                },
+                {
+                  "id": "CAD_M1_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "A cone of base dia 80mm and height 100mm is penetrated by a cylinder of dia 30mm such that the axis of the cylinder is parallel to the base of the cone and at a height of 40mm. Draw the curve of intersection."
+                },
+                {
+                  "id": "CAD_M1_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Two cylinders of diameters 60mm and 40mm have their axes intersecting at right angles. The axis of the larger cylinder is horizontal and the smaller is vertical. Draw the curve of intersection and develop the lateral surface of the smaller cylinder."
+                }
+                ]
+            }
+        ]
+    },
+        {
+          "subject_code": "FEC205",
+          "subject_name": "Structured Programming Approach (C Programming)",
+          "scheme": "R-19",
+          "modules": [
+            {
+              "module_no": 1,
+              "module_name": "Introduction to C, Operators and Control Structures",
+              "questions": [
+                {
+                  "id": "C_M1_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "List the basic data types in C with their sizes (in bytes) and format specifiers."
+                },
+                {
+                  "id": "C_M1_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "What is the difference between while loop and do-while loop? Give an example."
+                },
+                {
+                  "id": "C_M1_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "Explain the ternary operator (conditional operator) in C with an example."
+                },
+                {
+                  "id": "C_M1_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "What is the difference between break and continue statements? Give examples."
+                },
+                {
+                  "id": "C_M1_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Explain operator precedence and associativity in C. Evaluate: 5 + 3 * 2 - 8 / 4 % 3."
+                },
+                {
+                  "id": "C_M1_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "What are bitwise operators in C? Write a program to set, clear, and toggle a specific bit of a number."
+                },
+                {
+                  "id": "C_M1_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Write a C program to find whether a given year is a leap year or not."
+                },
+                {
+                  "id": "C_M1_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Write a C program to print the Fibonacci series up to n terms using a for loop."
+                },
+                {
+                  "id": "C_M1_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Write a C program to find the sum of digits and reverse of a given integer using while loop."
+                },
+                {
+                  "id": "C_M1_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Write a C program using switch-case to implement a simple calculator (+, -, *, /) for two numbers entered by the user."
+                },
+                {
+                  "id": "C_M1_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Write a C program to check whether a number is prime or not. Use this in a loop to print all prime numbers between 1 and 100."
+                },
+                {
+                  "id": "C_M1_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Explain type conversion in C: implicit (promotion) and explicit (casting). What is the output of: printf(\"%d\", (int)3.9 + (int)2.8)? Justify."
+                },
+                {
+                  "id": "C_M1_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Explain the structure of a C program with a neat example. Describe the role of header files, main(), data types, operators, and formatted I/O functions (scanf, printf). Write a program to compute the area of a triangle given three sides (Heron's formula)."
+                },
+                {
+                  "id": "C_M1_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Write C programs for the following: (i) Print multiplication table of n (ii) Find factorial of n using for loop (iii) Check whether a number is Armstrong number (iv) Print Pascal's triangle."
+                },
+                {
+                  "id": "C_M1_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Write a C program to generate the following patterns using nested loops: (i) Right-angled triangle of stars (ii) Pyramid of numbers (iii) Inverted triangle. Also explain the role of inner and outer loops."
+                },
+                {
+                  "id": "C_M1_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Explain the use of goto statement in C. Write a C program to: (i) convert decimal to binary (ii) convert binary to decimal (iii) find GCD and LCM of two numbers. Discuss the logic in each."
+                },
+                {
+                  "id": "C_M1_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Write a C program to implement the menu-driven calculator with operations: (i) basic arithmetic (ii) square root (iii) power function (iv) factorial. Handle invalid inputs using appropriate loops and conditions."
+                },
+                {
+                  "id": "C_M1_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Explain all types of operators in C: arithmetic, relational, logical, bitwise, assignment, increment/decrement, conditional. Write a C program demonstrating all operators. Also explain short-circuit evaluation in logical operators."
+                }
+              ]
+            },
+            {
+              "module_no": 2,
+              "module_name": "Arrays, Functions, Pointers and Strings",
+              "questions": [
+                {
+                  "id": "C_M2_E_2_1",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "What is an array in C? How is a 1D array declared and initialised? Give an example."
+                },
+                {
+                  "id": "C_M2_E_2_2",
+                  "marks": 2,
+                  "difficulty": "easy",
+                  "type": "short",
+                  "question": "What is a pointer in C? Explain the * and & operators with an example."
+                },
+                {
+                  "id": "C_M2_M_2_1",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "What is the difference between call by value and call by reference? Give an example using swap function."
+                },
+                {
+                  "id": "C_M2_M_2_2",
+                  "marks": 2,
+                  "difficulty": "medium",
+                  "type": "short",
+                  "question": "List any four string handling functions in C with their syntax and usage."
+                },
+                {
+                  "id": "C_M2_H_2_1",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "What is a recursive function? Write a C function to find the nth Fibonacci number using recursion."
+                },
+                {
+                  "id": "C_M2_H_2_2",
+                  "marks": 2,
+                  "difficulty": "hard",
+                  "type": "short",
+                  "question": "Explain dynamic memory allocation in C: malloc(), calloc(), realloc(), and free() with examples."
+                },
+                {
+                  "id": "C_M2_E_3_1",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Write a C program to find the largest and smallest element in an array of n elements."
+                },
+                {
+                  "id": "C_M2_E_3_2",
+                  "marks": 3,
+                  "difficulty": "easy",
+                  "type": "medium",
+                  "question": "Write a C program using functions to find the factorial of a number. Explain the concept of function declaration, definition, and calling."
+                },
+                {
+                  "id": "C_M2_M_3_1",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Write a C program to multiply two matrices of appropriate dimensions. Use functions and 2D arrays."
+                },
+                {
+                  "id": "C_M2_M_3_2",
+                  "marks": 3,
+                  "difficulty": "medium",
+                  "type": "medium",
+                  "question": "Write a C program to implement bubble sort on an array of n integers. Also trace the sorting steps for {5,2,8,1,9,3}."
+                },
+                {
+                  "id": "C_M2_H_3_1",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Write a C program using pointers to: (i) swap two numbers (ii) find the length of a string without using strlen() (iii) reverse an array in-place."
+                },
+                {
+                  "id": "C_M2_H_3_2",
+                  "marks": 3,
+                  "difficulty": "hard",
+                  "type": "medium",
+                  "question": "Write a C program to implement binary search on a sorted array. State the time complexity and compare with linear search."
+                },
+                {
+                  "id": "C_M2_E_5_1",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Write a C program for the following string operations without using library functions: (i) find length (ii) copy string (iii) concatenate two strings (iv) reverse a string (v) check if a string is a palindrome."
+                },
+                {
+                  "id": "C_M2_E_5_2",
+                  "marks": 5,
+                  "difficulty": "easy",
+                  "type": "long",
+                  "question": "Explain user-defined functions in C. Write C programs to: (i) find sum of an array using a function (ii) check prime number using a function (iii) compute power(a,b) using a recursive function."
+                },
+                {
+                  "id": "C_M2_M_5_1",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Write a C program to: (i) add two matrices (ii) transpose a matrix (iii) find trace and norm of a matrix. Use functions and 2D arrays throughout."
+                },
+                {
+                  "id": "C_M2_M_5_2",
+                  "marks": 5,
+                  "difficulty": "medium",
+                  "type": "long",
+                  "question": "Explain pointers to arrays and arrays of pointers. Write a C program using pointer arithmetic to: (i) access array elements (ii) sort an array using pointers (iii) pass a 2D array to a function using pointers."
+                },
+                {
+                  "id": "C_M2_H_5_1",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Explain recursion with a neat diagram of the call stack. Write recursive C functions for: (i) Tower of Hanoi (ii) Binary search (iii) Sum of digits. Discuss the base case and recursive case for each."
+                },
+                {
+                  "id": "C_M2_H_5_2",
+                  "marks": 5,
+                  "difficulty": "hard",
+                  "type": "long",
+                  "question": "Write a C program using structures to maintain records of n students (name, roll, marks of 5 subjects). Implement functions to: (i) input records (ii) display all records (iii) find average marks (iv) find topper. Use array of structures."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
